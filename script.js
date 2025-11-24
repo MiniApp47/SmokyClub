@@ -1173,7 +1173,7 @@ function renderProductPage(productId) {
         if (target.closest('#confirm-order-button')) {
             
             // 1. TON PSEUDO TELEGRAM
-            const targetUsername = 'smockyofficial6'; 
+            const targetUsername = 'smockyclubofficial6'; 
 
             // 2. On prépare le message
             let message = formatOrderMessage();
