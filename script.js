@@ -8,113 +8,236 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // --- CONFIGURATION DES LIENS DE CONTACT ---
     const contactLinks = [
-    { name: 'WhatsApp', url: 'https://wa.me/', icon: '#icon-whatsapp', id: 'whatsapp' ,className: 'whatsapp', text: "WhatsApp"},
-    { name: 'Snapchat', url: 'https://www.snapchat.com/', icon: '#icon-snapchat', id: 'snapchat', className: 'snapchat' , text: "Snapchat"},
-    { name: 'Telegram', url: 'https://t.me/', icon: '#icon-telegram', id: 'telegram',className: 'telegram', text: "Telegram" },
-    { name: 'Signal', url: 'https://signal.me/', icon: '#icon-signal', id: 'signal', className: 'signal', text: "Signal" }
-];
+        { name: 'WhatsApp', url: 'https://wa.me/', icon: '#icon-whatsapp', id: 'whatsapp', className: 'whatsapp', text: "WhatsApp" },
+        { name: 'Snapchat', url: 'https://www.snapchat.com/', icon: '#icon-snapchat', id: 'snapchat', className: 'snapchat', text: "Snapchat" },
+        { name: 'Telegram', url: 'https://t.me/', icon: '#icon-telegram', id: 'telegram', className: 'telegram', text: "Telegram" },
+        { name: 'Signal', url: 'https://signal.me/', icon: '#icon-signal', id: 'signal', className: 'signal', text: "Signal" }
+    ];
 
     // --- DONNÉES DE L'APPLICATION (NOUVELLE STRUCTURE) ---
     const appData = [
         // --- Catégorie 1: Mousseux Cake ---
         {
-            id: 'HASH',
-            name: '🍫 Hash',
+            id: 'HASHMAROCAIN',
+            name: '🇲🇦 Hash marocain 🇲🇦',
             farm: '',
-            type: 'Hash',
-            quality: ' 🍫 Hash',
-            image: 'Categ.png', // Image de la catégorie
+            type: 'Hash marocain',
+            quality: ' 🇲🇦 Hash marocain 🇲🇦',
+            image: 'CategHashM.png', // Image de la catégorie
 
             // La catégorie contient maintenant des "farms"
             farms: [
                 {
-                /*     id: 'HASH',
-                    name: 'HASH',
-                    image: 'Frosty2.png', // Mets une image de farm si tu veux
-                    badgeText: '5 produits', */
+                    /*     id: 'HASH',
+                        name: 'HASH',
+                        image: 'Frosty2.png', // Mets une image de farm si tu veux
+                        badgeText: '5 produits', */
                     products: [
-                         {
-                            id: 'Produit',
-                           //  flag: '🇺🇸',
-                            name: 'Produit',
-                            farm: 'FARM',
+                        {
+                            id: 'TropCookies',
+                            flag: '🇲🇦',
+                            name: 'Trop Cookies 🍪',
+                            farm: ' ⭐️ STREET FARM FROZEN ⭐️',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'Produit.png',
-                            video: '.mp4',
-                            description: 'Description',
+                            image: 'ProductTropCookies.png',
+                            video: 'TropCookies.mp4',
+                            description: 'Après un curing fait maison 🏠, une texture blanc de blanc 🍾, odeur fruités 🍑🍉 \n Un délice 🥵',
                             tarifs: [
-                                { weight: '4g', price: 20.00 },
-                                { weight: '10g', price: 50.00 },
-                                { weight: '25g', price: 100.00 },
-                                { weight: '50g', price: 180.00 },
-                                { weight: '100g', price: 290.00 },
+                                { weight: '2,5g', price: 30.00 },
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 300.00 },
 
                             ]
-                        }/*
-                        
-                        ,/
+                        },
                         {
-                            id: 'Bluezushi',
-                            flag: '🇺🇸',
-                            name: '🍣 Blue Zushi 🍱',
-                            farm: '❄️ Frosty hash ❄️',
+                            id: 'Forbiden',
+                            flag: '🇲🇦',
+                            name: 'Forbiden 🍉 Cocktail 🍹',
+                            farm: '⛰️  MOUNTAIN GIANTS ⛰️',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'Neujeu4.png',
-                            video: 'VideoNejeu2.mp4',
-                            description: 'Type d\'exctraction \n Wpff-120u',
+                            image: 'ProductTropCookies.png',
+                            video: 'TropCookies.mp4',
+                            description: 'STATIC SIFT ⚡️⚡️⚡️ \n\n Curage fait maison 🏠,🍯produit gazzy 🥵salade de fruit 🍇 en bouche 👄 \n Un délice 👄 ',
                             tarifs: [
-                                { weight: '1g', price: 80.00 },
-                                { weight: '2g', price: 150.00 },
+                                { weight: '2,5g', price: 60.00 },
+                                { weight: '5g', price: 110.00 },
+                                { weight: '10g', price: 220.00 },
+
                             ]
                         },
                         {
-                            id: 'GakPak',
-                            flag: '🇺🇸',
-                            name: '🍑 Gak Pak 🍓',
-                            farm: '❄️ Frosty hash ❄️',
+                            id: 'MorrocoPeach',
+                            flag: '🇲🇦',
+                            name: 'Morroco Peach 🍑🇲🇦',
+                            farm: ' ⭐️ STREET FARM FROZEN ⭐️',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'Nejeu1.jpeg',
-                            video: 'MousseauStar.mp4',
-                            description: 'Type d\'exctraction \n Live rosin 70-120u',
+                            image: 'ProductMorroco.png',
+                            video: 'MorrocoPeach.mp4',
+                            description: ' Un cold curing ⚡️🍯 blanc de blanc 🍯odeur gazzy 🥵goût de 🤯',
                             tarifs: [
-                                { weight: '2g', price: 250.00 },
-                                { weight: '4g', price: 500.00 },
+                                { weight: '2,5g', price: 40.00 },
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 140.00 },
+                                { weight: '25g', price: 350.00 },
+                                // a metre description pck a voir en prive
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
                             ]
                         },
                         {
-                            id: 'Zkittlez',
-                            flag: '',
-                            name: '🍬 Zkittlez 🍭',
-                            farm: '❄️ Frosty hash ❄️',
+                            id: 'FFJ',
+                            flag: '🇲🇦',
+                            name: 'FFJ X FF 🍑🍌🍓',
+                            farm: ' ⭐️ STREET FARM FROZEN ⭐️',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'Rupture.png',
-                            clickable: false,
-                            video: 'MousseauStar.mp4',
-                            description: 'Type d\'exctraction \n Live rosin 70-120u',
+                            image: 'ProductFFJ.png',
+                            video: 'FFJ.mp4',
+                            description: ' Un cold curing ⚡️🍯 blanc de blanc 🍯odeur gazzy 🥵goût de 🤯',
                             tarifs: [
-                                { weight: '2g', price: 250.00 },
-                                { weight: '4g', price: 500.00 },
+                                { weight: '2,5g', price: 40.00 },
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 140.00 },
+                                { weight: '25g', price: 350.00 },
+                                // a metre description pck a voir en prive
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+
                             ]
                         },
                         {
-                            id: 'Watermelon Tourmaline',
-                            flag: '🇺🇸',
-                            name: '🍉 Watermelon tourmaline 🍒',
-                            farm: '❄️ Frosty hash ❄️',
+                            id: 'LemonSlice',
+                            flag: '🇲🇦',
+                            name: 'Lemon Slice 🍋🍋‍🟩',
+                            farm: ' TOP MOUSSE 🧽 PRENIUM',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'Nejeu1.jpeg',
-                            video: 'MousseauStar.mp4',
-                            description: 'Type d\'exctraction \n Live rosin 70-120u',
+                            image: 'ProductLemon.png',
+                            video: 'BlueZ.mov',
+                            description: ' Un cold curing ⚡️🍯 blanc de blanc 🍯odeur gazzy 🥵goût de 🤯',
                             tarifs: [
-                                { weight: '2g', price: 250.00 },
-                                { weight: '4g', price: 500.00 },
+                                { weight: '10g', price: 30.00 },
+                                { weight: '25g', price: 80.00 },
+                                { weight: '50g', price: 160.00 },
+                                { weight: '100g', price: 280.00 },
+
                             ]
-                        } */
+                        },
+                        {
+                            id: 'BlueZushi',
+                            flag: '🇲🇦',
+                            name: 'BLUE ZUSHI 🍣',
+                            farm: ' TOP MOUSSE 🧽 PRENIUM',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBlueZushi.png',
+                            video: 'BlueZ.mov',
+                            description: ' Un cold curing ⚡️🍯 blanc de blanc 🍯odeur gazzy 🥵goût de 🤯',
+                            tarifs: [
+                                { weight: '10g', price: 30.00 },
+                                { weight: '25g', price: 80.00 },
+                                { weight: '50g', price: 160.00 },
+                                { weight: '100g', price: 280.00 },
+
+
+                            ]
+                        },
+                        {
+                            id: 'COOKIES',
+                            flag: '🇲🇦',
+                            name: 'COOKIES 🍪',
+                            farm: ' TOP MOUSSE 🧽 PRENIUM',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCookies.png',
+                            video: 'BlueZ.mov',
+                            description: ' Un cold curing ⚡️🍯 blanc de blanc 🍯odeur gazzy 🥵goût de 🤯',
+                            tarifs: [
+                                { weight: '10g', price: 30.00 },
+                                { weight: '25g', price: 80.00 },
+                                { weight: '50g', price: 160.00 },
+                                { weight: '100g', price: 280.00 },
+
+                            ]
+                        },
+                        {
+                            id: 'StaticPlasma',
+                            flag: '🇲🇦',
+                            name: 'STATIC PLASMA ⚡️🍯',
+                            farm: ' GAS FRUIT 🍋‍🟩',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductStaticPlasma.png',
+                            video: 'StaticPlasma.mov',
+                            description: 'ORANGE 🍊 SODA 🥤 X DED  VEWET🥶\n\n Une pépite le spéciale 👀 plasma static 🍯 une odeur envoûtante 🤩 un goût 🥵 n’en parlons pas je vous laisse en déduire 😉',
+                            tarifs: [
+                                { weight: '2,5g', price: 70.00 },
+                                { weight: '5g', price: 140.00 },
+                                { weight: '10g', price: 270.00 },
+                            ]
+                        },
+                        {
+                            id: 'OrangeGroovy',
+                            flag: '🇲🇦',
+                            name: 'ORANGE 🍊 GROOVY 🐯',
+                            farm: ' HASH WARRIORS 🏴‍☠️🏴‍☠️🏴‍☠️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductOrange.png',
+                            video: 'Orange.mov',
+                            description: 'Une pépite encore une fois curing fait maison 🏠 🍯goût spéciale 😉👀un bonbon 🍬 en bouche 👄',
+                            tarifs: [
+                                { weight: '2,5g', price: 40.00 },
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '25g', price: 330.00 },
+                                // mettre info pour 50 ET 100g
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+
+                            ]
+                        },
+                        {
+                            id: 'CandyCane',
+                            flag: '🇲🇦',
+                            name: 'CANDY CANE 🍫🍭',
+                            farm: ' TOP DRY SIFT 🇲🇦®️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCandy.png',
+                            video: 'Candy.mp4',
+                            description: 'Curage fait maison 🏠 odeur de weed 🍀texture petant clair ☀️☀️',
+                            tarifs: [
+                                { weight: '10g', price: 50.00 },
+                                { weight: '25g', price: 120.00 },
+                                { weight: '50g', price: 240.00 },
+                                // a remplacer par priver
+                                { weight: '100g', price: 0, private: true },
+
+                            ]
+                        },
+                        {
+                            id: 'Limonade',
+                            flag: '🇲🇦',
+                            name: 'LIMONADE🍋🍋‍🟩',
+                            farm: ' TOP DRY SIFT 🇲🇦®️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductLimonade.png',
+                            video: 'Candy.mp4',
+                            description: 'Curage fait maison 🏠 odeur de weed 🍀texture petant clair ☀️☀️',
+                            tarifs: [
+                                { weight: '10g', price: 50.00 },
+                                { weight: '25g', price: 120.00 },
+                                { weight: '50g', price: 240.00 },
+                                // a remplacer par priver
+                                { weight: '100g', price: 0, private: true },
+                            ]
+                        }
                     ]
                 }
 
@@ -123,66 +246,68 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // --- Catégorie 2: V.V.S TANGER ---
         {
-            id: 'BEUH',
-            name: ' 🍀 Beuh',
+            id: 'HASHAMERICAIN',
+            name: '🇺🇸 Hash américain 🇺🇸',
             farm: '',
-            type: 'Weed',
-            quality: ' 🍀 Beuh',
-            image: 'Categ.png', // Image de la catégorie
+            type: 'Hash américain',
+            quality: ' 🇺🇸 Hash américain 🇺🇸',
+            image: 'CategHashA.png', // Image de la catégorie
 
             farms: [
                 {
-               /*      id: 'WIZARDTREES', // J'ai inventé un ID de farm
-                    name: 'Wizard trees 🔮',
-                    image: 'Wizard4.png', // Mets une image de farm si tu veux
-                    badgeText: '2 produits', */
+                    /*      id: 'WIZARDTREES', // J'ai inventé un ID de farm
+                         name: 'Wizard trees 🔮',
+                         image: 'Wizard4.png', // Mets une image de farm si tu veux
+                         badgeText: '2 produits', */
                     products: [
                         {
-                            id: 'Produit',
-                           //  flag: '🇺🇸',
-                            name: 'Produit',
-                            farm: 'FARM',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'Produit.png',
-                            video: '.mp4',
-                            description: 'Description',
-                            tarifs: [
-                                { weight: '4g', price: 20.00 },
-                                { weight: '10g', price: 50.00 },
-                                { weight: '25g', price: 100.00 },
-                                { weight: '50g', price: 180.00 },
-                                { weight: '100g', price: 290.00 },
-                            ]
-                        } /*,
-                        {
-                            id: 'Potion',
+                            id: 'RUNTZ',
                             flag: '🇺🇸',
-                            name: '🚀 Potion ✨',
-                            farm: '🔮 Wizard trees 🔮',
-                            promoEligible: false,
-                            type: 'Weed',
-                            image: 'PotionProduct.jpg',
-                            video: 'VideoCali1.mp4',
-                            description: 'Batch 09/09/2025 \n ( Limelight x Blackmagic )',
+                            name: 'RUNTZ ®️🇺🇸',
+                            farm: '🧤STATIC ROOM 🧤',
+                            promoEligible: true,
+                            type: 'Hash Americain',
+                            image: 'ProductRuntz.png',
+                            video: 'StaticRooms.mp4',
+                            description: 'Static room curage fait maison 🏠 ✅a fait fort cette année avec le dry qui a rien avoir avec du dry mieux que vos Frozen et vos Static du moment 🥵🍯',
                             tarifs: [
-                                { weight: '3,5g', price: 130.00 },
-                                { weight: '7g', price: 250.00 },
-                                { weight: '10,5g', price: 350.00 },
+                                { weight: '5g', price: 150.00 },
+                                { weight: '10g', price: 300.00 },
+                                { weight: '28g', price: 750.00 },
+                                //priver
+                                { weight: '56g', price: 0, private: true },
                             ]
-                        } */
+                        },
+                        {
+                            id: 'HONEY',
+                            flag: '🇺🇸',
+                            name: 'HONEY POP ®️🇺🇸',
+                            farm: '🧤STATIC ROOM 🧤',
+                            promoEligible: true,
+                            type: 'Hash Americain',
+                            image: 'ProductHoneyPop.png',
+                            video: 'StaticRooms.mp4',
+                            description: 'Static room curage fait maison 🏠 ✅a fait fort cette année avec le dry qui a rien avoir avec du dry mieux que vos Frozen et vos Static du moment 🥵🍯',
+                            tarifs: [
+                                { weight: '5g', price: 150.00 },
+                                { weight: '10g', price: 300.00 },
+                                { weight: '28g', price: 750.00 },
+                                //priver
+                                { weight: '56g', price: 0, private: true },
+                            ]
+                        }
                     ]
                 }
             ]
         },
         // --- Catégorie 2: V.V.S TANGER ---
         {
-            id: 'White',
-            name: '☃️ White',
+            id: 'WeedUsa',
+            name: '🇺🇸 Weed Usa 🇺🇸',
             farm: '',
-            type: 'White',
-            quality: '☃️ White',
-            image: 'Categ.png', // Image de la catégorie
+            type: 'Weed Usa',
+            quality: '🇺🇸 Weed Usa 🇺🇸',
+            image: 'CategWeedU.png', // Image de la catégorie
 
             farms: [
                 {
@@ -192,42 +317,215 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '0 produits',
                     clickable: false,  */
                     products: [
-
-                      /*   {
-                            id: 'ZangBanger',
+                        {
+                            id: 'CALIUSA',
                             flag: '🇺🇸',
-                            name: '🍇 Zang Banger 🌪',
-                            farm: '🔮 Wizard trees 🔮',
+                            name: 'CALI USA 🌪',
+                            farm: '🧙 WIZARD THREES 🧙',
                             promoEligible: true,
                             type: 'Weed',
-                            image: 'ZangBangerProduct.jpg',
-                            video: 'VideoCali2.mp4',
-                            description: 'Ultra rare - 27.33% THC \n ( Sherbanger #22 x Zangria )',
+                            image: 'ProductCali.png',
+                            video: 'Cali.mov',
+                            description: 'Tout droit venu los angeles 🇺🇸bocaux scellé 3,5g ®️✅gazzy 🇺🇸😉',
                             tarifs: [
-                                { weight: '3,5g', price: 130.00 },
-                                { weight: '7g', price: 250.00 },
-                                { weight: '10,5g', price: 350.00 },
+                                { weight: '3,5g', price: 140.00 },
+                                { weight: '7g', price: 280.00 },
+                                { weight: '14g', price: 610.00 },
+                            ]
+                        },
+
+                    ]
+                }]
+        },
+        {
+            id: 'WeedHollandaise',
+            name: '🇳🇱 Weed Hollandaise 🇳🇱',
+            farm: '',
+            type: 'Weed Hollandaise',
+            quality: '🇳🇱 Weed Hollandaise 🇳🇱',
+            image: 'CategWeedH.png', // Image de la catégorie
+
+            // La catégorie contient maintenant des "farms"
+            farms: [
+                {
+                    /*     id: 'HASH',
+                        name: 'HASH',
+                        image: 'Frosty2.png', // Mets une image de farm si tu veux
+                        badgeText: '5 produits', */
+                    products: [
+                        {
+                            id: 'AMNESIAHAZE',
+                            flag: '🇳🇱',
+                            name: 'AMNESIA HAZE 🍃',
+                            farm: 'NOFARM',
+                            promoEligible: true,
+                            type: 'Weed Hollandaise',
+                            image: 'ProductAmnesia.png',
+                            video: 'Amnesia.mov',
+                            description: 'Tête bien craquante 🤯odeur de weed imposante des ouverture 😉🧟',
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 90.00 },
+                                { weight: '25g', price: 230.00 },
+                                { weight: '50g', price: 460.00 },
+                                //modif prive
+                                { weight: '100g', price: 0, private: true },
+                            ]
+                        }
+                    ]
+                }
+
+            ]
+        },
+        {
+            id: 'Extraction',
+            name: 'Extraction',
+            farm: '',
+            type: 'Extraction',
+            quality: 'Extraction',
+            image: 'CategExtraction.png', // Image de la catégorie
+
+            // La catégorie contient maintenant des "farms"
+            farms: [
+                {
+                    /*     id: 'HASH',
+                        name: 'HASH',
+                        image: 'Frosty2.png', // Mets une image de farm si tu veux
+                        badgeText: '5 produits', */
+                    products: [
+                        {
+                            id: 'Top',
+                            //  flag: '🇺🇸',
+                            name: 'Top 🇲🇦',
+                            farm: 'TERPS FARMS 🧑‍🌾👩‍🌾👨‍🌾',
+                            promoEligible: true,
+                            type: 'Wpff',
+                            image: 'ProductTop.png',
+                            videos: [
+                                'Top.mov',      // Vidéo 1
+                                'Top2.mp4'      // Vidéo 2 (ajoute tes fichiers)
+                            ],
+                            description: 'Curing fait maison qualité petant odeur fruités 🍑🍌prix imbattable ✅',
+                            tarifs: [
+                                { weight: '10g', price: 60.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 300.00 },
+                                // priver
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                            // 👇 AJOUT DES VARIANTES ICI
+                            variantTitle: 'Sélectionner la filtration :', // Titre personnalisé
+                            jars: [
+                                { name: '90u', emoji: '🥇', colorClass: 'variant-90u' },
+                                { name: '120u', emoji: '🥈', colorClass: 'variant-120u' },
+                                { name: '160u', emoji: '🥉', colorClass: 'variant-160u' }
+                            ]
+                        }
+                    ]
+                }
+
+            ]
+        },
+        {
+            id: 'HashGrande',
+            name: 'Hash De Grande Envergure 🍾',
+            farm: '',
+            type: 'Hash de luxe',
+            quality: 'Hash de grande envergure 🍾',
+            image: 'CategHashGrande.png', // Image de la catégorie
+
+            // La catégorie contient maintenant des "farms"
+            farms: [
+                {
+                    /*     id: 'HASH',
+                        name: 'HASH',
+                        image: 'Frosty2.png', // Mets une image de farm si tu veux
+                        badgeText: '5 produits', */
+                    products: [
+                        {
+                            id: 'wpff',
+                            //  flag: '🇺🇸',
+                            name: 'GMO X  RUNTZ 🍯®️',
+                            farm: 'TERPS FARMS 🧑‍🌾👩‍🌾👨‍🌾',
+                            promoEligible: true,
+                            type: 'Wpff',
+                            image: 'ProductWpff.png',
+                            video: 'WpffExctract.mov',
+                            description: 'WPFF EXTRACT ⚡️⭐️⭐️ \n\n Un curing fait maison 🏠 une couleur mielleuse 🍯🍯un goût 👅 full terpène usa 🇺🇸 \n Blanc de blanc 🥵🍾',
+                            tarifs: [
+                                { weight: '2,5g', price: 80.00 },
+                                { weight: '5g', price: 160.00 },
+                                { weight: '10g', price: 320.00 },
+                                { weight: '25g', price: 780.00 },
                             ]
                         },
                         {
-                            id: 'Potion',
-                            flag: '🇺🇸',
-                            name: '🚀 Potion ✨',
-                            farm: '🔮 Wizard trees 🔮',
-                            promoEligible: false,
-                            type: 'Weed',
-                            image: 'PotionProduct.jpg',
-                            video: 'VideoCali1.mp4',
-                            description: 'Batch 09/09/2025 \n ( Limelight x Blackmagic )',
+                            id: 'Jaar',
+                            //  flag: '🇺🇸',
+                            name: 'JAAR SCELLÉ ®️🇪🇸🍯 ',
+                            farm: 'TERPS FARMS 🧑‍🌾👩‍🌾👨‍🌾',
+                            promoEligible: true,
+                            type: 'Wpff',
+                            image: 'ProductJaar.png',
+                            video: 'Jaar.mov',
+                            description: 'On vous a ramener une pépite des social club espagnol ✅👀🥵odeur de Cali 🇺🇸 \n en bouche 👄 jaar scellé piatella 🍯🍯\n static ⚡️⚡️',
                             tarifs: [
-                                { weight: '3,5g', price: 130.00 },
-                                { weight: '7g', price: 250.00 },
-                                { weight: '10,5g', price: 350.00 },
+                                { weight: '1 jaar', price: 120.00 },
+                                { weight: '2 jaar', price: 240.00 },
+                                { weight: '4 jaar', price: 480.00 },
+                            ],
+                            jars: [
+                                { name: 'NANA JUNK', emoji: '🕺🪩', colorClass: 'jar-nana-junk' },
+                                { name: 'PINK LEMONADE', emoji: '🍋🍋‍🟩', colorClass: 'jar-pink-lemonade' },
+                                { name: 'SOUR DIESEL', emoji: '⛽️', colorClass: 'jar-sour-diesel' },
+                                { name: 'PEACH RINGS', emoji: '🍑', colorClass: 'jar-peach-rings' },
+                                { name: 'BANANA JUNK', emoji: '🍌', colorClass: 'jar-banana-junk' }
                             ]
-                        } */
+                        }
                     ]
-                }]
-        }
+                }
+
+            ]
+        },
+        {
+            id: 'Écaille',
+            name: 'Écaille de poisson 🐠',
+            farm: '',
+            type: 'Écaille',
+            quality: 'Écaille de poisson 🐠',
+            image: 'CategEcaille.png', // Image de la catégorie
+
+            // La catégorie contient maintenant des "farms"
+            farms: [
+                {
+                    /*     id: 'HASH',
+                        name: 'HASH',
+                        image: 'Frosty2.png', // Mets une image de farm si tu veux
+                        badgeText: '5 produits', */
+                    products: [
+                        {
+                            id: 'Bolivienne',
+                            //  flag: '🇺🇸',
+                            name: 'BOLIVIENNE 🇧🇴🇧🇴',
+                            farm: '🦁🦁🦁🦁',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBoliv.png',
+                            video: 'ProductBoliv.mov',
+                            description: 'Odeur qui fouette 🧟qui débouche le nez 👃 tu risque de passé un bon voyage 🛫',
+                            tarifs: [
+                                { weight: '1g', price: 60.00 },
+                                { weight: '5g', price: 220.00 },
+                                { weight: '10g', price: 420.00 },
+                            ]
+                        }
+                    ]
+                }
+
+            ]
+        },
+
+
     ];
 
     // --- VARIABLES D'ÉTAT ---
@@ -242,6 +540,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentFarmId = null; // Garde en mémoire la farm sélectionnée
     let appliedPromo = null; // Pour suivre le code promo
     let paymentMethod = 'Espèce'; // Méthode de paiement par défaut
+    let selectedJar = null; // 💡 AJOUT : Pour suivre le jar sélectionné sur la page produit
 
     // --- DÉFINIS TES CODES PROMO ICI ---
     const validPromoCodes = {
@@ -528,50 +827,185 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-   // Affiche la page de détail d'un produit
+    // Affiche la page de détail d'un produit
+    // Affiche la page de détail d'un produit
 function renderProductPage(productId) {
-    // On utilise notre nouvelle fonction "helper"
     const product = getProductById(productId);
     if (!product) return;
 
-    const videoElement = document.querySelector('#page-product .product-video');
-    videoElement.src = product.video;
-    videoElement.poster = product.image;
+    // Reset la jar/variante sélectionnée
+    selectedJar = product.jars ? product.jars[0] : null;
 
     document.getElementById('product-page-title').innerText = product.name;
     const detailsContainer = document.getElementById('product-details-content');
 
-    let tarifsHTML = product.tarifs.map(tarif => `
-    <div class="tarif-item">
-        <div class="box-tarif">
-            <div class="tarif-wieght">${tarif.weight}</div>
-            <div class="tarif-price">${tarif.price.toFixed(2)}€</div>
-        </div>
-        <button class="add-to-cart-btn" data-product-id="${product.id}" data-weight="${tarif.weight}" data-price="${tarif.price}">
-            <svg width="20" height="20"><use href="#icon-cart"/></svg>
-        </button>
-    </div>
-`).join('');
+    // --- LOGIQUE VIDÉO (CAROUSEL OU UNIQUE) ---
+    // On récupère la div container de la vidéo qui existe déjà dans le HTML
+    const videoContainer = document.querySelector('#page-product .page-content');
+    // On nettoie l'ancienne vidéo s'il y en avait une pour reconstruire proprement
+    const existingVideoWrapper = document.querySelector('.video-container');
+    if(existingVideoWrapper) existingVideoWrapper.remove();
+    // (Note: on laisse le titre et le bouton retour gérés par le header)
 
-    // ... (la logique de descriptionHTML ne change pas) ...
+    let videoHTML = '';
+    // On prépare la liste des vidéos (soit le tableau, soit la string unique mise dans un tableau)
+    const videoList = product.videos ? product.videos : (product.video ? [product.video] : []);
+
+    if (videoList.length > 0) {
+        // Si plus d'une vidéo, on ajoute les flèches
+        const controlsHTML = videoList.length > 1 ? `
+            <button class="carousel-btn prev">‹</button>
+            <button class="carousel-btn next">›</button>
+            <div class="carousel-dots">
+                ${videoList.map((_, i) => `<div class="dot ${i === 0 ? 'active' : ''}"></div>`).join('')}
+            </div>
+        ` : '';
+
+        videoHTML = `
+            <div class="video-container">
+                <video class="product-video" src="${videoList[0]}" poster="${product.image}" playsinline controls></video>
+                ${controlsHTML}
+            </div>
+        `;
+    }
+
+    // --- LOGIQUE TARIFS (Privé vs Public) ---
+    let tarifsHTML = product.tarifs.map(tarif => {
+        let priceDisplay, buttonDisplay;
+
+        if (tarif.private) {
+            priceDisplay = `<div class="tarif-price" style="font-size: 1rem; color: #ff3b30;">PV 🔒</div>`;
+            buttonDisplay = `
+                <button class="add-to-cart-btn contact-private-btn" style="border-color: #ff3b30; color: #ff3b30;">
+                    <svg width="20" height="20"><use href="#icon-telegram"/></svg>
+                </button>`;
+        } else {
+            priceDisplay = `<div class="tarif-price">${tarif.price.toFixed(2)}€</div>`;
+            buttonDisplay = `
+                <button class="add-to-cart-btn" 
+                    data-product-id="${product.id}" 
+                    data-weight="${tarif.weight}" 
+                    data-price="${tarif.price}"
+                    ${selectedJar ? 'data-jar-name="' + selectedJar.name + '" data-jar-class="' + selectedJar.colorClass + '"' : ''}>
+                    <svg width="20" height="20"><use href="#icon-cart"/></svg>
+                </button>`;
+        }
+
+        return `
+        <div class="tarif-item ${selectedJar ? selectedJar.colorClass : ''}">
+            <div class="box-tarif">
+                <div class="tarif-wieght">${tarif.weight}</div>
+                ${priceDisplay}
+            </div>
+            ${buttonDisplay}
+        </div>
+        `;
+    }).join('');
+
     let descriptionHTML = '';
     if (product.description) {
-        // ...
+        const formattedDescription = product.description.replace(/\n/g, '<br>');
+        descriptionHTML = `<p class="product-description">${formattedDescription}</p>`;
     }
     
-    // On injecte le HTML, y compris la description
+    // --- LOGIQUE VARIANTE / JAR ---
+    let jarSelectorHTML = '';
+    if (product.jars) {
+        const jarButtons = product.jars.map((jar, index) => `
+            <button class="jar-select-btn ${jar.colorClass} ${index === 0 ? 'active' : ''}" 
+                data-jar-name="${jar.name}" 
+                data-jar-emoji="${jar.emoji}" 
+                data-jar-class="${jar.colorClass}">
+                ${jar.name} ${jar.emoji}
+            </button>
+        `).join('');
+
+        jarSelectorHTML = `
+            <h4 class="jar-title">${product.variantTitle ? product.variantTitle : 'Sélectionner votre Jaar :'}</h4>
+            <div class="jar-selector-container">
+                ${jarButtons}
+            </div>
+            <hr class="jar-divider">
+        `;
+    }
+
+    // --- INJECTION DU HTML ---
+    // 1. On injecte la vidéo tout en haut du content (avant les details)
+    // Astuce : on insert la vidéo juste après le header, ou on prepend dans page-content
+    // Comme ton HTML a <video class="product-video"> en dur, on va remplacer ça dynamiquement
+    
+    // On vide le conteneur details et on reconstruit
     detailsContainer.innerHTML = `
     <div class="name">${product.name}</div>
     <div class="farm">${product.farm}</div>
     ${descriptionHTML} 
+    ${jarSelectorHTML}
     <h4 class="tarifs-title">💰 Tarifs disponibles :</h4>
-
     <div class="tarifs-grid-container">
         ${tarifsHTML}
     </div>
     `;
+
+    // On insère le bloc vidéo juste AVANT le bloc détails
+    // (On supprime l'ancienne balise video qui traine dans le HTML static s'il le faut)
+    const oldStaticVideo = document.querySelector('#page-product > .page-content > video.product-video');
+    if(oldStaticVideo) oldStaticVideo.remove();
+    
+    detailsContainer.insertAdjacentHTML('beforebegin', videoHTML);
+
+
+    // --- JAVASCRIPT DU CAROUSEL ---
+    if (videoList.length > 1) {
+        let currentVideoIndex = 0;
+        const videoElement = document.querySelector('.video-container .product-video');
+        const dots = document.querySelectorAll('.dot');
+        const btnPrev = document.querySelector('.carousel-btn.prev');
+        const btnNext = document.querySelector('.carousel-btn.next');
+
+        function updateCarousel() {
+            // Change la source
+            videoElement.src = videoList[currentVideoIndex];
+            videoElement.play(); // Lance la lecture auto quand on change
+            
+            // Met à jour les points
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentVideoIndex);
+            });
+        }
+
+        // Clic Suivant
+        if(btnNext) {
+            btnNext.onclick = function() {
+                currentVideoIndex++;
+                if (currentVideoIndex >= videoList.length) currentVideoIndex = 0; // Boucle
+                updateCarousel();
+            };
+        }
+
+        // Clic Précédent
+        if(btnPrev) {
+            btnPrev.onclick = function() {
+                currentVideoIndex--;
+                if (currentVideoIndex < 0) currentVideoIndex = videoList.length - 1; // Boucle
+                updateCarousel();
+            };
+        }
+    }
+
+    // Applique la couleur par défaut
+    if (selectedJar) {
+        const tarifItems = document.querySelectorAll('#product-details-content .tarif-item');
+        tarifItems.forEach(item => {
+            item.classList.remove('jar-nana-junk', 'jar-pink-lemonade', 'jar-sour-diesel', 'jar-peach-rings', 'jar-banana-junk', 'variant-90u', 'variant-120u', 'variant-160u');
+            item.classList.add(selectedJar.colorClass);
+        });
+    }
+
     showPage('page-product');
 }
+
+
+
     // Met à jour l'affichage du panier (inchangé)
     function renderCart() {
         const cartContainer = document.getElementById('cart-items-container');
@@ -802,8 +1236,9 @@ function renderProductPage(productId) {
 
     // --- LOGIQUE DU PANIER ---
 
-    function addToCart(productId, weight, price) {
-        const cartItemId = `${productId}-${weight}`;
+    function addToCart(productId, weight, price, jarName = null, jarClass = null) {
+        // La jar fait partie de l'ID pour avoir une ligne de panier par saveur/poids
+        const cartItemId = `${productId}-${weight}${jarName ? '-' + jarName.replace(/[^a-zA-Z0-9]/g, '') : ''}`;
         const existingItem = cart.find(item => item.id === cartItemId);
 
         const product = getProductById(productId);
@@ -815,17 +1250,18 @@ function renderProductPage(productId) {
             cart.push({
                 id: cartItemId,
                 productId: productId,
-                name: product.name,
+                name: product.name + (jarName ? ` (${jarName})` : ''), // Ajoute le nom du jar au nom du produit
                 image: product.image,
                 weight: weight,
                 quantity: 1,
                 unitPrice: price,
-                totalPrice: price
+                totalPrice: price,
+                jarClass: jarClass // Stocke la classe pour une éventuelle utilisation dans le panier (optionnel)
             });
         }
         renderCart();
         tg.HapticFeedback.notificationOccurred('success');
-        showNotification('✅ Produit ajouté au panier !');
+        showNotification(`✅ ${product.name} ${jarName ? '(' + jarName + ')' : ''} ajouté au panier !`);
     }
 
     // updateQuantity (inchangé)
@@ -908,32 +1344,32 @@ function renderProductPage(productId) {
     }
 
     // --- NOUVELLE FONCTION POUR COPIER DANS LE PRESSE-PAPIERS ---
- /*    function copyToClipboard(text) {
-        if (navigator.clipboard) { // API moderne et sécurisée
-            navigator.clipboard.writeText(text).then(() => {
-                showNotification('✅ Commande copiée ! Colle-la dans le chat.');
-                tg.HapticFeedback.notificationOccurred('success');
-            }, (err) => {
-                showNotification('❌ Erreur en copiant le message');
-            });
-        } else { // Ancien fallback (pour certains navigateurs)
-            const textArea = document.createElement('textarea');
-            textArea.value = text;
-            textArea.style.position = 'fixed'; // Hors de l'écran
-            document.body.appendChild(textArea);
-            textArea.focus();
-            textArea.select();
-            try {
-                document.execCommand('copy');
-                showNotification('✅ Commande copiée ! Colle-la dans le chat.');
-                tg.HapticFeedback.notificationOccurred('success');
-            } catch (err) {
-                showNotification('❌ Erreur en copiant le message');
-            }
-            document.body.removeChild(textArea);
-        }
-    }
- */
+    /*    function copyToClipboard(text) {
+           if (navigator.clipboard) { // API moderne et sécurisée
+               navigator.clipboard.writeText(text).then(() => {
+                   showNotification('✅ Commande copiée ! Colle-la dans le chat.');
+                   tg.HapticFeedback.notificationOccurred('success');
+               }, (err) => {
+                   showNotification('❌ Erreur en copiant le message');
+               });
+           } else { // Ancien fallback (pour certains navigateurs)
+               const textArea = document.createElement('textarea');
+               textArea.value = text;
+               textArea.style.position = 'fixed'; // Hors de l'écran
+               document.body.appendChild(textArea);
+               textArea.focus();
+               textArea.select();
+               try {
+                   document.execCommand('copy');
+                   showNotification('✅ Commande copiée ! Colle-la dans le chat.');
+                   tg.HapticFeedback.notificationOccurred('success');
+               } catch (err) {
+                   showNotification('❌ Erreur en copiant le message');
+               }
+               document.body.removeChild(textArea);
+           }
+       }
+    */
     // --- GESTION DES ÉVÉNEMENTS ---
 
     // Clics sur la barre de navigation
@@ -1104,12 +1540,67 @@ function renderProductPage(productId) {
             });
         }
 
-        // Clic sur "Ajouter au panier"
-        if (target.closest('.add-to-cart-btn')) {
-            const btn = target.closest('.add-to-cart-btn');
-            addToCart(btn.dataset.productId, btn.dataset.weight, parseFloat(btn.dataset.price));
+        // Clic sur un bouton de sélection de Jar
+        if (target.closest('.jar-select-btn')) {
+            const btn = target.closest('.jar-select-btn');
+            const newJarName = btn.dataset.jarName;
+            const newJarEmoji = btn.dataset.jarEmoji;
+            const newJarClass = btn.dataset.jarClass;
+
+            // 1. Mettre à jour la variable d'état
+            selectedJar = {
+                name: newJarName,
+                emoji: newJarEmoji,
+                colorClass: newJarClass
+            };
+
+            // 2. Mettre à jour le bouton actif
+            document.querySelectorAll('.jar-select-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            // 3. Mettre à jour la couleur et les data-attributs du bloc des tarifs
+            const tarifItems = document.querySelectorAll('#product-details-content .tarif-item');
+            tarifItems.forEach(item => {
+                // Supprimer toutes les classes de jar existantes
+                item.classList.remove('jar-nana-junk', 'jar-pink-lemonade', 'jar-sour-diesel', 'jar-peach-rings', 'jar-banana-junk');
+                // Ajouter la nouvelle
+                item.classList.add(newJarClass);
+
+                // Mettre à jour les data-attributs du bouton "ajouter au panier"
+                const addToCartBtn = item.querySelector('.add-to-cart-btn');
+                if (addToCartBtn) {
+                    addToCartBtn.dataset.jarName = newJarName + newJarEmoji;
+                    addToCartBtn.dataset.jarClass = newJarClass;
+                }
+            });
+
+            tg.HapticFeedback.impactOccurred('light');
+            showNotification(`Jar sélectionné : ${newJarName} ${newJarEmoji}`);
+            return;
         }
 
+        // Clic sur "Ajouter au panier" (MODIFIÉ)
+        if (target.closest('.add-to-cart-btn')) {
+            const btn = target.closest('.add-to-cart-btn');
+            const jarName = btn.dataset.jarName; // Récupère le nom du jar
+            const jarClass = btn.dataset.jarClass; // Récupère la classe du jar
+
+            // Appel à la fonction mise à jour
+            addToCart(btn.dataset.productId, btn.dataset.weight, parseFloat(btn.dataset.price), jarName, jarClass);
+            return;
+        }
+
+        // Clic sur le bouton "Contact Privé" (PV)
+        if (target.closest('.contact-private-btn')) {
+            // Option 1 : Rediriger vers la page LINKS de l'app
+            renderContactPage();
+            showPage('page-contact');
+            
+            // Option 2 (Alternative) : Ouvrir direct ton Telegram personnel
+            // tg.openTelegramLink('https://t.me/TON_PSEUDO');
+            
+            return;
+        }
         // Clic sur les boutons de quantité
         if (target.closest('.quantity-btn')) {
             const btn = target.closest('.quantity-btn');
@@ -1171,9 +1662,9 @@ function renderProductPage(productId) {
 
         // Clic sur "Confirmer la commande" (VERSION COPIER/COLLER - LA SEULE FIABLE)
         if (target.closest('#confirm-order-button')) {
-            
+
             // 1. TON PSEUDO TELEGRAM
-            const targetUsername = 'smockyclubofficial6'; 
+            const targetUsername = 'smockyclubofficial6';
 
             // 2. On prépare le message
             let message = formatOrderMessage();
@@ -1185,7 +1676,7 @@ function renderProductPage(productId) {
             // 4. On encode et on ouvre le lien
             const encodedMessage = encodeURIComponent(message);
             const telegramUrl = `https://t.me/${targetUsername}?text=${encodedMessage}`;
-            
+
             tg.openLink(telegramUrl);
         }
 

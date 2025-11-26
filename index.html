@@ -372,7 +372,8 @@
             cursor: pointer;
             position: relative;
     border: 2px solid #ce8e53;
-    background: linear-gradient(#dfa171, #4a3030);
+    background: linear-gradient(#cd935d, #902c00ad);
+    color: black;
         }
 
         .card-badge {
@@ -538,6 +539,207 @@
             justify-content: center;
             align-items: center;
         }
+
+        /* --- NOUVEAUX STYLES POUR LES JARS SCELLÉS --- */
+
+/* Style du conteneur de sélection de jar */
+.jar-selector-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.jar-title {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #dfa171;
+}
+
+.jar-divider {
+    border: none;
+    height: 1px;
+    background-color: var(--tertiary-bg-color);
+    margin: 20px 0;
+}
+
+.jar-select-btn {
+    background: var(--tertiary-bg-color);
+    color: var(--hint-color);
+    border: 2px solid var(--tertiary-bg-color);
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.jar-select-btn.active {
+    color: var(--text-color);
+    border-color: #dfa171; /* Accent pour montrer la sélection */
+}
+
+/* Base de l'item Tarif pour l'application des couleurs */
+#page-product .tarifs-grid-container .tarif-item {
+    transition: background 0.3s ease;
+}
+
+/* Couleurs spécifiques pour chaque Jar (Fond du bloc prix + bouton) */
+
+/* 🕺🪩 NANA JUNK */
+.jar-nana-junk {
+    background: linear-gradient(#3c0e64, #731acb70);
+    box-shadow: 0px 0px 5px 1px #8a2be2;
+}
+.jar-nana-junk .add-to-cart-btn {
+    color: #8a2be2;
+    border: 1px solid #8a2be2;
+}
+
+/* 🍋🍋‍🟩 PINK LEMONADE */
+.jar-pink-lemonade {
+    background: linear-gradient(#f7a6f2, #e54d7e70);
+    box-shadow: 0px 0px 5px 1px #ff69b4;
+}
+.jar-pink-lemonade .add-to-cart-btn {
+    color: #ff69b4;
+    border: 1px solid #ff69b4;
+}
+
+/* ⛽️ SOUR DIESEL */
+.jar-sour-diesel {
+    background: linear-gradient(#4d4d4d, #38383870);
+    box-shadow: 0px 0px 5px 1px #a9a9a9;
+}
+.jar-sour-diesel .add-to-cart-btn {
+    color: #a9a9a9;
+    border: 1px solid #a9a9a9;
+}
+
+/* 🍑 PEACH RINGS */
+.jar-peach-rings {
+    background: linear-gradient(#ffa07a, #ff7f5070);
+    box-shadow: 0px 0px 5px 1px #ff7f50;
+}
+.jar-peach-rings .add-to-cart-btn {
+    color: #ff7f50;
+    border: 1px solid #ff7f50;
+}
+
+/* 🍌 BANANA JUNK */
+.jar-banana-junk {
+    background: linear-gradient(#ffd700, #ffc80070);
+    box-shadow: 0px 0px 5px 1px #ffd700;
+}
+.jar-banana-junk .add-to-cart-btn {
+    color: #ffd700;
+    border: 1px solid #ffd700;
+}
+
+/* On s'assure que le texte du bouton reste blanc/foncé */
+.jar-select-btn.jar-pink-lemonade {
+    color: #ff69b4; 
+}
+.jar-select-btn.jar-pink-lemonade.active {
+    color: white; 
+}
+
+/* --- VARIANTES FILTRATION (90u, 120u, 160u) --- */
+
+/* 🥇 90u - Style Or / Premium */
+.variant-90u {
+    background: linear-gradient(#ffd700, #b8860b);
+    box-shadow: 0px 0px 5px 1px #ffd700;
+}
+.variant-90u .add-to-cart-btn {
+    color: #ffd700; /* Texte jaune or */
+    border: 1px solid #ffd700;
+    background: rgba(0,0,0,0.6); /* Fond bouton un peu plus sombre pour lisibilité */
+}
+
+/* 🥈 120u - Style Vert / Naturel */
+.variant-120u {
+    background: linear-gradient(#4caf50, #2e7d32);
+    box-shadow: 0px 0px 5px 1px #4caf50;
+}
+.variant-120u .add-to-cart-btn {
+    color: #98fb98; 
+    border: 1px solid #98fb98;
+    background: rgba(0,0,0,0.4);
+}
+
+/* 🥉 160u - Style Bronze / Classique */
+.variant-160u {
+    background: linear-gradient(#cd7f32, #8b4513);
+    box-shadow: 0px 0px 5px 1px #cd7f32;
+}
+.variant-160u .add-to-cart-btn {
+    color: #ffccbc;
+    border: 1px solid #ffccbc;
+    background: rgba(0,0,0,0.4);
+}
+
+/* --- CAROUSEL VIDÉO --- */
+.video-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.product-video {
+    width: 100%; /* S'assurer qu'elle prend toute la largeur */
+    display: block;
+    margin: auto;
+    aspect-ratio: 9 / 16;
+    background: #000;
+    border-radius: 20px;
+    object-fit: cover; /* Important pour que ça remplisse bien */
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    backdrop-filter: blur(4px);
+}
+
+.carousel-btn.prev { left: 10px; }
+.carousel-btn.next { right: 10px; }
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #555;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background-color: #dfa171;
+    box-shadow: 0 0 5px #dfa171;
+}
 
         /* Page Panier & Confirmation */
         .cart-item {
@@ -1149,9 +1351,9 @@
             opacity: 0.7;
         }
 
-        #nav-info {
+       /*  #nav-info {
             display: none;
-        }
+        } */
 
         /* --- NOUVEAU STYLE POUR LA GRILLE DES TARIFS --- */
 
@@ -1175,6 +1377,7 @@
             padding: 10px 5px;
             display: flex;
             flex-direction: column;
+            color: black;
         }
 
         /* On ajuste la police si ça déborde sur mobile */
@@ -1235,16 +1438,18 @@
                         height: 4vh;
                         width: 4vh;
                         font-size: 3vh;">🛵</p>
-                            <span>DELIVERY </span>
+                            <span>LIVRAISON </span>
                             <svg class="accordion-arrow" width="24" height="24" viewBox="0 0 24 24">
                                 <path fill="currentColor" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z" />
                             </svg>
                         </button>
                         <div class="accordion-content">
                             <p>
-                                Service rapide et fiable disponible des 100€ de commande avec 20€ de frais de livraison
-                                dans Bordeaux Centre et varient suivant la distance !
-                                <br><br> 🏆 Frais offert pour le canal VIP 🏆
+                                📦 <b>Minimum de commande :</b> 50€
+                                <br><br>
+                                🏙️ <b>Strasbourg :</b> 20€ de frais fixes.
+                                <br>
+                                🚗 <b>Hors Strasbourg :</b> Frais variables (plus de 20€ selon la distance).
                             </p>
                         </div>
                     </div>
@@ -1262,8 +1467,12 @@
                         </button>
                         <div class="accordion-content">
                             <p>
-                                Adresse discrète dans le centre bosseur fiable et rapide !
-                                <br><br> Minimum 50€ de commande 🤑
+                                📍 <b>Point de RDV Centre-Ville</b>
+                                <br>Adresse safe et discrète communiquée en privé.
+                                <br><br>
+                                🤝 <b>Runner Pro :</b> Ponctuel, fiable et rapide.
+                                <br><br>
+                                🔓 <b>Aucun minimum d'achat !</b> Viens récupérer ta commande 📣
                             </p>
                         </div>
                     </div>
@@ -1281,8 +1490,13 @@
                         </button>
                         <div class="accordion-content">
                             <p>
-                                12H - 00h
-                                <br><br> 🏆 Accès au canal VIP après votre première commandes
+                                📝 <b>Prise de commande :</b> 
+                                <br>De 10h00 à 03h00 (Non-stop)
+                                <br><br>
+                                🛵 <b>Livraisons :</b> 
+                                <br>De 13h00 à 01h00
+                                <br><br>
+                                💎 <b>Service Carré :</b> Rapide, fiable et organisé.
                             </p>
                         </div>
                     </div>
