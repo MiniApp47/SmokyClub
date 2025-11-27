@@ -8,10 +8,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // --- CONFIGURATION DES LIENS DE CONTACT ---
     const contactLinks = [
-        { name: 'WhatsApp', url: 'https://wa.me/', icon: '#icon-whatsapp', id: 'whatsapp', className: 'whatsapp', text: "WhatsApp" },
-        { name: 'Snapchat', url: 'https://www.snapchat.com/', icon: '#icon-snapchat', id: 'snapchat', className: 'snapchat', text: "Snapchat" },
-        { name: 'Telegram', url: 'https://t.me/', icon: '#icon-telegram', id: 'telegram', className: 'telegram', text: "Telegram" },
-        { name: 'Signal', url: 'https://signal.me/', icon: '#icon-signal', id: 'signal', className: 'signal', text: "Signal" }
+        // 1. Signal
+        { name: 'Signal', url: 'https://signal.me/#eu/TON_NUMERO_OU_LIEN', icon: '#icon-signal', id: 'signal', className: 'signal', text: "Signal" },
+        
+        // 2. LUFFA (J'ai mis l'icone link par défaut, change si tu as un svg luffa)
+        { name: 'LUFFA', url: 'TON_LIEN_LUFFA', icon: '#icon-link', id: 'luffa', className: 'luffa', text: "LUFFA" },
+        
+        // 3. Potato Principale
+        { name: 'Potato Main', url: 'https://dympt.org/TON_ID_PRINCIPAL', icon: '#icon-potato', id: 'potato-main', className: 'potato', text: "Potato Principale" },
+        
+        // 4. Potato Secours
+        { name: 'Potato Back', url: 'https://dympt.org/TON_ID_SECOURS', icon: '#icon-potato', id: 'potato-backup', className: 'potato', text: "Potato Secours" },
+        
+        // 5. Instagram
+        { name: 'Instagram', url: 'https://instagram.com/TON_INSTAGRAM', icon: '#icon-instagram', id: 'instagram', className: 'instagram', text: "Instagram" }
     ];
 
     // --- DONNÉES DE L'APPLICATION (NOUVELLE STRUCTURE) ---
@@ -58,14 +68,13 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: '⛰️  MOUNTAIN GIANTS ⛰️',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductTropCookies.png',
-                            video: 'TropCookies.mp4',
+                            image: 'ProductForbiden.png',
+                            video: 'Forbiden.mp4',
                             description: 'STATIC SIFT ⚡️⚡️⚡️ \n\n Curage fait maison 🏠,🍯produit gazzy 🥵salade de fruit 🍇 en bouche 👄 \n Un délice 👄 ',
                             tarifs: [
                                 { weight: '2,5g', price: 60.00 },
                                 { weight: '5g', price: 110.00 },
                                 { weight: '10g', price: 220.00 },
-
                             ]
                         },
                         {
@@ -113,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'LemonSlice',
                             flag: '🇲🇦',
                             name: 'Lemon Slice 🍋🍋‍🟩',
-                            farm: ' TOP MOUSSE 🧽 PRENIUM',
+                            farm: '🧽 TOP MOUSSE PRENIUM 🧽',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductLemon.png',
@@ -131,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'BlueZushi',
                             flag: '🇲🇦',
                             name: 'BLUE ZUSHI 🍣',
-                            farm: ' TOP MOUSSE 🧽 PRENIUM',
+                            farm: '🧽 TOP MOUSSE PRENIUM 🧽',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductBlueZushi.png',
@@ -150,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'COOKIES',
                             flag: '🇲🇦',
                             name: 'COOKIES 🍪',
-                            farm: ' TOP MOUSSE 🧽 PRENIUM',
+                            farm: '🧽 TOP MOUSSE PRENIUM 🧽',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductCookies.png',
@@ -168,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'StaticPlasma',
                             flag: '🇲🇦',
                             name: 'STATIC PLASMA ⚡️🍯',
-                            farm: ' GAS FRUIT 🍋‍🟩',
+                            farm: ' 🍋 GAS FRUIT 🥭',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductStaticPlasma.png',
@@ -184,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'OrangeGroovy',
                             flag: '🇲🇦',
                             name: 'ORANGE 🍊 GROOVY 🐯',
-                            farm: ' HASH WARRIORS 🏴‍☠️🏴‍☠️🏴‍☠️',
+                            farm: '🏴‍☠️ HASH WARRIORS 🏴‍☠️',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductOrange.png',
@@ -205,7 +214,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'CandyCane',
                             flag: '🇲🇦',
                             name: 'CANDY CANE 🍫🍭',
-                            farm: ' TOP DRY SIFT 🇲🇦®️',
+                            farm: '🇲🇦 TOP DRY SIFT ®️',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductCandy.png',
@@ -224,7 +233,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'Limonade',
                             flag: '🇲🇦',
                             name: 'LIMONADE🍋🍋‍🟩',
-                            farm: ' TOP DRY SIFT 🇲🇦®️',
+                            farm: '🇲🇦 TOP DRY SIFT ®️',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductLimonade.png',
@@ -379,10 +388,10 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Extraction',
-            name: 'Extraction',
+            name: '☢️ Extraction ☢️',
             farm: '',
             type: 'Extraction',
-            quality: 'Extraction',
+            quality: ' ☢️ Extraction ☢️',
             image: 'CategExtraction.png', // Image de la catégorie
 
             // La catégorie contient maintenant des "farms"
@@ -397,7 +406,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'Top',
                             //  flag: '🇺🇸',
                             name: 'Top 🇲🇦',
-                            farm: 'TERPS FARMS 🧑‍🌾👩‍🌾👨‍🌾',
+                            farm: '🧑‍🌾 TERPS FARMS 👨‍🌾',
                             promoEligible: true,
                             type: 'Wpff',
                             image: 'ProductTop.png',
@@ -428,10 +437,10 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'HashGrande',
-            name: 'Hash De Grande Envergure 🍾',
+            name: '🍾 Hash De Grande Envergure 🍾',
             farm: '',
             type: 'Hash de luxe',
-            quality: 'Hash de grande envergure 🍾',
+            quality: '🍾 Hash de grande envergure 🍾',
             image: 'CategHashGrande.png', // Image de la catégorie
 
             // La catégorie contient maintenant des "farms"
@@ -446,7 +455,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'wpff',
                             //  flag: '🇺🇸',
                             name: 'GMO X  RUNTZ 🍯®️',
-                            farm: 'TERPS FARMS 🧑‍🌾👩‍🌾👨‍🌾',
+                            farm: '🧑‍🌾 TERPS FARMS 👨‍🌾',
                             promoEligible: true,
                             type: 'Wpff',
                             image: 'ProductWpff.png',
@@ -463,7 +472,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'Jaar',
                             //  flag: '🇺🇸',
                             name: 'JAAR SCELLÉ ®️🇪🇸🍯 ',
-                            farm: 'TERPS FARMS 🧑‍🌾👩‍🌾👨‍🌾',
+                            farm: '🧑‍🌾 TERPS FARMS 👨‍🌾',
                             promoEligible: true,
                             type: 'Wpff',
                             image: 'ProductJaar.png',
@@ -489,10 +498,10 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Écaille',
-            name: 'Écaille de poisson 🐠',
+            name: '🐠 Écaille de poisson 🐠',
             farm: '',
             type: 'Écaille',
-            quality: 'Écaille de poisson 🐠',
+            quality: '🐠 Écaille de poisson 🐠',
             image: 'CategEcaille.png', // Image de la catégorie
 
             // La catégorie contient maintenant des "farms"
@@ -773,6 +782,39 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
+
+    // --- NOUVELLE FONCTION : METTRE À JOUR LE FILTRE FARM ---
+    function updateFarmFilterForCategory(categoryId) {
+        const category = appData.find(c => c.id === categoryId);
+        const farmSelect = document.getElementById('farm-filter');
+        
+        if (!category || !farmSelect) return;
+
+        // 1. On récupère tous les produits de cette catégorie
+        const allProductsInCategory = category.farms.flatMap(farm => farm.products);
+
+        // 2. On extrait les noms des farms uniques présents dans ces produits
+        const uniqueFarms = [...new Set(allProductsInCategory.map(p => p.farm))];
+        
+        // 3. On vide le select actuel et on remet l'option par défaut
+        farmSelect.innerHTML = '<option value="all">🌾 NOS FARMS 🌾</option>';
+
+        // 4. On ajoute les nouvelles options
+        uniqueFarms.forEach(farmName => {
+            // On vérifie que le nom n'est pas vide
+            if(farmName && farmName.trim() !== '') {
+                const option = document.createElement('option');
+                option.value = farmName;
+                option.textContent = farmName;
+                farmSelect.appendChild(option);
+            }
+        });
+        
+        // 5. On remet le filtre sur "all" par sécurité
+        farmSelect.value = 'all';
+        currentFilters.farm = 'all';
+    }
+
     // Affiche la liste des PRODUITS pour une CATÉGORIE ENTIÈRE
     function renderProductList(categoryId) { // <-- MODIFIÉ (on n'a plus besoin de farmId)
         const category = appData.find(c => c.id === categoryId);
@@ -829,31 +871,31 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Affiche la page de détail d'un produit
     // Affiche la page de détail d'un produit
-function renderProductPage(productId) {
-    const product = getProductById(productId);
-    if (!product) return;
+    function renderProductPage(productId) {
+        const product = getProductById(productId);
+        if (!product) return;
 
-    // Reset la jar/variante sélectionnée
-    selectedJar = product.jars ? product.jars[0] : null;
+        // Reset la jar/variante sélectionnée
+        selectedJar = product.jars ? product.jars[0] : null;
 
-    document.getElementById('product-page-title').innerText = product.name;
-    const detailsContainer = document.getElementById('product-details-content');
+        document.getElementById('product-page-title').innerText = product.name;
+        const detailsContainer = document.getElementById('product-details-content');
 
-    // --- LOGIQUE VIDÉO (CAROUSEL OU UNIQUE) ---
-    // On récupère la div container de la vidéo qui existe déjà dans le HTML
-    const videoContainer = document.querySelector('#page-product .page-content');
-    // On nettoie l'ancienne vidéo s'il y en avait une pour reconstruire proprement
-    const existingVideoWrapper = document.querySelector('.video-container');
-    if(existingVideoWrapper) existingVideoWrapper.remove();
-    // (Note: on laisse le titre et le bouton retour gérés par le header)
+        // --- LOGIQUE VIDÉO (CAROUSEL OU UNIQUE) ---
+        // On récupère la div container de la vidéo qui existe déjà dans le HTML
+        const videoContainer = document.querySelector('#page-product .page-content');
+        // On nettoie l'ancienne vidéo s'il y en avait une pour reconstruire proprement
+        const existingVideoWrapper = document.querySelector('.video-container');
+        if (existingVideoWrapper) existingVideoWrapper.remove();
+        // (Note: on laisse le titre et le bouton retour gérés par le header)
 
-    let videoHTML = '';
-    // On prépare la liste des vidéos (soit le tableau, soit la string unique mise dans un tableau)
-    const videoList = product.videos ? product.videos : (product.video ? [product.video] : []);
+        let videoHTML = '';
+        // On prépare la liste des vidéos (soit le tableau, soit la string unique mise dans un tableau)
+        const videoList = product.videos ? product.videos : (product.video ? [product.video] : []);
 
-    if (videoList.length > 0) {
-        // Si plus d'une vidéo, on ajoute les flèches
-        const controlsHTML = videoList.length > 1 ? `
+        if (videoList.length > 0) {
+            // Si plus d'une vidéo, on ajoute les flèches
+            const controlsHTML = videoList.length > 1 ? `
             <button class="carousel-btn prev">‹</button>
             <button class="carousel-btn next">›</button>
             <div class="carousel-dots">
@@ -861,27 +903,27 @@ function renderProductPage(productId) {
             </div>
         ` : '';
 
-        videoHTML = `
+            videoHTML = `
             <div class="video-container">
                 <video class="product-video" src="${videoList[0]}" poster="${product.image}" playsinline controls></video>
                 ${controlsHTML}
             </div>
         `;
-    }
+        }
 
-    // --- LOGIQUE TARIFS (Privé vs Public) ---
-    let tarifsHTML = product.tarifs.map(tarif => {
-        let priceDisplay, buttonDisplay;
+        // --- LOGIQUE TARIFS (Privé vs Public) ---
+        let tarifsHTML = product.tarifs.map(tarif => {
+            let priceDisplay, buttonDisplay;
 
-        if (tarif.private) {
-            priceDisplay = `<div class="tarif-price" style="font-size: 1rem; color: #ff3b30;">PV 🔒</div>`;
-            buttonDisplay = `
-                <button class="add-to-cart-btn contact-private-btn" style="border-color: #ff3b30; color: #ff3b30;">
+            if (tarif.private) {
+                priceDisplay = `<div class="tarif-price" style="font-size: 1rem; color: #ffa030;">Privé 🔒</div>`;
+                buttonDisplay = `
+                <button class="add-to-cart-btn contact-private-btn" style="border-color: #ffa030;color: #ffa030;">
                     <svg width="20" height="20"><use href="#icon-telegram"/></svg>
                 </button>`;
-        } else {
-            priceDisplay = `<div class="tarif-price">${tarif.price.toFixed(2)}€</div>`;
-            buttonDisplay = `
+            } else {
+                priceDisplay = `<div class="tarif-price">${tarif.price.toFixed(2)}€</div>`;
+                buttonDisplay = `
                 <button class="add-to-cart-btn" 
                     data-product-id="${product.id}" 
                     data-weight="${tarif.weight}" 
@@ -889,9 +931,9 @@ function renderProductPage(productId) {
                     ${selectedJar ? 'data-jar-name="' + selectedJar.name + '" data-jar-class="' + selectedJar.colorClass + '"' : ''}>
                     <svg width="20" height="20"><use href="#icon-cart"/></svg>
                 </button>`;
-        }
+            }
 
-        return `
+            return `
         <div class="tarif-item ${selectedJar ? selectedJar.colorClass : ''}">
             <div class="box-tarif">
                 <div class="tarif-wieght">${tarif.weight}</div>
@@ -900,18 +942,18 @@ function renderProductPage(productId) {
             ${buttonDisplay}
         </div>
         `;
-    }).join('');
+        }).join('');
 
-    let descriptionHTML = '';
-    if (product.description) {
-        const formattedDescription = product.description.replace(/\n/g, '<br>');
-        descriptionHTML = `<p class="product-description">${formattedDescription}</p>`;
-    }
-    
-    // --- LOGIQUE VARIANTE / JAR ---
-    let jarSelectorHTML = '';
-    if (product.jars) {
-        const jarButtons = product.jars.map((jar, index) => `
+        let descriptionHTML = '';
+        if (product.description) {
+            const formattedDescription = product.description.replace(/\n/g, '<br>');
+            descriptionHTML = `<p class="product-description">${formattedDescription}</p>`;
+        }
+
+        // --- LOGIQUE VARIANTE / JAR ---
+        let jarSelectorHTML = '';
+        if (product.jars) {
+            const jarButtons = product.jars.map((jar, index) => `
             <button class="jar-select-btn ${jar.colorClass} ${index === 0 ? 'active' : ''}" 
                 data-jar-name="${jar.name}" 
                 data-jar-emoji="${jar.emoji}" 
@@ -920,22 +962,22 @@ function renderProductPage(productId) {
             </button>
         `).join('');
 
-        jarSelectorHTML = `
+            jarSelectorHTML = `
             <h4 class="jar-title">${product.variantTitle ? product.variantTitle : 'Sélectionner votre Jaar :'}</h4>
             <div class="jar-selector-container">
                 ${jarButtons}
             </div>
             <hr class="jar-divider">
         `;
-    }
+        }
 
-    // --- INJECTION DU HTML ---
-    // 1. On injecte la vidéo tout en haut du content (avant les details)
-    // Astuce : on insert la vidéo juste après le header, ou on prepend dans page-content
-    // Comme ton HTML a <video class="product-video"> en dur, on va remplacer ça dynamiquement
-    
-    // On vide le conteneur details et on reconstruit
-    detailsContainer.innerHTML = `
+        // --- INJECTION DU HTML ---
+        // 1. On injecte la vidéo tout en haut du content (avant les details)
+        // Astuce : on insert la vidéo juste après le header, ou on prepend dans page-content
+        // Comme ton HTML a <video class="product-video"> en dur, on va remplacer ça dynamiquement
+
+        // On vide le conteneur details et on reconstruit
+        detailsContainer.innerHTML = `
     <div class="name">${product.name}</div>
     <div class="farm">${product.farm}</div>
     ${descriptionHTML} 
@@ -946,63 +988,72 @@ function renderProductPage(productId) {
     </div>
     `;
 
-    // On insère le bloc vidéo juste AVANT le bloc détails
-    // (On supprime l'ancienne balise video qui traine dans le HTML static s'il le faut)
-    const oldStaticVideo = document.querySelector('#page-product > .page-content > video.product-video');
-    if(oldStaticVideo) oldStaticVideo.remove();
-    
-    detailsContainer.insertAdjacentHTML('beforebegin', videoHTML);
+        // On insère le bloc vidéo juste AVANT le bloc détails
+        // (On supprime l'ancienne balise video qui traine dans le HTML static s'il le faut)
+        const oldStaticVideo = document.querySelector('#page-product > .page-content > video.product-video');
+        if (oldStaticVideo) oldStaticVideo.remove();
+
+        detailsContainer.insertAdjacentHTML('beforebegin', videoHTML);
 
 
-    // --- JAVASCRIPT DU CAROUSEL ---
-    if (videoList.length > 1) {
-        let currentVideoIndex = 0;
-        const videoElement = document.querySelector('.video-container .product-video');
-        const dots = document.querySelectorAll('.dot');
-        const btnPrev = document.querySelector('.carousel-btn.prev');
-        const btnNext = document.querySelector('.carousel-btn.next');
+        // --- JAVASCRIPT DU CAROUSEL ---
+        if (videoList.length > 1) {
+            let currentVideoIndex = 0;
+            const videoElement = document.querySelector('.video-container .product-video');
+            const dots = document.querySelectorAll('.dot');
+            const btnPrev = document.querySelector('.carousel-btn.prev');
+            const btnNext = document.querySelector('.carousel-btn.next');
 
-        function updateCarousel() {
-            // Change la source
-            videoElement.src = videoList[currentVideoIndex];
-            videoElement.play(); // Lance la lecture auto quand on change
-            
-            // Met à jour les points
-            dots.forEach((dot, index) => {
-                dot.classList.toggle('active', index === currentVideoIndex);
+            function updateCarousel() {
+                // Change la source
+                videoElement.src = videoList[currentVideoIndex];
+                videoElement.play(); // Lance la lecture auto quand on change
+
+                // Met à jour les points
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentVideoIndex);
+                });
+            }
+
+            // Clic Suivant
+            if (btnNext) {
+                btnNext.onclick = function () {
+                    currentVideoIndex++;
+                    if (currentVideoIndex >= videoList.length) currentVideoIndex = 0; // Boucle
+                    updateCarousel();
+                };
+            }
+
+            // Clic Précédent
+            if (btnPrev) {
+                btnPrev.onclick = function () {
+                    currentVideoIndex--;
+                    if (currentVideoIndex < 0) currentVideoIndex = videoList.length - 1; // Boucle
+                    updateCarousel();
+                };
+            }
+        }
+
+        // Applique la couleur par défaut
+        if (selectedJar) {
+            const tarifItems = document.querySelectorAll('#product-details-content .tarif-item');
+            tarifItems.forEach(item => {
+                item.classList.remove(
+                    'jar-nana-junk', 
+                    'jar-pink-lemonade', 
+                    'jar-sour-diesel', 
+                    'jar-peach-rings', 
+                    'jar-banana-junk',
+                    'variant-90u',   // <-- Ajout
+                    'variant-120u',  // <-- Ajout
+                    'variant-160u'   // <-- Ajout
+                );
+                item.classList.add(selectedJar.colorClass);
             });
         }
 
-        // Clic Suivant
-        if(btnNext) {
-            btnNext.onclick = function() {
-                currentVideoIndex++;
-                if (currentVideoIndex >= videoList.length) currentVideoIndex = 0; // Boucle
-                updateCarousel();
-            };
-        }
-
-        // Clic Précédent
-        if(btnPrev) {
-            btnPrev.onclick = function() {
-                currentVideoIndex--;
-                if (currentVideoIndex < 0) currentVideoIndex = videoList.length - 1; // Boucle
-                updateCarousel();
-            };
-        }
+        showPage('page-product');
     }
-
-    // Applique la couleur par défaut
-    if (selectedJar) {
-        const tarifItems = document.querySelectorAll('#product-details-content .tarif-item');
-        tarifItems.forEach(item => {
-            item.classList.remove('jar-nana-junk', 'jar-pink-lemonade', 'jar-sour-diesel', 'jar-peach-rings', 'jar-banana-junk', 'variant-90u', 'variant-120u', 'variant-160u');
-            item.classList.add(selectedJar.colorClass);
-        });
-    }
-
-    showPage('page-product');
-}
 
 
 
@@ -1197,7 +1248,7 @@ function renderProductPage(productId) {
         const productFarms = allNestedProducts.map(p => p.farm);
         const farms = ['all', ...new Set(productFarms)];
 
-        qualityFilter.innerHTML = qualities.map(q => `<option value="${q}">${q === 'all' ? 'CATEGORIE' : q}</option>`).join('');
+        qualityFilter.innerHTML = qualities.map(q => `<option value="${q}">${q === 'all' ? '🗂️ CATEGORIE 🗂️' : q}</option>`).join('');
         farmFilter.innerHTML = farms.map(farm => `<option value="${farm}">${farm === 'all' ? 'LES FARM' : farm}</option>`).join('');
 
         searchFilter.addEventListener('input', (e) => {
@@ -1430,15 +1481,20 @@ function renderProductPage(productId) {
         // 1. Clic sur une carte CATÉGORIE
         const categoryCard = target.closest('.category-card');
         if (categoryCard) {
-            currentView = 'products'; // <-- MODIFIÉ (on saute la vue "farms")
+            currentView = 'products';
             currentCategoryId = categoryCard.dataset.categoryId;
-            // On reset les filtres
+            
+            // 👇 AJOUTE CETTE LIGNE ICI 👇
+            updateFarmFilterForCategory(currentCategoryId); 
+            // 👆 C'est elle qui change la liste déroulante dynamiquement
+            
+            // On reset les filtres de recherche
             currentFilters.searchTerm = '';
             document.getElementById('search-filter').value = '';
+            
             renderHomePage();
             return;
         }
-
 
 
         // Gère l'accordéon sur la page contact
@@ -1562,7 +1618,9 @@ function renderProductPage(productId) {
             const tarifItems = document.querySelectorAll('#product-details-content .tarif-item');
             tarifItems.forEach(item => {
                 // Supprimer toutes les classes de jar existantes
-                item.classList.remove('jar-nana-junk', 'jar-pink-lemonade', 'jar-sour-diesel', 'jar-peach-rings', 'jar-banana-junk');
+                item.classList.remove('jar-nana-junk', 'jar-pink-lemonade', 'jar-sour-diesel', 'jar-peach-rings', 'jar-banana-junk','variant-90u',   // <-- Ajout indispensable
+                'variant-120u',  // <-- Ajout indispensable
+                'variant-160u');
                 // Ajouter la nouvelle
                 item.classList.add(newJarClass);
 
@@ -1582,23 +1640,37 @@ function renderProductPage(productId) {
         // Clic sur "Ajouter au panier" (MODIFIÉ)
         if (target.closest('.add-to-cart-btn')) {
             const btn = target.closest('.add-to-cart-btn');
+
+            // Si c'est un bouton "Contact Privé"
+            if (btn.classList.contains('contact-private-btn')) {
+                // 1. On ouvre la page contact (ou le lien Telegram direct)
+                renderContactPage();
+                showPage('page-contact');
+
+                // 2. On arrête le script pour ne pas qu'il essaie d'ajouter au panier
+                return;
+            }
+            const productId = btn.dataset.productId;
+            const weight = btn.dataset.weight;
+            const price = parseFloat(btn.dataset.price);
             const jarName = btn.dataset.jarName; // Récupère le nom du jar
             const jarClass = btn.dataset.jarClass; // Récupère la classe du jar
 
             // Appel à la fonction mise à jour
-            addToCart(btn.dataset.productId, btn.dataset.weight, parseFloat(btn.dataset.price), jarName, jarClass);
+            addToCart(productId, weight, price, jarName, jarClass);
+
             return;
         }
 
         // Clic sur le bouton "Contact Privé" (PV)
         if (target.closest('.contact-private-btn')) {
             // Option 1 : Rediriger vers la page LINKS de l'app
-            renderContactPage();
-            showPage('page-contact');
-            
+            // renderContactPage();
+            //showPage('page-contact');
+            tg.openTelegramLink('https://t.me/smockyclubofficial6')
             // Option 2 (Alternative) : Ouvrir direct ton Telegram personnel
             // tg.openTelegramLink('https://t.me/TON_PSEUDO');
-            
+
             return;
         }
         // Clic sur les boutons de quantité
@@ -1682,14 +1754,89 @@ function renderProductPage(productId) {
 
     });
 
-    // --- INITIALISATION DE L'APP ---
-    function init() {
-        setTimeout(() => {
+    // --- GESTION DU MOT DE PASSE (SHA-256) ---
+
+    // 👇 METS LE HASH QUE TU AS GÉNÉRÉ À L'ÉTAPE 1 ICI 👇
+    const SECRET_HASH = "1cf6279621ebe51faf010b35e8822f45e2736ea3f1da539d9873ff6e801e12bb";
+
+    // Fonction technique pour hasher du texte (ne pas toucher)
+    async function sha256(message) {
+        const msgBuffer = new TextEncoder().encode(message);
+        const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        return hashHex;
+    }
+
+    // Fonction de vérification
+    async function checkPassword() {
+        const input = document.getElementById('password-input').value;
+        const errorMsg = document.getElementById('login-error');
+        const loader = document.getElementById('page-loader');
+        const loginPage = document.getElementById('page-login');
+
+        const bottomNav = document.querySelector('.bottom-nav'); // On sélectionne la navbar
+        // On hash ce que le gars a écrit
+        const inputHash = await sha256(input);
+
+        if (inputHash === SECRET_HASH) {
+            // ✅ SUCCÈS
+            tg.HapticFeedback.notificationOccurred('success');
+
+            // On cache le login et le loader
+            loginPage.classList.remove('active');
+            loader.classList.remove('active');
+
+            // 👇 C'EST ICI LA MODIF : On affiche la navbar maintenant
+            if (bottomNav) bottomNav.style.display = 'flex';
+
+            // On lance l'appli normalement
             populateFilters();
-            renderHomePage(); // Affiche les catégories au début
+            renderHomePage();
             updateCartCount();
             showPage('page-home');
-        }, 1500);
+        } else {
+            // ❌ ERREUR
+            tg.HapticFeedback.notificationOccurred('error');
+            errorMsg.style.display = 'block';
+            document.getElementById('password-input').value = ''; // On vide le champ
+        }
+    }
+
+    // --- INITIALISATION DE L'APP ---
+    function init() {
+
+        const bottomNav = document.querySelector('.bottom-nav');
+        if (bottomNav) bottomNav.style.display = 'none';
+        // Animation de la barre de chargement
+        const progressBar = document.querySelector('.loader-progress-bar');
+        if (progressBar) {
+            setTimeout(() => { progressBar.style.width = '100%'; }, 50);
+        }
+
+        // On configure le bouton de connexion
+        document.getElementById('login-btn').addEventListener('click', checkPassword);
+
+        // On écoute aussi la touche "Entrée" pour valider plus vite
+        document.getElementById('password-input').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                checkPassword();
+            }
+        });
+
+        // Fin du chargement
+        setTimeout(() => {
+            const loader = document.getElementById('page-loader');
+            const loginPage = document.getElementById('page-login');
+
+            // On cache le loader (la barre de chargement)
+            loader.classList.remove('active');
+
+            // On s'assure que la page LOGIN est bien affichée
+            // (Comme on n'a plus de vérification de session, c'est toujours Login direct)
+            loginPage.classList.add('active');
+
+        }, 1600);
     }
 
     init();

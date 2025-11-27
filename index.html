@@ -372,8 +372,8 @@
             cursor: pointer;
             position: relative;
     border: 2px solid #ce8e53;
-    background: linear-gradient(#cd935d, #902c00ad);
-    color: black;
+    color: wheat;
+    background: #421d00;
         }
 
         .card-badge {
@@ -414,19 +414,20 @@
 
         .product-card .name {
             font-weight: 500;
-            justify-content: center;
-            display: flex;
-            align-items: center;
-            height: 6vh;
-            text-align: center;
-            font-family: American Typewriter, serif	;
-            font-size: 14px;
-            margin-bottom: 2vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 0vh;
+    text-align: center;
+    font-family: American Typewriter, serif;
+    font-size: 15px;
+    margin-bottom: 1vh;
+    padding: 2vh;
         }
 
         .product-card .farm {
-            color: var(--hint-color);
-            font-size: 0.8rem;
+            color: #ff6a00;
+            font-size: 12px;
             text-align: center;
             border-bottom: 1px solid grey;
             margin-bottom: 5px;
@@ -503,7 +504,7 @@
         .product-details .name {
             font-size: 1.5rem;
             font-weight: 700;
-            font-family: cursive;
+            font-family: Stencil Std, fantasy;
         }
 
         .product-details .farm {
@@ -568,7 +569,7 @@
 
 .jar-select-btn {
     background: var(--tertiary-bg-color);
-    color: var(--hint-color);
+    color: black;
     border: 2px solid var(--tertiary-bg-color);
     padding: 8px 15px;
     border-radius: 10px;
@@ -578,7 +579,7 @@
 }
 
 .jar-select-btn.active {
-    color: var(--text-color);
+    color: white;
     border-color: #dfa171; /* Accent pour montrer la sélection */
 }
 
@@ -641,7 +642,7 @@
 
 /* On s'assure que le texte du bouton reste blanc/foncé */
 .jar-select-btn.jar-pink-lemonade {
-    color: #ff69b4; 
+    color: black;
 }
 .jar-select-btn.jar-pink-lemonade.active {
     color: white; 
@@ -747,7 +748,7 @@
             align-items: center;
             gap: 15px;
             padding: 15px 0;
-            border-bottom: 1px solid var(--tertiary-bg-color);
+            border-bottom: 1px solid #bb4600;
         }
 
         .cart-item img {
@@ -923,7 +924,7 @@
         /* --- AJOUTE CE STYLE POUR LA DESCRIPTION --- */
         .product-description {
             font-size: 0.95rem;
-            color: #ff0000;
+            color: #ffd800;
             margin-top: 15px;
             margin-bottom: 20px;
             line-height: 1.4;
@@ -940,7 +941,7 @@
             display: flex;
             justify-content: center;
             border-radius: 20px;
-            background: linear-gradient(#cd935d, #902c0059);
+            background: linear-gradient(#cd935d, #1d0505c4);
     box-shadow: 0px 0px 5px 1px #ce8e53;
             width: 90%;
             height: 4vh;
@@ -1016,7 +1017,7 @@
         }
 
         .box-tarif .tarif-wieght {
-            border-bottom: 2px solid #6c5a45;
+            border-bottom: 2px solid #362c21;
             width: 80%;
             text-align: center;
             /* margin-bottom: 1vh; */
@@ -1048,8 +1049,8 @@
             height: 15vh;
             width: 15vh;
             margin-bottom: 6vh;
-            border-radius: 50%;
-            box-shadow: 0px 0px 10px 2px red;
+            box-shadow: 0px 0px 10px 6px #633d1f;
+    border-radius: 20px;
             margin-top: 2vh;
         }
 
@@ -1083,8 +1084,8 @@
             height: 15vh;
             width: 15vh;
             margin-bottom: 6vh;
-            border-radius: 25%;
-            box-shadow: 0px 0px 10px 2px #ffe133;
+            border-radius: 20%;
+            box-shadow: 0px 0px 10px 6px #633d1f;
             margin-top: 2vh;
         }
 
@@ -1410,6 +1411,84 @@
     background-color: #0400ff; /* Vert Signal */
     color: #ffffff; 
 }
+
+.contact-link.luffa {
+    background-color: #333333; /* Gris foncé/Noir par défaut */
+    border: 1px solid #dfa171; /* Une petite bordure dorée pour le style */
+    color: #ffffff;
+}
+
+#password-input {
+            width: 100%;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+            border: 1px solid #dfa171;
+            background: #000000d9;
+            color: white;
+            text-align: center;
+            font-size: 1.1rem;
+            box-sizing: border-box;
+        }
+        #password-input:focus {
+            outline: none;
+            box-shadow: 0 0 10px #dfa171;
+        }
+
+/* --- BARRE DE CHARGEMENT --- */
+.loader-progress-container {
+            width: 80%; /* Largeur de la barre par rapport à la box */
+            height: 6px; /* Épaisseur */
+            background-color: rgba(255, 255, 255, 0.1); /* Fond gris sombre */
+            border-radius: 10px;
+            margin-top: 20px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .loader-progress-bar {
+            width: 0%; /* Départ à 0% */
+            height: 100%;
+            /* Dégradé aux couleurs de ton thème */
+            background: linear-gradient(90deg, #dfa171, #ffc885); 
+            border-radius: 10px;
+            /* Animation fluide */
+            transition: width 1.5s ease-in-out;
+            box-shadow: 0 0 10px rgba(223, 161, 113, 0.5);
+        }
+
+        img.mdp-logo {
+    /* border: 1px solid; */
+    height: 25vh;
+    border-radius: 20px;
+    margin: 7vh auto;
+    display: block;
+    box-shadow: 0px 0px 10px 6px #633d1f;
+}
+.MdpPage {
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.info-video-wrapper {
+            width: 100%;
+            border-radius: 20px;
+            overflow: hidden; /* Important pour arrondir les coins de la vidéo */
+            margin-bottom: 2vh; /* Espace sous la vidéo */
+            border: 2px solid #dfa171; /* Bordure dorée */
+            box-shadow: 0 0 15px rgba(223, 161, 113, 0.4); /* Ombre lumineuse */
+            background: black;
+            position: relative;
+        }
+
+        .info-hero-video {
+            width: 100%;
+            height: 25vh; /* Hauteur fixe (ou met 'auto' si tu veux garder le format d'origine) */
+            object-fit: cover; /* La vidéo remplit tout le bloc sans être déformée */
+            display: block;
+        }
     </style>
 </head>
 
@@ -1429,6 +1508,12 @@
     <div id="page-info" class="page">
         <div class="page-content">
             <img src="Logo.jpg" alt="Logo" class="contact-logo">
+
+            <div class="info-video-wrapper">
+                <video autoplay loop muted playsinline class="info-hero-video">
+                    <source src="VideoInfo.mp4" type="video/mp4">
+                </video>
+            </div>
             <div class="contact-card">
 
                 <div class="accordion-container">
@@ -1627,6 +1712,22 @@
             <img src="Logo.jpg" alt="Logo">
             <div class="app-name"> 🦍 SmockyClub 🦍 </div>
             <div class="loading-text">Chargement de SmockyClubBot...</div>
+            <div class="loader-progress-container">
+                <div class="loader-progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="page-login" class="page active" style="z-index: 9999;"> 
+        <div class="loader-box">
+            <img  class="mdp-logo" src="Logo.jpg" alt="Logo">
+            <div class="MdpPage">
+                <div class="app-name">🔐 ACCÈS VIP</div>
+                <input type="password" id="password-input" placeholder="Entrez le mot de passe..." />
+                <button id="login-btn" class="main-action-btn" style="width:100%; margin-top:15px;width: 75%;">ENTRER</button>
+                <p id="login-error" style="color:red; display:none; margin-top:10px;">Mot de passe incorrect ❌</p>
+    
+            </div>
         </div>
     </div>
 
