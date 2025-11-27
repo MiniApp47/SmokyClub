@@ -44,6 +44,34 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'Top',
+                            //  flag: '🇺🇸',
+                            name: 'Top 🇲🇦',
+                            farm: '🧑‍🌾 TERPS FARMS 👨‍🌾',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductTop.png',
+                            videos: [
+                                'Top.mov',      // Vidéo 1
+                                'Top2.mp4'      // Vidéo 2 (ajoute tes fichiers)
+                            ],
+                            description: 'Curing fait maison qualité petant odeur fruités 🍑🍌prix imbattable ✅',
+                            tarifs: [
+                                { weight: '10g', price: 60.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 300.00 },
+                                // priver
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                            // 👇 AJOUT DES VARIANTES ICI
+                            variantTitle: 'Sélectionner la filtration :', // Titre personnalisé
+                            jars: [
+                                { name: '90u', emoji: '🥇', colorClass: 'variant-90u' },
+                                { name: '120u', emoji: '🥈', colorClass: 'variant-120u' },
+                                { name: '160u', emoji: '🥉', colorClass: 'variant-160u' }
+                            ]
+                        },
+                        {
                             id: 'TropCookies',
                             flag: '🇲🇦',
                             name: 'Trop Cookies 🍪',
@@ -402,34 +430,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                        {
-                            id: 'Top',
-                            //  flag: '🇺🇸',
-                            name: 'Top 🇲🇦',
-                            farm: '🧑‍🌾 TERPS FARMS 👨‍🌾',
-                            promoEligible: true,
-                            type: 'Wpff',
-                            image: 'ProductTop.png',
-                            videos: [
-                                'Top.mov',      // Vidéo 1
-                                'Top2.mp4'      // Vidéo 2 (ajoute tes fichiers)
-                            ],
-                            description: 'Curing fait maison qualité petant odeur fruités 🍑🍌prix imbattable ✅',
-                            tarifs: [
-                                { weight: '10g', price: 60.00 },
-                                { weight: '25g', price: 150.00 },
-                                { weight: '50g', price: 300.00 },
-                                // priver
-                                { weight: '100g', price: 0, private: true },
-                            ],
-                            // 👇 AJOUT DES VARIANTES ICI
-                            variantTitle: 'Sélectionner la filtration :', // Titre personnalisé
-                            jars: [
-                                { name: '90u', emoji: '🥇', colorClass: 'variant-90u' },
-                                { name: '120u', emoji: '🥈', colorClass: 'variant-120u' },
-                                { name: '160u', emoji: '🥉', colorClass: 'variant-160u' }
-                            ]
-                        }
+                        
                     ]
                 }
 
@@ -520,7 +521,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductBoliv.png',
-                            video: 'ProductBoliv.mov',
+                            video: 'Boliv.mov',
                             description: 'Odeur qui fouette 🧟qui débouche le nez 👃 tu risque de passé un bon voyage 🛫',
                             tarifs: [
                                 { weight: '1g', price: 60.00 },
@@ -1840,4 +1841,29 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     init();
+    // --- GESTION DU CLAVIER MOBILE (Cacher la navbar) ---
+    const allInputs = document.querySelectorAll('input'); // Sélectionne tous les champs de texte
+    const navBarMobile = document.querySelector('.bottom-nav');
+
+    allInputs.forEach(input => {
+        // Quand on clique pour écrire (Le clavier s'ouvre)
+        input.addEventListener('focus', () => {
+            if (navBarMobile) {
+                navBarMobile.style.display = 'none'; // On cache la barre
+            }
+        });
+
+        // Quand on a fini d'écrire (Le clavier se ferme)
+        input.addEventListener('blur', () => {
+            // On vérifie qu'on n'est pas sur la page de Login (car sur login, la barre doit rester cachée)
+            const isLoginPageOpen = document.getElementById('page-login').classList.contains('active');
+            
+            if (navBarMobile && !isLoginPageOpen) {
+                // Petit délai pour éviter les sauts d'image brutaux
+                setTimeout(() => {
+                    navBarMobile.style.display = 'flex'; // On réaffiche la barre
+                }, 100);
+            }
+        });
+    });
 });

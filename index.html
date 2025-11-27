@@ -216,7 +216,9 @@
             /*    margin-left: 8vh;
              border-left: 1px solid grey; */
             width: 100%;
-            text-align: center;
+            display: flex;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(45deg, black, transparent);
         }
 
@@ -447,7 +449,7 @@
         }
 
         /* Barre de navigation en bas */
-        .bottom-nav {
+        /* .bottom-nav {
             position: fixed;
             bottom: 0;
             left: 0;
@@ -469,7 +471,6 @@
             font-size: 0.7rem;
             background: #8080807d;
             border-radius: 20px;
-            /* height: 5vh; */
             width: 12vh;
             color: #3e1300;
     padding: 1vh;
@@ -485,6 +486,110 @@
 
         .nav-item svg {
             margin-bottom: 5px;
+        } */
+
+
+        /* --- BARRE DE NAVIGATION STYLE "APP" --- */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 8vh;            
+            background: rgba(28, 28, 29, 0.95); /* Fond sombre quasi opaque */
+            backdrop-filter: blur(20px); /* Effet flou style iOS */
+            -webkit-backdrop-filter: blur(20px);
+            display: flex;
+            justify-content: space-around; /* Espacement égal */
+            align-items: center; /* Centrer verticalement */
+            border-top: 1px solid rgba(255, 255, 255, 0.1); /* Fine ligne de séparation */
+            z-index: 1000;
+        }
+
+        .nav-item {
+            background: none; /* Pas de fond */
+            border: none; /* Pas de bordure */
+            box-shadow: none; /* Pas d'ombre */
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column; /* Icône en haut, texte en bas */
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            cursor: pointer;
+            transition: transform 0.1s ease;
+            color: grey;
+        }
+
+        .nav-item:active {
+            transform: scale(0.9); /* Petit effet de clic */
+        }
+
+        /* Style de l'icône */
+        .nav-item svg {
+            width: 26px;
+            height: 26px;
+            margin-bottom: 4px;
+            stroke: #8e8e93; /* Gris inactif */
+            stroke-width: 2;
+            fill: none; /* Important pour que le trait soit net */
+            transition: stroke 0.3s ease;
+        }
+
+        /* Style du texte */
+        .nav-item span {
+            font-size: 10px;
+            font-weight: 500;
+            color: #8e8e93; /* Gris inactif */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            transition: color 0.3s ease;
+            font-size:20px;
+
+        }
+
+        .nav-emoji {
+            font-size: 24px; /* Taille de l'emoji */
+            margin-bottom: 4px;
+            line-height: 1;
+            /* L'emoji a ses propres couleurs, on peut ajouter un filtre si besoin */
+            filter: grayscale(100%); /* Optionnel : rend l'emoji gris quand inactif */
+            opacity: 0.6; /* Un peu transparent quand inactif */
+            transition: all 0.3s ease;
+
+        }
+
+        /* Style du Texte */
+        .nav-label {
+            font-size: 10px;
+            font-weight: 500;
+            color: #8e8e93; /* Gris inactif */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            transition: color 0.3s ease;
+        }
+
+        /* --- ÉTAT ACTIF --- */
+        .nav-item.active .nav-emoji {
+            filter: grayscale(0%); /* On remet les couleurs d'origine */
+            opacity: 1; /* Pleine opacité */
+            transform: scale(1.1); /* Petit zoom */
+        }
+
+        .nav-item.active .nav-label {
+            color: #dfa171; /* Ta couleur Dorée */
+            font-weight: 600;
+        }
+
+        /* --- ÉTAT ACTIF (Quand on est sur la page) --- */
+        .nav-item.active  {
+            color: #dfa171;
+                        /* Si tu veux que l'icône soit remplie quand active, décommente la ligne dessous : */
+            /* fill: #dfa171; */
+        }
+
+        .nav-item.active span {
+            color: #dfa171; /* Ta couleur Dorée */
+            font-weight: 600;
         }
 
         /* Page Produit */
@@ -502,7 +607,7 @@
         }
 
         .product-details .name {
-            font-size: 1.5rem;
+            font-size: 22px;
             font-weight: 700;
             font-family: Stencil Std, fantasy;
         }
@@ -549,7 +654,6 @@
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-    margin-bottom: 20px;
 }
 
 .jar-title {
@@ -562,9 +666,9 @@
 
 .jar-divider {
     border: none;
-    height: 1px;
+   /*  height: 1px;
     background-color: var(--tertiary-bg-color);
-    margin: 20px 0;
+    margin: 20px 0; */
 }
 
 .jar-select-btn {
@@ -948,56 +1052,61 @@
         }
 
         /* --- NOUVEAU STYLE POUR LA NOTIFICATION --- */
-        #notification-toast {
+      /* --- NOTIFICATION EN HAUT DE L'ÉCRAN --- */
+      #notification-toast {
             visibility: hidden;
-            /* Caché par défaut */
             min-width: 250px;
-            background-color: #e9812f9e;
+            background-color: #e9812f9e; /* Ta couleur orange */
             color: #fff;
             text-align: center;
             border-radius: 10px;
             padding: 16px;
             position: fixed;
-            z-index: 101;
-            /* Au-dessus de tout */
+            z-index: 10000; /* Très haut pour passer au-dessus de tout */
             left: 50%;
             transform: translateX(-50%);
-            bottom: 30px;
+            
+            /* 👇 C'EST ICI QUE ÇA CHANGE 👇 */
+            top: 60px; /* On le place en haut (60px pour ne pas coller au bord) */
+            bottom: auto; /* On annule le bas */
+            
             font-size: 1rem;
             font-weight: 500;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-            transition: visibility 0.5s, opacity 0.5s, transform 0.5s;
+            /* Ajout d'un flou pour le style */
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
         }
 
         #notification-toast.show {
             visibility: visible;
-            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+            /* On change les noms des animations */
+            animation: slideDownIn 0.5s, slideUpOut 0.5s 2.5s;
         }
 
-        @keyframes fadein {
+        /* 👇 NOUVELLE ANIMATION D'ENTRÉE (Glisse vers le bas) 👇 */
+        @keyframes slideDownIn {
             from {
-                bottom: 0;
+                top: 0; /* Part du tout haut */
                 opacity: 0;
             }
-
             to {
-                bottom: 30px;
+                top: 60px; /* Arrive à sa place */
                 opacity: 1;
             }
         }
 
-        @keyframes fadeout {
+        /* 👇 NOUVELLE ANIMATION DE SORTIE (Remonte vers le haut) 👇 */
+        @keyframes slideUpOut {
             from {
-                bottom: 30px;
+                top: 60px;
                 opacity: 1;
             }
-
             to {
-                bottom: 0;
+                top: 0; /* Repart vers le haut */
                 opacity: 0;
             }
         }
-
 
         .instagram-button {
             background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
@@ -1878,22 +1987,16 @@
 
     <div class="bottom-nav">
         <button id="nav-menu" data-page="page-home" class="nav-item active">
-            <svg width="20" height="20">
-                <use href="#icon-home" />
-            </svg>
+            <span class="nav-emoji">🏠</span>
             <p style="
             margin: inherit;"> HOME </p>
         </button>
         <button id="nav-info" data-page="page-info" class="nav-item">
-            <svg width="20" height="20">
-                <use href="#icon-info" />
-            </svg>
+            <span class="nav-emoji">ℹ️</span>
             <p style="margin: inherit;"> INFO </p>
         </button>
         <button id="nav-contact" data-page="page-contact" class="nav-item">
-            <svg width="20" height="20">
-                <use href="#icon-link" />
-            </svg>
+            <span class="nav-emoji">🔗</span>
             <p style="
             margin: inherit;"> LINKS </p>
         </button>
