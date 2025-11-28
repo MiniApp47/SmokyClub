@@ -9,19 +9,19 @@ document.addEventListener('DOMContentLoaded', function () {
     // --- CONFIGURATION DES LIENS DE CONTACT ---
     const contactLinks = [
         // 1. Signal
-        { name: 'Signal', url: 'https://signal.me/#eu/TON_NUMERO_OU_LIEN', icon: '#icon-signal', id: 'signal', className: 'signal', text: "Signal" },
+        { name: 'Signal', url: 'https://signal.me/#eu/cGyHSl-fwhtln4lCHOaNAs7NrGkLXlORDXUH-0QwX31IRo0WPUBCSozpiQ0UiHwO', icon: '#icon-signal', id: 'signal', className: 'signal', text: "Signal" },
         
         // 2. LUFFA (J'ai mis l'icone link par défaut, change si tu as un svg luffa)
-        { name: 'LUFFA', url: 'TON_LIEN_LUFFA', icon: '#icon-link', id: 'luffa', className: 'luffa', text: "LUFFA" },
+        { name: 'LUFFA', url: 'https://callup.luffa.im/c/PLdPzCbPcGE', icon: '#icon-link', id: 'luffa', className: 'luffa', text: "LUFFA" },
         
         // 3. Potato Principale
-        { name: 'Potato Main', url: 'https://dympt.org/TON_ID_PRINCIPAL', icon: '#icon-potato', id: 'potato-main', className: 'potato', text: "Potato Principale" },
+        { name: 'Potato Main', url: 'https://dympt.org/smockyclubofficial', icon: '#icon-potato', id: 'potato-main', className: 'potato', text: "Potato Principale" },
         
         // 4. Potato Secours
-        { name: 'Potato Back', url: 'https://dympt.org/TON_ID_SECOURS', icon: '#icon-potato', id: 'potato-backup', className: 'potato', text: "Potato Secours" },
+        { name: 'Potato Back', url: 'https://dympt.org/smockyclubofficial6768', icon: '#icon-potato', id: 'potato-backup', className: 'potato', text: "Potato Secours" },
         
         // 5. Instagram
-        { name: 'Instagram', url: 'https://instagram.com/TON_INSTAGRAM', icon: '#icon-instagram', id: 'instagram', className: 'instagram', text: "Instagram" }
+        { name: 'Instagram', url: 'https://www.instagram.com/smockyclub_off6768?igsh=MWs1NnF6dXh6MWg3YQ%3D%3D&utm_source=qr', icon: '#icon-instagram', id: 'instagram', className: 'instagram', text: "Instagram" }
     ];
 
     // --- DONNÉES DE L'APPLICATION (NOUVELLE STRUCTURE) ---
@@ -332,6 +332,30 @@ document.addEventListener('DOMContentLoaded', function () {
                                 //priver
                                 { weight: '56g', price: 0, private: true },
                             ]
+                        },
+                        {
+                            id: 'FrozenSift',
+                            name: 'FROZEN SIFT 🧊🍧',
+                            farm: 'CALI PLATES FROZEN 🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash Americain',
+                            image: 'ProductCaliSift.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoCaliSift.mp4',      // Idem pour la vidéo
+                            description: 'On vous a ramené une pépite que vous connaissez tous ! 🌟\nVous l’avez vu au menu sous toutes ses formes...\nMaintenant le Frozen Tier 👀🧊\n\nVraiment goût 👅 de Cali USA 🇺🇸 imposant.\nProduit Gazzy ⛽, curage fait maison 🏠.\n\nÀ ne pas louper pour les amateurs de USA 🇺🇸',
+                            tarifs: [
+                                { weight: '10g', price: 300.00 },
+                                { weight: '25g', price: 650.00 },
+                                { weight: '50g', price: 1300.00 },
+                                { weight: '100g', price: 2300.00 },
+                            ],
+                            // 👇 TITRE PERSONNALISÉ
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'TRIANGLE KUSH', emoji: '⚡️🫀', colorClass: 'frozen-triangle' },
+                                { name: 'MOON BOOTS', emoji: '🍯👑', colorClass: 'frozen-moon' },
+                                { name: 'HI OCTANE', emoji: '🥵🔱', colorClass: 'frozen-octane' },
+                                { name: 'WHITE RUNTZ', emoji: '🇺🇸', colorClass: 'frozen-runtz' },
+                            ]
                         }
                     ]
                 }
@@ -460,7 +484,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             promoEligible: true,
                             type: 'Wpff',
                             image: 'ProductWpff.png',
-                            video: 'WpffExctract.mov',
+                            videos: [
+                                'WpffExctract.mov',      // Vidéo 1
+                                'WpffExctract2.mov'      // Vidéo 2 (ajoute tes fichiers)
+                            ],
                             description: 'WPFF EXTRACT ⚡️⭐️⭐️ \n\n Un curing fait maison 🏠 une couleur mielleuse 🍯🍯un goût 👅 full terpène usa 🇺🇸 \n Blanc de blanc 🥵🍾',
                             tarifs: [
                                 { weight: '2,5g', price: 80.00 },
@@ -1045,9 +1072,13 @@ document.addEventListener('DOMContentLoaded', function () {
                     'jar-sour-diesel', 
                     'jar-peach-rings', 
                     'jar-banana-junk',
-                    'variant-90u',   // <-- Ajout
-                    'variant-120u',  // <-- Ajout
-                    'variant-160u'   // <-- Ajout
+                    'variant-90u',   
+                    'variant-120u',  
+                    'variant-160u',
+                    'frozen-triangle',
+                    'frozen-moon',
+                    'frozen-octane',
+                    'frozen-runtz' 
                 );
                 item.classList.add(selectedJar.colorClass);
             });
@@ -1621,7 +1652,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Supprimer toutes les classes de jar existantes
                 item.classList.remove('jar-nana-junk', 'jar-pink-lemonade', 'jar-sour-diesel', 'jar-peach-rings', 'jar-banana-junk','variant-90u',   // <-- Ajout indispensable
                 'variant-120u',  // <-- Ajout indispensable
-                'variant-160u');
+                'variant-160u',
+                'frozen-triangle',
+                    'frozen-moon',
+                    'frozen-octane',
+                    'frozen-runtz');
                 // Ajouter la nouvelle
                 item.classList.add(newJarClass);
 
@@ -1668,7 +1703,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Option 1 : Rediriger vers la page LINKS de l'app
             // renderContactPage();
             //showPage('page-contact');
-            tg.openTelegramLink('https://t.me/smockyclubofficial6')
+            tg.openTelegramLink('https://t.me/welcometosmocky67')
             // Option 2 (Alternative) : Ouvrir direct ton Telegram personnel
             // tg.openTelegramLink('https://t.me/TON_PSEUDO');
 
@@ -1737,7 +1772,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (target.closest('#confirm-order-button')) {
 
             // 1. TON PSEUDO TELEGRAM
-            const targetUsername = 'smockyclubofficial6';
+            const targetUsername = 'welcometosmocky67';
 
             // 2. On prépare le message
             let message = formatOrderMessage();
@@ -1758,7 +1793,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // --- GESTION DU MOT DE PASSE (SHA-256) ---
 
     // 👇 METS LE HASH QUE TU AS GÉNÉRÉ À L'ÉTAPE 1 ICI 👇
-    const SECRET_HASH = "1cf6279621ebe51faf010b35e8822f45e2736ea3f1da539d9873ff6e801e12bb";
+    const SECRET_HASH = "25647774d99646a11db48a3053755b1ffaba7a7384baac7a654dd39d8d8d9711";
 
     // Fonction technique pour hasher du texte (ne pas toucher)
     async function sha256(message) {
