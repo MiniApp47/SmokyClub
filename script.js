@@ -96,7 +96,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: '⛰️  MOUNTAIN GIANTS ⛰️',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductForbiden.png',
+                            image: 'Rupture.png',
+                            clickable: false, 
                             video: 'Forbiden.mp4',
                             description: 'STATIC SIFT ⚡️⚡️⚡️ \n\n Curage fait maison 🏠,🍯produit gazzy 🥵salade de fruit 🍇 en bouche 👄 \n Un délice 👄 ',
                             tarifs: [
@@ -322,7 +323,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: '🧤STATIC ROOM 🧤',
                             promoEligible: true,
                             type: 'Hash Americain',
-                            image: 'ProductHoneyPop.png',
+                            image: 'Rupture.png',
+                            clickable: false, 
                             video: 'StaticRooms.mp4',
                             description: 'Static room curage fait maison 🏠 ✅a fait fort cette année avec le dry qui a rien avoir avec du dry mieux que vos Frozen et vos Static du moment 🥵🍯',
                             tarifs: [
@@ -385,7 +387,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: '🧙 WIZARD THREES 🧙',
                             promoEligible: true,
                             type: 'Weed',
-                            image: 'ProductCali.png',
+                            image: 'Rupture.png',
+                            clickable: false, 
                             video: 'Cali.mov',
                             description: 'Tout droit venu los angeles 🇺🇸bocaux scellé 3,5g ®️✅gazzy 🇺🇸😉',
                             tarifs: [
@@ -483,7 +486,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: '🧑‍🌾 TERPS FARMS 👨‍🌾',
                             promoEligible: true,
                             type: 'Wpff',
-                            image: 'ProductWpff.png',
+                            image: 'Rupture.png',
+                            clickable: false, 
                             videos: [
                                 'WpffExctract.mov',      // Vidéo 1
                                 'WpffExctract2.mov'      // Vidéo 2 (ajoute tes fichiers)
