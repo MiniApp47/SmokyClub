@@ -1797,7 +1797,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // --- GESTION DU MOT DE PASSE (SHA-256) ---
 
     // 👇 METS LE HASH QUE TU AS GÉNÉRÉ À L'ÉTAPE 1 ICI 👇
-    const SECRET_HASH = "25647774d99646a11db48a3053755b1ffaba7a7384baac7a654dd39d8d8d9711";
+    const SECRET_HASH = "9055d6d01ed318d08a51db5253a26f6ac0d33cb93383bdcfaefa2bfd7d2e9302";
 
     // Fonction technique pour hasher du texte (ne pas toucher)
     async function sha256(message) {
