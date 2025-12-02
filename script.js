@@ -397,6 +397,51 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '14g', price: 610.00 },
                             ]
                         },
+                        {
+                            id: 'CALISUNSET',
+                            flag: '🇺🇸',
+                            name: 'SUNSET SHERBET 🍋🍋‍🟩',
+                            farm: '🧙 WIZARD THREES 🧙',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductSunsetBiscotti.png',
+                            // clickable: false, 
+                            videos: [
+                                'VideoSunsetBiscotti.mp4',      // Vidéo 1
+                                'VideoSunsetBiscotti.mov'      // Vidéo 2 (ajoute tes fichiers)
+                            ],
+                            description: 'On vous a ramené 2 Cali usa 🇺🇸 top shelf goût GAZZY 🇺🇸odeur GAZZY 🇺🇸',
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 450.00 },
+                                { weight: '100g', price: 850.00 },
+
+                            ]
+                        },
+                        {
+                            id: 'CALIBISCOTTI',
+                            flag: '🇺🇸',
+                            name: 'BISCOTTI RUNTZ 🫀🇺🇸',
+                            farm: '🧙 TOP SHELF  🧙',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductSunsetBiscotti.png',
+                            // clickable: false, 
+                            videos: [
+                                'VideoSunsetBiscotti.mp4',      // Vidéo 1
+                                'VideoSunsetBiscotti.mov'      // Vidéo 2 (ajoute tes fichiers)
+                            ],
+                            description: 'On vous a ramené 2 Cali usa 🇺🇸 top shelf goût GAZZY 🇺🇸odeur GAZZY 🇺🇸',
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 450.00 },
+                                { weight: '100g', price: 850.00 },
+                            ]
+                        }
 
                     ]
                 }]
