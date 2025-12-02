@@ -424,7 +424,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: '🧙 TOP SHELF  🧙',
                             promoEligible: true,
                             type: 'Weed',
-                            image: 'ProductSunsetBiscotti.png',
+                            image: 'ProductBiscotti.png',
                             // clickable: false, 
                             video : 'VideoSunsetBiscotti.mov',     // Vidéo 2 (ajoute tes fichiers)
                             description: 'On vous a ramené 2 Cali usa 🇺🇸 top shelf goût GAZZY 🇺🇸odeur GAZZY 🇺🇸',
