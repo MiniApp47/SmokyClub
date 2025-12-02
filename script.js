@@ -406,10 +406,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             type: 'Weed',
                             image: 'ProductSunsetBiscotti.png',
                             // clickable: false, 
-                            videos: [
-                                'VideoSunsetBiscotti.mp4',      // Vidéo 1
-                                'VideoSunsetBiscotti.mov'      // Vidéo 2 (ajoute tes fichiers)
-                            ],
+                            video:  'VideoSunsetBiscotti.mp4',      // Vidéo 1
                             description: 'On vous a ramené 2 Cali usa 🇺🇸 top shelf goût GAZZY 🇺🇸odeur GAZZY 🇺🇸',
                             tarifs: [
                                 { weight: '5g', price: 60.00 },
@@ -429,10 +426,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             type: 'Weed',
                             image: 'ProductSunsetBiscotti.png',
                             // clickable: false, 
-                            videos: [
-                                'VideoSunsetBiscotti.mp4',      // Vidéo 1
-                                'VideoSunsetBiscotti.mov'      // Vidéo 2 (ajoute tes fichiers)
-                            ],
+                            video : 'VideoSunsetBiscotti.mov',     // Vidéo 2 (ajoute tes fichiers)
                             description: 'On vous a ramené 2 Cali usa 🇺🇸 top shelf goût GAZZY 🇺🇸odeur GAZZY 🇺🇸',
                             tarifs: [
                                 { weight: '5g', price: 60.00 },
