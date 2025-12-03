@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         },
-                        {
+                      /*   {
                             id: 'Forbiden',
                             flag: '🇲🇦',
                             name: 'Forbiden 🍉 Cocktail 🍹',
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 110.00 },
                                 { weight: '10g', price: 220.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: 'MorrocoPeach',
                             flag: '🇲🇦',
@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         },
-                        {
+                      /*   {
                             id: 'StaticPlasma',
                             flag: '🇲🇦',
                             name: 'STATIC PLASMA ⚡️🍯',
@@ -217,8 +217,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 140.00 },
                                 { weight: '10g', price: 270.00 },
                             ]
-                        },
-                        {
+                        }, */
+                      /*   {
                             id: 'OrangeGroovy',
                             flag: '🇲🇦',
                             name: 'ORANGE 🍊 GROOVY 🐯',
@@ -238,8 +238,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 0, private: true },
 
                             ]
-                        },
-                        {
+                        }, */
+             /*            {
                             id: 'CandyCane',
                             flag: '🇲🇦',
                             name: 'CANDY CANE 🍫🍭',
@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 0, private: true },
 
                             ]
-                        },
+                        }, */
                         {
                             id: 'Limonade',
                             flag: '🇲🇦',
@@ -298,7 +298,7 @@ document.addEventListener('DOMContentLoaded', function () {
                          image: 'Wizard4.png', // Mets une image de farm si tu veux
                          badgeText: '2 produits', */
                     products: [
-                        {
+                    /*     {
                             id: 'RUNTZ',
                             flag: '🇺🇸',
                             name: 'RUNTZ ®️🇺🇸',
@@ -315,8 +315,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 //priver
                                 { weight: '56g', price: 0, private: true },
                             ]
-                        },
-                        {
+                        }, */
+                      /*   {
                             id: 'HONEY',
                             flag: '🇺🇸',
                             name: 'HONEY POP ®️🇺🇸',
@@ -334,7 +334,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 //priver
                                 { weight: '56g', price: 0, private: true },
                             ]
-                        },
+                        }, */
                         {
                             id: 'FrozenSift',
                             name: 'FROZEN SIFT 🧊🍧',
@@ -380,7 +380,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '0 produits',
                     clickable: false,  */
                     products: [
-                        {
+                       /*  {
                             id: 'CALIUSA',
                             flag: '🇺🇸',
                             name: 'CALI USA 🌪',
@@ -396,7 +396,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '7g', price: 280.00 },
                                 { weight: '14g', price: 610.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: 'CALISUNSET',
                             flag: '🇺🇸',
@@ -456,7 +456,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                        {
+                      /*   {
                             id: 'AMNESIAHAZE',
                             flag: '🇳🇱',
                             name: 'AMNESIA HAZE 🍃',
@@ -474,7 +474,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 //modif prive
                                 { weight: '100g', price: 0, private: true },
                             ]
-                        }
+                        } */
                     ]
                 }
 
@@ -518,7 +518,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                        {
+                       /*  {
                             id: 'wpff',
                             //  flag: '🇺🇸',
                             name: 'GMO X  RUNTZ 🍯®️',
@@ -538,7 +538,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 320.00 },
                                 { weight: '25g', price: 780.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: 'Jaar',
                             //  flag: '🇺🇸',
