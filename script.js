@@ -44,6 +44,61 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'Frozen',
+                            name: 'FROZEN 🧊🧊',
+                            farm: '⭐️ NO FARM',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductFrozen.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoFrozen.mp4',      // Idem pour la vidéo
+                            description: 'Curing fait maison 🏠 odeur fruités tu retrouve une salade de fruit🥗 le bordel 🍑🍌🍓🍉🍋 imposante surtout pour le prix 🥇',
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 240.00 },
+                                { weight: '50g', price: 350.00 },
+                                { weight: '100g', price: 700.00 },
+
+                            ],
+                            // 👇 TITRE PERSONNALISÉ
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'TRAPE GRAPE', emoji: '⛽️🍇', colorClass: 'frozen-trape' },
+                                { name: 'ORANGE COOKIES', emoji: '🍊🍪', colorClass: 'frozen-cookie' },
+                                { name: 'LEMON BEAM X TROP CHERRY', emoji: '🍋🏝️🍒', colorClass: 'frozen-chery' },
+                                { name: 'SUNDAE DRIVER', emoji: '🍨🏎️', colorClass: 'frozen-driver' },
+                                { name: 'TROPICAL OREOZ', emoji: '🏝️🍩', colorClass: 'frozen-tropical' },
+                            ]
+                        },
+                        {
+                            id: 'Premium',
+                            name: '⭐️⭐️ Premium ⭐️⭐️',
+                            farm: '⭐️ NO FARM',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductPremium.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoPremium.mp4',      // Idem pour la vidéo
+                            description: 'Curing fait maison 🏠 Frozen PREMIUM \n blanc de blanc ⭐️odeur de Cali 🇺🇸\n odeur imposante 😈',
+                            tarifs: [
+                                { weight: '2,5g', price: 30.00 },
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 400.00 },
+                                { weight: '100g', price: 800.00 },
+                            ],
+                            // 👇 TITRE PERSONNALISÉ
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'MOROCCO PEACHES PREMIUM', emoji: '🇲🇦🍑', colorClass: 'frozen-peach' },
+                                { name: 'TROPCHERRY X YELLOW', emoji: '🏝️🍒🍈', colorClass: 'frozen-yellow' },
+                                { name: 'MEATORANGE', emoji: '☄️🍊', colorClass: 'frozen-meat' },
+                                { name: 'TRAP Z', emoji: '🍇🍭', colorClass: 'frozen-trap' },
+                                { name: 'GASMINT X FF', emoji: '💨🍋🍏🍎', colorClass: 'frozen-ff' },
+
+                            ]
+                        },
+                        {
                             id: 'Top',
                             //  flag: '🇺🇸',
                             name: 'Top 🇲🇦',
@@ -75,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'GMO',
                             flag: '🇲🇦',
                             name: 'GMO 🧅',
-                            farm: ' ⭐️ ANONYMUZ FARMZ ⭐️',
+                            farm: ' ⭐️ NO FARM ',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductGmo.png',
@@ -318,61 +373,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'MOON BOOTS', emoji: '🍯👑', colorClass: 'frozen-moon' },
                                 { name: 'HI OCTANE', emoji: '🥵🔱', colorClass: 'frozen-octane' },
                                 { name: 'WHITE RUNTZ', emoji: '🇺🇸', colorClass: 'frozen-runtz' },
-                            ]
-                        },
-                        {
-                            id: 'Frozen',
-                            name: 'FROZEN 🧊🧊',
-                            farm: 'CALI PLATES FROZEN 🇺🇸',
-                            promoEligible: true,
-                            type: 'Hash Americain',
-                            image: 'ProductFrozen.png', // Pense à changer l'image si tu en as une nouvelle
-                            video: 'VideoFrozen.mp4',      // Idem pour la vidéo
-                            description: 'Curing fait maison 🏠 odeur fruités tu retrouve une salade de fruit🥗 le bordel 🍑🍌🍓🍉🍋 imposante surtout pour le prix 🥇',
-                            tarifs: [
-                                { weight: '5g', price: 50.00 },
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 240.00 },
-                                { weight: '50g', price: 350.00 },
-                                { weight: '100g', price: 700.00 },
-
-                            ],
-                            // 👇 TITRE PERSONNALISÉ
-                            variantTitle: 'Sélectionner la variété 🍧 :', 
-                            jars: [
-                                { name: 'TRAPE GRAPE', emoji: '⛽️🍇', colorClass: 'frozen-trape' },
-                                { name: 'ORANGE COOKIES', emoji: '🍊🍪', colorClass: 'frozen-cookie' },
-                                { name: 'LEMON BEAM X TROP CHERRY', emoji: '🍋🏝️🍒', colorClass: 'frozen-chery' },
-                                { name: 'SUNDAE DRIVER', emoji: '🍨🏎️', colorClass: 'frozen-driver' },
-                                { name: 'TROPICAL OREOZ', emoji: '🏝️🍩', colorClass: 'frozen-tropical' },
-                            ]
-                        },
-                        {
-                            id: 'Premium',
-                            name: '⭐️⭐️ Premium ⭐️⭐️',
-                            farm: 'CALI PLATES FROZEN 🇺🇸',
-                            promoEligible: true,
-                            type: 'Hash Americain',
-                            image: 'ProductPremium.png', // Pense à changer l'image si tu en as une nouvelle
-                            video: 'VideoPremium.mp4',      // Idem pour la vidéo
-                            description: 'Curing fait maison 🏠 Frozen PREMIUM \n blanc de blanc ⭐️odeur de Cali 🇺🇸\n odeur imposante 😈',
-                            tarifs: [
-                                { weight: '2,5g', price: 30.00 },
-                                { weight: '5g', price: 60.00 },
-                                { weight: '10g', price: 120.00 },
-                                { weight: '25g', price: 300.00 },
-                                { weight: '50g', price: 400.00 },
-                                { weight: '100g', price: 800.00 },
-                            ],
-                            // 👇 TITRE PERSONNALISÉ
-                            variantTitle: 'Sélectionner la variété 🍧 :', 
-                            jars: [
-                                { name: 'MOROCCO PEACHES PREMIUM', emoji: '🇲🇦🍑', colorClass: 'frozen-peach' },
-                                { name: 'TROPCHERRY X YELLOW', emoji: '🏝️🍒🍈', colorClass: 'frozen-yellow' },
-                                { name: 'MEATORANGE', emoji: '☄️🍊', colorClass: 'frozen-meat' },
-                                { name: 'TRAP Z', emoji: '🍇🍭', colorClass: 'frozen-trap' },
-                                { name: 'GASMINT X FF', emoji: '💨🍋🍏🍎', colorClass: 'frozen-ff' },
-
                             ]
                         }
                     ]
