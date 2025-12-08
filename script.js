@@ -45,8 +45,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     products: [
                         {
                             id: 'Frozen',
+                            flag: '🇲🇦',
                             name: 'FROZEN 🧊🧊',
-                            farm: '⭐️ NO FARM',
+                            farm: '⭐️ STREET FARM FROZEN ⭐️',
                             promoEligible: true,
                             type: 'Hash Marocain',
                             image: 'ProductFrozen.png', // Pense à changer l'image si tu en as une nouvelle
@@ -72,12 +73,13 @@ document.addEventListener('DOMContentLoaded', function () {
                         },
                         {
                             id: 'Premium',
+                            flag: '🇲🇦',
                             name: '⭐️⭐️ Premium ⭐️⭐️',
-                            farm: '⭐️ NO FARM',
+                            farm: '⭐️ STREET FARM FROZEN ⭐️',
                             promoEligible: true,
                             type: 'Hash Marocain',
                             image: 'ProductPremium.png', // Pense à changer l'image si tu en as une nouvelle
-                            video: 'VideoPremium.mp4',      // Idem pour la vidéo
+                            video: 'VideoPremium.mov',      // Idem pour la vidéo
                             description: 'Curing fait maison 🏠 Frozen PREMIUM \n blanc de blanc ⭐️odeur de Cali 🇺🇸\n odeur imposante 😈',
                             tarifs: [
                                 { weight: '2,5g', price: 30.00 },
@@ -100,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         },
                         {
                             id: 'Top',
-                            //  flag: '🇺🇸',
+                            flag: '🇲🇦',
                             name: 'Top 🇲🇦',
                             farm: '🧑‍🌾 TERPS FARMS 👨‍🌾',
                             promoEligible: true,
@@ -160,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 230.00 },
                             ]
                         },
-                        {
+                        /* {
                             id: 'TropCookies',
                             flag: '🇲🇦',
                             name: 'Trop Cookies 🍪',
@@ -218,8 +220,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 0, private: true },
 
                             ]
-                        },
-                        {
+                        }, */
+                   /*      {
                             id: 'LemonSlice',
                             flag: '🇲🇦',
                             name: 'Lemon Slice 🍋🍋‍🟩',
@@ -236,7 +238,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 280.00 },
 
                             ]
-                        },
+                        }, */
                         {
                             id: 'BlueZushi',
                             flag: '🇲🇦',
@@ -256,7 +258,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         },
-                        {
+                       /*  {
                             id: 'COOKIES',
                             flag: '🇲🇦',
                             name: 'COOKIES 🍪',
@@ -291,7 +293,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 // a remplacer par priver
                                 { weight: '100g', price: 0, private: true },
                             ]
-                        }
+                        } */
                     ]
                 }
 
@@ -314,24 +316,25 @@ document.addEventListener('DOMContentLoaded', function () {
                          image: 'Wizard4.png', // Mets une image de farm si tu veux
                          badgeText: '2 produits', */
                     products: [
-                    /*     {
-                            id: 'RUNTZ',
+                        {
+                            id: 'MINTS',
                             flag: '🇺🇸',
-                            name: 'RUNTZ ®️🇺🇸',
-                            farm: '🧤STATIC ROOM 🧤',
+                            name: 'MINTS MILANO 🇮🇹⭐️',
+                            farm: 'CALITE FARMS ⚡️🦍',
                             promoEligible: true,
                             type: 'Hash Americain',
-                            image: 'ProductRuntz.png',
-                            video: 'StaticRooms.mp4',
-                            description: 'Static room curage fait maison 🏠 ✅a fait fort cette année avec le dry qui a rien avoir avec du dry mieux que vos Frozen et vos Static du moment 🥵🍯',
+                            image: 'ProductMints.png',
+                            videos: [ 
+                                'VideoMints.mp4',
+                                'VideoMints2.mov'
+                            ],
+                            description: 'On vous a ramener une pépite avec un goût 👅 de Cali 🇺🇸 imposante un délice crémeux ⚡️🥇',
                             tarifs: [
-                                { weight: '5g', price: 150.00 },
-                                { weight: '10g', price: 300.00 },
-                                { weight: '28g', price: 750.00 },
-                                //priver
-                                { weight: '56g', price: 0, private: true },
+                                { weight: '2,5g', price: 90.00 },
+                                { weight: '5g', price: 170.00 },
+                                { weight: '10g', price: 340.00 },
                             ]
-                        }, */
+                        },
                       /*   {
                             id: 'HONEY',
                             flag: '🇺🇸',
@@ -353,6 +356,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         }, */
                         {
                             id: 'FrozenSift',
+                            flag: '🇺🇸',
                             name: 'FROZEN SIFT 🧊🍧',
                             farm: 'CALI PLATES FROZEN 🇺🇸',
                             promoEligible: true,
@@ -396,6 +400,23 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '0 produits',
                     clickable: false,  */
                     products: [
+                        {
+                            id: 'CaliBags',
+                              flag: '🇺🇸',
+                            name: 'CALI BAGS USA 🇺🇸',
+                            farm: 'CALI X USA 🇺🇸',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductCaliBags.png',
+                            video: 'VideoCaliBags.mov',
+                            description: 'On vous a ramener une pépite direct des usa 🇺🇸 Bags scellé 🔐',
+                            tarifs: [
+                                { weight: '1 bags', price: 100.00 },
+                                { weight: '2 bags', price: 180.00 },
+                                { weight: '4 bags', price: 360.00 },
+                                { weight: 'Plus', price: 0, private: true },
+                            ],
+                        },
                         {
                             id: 'CALIWEEDING',
                             flag: '🇺🇸',
@@ -559,7 +580,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         }, */
                         {
                             id: 'Jaar',
-                            //  flag: '🇺🇸',
+                          flag: '🇪🇸',
                             name: 'JAAR SCELLÉ ®️🇪🇸🍯 ',
                             farm: '🧑‍🌾 TERPS FARMS 👨‍🌾',
                             promoEligible: true,
@@ -603,7 +624,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     products: [
                         {
                             id: 'Bolivienne',
-                            //  flag: '🇺🇸',
+                              flag: '🇧🇴',
                             name: 'BOLIVIENNE 🇧🇴🇧🇴',
                             farm: '🦁🦁🦁🦁',
                             promoEligible: true,
