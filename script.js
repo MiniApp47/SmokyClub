@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 440.00 },
                             ]
                         },
-                        {
+                      /*   {
                             id: 'IceCream',
                             flag: '🇲🇦',
                             name: 'ICE CREAM CAKE 🍦🥧',
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 120.00 },
                                 { weight: '10g', price: 230.00 },
                             ]
-                        },
+                        }, */
                         /* {
                             id: 'TropCookies',
                             flag: '🇲🇦',
@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         }, */
-                        {
+                  /*       {
                             id: 'BlueZushi',
                             flag: '🇲🇦',
                             name: 'BLUE ZUSHI 🍣',
@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
                             ]
-                        },
+                        }, */
                        /*  {
                             id: 'COOKIES',
                             flag: '🇲🇦',
