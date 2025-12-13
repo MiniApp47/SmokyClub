@@ -96,6 +96,73 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         },
 
+                        {
+                            id: 'Zweet',
+                            flag: '🇲🇦',
+                            name: 'ZWEET OG X RUNTZ ⭐️⚡️🇺🇸',
+                            farm: 'TERPÈNES LABZ FROZEN 🧊💦🇪🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductZweet.png',
+                            video: 'VideoZweet.mov',
+                            description: 'On vous a ramener une pépite sortir du curing ⚡️🍯  Texture pétant 🏆 goût odeur 🤪',
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 90.00 },
+                                { weight: '25g', price: 230.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ]
+                        },
+
+                        {
+                            id: '98',
+                            flag: '🇲🇦',
+                            name: '98% 🥵🥵🥵THC',
+                            farm: 'LIVE ROSIN SUGAR ⭐️⭐️🇺🇸🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'Product98.png',
+                            video: 'Video98.mov',
+                            description: 'on vous a ramener des pépite en extraction 🍯qui va te chauffer les poumon extraction pur ⭐️⚡️🥵',
+                            tarifs: [
+                                { weight: '1g', price: 30.00 },
+                                { weight: '5g', price: 150.00 },
+                                { weight: '10g', price: 300.00 },
+                                { weight: '28g', price: 750.00 },
+                            ]
+                        },
+
+                        {
+                            id: 'SWEETZ',
+                            flag: '🇲🇦',
+                            name: 'SWEETZ PIXIE STICKS 🇺🇸🇺🇸⭐️⭐️⚡️⚡️',
+                            farm: 'WPFF X CALI USA 🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductWpff2.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoWpff.mov',      // Idem pour la vidéo
+                            description: 'On vous a ramener un délice je vous laisse admirer👅 et goûter se trésor 🏆🤪',
+                            tarifs: [
+                                { weight: '5 prerools', price: 130.00 },
+                                { weight: '10 prerools', price: 250.00 },
+                                { weight: '15 preools', price: 380.00 },
+                                { weight: '20 prerools', price: 500.00 },
+                                { weight: 'Pour plus 🕵️', price: 0, private: true },
+
+                            ],
+                            // 👇 TITRE PERSONNALISÉ
+                            variantTitle: 'Sélectionner vos gouts 🍧 :', 
+                            jars: [
+                                { name: 'WATER MELON', emoji: '🍉', colorClass: 'sweetz-watermelon' },
+                                { name: 'RAINBOW KOOL AÏD', emoji: '🏆⭐️', colorClass: 'sweetz-rainbow' },
+                                { name: 'GREEN APPLE AIRHEADS', emoji: '🍏🍎', colorClass: 'sweetz-apple' },
+                                { name: 'BALISTIC CHERRY', emoji: '💦🍒', colorClass: 'sweetz-cherry' },
+                                { name: 'PINA COLADA FANTA', emoji: '🍍🥥', colorClass: 'sweetz-pina' }, // J'ai mis ananas coco pour pina
+                                { name: 'CALIFORNIA RUNTZ', emoji: '🇺🇸🇺🇸', colorClass: 'sweetz-runtz' },
+                            ]
+                        },
+
 
                         {
                             id: 'Frozen',
@@ -1262,7 +1329,14 @@ document.addEventListener('DOMContentLoaded', function () {
             'frozen-yellow',
             'frozen-meat',
             'frozen-trap',
-            'frozen-ff'
+            'frozen-ff',
+            'sweetz-watermelon',
+            'sweetz-rainbow',
+            'sweetz-apple',
+            'sweetz-cherry',
+            'sweetz-pina',
+            'sweetz-runtz'
+            
                 );
                 item.classList.add(selectedJar.colorClass);
             });
@@ -1853,7 +1927,14 @@ document.addEventListener('DOMContentLoaded', function () {
             'frozen-yellow',
             'frozen-meat',
             'frozen-trap',
-            'frozen-ff');
+            'frozen-ff',
+            'sweetz-watermelon',
+            'sweetz-rainbow',
+            'sweetz-apple',
+            'sweetz-cherry',
+            'sweetz-pina',
+            'sweetz-runtz'
+            );
                 // Ajouter la nouvelle
                 item.classList.add(newJarClass);
 
