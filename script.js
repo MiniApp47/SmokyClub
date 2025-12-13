@@ -44,6 +44,60 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'GRAPPE',
+                            flag: '🇲🇦',
+                            name: 'GRAPPE 🍇 CAKE 🥧',
+                            farm: ' TOP MOUSSE 🧽',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductGrappe.png',
+                            video: 'VideoGrappe.mov',
+                            description: 'On vous a ramener un mousseux bien jaune 🧽bien clair ☀️odeur de weed 🍀',
+                            tarifs: [
+                                { weight: '10g', price: 40.00 },
+                                { weight: '25g', price: 100.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ]
+                        },
+                        {
+                            id: 'CREAMY',
+                            flag: '🇲🇦',
+                            name: 'CREAMY RUNTZ 🇺🇸⭐️',
+                            farm: ' TRICHOME VALLEY ⛰️⛰️🇲🇦🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCreamy.png',
+                            video: 'VideoCreamy.mov',
+                            description: 'On vous a ramener une pépite en dry affinement du curage ⭐️🍯texture petant ⭐️odeur de weed 🍀🍀',
+                            tarifs: [
+                                { weight: '2,5g', price: 30.00 },
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 250.00 },
+                            ]
+                        },
+                        {
+                            id: 'KUSH',
+                            flag: '🇲🇦',
+                            name: 'KUSH COOKIES 🍪',
+                            farm: ' JBLA FROZEN SIFT 🇲🇦☀️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductKush.png',
+                            video: 'VideoKush.mov',
+                            description: 'On vous a ramener une pépite en dry affinement du curage ⭐️🍯texture petant ⭐️odeur de weed 🍀🍀',
+                            tarifs: [
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ]
+                        },
+
+
+                        {
                             id: 'Frozen',
                             flag: '🇲🇦',
                             name: 'FROZEN 🧊🧊',
@@ -57,8 +111,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 50.00 },
                                 { weight: '10g', price: 100.00 },
                                 { weight: '25g', price: 240.00 },
-                                { weight: '50g', price: 350.00 },
-                                { weight: '100g', price: 700.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
 
                             ],
                             // 👇 TITRE PERSONNALISÉ
@@ -82,12 +136,13 @@ document.addEventListener('DOMContentLoaded', function () {
                             video: 'VideoPremium.mov',      // Idem pour la vidéo
                             description: 'Curing fait maison 🏠 Frozen PREMIUM \n blanc de blanc ⭐️odeur de Cali 🇺🇸\n odeur imposante 😈',
                             tarifs: [
+                                { weight: '1g', price: 10.00 },
                                 { weight: '2,5g', price: 30.00 },
-                                { weight: '5g', price: 60.00 },
-                                { weight: '10g', price: 120.00 },
-                                { weight: '25g', price: 300.00 },
-                                { weight: '50g', price: 400.00 },
-                                { weight: '100g', price: 800.00 },
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
                             ],
                             // 👇 TITRE PERSONNALISÉ
                             variantTitle: 'Sélectionner la variété 🍧 :', 
@@ -333,6 +388,40 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '2,5g', price: 90.00 },
                                 { weight: '5g', price: 170.00 },
                                 { weight: '10g', price: 340.00 },
+                            ]
+                        },
+                        {
+                            id: 'ZOAP',
+                            flag: '🇺🇸',
+                            name: 'ZOAP 🇺🇸🇺🇸😰',
+                            farm: 'CALI PLATES 🧊FROZEN SINGLE SOURCE ⭐️🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash Americain',
+                            image: 'ProductZoap.png',
+                            video : 'VideoZoap.mov',
+                            description: 'On vous a ramener le meilleure des Cali plates single source ⭐️⚡️par contre rien avoir avec le Frozen tiers ❌là on et sur du Hash de grande envergure ⭐️🇺🇸  couleur miel 🍯',
+                            tarifs: [
+                                { weight: '2,5g', price: 90.00 },
+                                { weight: '5g', price: 180.00 },
+                                { weight: '10g', price: 350.00 },
+                            ]
+                        },
+                        {
+                            id: 'PAPAYA',
+                            flag: '🇺🇸',
+                            name: 'PAPAYA 🥭x ZANGRIA🇺🇸',
+                            farm: 'WIZARD THREES 🇺🇸 X GOLDEN HEADWARRIOR🍯🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash Americain',
+                            image: 'ProductPapaya.png',
+                            video : 'VideoPapaya.mov',
+                            description: 'On vous a ramener exclu du moment l’association d’un spécialiste de la Cali 🇺🇸et l’autre spécialiste du Hash 🍯 t’en fumera qu’une seul fois ⚡️goût incroyable 👅',
+                            tarifs: [
+                                { weight: '2,5g', price: 130.00 },
+                                { weight: '5g', price: 250.00 },
+                                { weight: '10g', price: 500.00 },
+                                { weight: '25g', price: 1200.00 },
+
                             ]
                         },
                       /*   {
