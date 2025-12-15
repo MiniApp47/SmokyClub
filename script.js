@@ -116,55 +116,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         },
 
                         {
-                            id: '98',
-                            flag: '🇲🇦',
-                            name: '98% 🥵🥵🥵THC',
-                            farm: 'LIVE ROSIN SUGAR ⭐️⭐️🇺🇸🇺🇸',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'Product98.png',
-                            video: 'Video98.mov',
-                            description: 'on vous a ramener des pépite en extraction 🍯qui va te chauffer les poumon extraction pur ⭐️⚡️🥵',
-                            tarifs: [
-                                { weight: '1g', price: 30.00 },
-                                { weight: '5g', price: 150.00 },
-                                { weight: '10g', price: 300.00 },
-                                { weight: '28g', price: 750.00 },
-                            ]
-                        },
-
-                        {
-                            id: 'SWEETZ',
-                            flag: '🇲🇦',
-                            name: 'SWEETZ PIXIE STICKS 🇺🇸🇺🇸⭐️⭐️⚡️⚡️',
-                            farm: 'WPFF X CALI USA 🇺🇸',
-                            promoEligible: true,
-                            type: 'Hash Marocain',
-                            image: 'ProductWpff2.png', // Pense à changer l'image si tu en as une nouvelle
-                            video: 'VideoWpff.mov',      // Idem pour la vidéo
-                            description: 'On vous a ramener un délice je vous laisse admirer👅 et goûter se trésor 🏆🤪',
-                            tarifs: [
-                                { weight: '5 prerools', price: 130.00 },
-                                { weight: '10 prerools', price: 250.00 },
-                                { weight: '15 preools', price: 380.00 },
-                                { weight: '20 prerools', price: 500.00 },
-                                { weight: 'Pour plus 🕵️', price: 0, private: true },
-
-                            ],
-                            // 👇 TITRE PERSONNALISÉ
-                            variantTitle: 'Sélectionner vos gouts 🍧 :', 
-                            jars: [
-                                { name: 'WATER MELON', emoji: '🍉', colorClass: 'sweetz-watermelon' },
-                                { name: 'RAINBOW KOOL AÏD', emoji: '🏆⭐️', colorClass: 'sweetz-rainbow' },
-                                { name: 'GREEN APPLE AIRHEADS', emoji: '🍏🍎', colorClass: 'sweetz-apple' },
-                                { name: 'BALISTIC CHERRY', emoji: '💦🍒', colorClass: 'sweetz-cherry' },
-                                { name: 'PINA COLADA FANTA', emoji: '🍍🥥', colorClass: 'sweetz-pina' }, // J'ai mis ananas coco pour pina
-                                { name: 'CALIFORNIA RUNTZ', emoji: '🇺🇸🇺🇸', colorClass: 'sweetz-runtz' },
-                            ]
-                        },
-
-
-                        {
                             id: 'Frozen',
                             flag: '🇲🇦',
                             name: 'FROZEN 🧊🧊',
@@ -268,154 +219,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 440.00 },
                             ]
                         },
-                      /*   {
-                            id: 'IceCream',
-                            flag: '🇲🇦',
-                            name: 'ICE CREAM CAKE 🍦🥧',
-                            farm: ' ⭐️ ANONYMUZ FARMZ ⭐️',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductIceCream.png',
-                            video: 'VideoIceCream.mp4',
-                            description: 'On vous a ramener une pépite terpène fruités 🍌🍓goût GAZZY 👅👅',
-                            tarifs: [
-                                { weight: '2,5g', price: 60.00 },
-                                { weight: '5g', price: 120.00 },
-                                { weight: '10g', price: 230.00 },
-                            ]
-                        }, */
-                        /* {
-                            id: 'TropCookies',
-                            flag: '🇲🇦',
-                            name: 'Trop Cookies 🍪',
-                            farm: ' ⭐️ STREET FARM FROZEN ⭐️',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductTropCookies.png',
-                            video: 'TropCookies.mp4',
-                            description: 'Après un curing fait maison 🏠, une texture blanc de blanc 🍾, odeur fruités 🍑🍉 \n Un délice 🥵',
-                            tarifs: [
-                                { weight: '2,5g', price: 30.00 },
-                                { weight: '5g', price: 60.00 },
-                                { weight: '10g', price: 120.00 },
-                                { weight: '25g', price: 300.00 },
-
-                            ]
-                        },
-                        {
-                            id: 'MorrocoPeach',
-                            flag: '🇲🇦',
-                            name: 'Morroco Peach 🍑🇲🇦',
-                            farm: ' ⭐️ STREET FARM FROZEN ⭐️',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductMorroco.png',
-                            video: 'MorrocoPeach.mp4',
-                            description: ' Un cold curing ⚡️🍯 blanc de blanc 🍯odeur gazzy 🥵goût de 🤯',
-                            tarifs: [
-                                { weight: '2,5g', price: 40.00 },
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 140.00 },
-                                { weight: '25g', price: 350.00 },
-                                // a metre description pck a voir en prive
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-                            ]
-                        },
-                        {
-                            id: 'FFJ',
-                            flag: '🇲🇦',
-                            name: 'FFJ X FF 🍑🍌🍓',
-                            farm: ' ⭐️ STREET FARM FROZEN ⭐️',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductFFJ.png',
-                            video: 'FFJ.mp4',
-                            description: ' Un cold curing ⚡️🍯 blanc de blanc 🍯odeur gazzy 🥵goût de 🤯',
-                            tarifs: [
-                                { weight: '2,5g', price: 40.00 },
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 140.00 },
-                                { weight: '25g', price: 350.00 },
-                                // a metre description pck a voir en prive
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-
-                            ]
-                        }, */
-                   /*      {
-                            id: 'LemonSlice',
-                            flag: '🇲🇦',
-                            name: 'Lemon Slice 🍋🍋‍🟩',
-                            farm: '🧽 TOP MOUSSE PRENIUM 🧽',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductLemon.png',
-                            video: 'BlueZ.mov',
-                            description: ' Un cold curing ⚡️🍯 blanc de blanc 🍯odeur gazzy 🥵goût de 🤯',
-                            tarifs: [
-                                { weight: '10g', price: 30.00 },
-                                { weight: '25g', price: 80.00 },
-                                { weight: '50g', price: 160.00 },
-                                { weight: '100g', price: 280.00 },
-
-                            ]
-                        }, */
-                  /*       {
-                            id: 'BlueZushi',
-                            flag: '🇲🇦',
-                            name: 'BLUE ZUSHI 🍣',
-                            farm: '🧽 TOP MOUSSE PRENIUM 🧽',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductBlueZushi.png',
-                            video: 'BlueZ.mov',
-                            description: ' Un cold curing ⚡️🍯 blanc de blanc 🍯odeur gazzy 🥵goût de 🤯',
-                            tarifs: [
-                                { weight: '10g', price: 30.00 },
-                                { weight: '25g', price: 80.00 },
-                                { weight: '50g', price: 160.00 },
-                                { weight: '100g', price: 280.00 },
-
-
-                            ]
-                        }, */
-                       /*  {
-                            id: 'COOKIES',
-                            flag: '🇲🇦',
-                            name: 'COOKIES 🍪',
-                            farm: '🧽 TOP MOUSSE PRENIUM 🧽',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductCookies.png',
-                            video: 'BlueZ.mov',
-                            description: ' Un cold curing ⚡️🍯 blanc de blanc 🍯odeur gazzy 🥵goût de 🤯',
-                            tarifs: [
-                                { weight: '10g', price: 30.00 },
-                                { weight: '25g', price: 80.00 },
-                                { weight: '50g', price: 160.00 },
-                                { weight: '100g', price: 280.00 },
-
-                            ]
-                        },
-                        {
-                            id: 'Limonade',
-                            flag: '🇲🇦',
-                            name: 'LIMONADE🍋🍋‍🟩',
-                            farm: '🇲🇦 TOP DRY SIFT ®️',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductLimonade.png',
-                            video: 'Candy.mp4',
-                            description: 'Curage fait maison 🏠 odeur de weed 🍀texture petant clair ☀️☀️',
-                            tarifs: [
-                                { weight: '10g', price: 50.00 },
-                                { weight: '25g', price: 120.00 },
-                                { weight: '50g', price: 240.00 },
-                                // a remplacer par priver
-                                { weight: '100g', price: 0, private: true },
-                            ]
-                        } */
+                    
                     ]
                 }
 
@@ -438,6 +242,22 @@ document.addEventListener('DOMContentLoaded', function () {
                          image: 'Wizard4.png', // Mets une image de farm si tu veux
                          badgeText: '2 produits', */
                     products: [
+                        {
+                            id: 'Saha',
+                            flag: '🇺🇸',
+                            name: 'STATIC SIFT ⚡️⚡️',
+                            farm: ' SAHA TERPS 🇺🇸 ⭐️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductSaha.png',
+                            video: 'VideoSaha.mov',
+                            description: 'On vous a ramener une pépite des usa 🇺🇸 translucide ta peur 😰 de la crème 🍨',
+                            tarifs: [
+                                { weight: '2,5g', price: 90.00 },
+                                { weight: '5g', price: 180.00 },
+                                { weight: '10g', price: 360.00 },
+                            ]
+                        },
                         {
                             id: 'MINTS',
                             flag: '🇺🇸',
@@ -713,28 +533,54 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                       /*  {
-                            id: 'wpff',
-                            //  flag: '🇺🇸',
-                            name: 'GMO X  RUNTZ 🍯®️',
-                            farm: '🧑‍🌾 TERPS FARMS 👨‍🌾',
-                            promoEligible: true,
-                            type: 'Wpff',
-                            image: 'Rupture.png',
-                            clickable: false, 
-                            videos: [
-                                'WpffExctract.mov',      // Vidéo 1
-                                'WpffExctract2.mov'      // Vidéo 2 (ajoute tes fichiers)
-                            ],
-                            description: 'WPFF EXTRACT ⚡️⭐️⭐️ \n\n Un curing fait maison 🏠 une couleur mielleuse 🍯🍯un goût 👅 full terpène usa 🇺🇸 \n Blanc de blanc 🥵🍾',
-                            tarifs: [
-                                { weight: '2,5g', price: 80.00 },
-                                { weight: '5g', price: 160.00 },
-                                { weight: '10g', price: 320.00 },
-                                { weight: '25g', price: 780.00 },
-                            ]
-                        }, */
                         {
+                            id: '98',
+                            flag: '🇲🇦',
+                            name: '98% 🥵🥵🥵THC',
+                            farm: 'LIVE ROSIN SUGAR ⭐️⭐️🇺🇸🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'Product98.png',
+                            video: 'Video98.mov',
+                            description: 'on vous a ramener des pépite en extraction 🍯qui va te chauffer les poumon extraction pur ⭐️⚡️🥵',
+                            tarifs: [
+                                { weight: '1g', price: 30.00 },
+                                { weight: '5g', price: 150.00 },
+                                { weight: '10g', price: 300.00 },
+                                { weight: '28g', price: 750.00 },
+                            ]
+                        },
+
+                        {
+                            id: 'SWEETZ',
+                            flag: '🇲🇦',
+                            name: 'SWEETZ PIXIE STICKS 🇺🇸🇺🇸⭐️⭐️⚡️⚡️',
+                            farm: 'WPFF X CALI USA 🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductWpff2.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoWpff.mov',      // Idem pour la vidéo
+                            description: 'On vous a ramener un délice je vous laisse admirer👅 et goûter se trésor 🏆🤪',
+                            tarifs: [
+                                { weight: '5 prerools', price: 130.00 },
+                                { weight: '10 prerools', price: 250.00 },
+                                { weight: '15 preools', price: 380.00 },
+                                { weight: '20 prerools', price: 500.00 },
+                                { weight: 'Pour plus 🕵️', price: 0, private: true },
+
+                            ],
+                            // 👇 TITRE PERSONNALISÉ
+                            variantTitle: 'Sélectionner vos gouts 🍧 :', 
+                            jars: [
+                                { name: 'WATER MELON', emoji: '🍉', colorClass: 'sweetz-watermelon' },
+                                { name: 'RAINBOW KOOL AÏD', emoji: '🏆⭐️', colorClass: 'sweetz-rainbow' },
+                                { name: 'GREEN APPLE AIRHEADS', emoji: '🍏🍎', colorClass: 'sweetz-apple' },
+                                { name: 'BALISTIC CHERRY', emoji: '💦🍒', colorClass: 'sweetz-cherry' },
+                                { name: 'PINA COLADA FANTA', emoji: '🍍🥥', colorClass: 'sweetz-pina' }, // J'ai mis ananas coco pour pina
+                                { name: 'CALIFORNIA RUNTZ', emoji: '🇺🇸🇺🇸', colorClass: 'sweetz-runtz' },
+                            ]
+                        }
+                      /*   {
                             id: 'Jaar',
                           flag: '🇪🇸',
                             name: 'JAAR SCELLÉ ®️🇪🇸🍯 ',
@@ -756,7 +602,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'PEACH RINGS', emoji: '🍑', colorClass: 'jar-peach-rings' },
                                 { name: 'BANANA JUNK', emoji: '🍌', colorClass: 'jar-banana-junk' }
                             ]
-                        }
+                        } */
                     ]
                 }
 
