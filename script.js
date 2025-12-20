@@ -243,6 +243,24 @@ document.addEventListener('DOMContentLoaded', function () {
                          badgeText: '2 produits', */
                     products: [
                         {
+                            id: 'SHEESH',
+                            flag: '🇺🇸',
+                            name: 'SHEESH FROZEN ⭐️🇺🇸',
+                            farm: ' OZK 👅😝',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductSheesh.png',
+                            video: 'VideoSheesh.mov',
+                            description: 'On vous a ramener une grosse pépite le sheesh Frozen ⭐️✅préparer avec soin par les cultivateur un délice dire vous ✅mieux que les  Cali plates de cet année 🥇une vraie tête de Cali en bouche 👄',
+                            tarifs: [
+                                { weight: '2,5g', price: 100.00 },
+                                { weight: '5g', price: 180.00 },
+                                { weight: '10g', price: 330.00 },
+                                { weight: '25g', price: 950.00 },
+
+                            ]
+                        },
+                        {
                             id: 'Saha',
                             flag: '🇺🇸',
                             name: 'STATIC SIFT ⚡️⚡️',
