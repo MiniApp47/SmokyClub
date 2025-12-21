@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 250.00 },
                             ]
                         },
-                        {
+                      /*   {
                             id: 'KUSH',
                             flag: '🇲🇦',
                             name: 'KUSH COOKIES 🍪',
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ]
-                        },
+                        }, */
 
                         {
                             id: 'Zweet',
@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         },
 
-                        {
+                       /*  {
                             id: 'Frozen',
                             flag: '🇲🇦',
                             name: 'FROZEN 🧊🧊',
@@ -142,8 +142,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'SUNDAE DRIVER', emoji: '🍨🏎️', colorClass: 'frozen-driver' },
                                 { name: 'TROPICAL OREOZ', emoji: '🏝️🍩', colorClass: 'frozen-tropical' },
                             ]
-                        },
-                        {
+                        }, */
+                     /*    {
                             id: 'Premium',
                             flag: '🇲🇦',
                             name: '⭐️⭐️ Premium ⭐️⭐️',
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'GASMINT X FF', emoji: '💨🍋🍏🍎', colorClass: 'frozen-ff' },
 
                             ]
-                        },
+                        }, */
                         {
                             id: 'Top',
                             flag: '🇲🇦',
@@ -196,9 +196,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             // 👇 AJOUT DES VARIANTES ICI
                             variantTitle: 'Sélectionner la filtration :', // Titre personnalisé
                             jars: [
-                                { name: '90u', emoji: '🥇', colorClass: 'variant-90u' },
-                                { name: '120u', emoji: '🥈', colorClass: 'variant-120u' },
-                                { name: '160u', emoji: '🥉', colorClass: 'variant-160u' }
+/*                                 { name: '90u', emoji: '🥇', colorClass: 'variant-90u' },
+ */                                { name: '120u', emoji: '🥈', colorClass: 'variant-120u' },
+                                    { name: '160u', emoji: '🥉', colorClass: 'variant-160u' }
                             ]
                         },
                         {
@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         },
-                        {
+                       /*  {
                             id: 'Saha',
                             flag: '🇺🇸',
                             name: 'STATIC SIFT ⚡️⚡️',
@@ -275,8 +275,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 180.00 },
                                 { weight: '10g', price: 360.00 },
                             ]
-                        },
-                        {
+                        }, */
+                       /*  {
                             id: 'MINTS',
                             flag: '🇺🇸',
                             name: 'MINTS MILANO 🇮🇹⭐️',
@@ -294,8 +294,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 170.00 },
                                 { weight: '10g', price: 340.00 },
                             ]
-                        },
-                        {
+                        }, */
+                       /*  {
                             id: 'ZOAP',
                             flag: '🇺🇸',
                             name: 'ZOAP 🇺🇸🇺🇸😰',
@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 180.00 },
                                 { weight: '10g', price: 350.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: 'PAPAYA',
                             flag: '🇺🇸',
@@ -411,7 +411,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: 'Plus', price: 0, private: true },
                             ],
                         },
-                        {
+                      /*   {
                             id: 'CALIWEEDING',
                             flag: '🇺🇸',
                             name: 'WEEDING CAKE 🍰🥧',
@@ -429,8 +429,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 820.00 },
 
                             ]
-                        },
-                        {
+                        }, */
+                     /*    {
                             id: 'CALISUNSET',
                             flag: '🇺🇸',
                             name: 'SUNSET SHERBET 🍋🍋‍🟩',
@@ -449,8 +449,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 850.00 },
 
                             ]
-                        },
-                        {
+                        }, */
+                       /*  {
                             id: 'CALIBISCOTTI',
                             flag: '🇺🇸',
                             name: 'BISCOTTI RUNTZ 🫀🇺🇸',
@@ -468,7 +468,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 450.00 },
                                 { weight: '100g', price: 850.00 },
                             ]
-                        }
+                        } */
 
                     ]
                 }]
