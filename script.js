@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 340.00 },
                             ]
                         }, */
-                       /*  {
+                        {
                             id: 'ZOAP',
                             flag: '🇺🇸',
                             name: 'ZOAP 🇺🇸🇺🇸😰',
@@ -306,11 +306,11 @@ document.addEventListener('DOMContentLoaded', function () {
                             video : 'VideoZoap.mov',
                             description: 'On vous a ramener le meilleure des Cali plates single source ⭐️⚡️par contre rien avoir avec le Frozen tiers ❌là on et sur du Hash de grande envergure ⭐️🇺🇸  couleur miel 🍯',
                             tarifs: [
-                                { weight: '2,5g', price: 90.00 },
-                                { weight: '5g', price: 180.00 },
-                                { weight: '10g', price: 350.00 },
+                                { weight: '2,5g', price: 80.00 },
+                                { weight: '5g', price: 150.00 },
+                                { weight: '10g', price: 300.00 },
                             ]
-                        }, */
+                        },
                         {
                             id: 'PAPAYA',
                             flag: '🇺🇸',
@@ -411,7 +411,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: 'Plus', price: 0, private: true },
                             ],
                         },
-                      /*   {
+                        {
                             id: 'CALIWEEDING',
                             flag: '🇺🇸',
                             name: 'WEEDING CAKE 🍰🥧',
@@ -429,8 +429,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 820.00 },
 
                             ]
-                        }, */
-                     /*    {
+                        },
+                        {
                             id: 'CALISUNSET',
                             flag: '🇺🇸',
                             name: 'SUNSET SHERBET 🍋🍋‍🟩',
@@ -440,17 +440,14 @@ document.addEventListener('DOMContentLoaded', function () {
                             image: 'ProductSunsetBiscotti.png',
                             // clickable: false, 
                             video:  'VideoSunsetBiscotti.mp4',      // Vidéo 1
-                            description: 'On vous a ramené 2 Cali usa 🇺🇸 top shelf goût GAZZY 🇺🇸odeur GAZZY 🇺🇸',
+                            description: 'Pas besoin de la présenter vous la connaisser déjà odeur gazzy usa 🇺🇸 à travers le sachet magnifique 😉®️',
                             tarifs: [
-                                { weight: '5g', price: 60.00 },
-                                { weight: '10g', price: 120.00 },
-                                { weight: '25g', price: 250.00 },
-                                { weight: '50g', price: 450.00 },
-                                { weight: '100g', price: 850.00 },
-
+                                { weight: '2,5g', price: 40.00 },
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
                             ]
-                        }, */
-                       /*  {
+                        },
+                        {
                             id: 'CALIBISCOTTI',
                             flag: '🇺🇸',
                             name: 'BISCOTTI RUNTZ 🫀🇺🇸',
@@ -460,7 +457,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             image: 'ProductBiscotti.png',
                             // clickable: false, 
                             video : 'VideoSunsetBiscotti.mov',     // Vidéo 2 (ajoute tes fichiers)
-                            description: 'On vous a ramené 2 Cali usa 🇺🇸 top shelf goût GAZZY 🇺🇸odeur GAZZY 🇺🇸',
+                            description: 'On vous a ramené 1 Cali usa 🇺🇸 top shelf goût GAZZY 🇺🇸odeur GAZZY 🇺🇸',
                             tarifs: [
                                 { weight: '5g', price: 60.00 },
                                 { weight: '10g', price: 120.00 },
@@ -468,7 +465,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 450.00 },
                                 { weight: '100g', price: 850.00 },
                             ]
-                        } */
+                        }
 
                     ]
                 }]
