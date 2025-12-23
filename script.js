@@ -44,6 +44,23 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'BlueZushi',
+                            flag: '🇲🇦',
+                            name: 'Blue Zushi 🧿',
+                            farm: ' TOP MOUSSE 🧽',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBlue.png',
+                            video: 'VideoBlue.mov',
+                            description: 'On vous a ramener 2 jaune mousseux crémeux ✅odeur de weed pas comme vos jaune cbd qui tourne ❌',
+                            tarifs: [
+                                { weight: '10g', price: 40.00 },
+                                { weight: '25g', price: 90.00 },
+                                { weight: '50g', price: 150.00},
+                                { weight: '100g', price: 280.00 },
+                            ]
+                        },
+                        {
                             id: 'GRAPPE',
                             flag: '🇲🇦',
                             name: 'GRAPPE 🍇 CAKE 🥧',
@@ -114,6 +131,44 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 0, private: true },
                             ]
                         },
+
+                        {
+                            id: 'Frozen PRENIUM',
+                            flag: '🇲🇦',
+                            name: 'Frozen PREMIUM 🧊',
+                            farm: '⭐️ STREET FARM FROZEN ⭐️',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductSansNom.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoSansNom.mp4',      // Idem pour la vidéo
+                            description: 'On vous a ramener des nouveaux strain avec un curing top 🚫🍯 un délice certain  au goût de Cali 🇺🇸 certain de la weed fruités 🍌🍓🍉',
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+
+                            ],
+                            // 👇 TITRE PERSONNALISÉ
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'BLOOD CHEESE / PREMIUM', emoji: '🍒🩸🧀', colorClass: 'frozen-blood' },
+                                { name: 'HONEY BANANA X GOLD CHERRY', emoji: '🍯🍌🏆🍒', colorClass: 'frozen-honey' },
+                                { name: 'FORBIDDEN GAZ / PREMIUM', emoji: '🍏🍎💨', colorClass: 'frozen-forbidden' },
+                                { name: 'SUPER GASBOOF / PREMIUM', emoji: '💨🍭🍈', colorClass: 'frozen-gasboof' },
+                                { name: 'FROSTED PINEAPPEL / PREMIUM', emoji: '🌾🍍🍎', colorClass: 'frozen-pineapple' },
+                                { name: 'MOROCCO PEACHES / PREMIUM', emoji: '🍑🇲🇦', colorClass: 'frozen-peach' },
+                                { name: 'GASMINT X FF / PREMIUM', emoji: '💨🍋🍏🍎', colorClass: 'frozen-gasmint' },
+                                { name: 'ZHEAD / PREMIUM', emoji: '🫐🍋⛽️🍭', colorClass: 'frozen-zhead' },
+                                { name: 'MANDARIN OG / PREMIUM', emoji: '🍊🥦', colorClass: 'frozen-mandarin' },
+                                { name: 'SOUR ORANGE / PREMIUM', emoji: '🍊⛽️', colorClass: 'frozen-sour' },
+                                { name: 'BLUE Z / PREMIUM', emoji: '🌊🥝', colorClass: 'frozen-bluez' },
+                                { name: '24k x MG / PREMIUM', emoji: '🏆🍊🥦', colorClass: 'frozen-24k' },
+                                { name: 'GRAPE CAKE / PREMIUM', emoji: '🍇🧁', colorClass: 'frozen-grape' },
+                                { name: 'TMZ X YELLOW / PREMIUM', emoji: '🍈🍍🟡', colorClass: 'frozen-tmz' },           
+                            ]
+                            },
 
                        /*  {
                             id: 'Frozen',
@@ -260,6 +315,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         },
+                        {
+                            id: 'COSMOS',
+                            flag: '🇺🇸',
+                            name: '🍪 COSMOS COOKIES 🧑‍🚀',
+                            farm: '🥼 Sheesh static sift',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCosmos.png',
+                            video: 'VideoCosmos.mov',
+                            description: 'Un délice 👄curer à la perfection t’en fume 1 ta peur 😰 le venin 🐍🐍',
+                            tarifs: [
+                                { weight: '2,5g', price: 90.00 },
+                                { weight: '5g', price: 180.00 },
+                                { weight: '10g', price: 350.00 },
+                                { weight: '25g', price: 0, private: true },
+                                { weight: '50g', price: 0, private: true },
+
+                            ]
+                        },
                        /*  {
                             id: 'Saha',
                             flag: '🇺🇸',
@@ -394,6 +468,25 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '0 produits',
                     clickable: false,  */
                     products: [
+                        {
+                            id: 'Cherry',
+                            flag: '🇺🇸',
+                            name: 'CHERRY POPPERS 🍒🍒',
+                            farm: 'CALI X USA 🇺🇸',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductCherry.png',
+                            video: 'VideoCherry.mov',
+                            description: 'Une pépite sortir du lot avec un goût de cerise 🍒 à la bouche 👄',
+                            tarifs: [
+                                { weight: '2,5g', price: 30.00 },
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        },
                         {
                             id: 'CaliBags',
                               flag: '🇺🇸',
@@ -1185,19 +1278,13 @@ document.addEventListener('DOMContentLoaded', function () {
             'frozen-driver',
             'frozen-tropical',
 
-            // NOUVEAUX PREMIUM
-            'frozen-peach',
-            'frozen-yellow',
-            'frozen-meat',
-            'frozen-trap',
-            'frozen-ff',
-            'sweetz-watermelon',
-            'sweetz-rainbow',
-            'sweetz-apple',
-            'sweetz-cherry',
-            'sweetz-pina',
-            'sweetz-runtz'
-            
+/*             // Nouveaux Premium
+            'frozen-blood', 'frozen-honey', 'frozen-forbidden', 'frozen-gasboof', 'frozen-pineapple',
+            'frozen-peach', 'frozen-gasmint', 'frozen-zhead', 'frozen-mandarin', 'frozen-sour',
+            'frozen-bluez', 'frozen-24k', 'frozen-grape', 'frozen-tmz', 'frozen-yellow', 'frozen-meat', 'frozen-trap', 'frozen-ff',
+            // Sweetz
+            'sweetz-watermelon', 'sweetz-rainbow', 'sweetz-apple', 'sweetz-cherry', 'sweetz-pina', 'sweetz-runtz'
+ */            
                 );
                 item.classList.add(selectedJar.colorClass);
             });
@@ -1747,70 +1834,82 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         }
 
-        // Clic sur un bouton de sélection de Jar
-        if (target.closest('.jar-select-btn')) {
-            const btn = target.closest('.jar-select-btn');
-            const newJarName = btn.dataset.jarName;
-            const newJarEmoji = btn.dataset.jarEmoji;
-            const newJarClass = btn.dataset.jarClass;
+      // Clic sur un bouton de sélection de Jar
+      if (target.closest('.jar-select-btn')) {
+        const btn = target.closest('.jar-select-btn');
+        const newJarName = btn.dataset.jarName;
+        const newJarEmoji = btn.dataset.jarEmoji;
+        const newJarClass = btn.dataset.jarClass;
 
-            // 1. Mettre à jour la variable d'état
-            selectedJar = {
-                name: newJarName,
-                emoji: newJarEmoji,
-                colorClass: newJarClass
-            };
+        // --- 🧠 LOGIQUE INTELLIGENTE DU TEXTE DE NOTIF ---
+        let typeLabel = "Variété"; // Par défaut, on dit "Variété"
+        
+        // On cherche le titre au-dessus des boutons pour savoir de quoi on parle
+        const container = btn.closest('.jar-selector-container');
+        if (container) {
+            // On cherche le titre juste avant le conteneur (le <h4>)
+            const titleElement = container.previousElementSibling; 
+            // On regarde aussi si le titre est encore avant (au cas où il y a un <br> ou autre)
+            const realTitle = titleElement && titleElement.classList.contains('jar-title') ? titleElement : container.parentElement.querySelector('.jar-title');
 
-            // 2. Mettre à jour le bouton actif
-            document.querySelectorAll('.jar-select-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-
-            // 3. Mettre à jour la couleur et les data-attributs du bloc des tarifs
-            const tarifItems = document.querySelectorAll('#product-details-content .tarif-item');
-            tarifItems.forEach(item => {
-                // Supprimer toutes les classes de jar existantes
-                item.classList.remove('jar-nana-junk', 'jar-pink-lemonade', 'jar-sour-diesel', 'jar-peach-rings', 'jar-banana-junk','variant-90u',   // <-- Ajout indispensable
-                'variant-120u',  // <-- Ajout indispensable
-                'variant-160u',
-                'frozen-triangle',
-                    'frozen-moon',
-                    'frozen-octane',
-                    'frozen-runtz',
-                    // NOUVEAUX FROZEN
-            'frozen-trape',
-            'frozen-cookie',
-            'frozen-chery',
-            'frozen-driver',
-            'frozen-tropical',
-
-            // NOUVEAUX PREMIUM
-            'frozen-peach',
-            'frozen-yellow',
-            'frozen-meat',
-            'frozen-trap',
-            'frozen-ff',
-            'sweetz-watermelon',
-            'sweetz-rainbow',
-            'sweetz-apple',
-            'sweetz-cherry',
-            'sweetz-pina',
-            'sweetz-runtz'
-            );
-                // Ajouter la nouvelle
-                item.classList.add(newJarClass);
-
-                // Mettre à jour les data-attributs du bouton "ajouter au panier"
-                const addToCartBtn = item.querySelector('.add-to-cart-btn');
-                if (addToCartBtn) {
-                    addToCartBtn.dataset.jarName = newJarName + newJarEmoji;
-                    addToCartBtn.dataset.jarClass = newJarClass;
+            if (realTitle) {
+                const text = realTitle.innerText.toLowerCase();
+                if (text.includes('filtration')) {
+                    typeLabel = "Filtration";
+                } else if (text.includes('jar') || text.includes('jaar')) {
+                    typeLabel = "Jar";
+                } else if (text.includes('gout') || text.includes('goût')) {
+                    typeLabel = "Goût";
                 }
-            });
-
-            tg.HapticFeedback.impactOccurred('light');
-            showNotification(`Jar sélectionné : ${newJarName} ${newJarEmoji}`);
-            return;
+            }
         }
+        // --------------------------------------------------
+
+        // 1. Mettre à jour la variable d'état
+        selectedJar = {
+            name: newJarName,
+            emoji: newJarEmoji,
+            colorClass: newJarClass
+        };
+
+        // 2. Mettre à jour le bouton actif
+        document.querySelectorAll('.jar-select-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        // 3. Mettre à jour la couleur et les data-attributs du bloc des tarifs
+        const tarifItems = document.querySelectorAll('#product-details-content .tarif-item');
+        tarifItems.forEach(item => {
+            // Supprimer toutes les classes de jar existantes (Anciennes + Nouvelles)
+            item.classList.remove(
+                'jar-nana-junk', 'jar-pink-lemonade', 'jar-sour-diesel', 'jar-peach-rings', 'jar-banana-junk',
+                'variant-90u', 'variant-120u', 'variant-160u',
+                'frozen-triangle', 'frozen-moon', 'frozen-octane', 'frozen-runtz',
+                // Anciens Frozen
+                'frozen-trape', 'frozen-cookie', 'frozen-chery', 'frozen-driver', 'frozen-tropical',
+                // Nouveaux Premium & Sweetz (Ajoutés récemment)
+                'frozen-blood', 'frozen-honey', 'frozen-forbidden', 'frozen-gasboof', 'frozen-pineapple',
+                'frozen-peach', 'frozen-gasmint', 'frozen-zhead', 'frozen-mandarin', 'frozen-sour',
+                'frozen-bluez', 'frozen-24k', 'frozen-grape', 'frozen-tmz', 'frozen-yellow', 'frozen-meat', 'frozen-trap', 'frozen-ff',
+                'sweetz-watermelon', 'sweetz-rainbow', 'sweetz-apple', 'sweetz-cherry', 'sweetz-pina', 'sweetz-runtz'
+            );
+            
+            // Ajouter la nouvelle couleur
+            item.classList.add(newJarClass);
+
+            // Mettre à jour les data-attributs du bouton "ajouter au panier"
+            const addToCartBtn = item.querySelector('.add-to-cart-btn');
+            if (addToCartBtn) {
+                addToCartBtn.dataset.jarName = newJarName + newJarEmoji;
+                addToCartBtn.dataset.jarClass = newJarClass;
+            }
+        });
+
+        tg.HapticFeedback.impactOccurred('light');
+        
+        // Afficher la notification avec le bon texte (Variété, Filtration ou Jar)
+        showNotification(`✅ ${typeLabel} : ${newJarName} ${newJarEmoji}`);
+        return;
+    }
 
         // Clic sur "Ajouter au panier" (MODIFIÉ)
         if (target.closest('.add-to-cart-btn')) {
