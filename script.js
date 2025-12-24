@@ -469,6 +469,24 @@ document.addEventListener('DOMContentLoaded', function () {
                     clickable: false,  */
                     products: [
                         {
+                            id: 'Puch',
+                            flag: '🇺🇸',
+                            name: 'PURPLE PUNCH 🥊🍇',
+                            farm: 'CALI X USA 🇺🇸',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductPunch.png',
+                            video: 'VideoPunch.mov',
+                            description: 'On vous a ramener une weed de plus cette fois si hollandaise tête soigner ⭐️✅avec les trichome de thc 🥇⭐️🍯',
+                            tarifs: [
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        },
+                        {
                             id: 'Cherry',
                             flag: '🇺🇸',
                             name: 'CHERRY POPPERS 🍒🍒',
