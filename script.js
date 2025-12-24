@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 280.00 },
                             ]
                         },
-                        {
+                      /*   {
                             id: 'GRAPPE',
                             flag: '🇲🇦',
                             name: 'GRAPPE 🍇 CAKE 🥧',
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ]
-                        },
+                        }, */
                         {
                             id: 'CREAMY',
                             flag: '🇲🇦',
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             promoEligible: true,
                             type: 'Hash Marocain',
                             image: 'ProductSansNom.png', // Pense à changer l'image si tu en as une nouvelle
-                            video: 'VideoSansNom.mp4',      // Idem pour la vidéo
+                            video: 'VideosansNom.mp4',      // Idem pour la vidéo
                             description: 'On vous a ramener des nouveaux strain avec un curing top 🚫🍯 un délice certain  au goût de Cali 🇺🇸 certain de la weed fruités 🍌🍓🍉',
                             tarifs: [
                                 { weight: '5g', price: 60.00 },
@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         }, */
-                        {
+                        /* {
                             id: 'Top',
                             flag: '🇲🇦',
                             name: 'Top 🇲🇦',
@@ -251,11 +251,11 @@ document.addEventListener('DOMContentLoaded', function () {
                             // 👇 AJOUT DES VARIANTES ICI
                             variantTitle: 'Sélectionner la filtration :', // Titre personnalisé
                             jars: [
-/*                                 { name: '90u', emoji: '🥇', colorClass: 'variant-90u' },
- */                                { name: '120u', emoji: '🥈', colorClass: 'variant-120u' },
+                                { name: '90u', emoji: '🥇', colorClass: 'variant-90u' },
+                                 { name: '120u', emoji: '🥈', colorClass: 'variant-120u' },
                                     { name: '160u', emoji: '🥉', colorClass: 'variant-160u' }
                             ]
-                        },
+                        }, */
                         {
                             id: 'GMO',
                             flag: '🇲🇦',
@@ -422,7 +422,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '56g', price: 0, private: true },
                             ]
                         }, */
-                        {
+                       /*  {
                             id: 'FrozenSift',
                             flag: '🇺🇸',
                             name: 'FROZEN SIFT 🧊🍧',
@@ -446,7 +446,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'HI OCTANE', emoji: '🥵🔱', colorClass: 'frozen-octane' },
                                 { name: 'WHITE RUNTZ', emoji: '🇺🇸', colorClass: 'frozen-runtz' },
                             ]
-                        }
+                        } */
                     ]
                 }
             ]
@@ -523,7 +523,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         },
-                        {
+                       /*  {
                             id: 'CALISUNSET',
                             flag: '🇺🇸',
                             name: 'SUNSET SHERBET 🍋🍋‍🟩',
@@ -558,7 +558,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 450.00 },
                                 { weight: '100g', price: 850.00 },
                             ]
-                        }
+                        } */
 
                     ]
                 }]
