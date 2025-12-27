@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             promoEligible: true,
                             type: 'Hash Marocain',
                             image: 'ProductSansNom.png', // Pense à changer l'image si tu en as une nouvelle
-                            video: 'VideosansNom.mp4',      // Idem pour la vidéo
+                            video: 'VideoSansNom.mp4',      // Idem pour la vidéo
                             description: 'On vous a ramener des nouveaux strain avec un curing top 🚫🍯 un délice certain  au goût de Cali 🇺🇸 certain de la weed fruités 🍌🍓🍉',
                             tarifs: [
                                 { weight: '5g', price: 60.00 },
