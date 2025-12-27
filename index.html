@@ -263,7 +263,7 @@
         .category-card img {
             width: 95%;
             height: 25vh;
-            object-fit: cover;
+            object-fit: initial;
             border-radius: 20px;
             margin: auto;
             display: block;
@@ -1156,6 +1156,57 @@
 }
 .frozen-tmz .tarif-wieght, .frozen-tmz .tarif-price { color: #333; font-weight: bold; }
 .frozen-tmz .add-to-cart-btn { color: #333; border: 1px solid #333; }
+
+/* --- COULEURS GOÛTS TOP --- */
+/* --- COULEURS TOP 🇲🇦 (Nouvelles Variétés) --- */
+
+/* 🧟🍪 ZOMBIE COOKIES (Vert et Marron) */
+.top-zombie {
+    background: linear-gradient(135deg, #76b852, #8d6e63);
+    box-shadow: 0px 0px 8px 1px #76b852;
+    border: 1px solid #a3d985;
+}
+.top-zombie .add-to-cart-btn { color: #ccff90; border: 1px solid #ccff90; }
+
+/* ⭐️🐣 ANGRY PURPLE (Violet et Jaune) */
+.top-angry {
+    background: linear-gradient(135deg, #6a11cb, #fc2525, #f1c40f);
+    box-shadow: 0px 0px 8px 1px #6a11cb;
+    border: 1px solid #f1c40f;
+}
+.top-angry .add-to-cart-btn { color: #f1c40f; border: 1px solid #f1c40f; }
+
+/* 🦍🥇 GORILLA GLUE (Gris argenté et Or) */
+.top-gorilla {
+    background: linear-gradient(135deg, #304352, #d7d2cc);
+    box-shadow: 0px 0px 8px 1px #d7d2cc;
+    border: 1px solid #fff;
+}
+.top-gorilla .add-to-cart-btn { color: #fff; border: 1px solid #fff; }
+
+/* 🍇🥊 PURPLE PUNCH (Violet et Rouge) */
+.top-punch {
+    background: linear-gradient(135deg, #8e2de2, #4a00e0, #b20a2c);
+    box-shadow: 0px 0px 8px 1px #8e2de2;
+    border: 1px solid #ff758c;
+}
+.top-punch .add-to-cart-btn { color: #e0c3fc; border: 1px solid #e0c3fc; }
+
+/* Style du bouton sélectionné (saveurs) */
+.flavor-select-btn {
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+/* Quand une saveur est active, on met une bordure dorée par défaut si pas de couleur */
+.flavor-select-btn.active {
+    color: white;
+    transform: scale(1.05);
+}
+
+
 /* --- CAROUSEL VIDÉO --- */
 .video-container {
     position: relative;

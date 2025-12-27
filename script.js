@@ -44,6 +44,76 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'Frozen PRENIUM',
+                            flag: '🇲🇦',
+                            name: 'Frozen PREMIUM 🧊',
+                            farm: '⭐️ STREET FARM FROZEN ⭐️',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductSansNom.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideosansNom.mp4',      // Idem pour la vidéo
+                            description: 'On vous a ramener des nouveaux strain avec un curing top 🚫🍯 un délice certain  au goût de Cali 🇺🇸 certain de la weed fruités 🍌🍓🍉',
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+
+                            ],
+                            // 👇 TITRE PERSONNALISÉ
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'BLOOD CHEESE / PREMIUM', emoji: '🍒🩸🧀', colorClass: 'frozen-blood' },
+                                { name: 'HONEY BANANA X GOLD CHERRY', emoji: '🍯🍌🏆🍒', colorClass: 'frozen-honey' },
+                                { name: 'FORBIDDEN GAZ / PREMIUM', emoji: '🍏🍎💨', colorClass: 'frozen-forbidden' },
+                                { name: 'SUPER GASBOOF / PREMIUM', emoji: '💨🍭🍈', colorClass: 'frozen-gasboof' },
+                                { name: 'FROSTED PINEAPPEL / PREMIUM', emoji: '🌾🍍🍎', colorClass: 'frozen-pineapple' },
+                                { name: 'MOROCCO PEACHES / PREMIUM', emoji: '🍑🇲🇦', colorClass: 'frozen-peach' },
+                                { name: 'GASMINT X FF / PREMIUM', emoji: '💨🍋🍏🍎', colorClass: 'frozen-gasmint' },
+                                { name: 'ZHEAD / PREMIUM', emoji: '🫐🍋⛽️🍭', colorClass: 'frozen-zhead' },
+                                { name: 'MANDARIN OG / PREMIUM', emoji: '🍊🥦', colorClass: 'frozen-mandarin' },
+                                { name: 'SOUR ORANGE / PREMIUM', emoji: '🍊⛽️', colorClass: 'frozen-sour' },
+                                { name: 'BLUE Z / PREMIUM', emoji: '🌊🥝', colorClass: 'frozen-bluez' },
+                                { name: '24k x MG / PREMIUM', emoji: '🏆🍊🥦', colorClass: 'frozen-24k' },
+                                { name: 'GRAPE CAKE / PREMIUM', emoji: '🍇🧁', colorClass: 'frozen-grape' },
+                                { name: 'TMZ X YELLOW / PREMIUM', emoji: '🍈🍍🟡', colorClass: 'frozen-tmz' },           
+                            ]
+                            },
+                        {
+                            id: 'Top',
+                            flag: '🇲🇦',
+                            name: 'Top 🇲🇦',
+                            farm: 'SELECTION 🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductTop1.png',
+                            video: 'VideoTop.mov',      // Vidéo 1                     
+                            description: 'On vous a ramener une récolte de pain de 50g un délice pour les petit poche prix 🥇 attractif',
+                            tarifs: [
+                                { weight: '10g', price: 50.00 },
+                                { weight: '25g', price: 120.00 },
+                                { weight: '50g', price: 230.00 },
+                                // priver
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                            // 👇 NIVEAU 1 : FILTRATION
+                            variantTitle: '1️⃣ Sélectionner la filtration :', 
+                            jars: [
+                                { name: '90u', emoji: '🥇', colorClass: 'variant-90u' },
+                                { name: '120u', emoji: '🥈', colorClass: 'variant-120u' },
+                                { name: '160u', emoji: '🥉', colorClass: 'variant-160u' }
+                            ],
+                            // 👇 NIVEAU 2 : GOÛTS (NOUVEAU)
+                            variantTitle2: '2️⃣ Sélectionner le goût 🧬 :',
+                            flavors: [
+                                { name: 'ZOMBIE COOKIES', emoji: '🧟🍪', colorClass: 'top-zombie' },
+                                { name: 'ANGRY PURPLE', emoji: '⭐️🐣', colorClass: 'top-angry' },
+                                { name: 'GORILLA GLUE', emoji: '🦍🥇', colorClass: 'top-gorilla' },
+                                { name: 'PURPLE PUNCH', emoji: '🍇🥊', colorClass: 'top-punch' }
+                            ]
+                        },
+                        {
                             id: 'BlueZushi',
                             flag: '🇲🇦',
                             name: 'Blue Zushi 🧿',
@@ -132,44 +202,6 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         },
 
-                        {
-                            id: 'Frozen PRENIUM',
-                            flag: '🇲🇦',
-                            name: 'Frozen PREMIUM 🧊',
-                            farm: '⭐️ STREET FARM FROZEN ⭐️',
-                            promoEligible: true,
-                            type: 'Hash Marocain',
-                            image: 'ProductSansNom.png', // Pense à changer l'image si tu en as une nouvelle
-                            video: 'VideosansNom.mp4',      // Idem pour la vidéo
-                            description: 'On vous a ramener des nouveaux strain avec un curing top 🚫🍯 un délice certain  au goût de Cali 🇺🇸 certain de la weed fruités 🍌🍓🍉',
-                            tarifs: [
-                                { weight: '5g', price: 60.00 },
-                                { weight: '10g', price: 120.00 },
-                                { weight: '25g', price: 300.00 },
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-
-                            ],
-                            // 👇 TITRE PERSONNALISÉ
-                            variantTitle: 'Sélectionner la variété 🍧 :', 
-                            jars: [
-                                { name: 'BLOOD CHEESE / PREMIUM', emoji: '🍒🩸🧀', colorClass: 'frozen-blood' },
-                                { name: 'HONEY BANANA X GOLD CHERRY', emoji: '🍯🍌🏆🍒', colorClass: 'frozen-honey' },
-                                { name: 'FORBIDDEN GAZ / PREMIUM', emoji: '🍏🍎💨', colorClass: 'frozen-forbidden' },
-                                { name: 'SUPER GASBOOF / PREMIUM', emoji: '💨🍭🍈', colorClass: 'frozen-gasboof' },
-                                { name: 'FROSTED PINEAPPEL / PREMIUM', emoji: '🌾🍍🍎', colorClass: 'frozen-pineapple' },
-                                { name: 'MOROCCO PEACHES / PREMIUM', emoji: '🍑🇲🇦', colorClass: 'frozen-peach' },
-                                { name: 'GASMINT X FF / PREMIUM', emoji: '💨🍋🍏🍎', colorClass: 'frozen-gasmint' },
-                                { name: 'ZHEAD / PREMIUM', emoji: '🫐🍋⛽️🍭', colorClass: 'frozen-zhead' },
-                                { name: 'MANDARIN OG / PREMIUM', emoji: '🍊🥦', colorClass: 'frozen-mandarin' },
-                                { name: 'SOUR ORANGE / PREMIUM', emoji: '🍊⛽️', colorClass: 'frozen-sour' },
-                                { name: 'BLUE Z / PREMIUM', emoji: '🌊🥝', colorClass: 'frozen-bluez' },
-                                { name: '24k x MG / PREMIUM', emoji: '🏆🍊🥦', colorClass: 'frozen-24k' },
-                                { name: 'GRAPE CAKE / PREMIUM', emoji: '🍇🧁', colorClass: 'frozen-grape' },
-                                { name: 'TMZ X YELLOW / PREMIUM', emoji: '🍈🍍🟡', colorClass: 'frozen-tmz' },           
-                            ]
-                            },
-
                        /*  {
                             id: 'Frozen',
                             flag: '🇲🇦',
@@ -226,34 +258,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'TRAP Z', emoji: '🍇🍭', colorClass: 'frozen-trap' },
                                 { name: 'GASMINT X FF', emoji: '💨🍋🍏🍎', colorClass: 'frozen-ff' },
 
-                            ]
-                        }, */
-                        /* {
-                            id: 'Top',
-                            flag: '🇲🇦',
-                            name: 'Top 🇲🇦',
-                            farm: '🧑‍🌾 TERPS FARMS 👨‍🌾',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductTop.png',
-                            videos: [
-                                'Top.mov',      // Vidéo 1
-                                'Top2.mp4'      // Vidéo 2 (ajoute tes fichiers)
-                            ],
-                            description: 'Curing fait maison qualité petant odeur fruités 🍑🍌prix imbattable ✅',
-                            tarifs: [
-                                { weight: '10g', price: 60.00 },
-                                { weight: '25g', price: 150.00 },
-                                { weight: '50g', price: 300.00 },
-                                // priver
-                                { weight: '100g', price: 0, private: true },
-                            ],
-                            // 👇 AJOUT DES VARIANTES ICI
-                            variantTitle: 'Sélectionner la filtration :', // Titre personnalisé
-                            jars: [
-                                { name: '90u', emoji: '🥇', colorClass: 'variant-90u' },
-                                 { name: '120u', emoji: '🥈', colorClass: 'variant-120u' },
-                                    { name: '160u', emoji: '🥉', colorClass: 'variant-160u' }
                             ]
                         }, */
                         {
@@ -788,6 +792,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let appliedPromo = null; // Pour suivre le code promo
     let paymentMethod = 'Espèce'; // Méthode de paiement par défaut
     let selectedJar = null; // 💡 AJOUT : Pour suivre le jar sélectionné sur la page produit
+    let selectedFlavor = null;  // 
 
     // --- DÉFINIS TES CODES PROMO ICI ---
     const validPromoCodes = {
@@ -1107,210 +1112,149 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Affiche la page de détail d'un produit
-    // Affiche la page de détail d'un produit
-    function renderProductPage(productId) {
-        const product = getProductById(productId);
-        if (!product) return;
+// Affiche la page de détail d'un produit
+function renderProductPage(productId) {
+    const product = getProductById(productId);
+    if (!product) return;
 
-        // Reset la jar/variante sélectionnée
-        selectedJar = product.jars ? product.jars[0] : null;
+    // Reset les sélections
+    selectedJar = product.jars ? product.jars[0] : null;
+    selectedFlavor = product.flavors ? product.flavors[0] : null; // Sélectionne le 1er goût par défaut
 
-        document.getElementById('product-page-title').innerText = product.name;
-        const detailsContainer = document.getElementById('product-details-content');
+    document.getElementById('product-page-title').innerText = product.name;
+    const detailsContainer = document.getElementById('product-details-content');
 
-        // --- LOGIQUE VIDÉO (CAROUSEL OU UNIQUE) ---
-        // On récupère la div container de la vidéo qui existe déjà dans le HTML
-        const videoContainer = document.querySelector('#page-product .page-content');
-        // On nettoie l'ancienne vidéo s'il y en avait une pour reconstruire proprement
-        const existingVideoWrapper = document.querySelector('.video-container');
-        if (existingVideoWrapper) existingVideoWrapper.remove();
-        // (Note: on laisse le titre et le bouton retour gérés par le header)
+    // --- LOGIQUE VIDÉO ---
+    const videoContainer = document.querySelector('#page-product .page-content');
+    const existingVideoWrapper = document.querySelector('.video-container');
+    if (existingVideoWrapper) existingVideoWrapper.remove();
 
-        let videoHTML = '';
-        // On prépare la liste des vidéos (soit le tableau, soit la string unique mise dans un tableau)
-        const videoList = product.videos ? product.videos : (product.video ? [product.video] : []);
+    let videoHTML = '';
+    const videoList = product.videos ? product.videos : (product.video ? [product.video] : []);
 
-        if (videoList.length > 0) {
-            // Si plus d'une vidéo, on ajoute les flèches
-            const controlsHTML = videoList.length > 1 ? `
-            <button class="carousel-btn prev">‹</button>
-            <button class="carousel-btn next">›</button>
-            <div class="carousel-dots">
-                ${videoList.map((_, i) => `<div class="dot ${i === 0 ? 'active' : ''}"></div>`).join('')}
-            </div>
-        ` : '';
+    if (videoList.length > 0) {
+        const controlsHTML = videoList.length > 1 ? `
+        <button class="carousel-btn prev">‹</button>
+        <button class="carousel-btn next">›</button>
+        <div class="carousel-dots">
+            ${videoList.map((_, i) => `<div class="dot ${i === 0 ? 'active' : ''}"></div>`).join('')}
+        </div>` : '';
 
-            videoHTML = `
-            <div class="video-container">
-                <video class="product-video" src="${videoList[0]}" poster="${product.image}" playsinline controls></video>
-                ${controlsHTML}
-            </div>
-        `;
+        videoHTML = `
+        <div class="video-container">
+            <video class="product-video" src="${videoList[0]}" poster="${product.image}" playsinline controls></video>
+            ${controlsHTML}
+        </div>`;
+    }
+
+    // --- HTML POUR LES JAR (Niveau 1) ---
+    let jarSelectorHTML = '';
+    if (product.jars) {
+        const jarButtons = product.jars.map((jar, index) => `
+        <button class="jar-select-btn ${jar.colorClass} ${index === 0 ? 'active' : ''}" 
+            data-jar-name="${jar.name}" 
+            data-jar-emoji="${jar.emoji}" 
+            data-jar-class="${jar.colorClass}">
+            ${jar.name} ${jar.emoji}
+        </button>
+    `).join('');
+        jarSelectorHTML = `
+        <h4 class="jar-title">${product.variantTitle ? product.variantTitle : 'Sélectionner :'}</h4>
+        <div class="jar-selector-container">${jarButtons}</div>
+        <hr class="jar-divider">
+    `;
+    }
+
+    // --- HTML POUR LES FLAVORS (Niveau 2 - NOUVEAU) ---
+    let flavorSelectorHTML = '';
+    if (product.flavors) {
+        const flavorButtons = product.flavors.map((flav, index) => `
+        <button class="flavor-select-btn ${flav.colorClass} ${index === 0 ? 'active' : ''}" 
+            data-flav-name="${flav.name}" 
+            data-flav-emoji="${flav.emoji}" 
+            data-flav-class="${flav.colorClass}">
+            ${flav.name} ${flav.emoji}
+        </button>
+    `).join('');
+        flavorSelectorHTML = `
+        <h4 class="jar-title" style="margin-top:10px;">${product.variantTitle2 ? product.variantTitle2 : 'Sélectionner le goût :'}</h4>
+        <div class="jar-selector-container">${flavorButtons}</div>
+        <hr class="jar-divider">
+    `;
+    }
+
+    // --- TARIFS ---
+    let tarifsHTML = product.tarifs.map(tarif => {
+        let priceDisplay, buttonDisplay;
+        if (tarif.private) {
+            priceDisplay = `<div class="tarif-price" style="color: #ffa030;">Privé 🔒</div>`;
+            buttonDisplay = `<button class="add-to-cart-btn contact-private-btn" style="border-color:#ffa030;color:#ffa030;"><svg width="20" height="20"><use href="#icon-telegram"/></svg></button>`;
+        } else {
+            priceDisplay = `<div class="tarif-price">${tarif.price.toFixed(2)}€</div>`;
+            // On prépare les data attributes initiaux
+            let dataJar = selectedJar ? `data-jar-name="${selectedJar.name} ${selectedJar.emoji}" data-jar-class="${selectedJar.colorClass}"` : '';
+            let dataFlav = selectedFlavor ? `data-flav-name="${selectedFlavor.name} ${selectedFlavor.emoji}"` : '';
+            
+            buttonDisplay = `
+            <button class="add-to-cart-btn" 
+                data-product-id="${product.id}" 
+                data-weight="${tarif.weight}" 
+                data-price="${tarif.price}"
+                ${dataJar} ${dataFlav}>
+                <svg width="20" height="20"><use href="#icon-cart"/></svg>
+            </button>`;
         }
 
-        // --- LOGIQUE TARIFS (Privé vs Public) ---
-        let tarifsHTML = product.tarifs.map(tarif => {
-            let priceDisplay, buttonDisplay;
+        // On combine les classes de couleur (Jar + Flavor)
+        let combinedClasses = '';
+        if (selectedJar) combinedClasses += selectedJar.colorClass + ' ';
+        if (selectedFlavor) combinedClasses += selectedFlavor.colorClass;
 
-            if (tarif.private) {
-                priceDisplay = `<div class="tarif-price" style="font-size: 1rem; color: #ffa030;">Privé 🔒</div>`;
-                buttonDisplay = `
-                <button class="add-to-cart-btn contact-private-btn" style="border-color: #ffa030;color: #ffa030;">
-                    <svg width="20" height="20"><use href="#icon-telegram"/></svg>
-                </button>`;
-            } else {
-                priceDisplay = `<div class="tarif-price">${tarif.price.toFixed(2)}€</div>`;
-                buttonDisplay = `
-                <button class="add-to-cart-btn" 
-                    data-product-id="${product.id}" 
-                    data-weight="${tarif.weight}" 
-                    data-price="${tarif.price}"
-                    ${selectedJar ? 'data-jar-name="' + selectedJar.name + '" data-jar-class="' + selectedJar.colorClass + '"' : ''}>
-                    <svg width="20" height="20"><use href="#icon-cart"/></svg>
-                </button>`;
-            }
-
-            return `
-        <div class="tarif-item ${selectedJar ? selectedJar.colorClass : ''}">
+        return `
+        <div class="tarif-item ${combinedClasses}">
             <div class="box-tarif">
                 <div class="tarif-wieght">${tarif.weight}</div>
                 ${priceDisplay}
             </div>
             ${buttonDisplay}
-        </div>
-        `;
-        }).join('');
+        </div>`;
+    }).join('');
 
-        let descriptionHTML = '';
-        if (product.description) {
-            const formattedDescription = product.description.replace(/\n/g, '<br>');
-            descriptionHTML = `<p class="product-description">${formattedDescription}</p>`;
-        }
+    let descriptionHTML = product.description ? `<p class="product-description">${product.description.replace(/\n/g, '<br>')}</p>` : '';
 
-        // --- LOGIQUE VARIANTE / JAR ---
-        let jarSelectorHTML = '';
-        if (product.jars) {
-            const jarButtons = product.jars.map((jar, index) => `
-            <button class="jar-select-btn ${jar.colorClass} ${index === 0 ? 'active' : ''}" 
-                data-jar-name="${jar.name}" 
-                data-jar-emoji="${jar.emoji}" 
-                data-jar-class="${jar.colorClass}">
-                ${jar.name} ${jar.emoji}
-            </button>
-        `).join('');
-
-            jarSelectorHTML = `
-            <h4 class="jar-title">${product.variantTitle ? product.variantTitle : 'Sélectionner votre Jaar :'}</h4>
-            <div class="jar-selector-container">
-                ${jarButtons}
-            </div>
-            <hr class="jar-divider">
-        `;
-        }
-
-        // --- INJECTION DU HTML ---
-        // 1. On injecte la vidéo tout en haut du content (avant les details)
-        // Astuce : on insert la vidéo juste après le header, ou on prepend dans page-content
-        // Comme ton HTML a <video class="product-video"> en dur, on va remplacer ça dynamiquement
-
-        // On vide le conteneur details et on reconstruit
-        detailsContainer.innerHTML = `
-    <div class="name">${product.name}</div>
-    <div class="farm">${product.farm}</div>
-    ${descriptionHTML} 
-    ${jarSelectorHTML}
-    <h4 class="tarifs-title">💰 Tarifs disponibles :</h4>
-    <div class="tarifs-grid-container">
-        ${tarifsHTML}
-    </div>
+    // Injection HTML
+    detailsContainer.innerHTML = `
+        <div class="name">${product.name}</div>
+        <div class="farm">${product.farm}</div>
+        ${descriptionHTML} 
+        ${jarSelectorHTML}
+        ${flavorSelectorHTML} <h4 class="tarifs-title">💰 Tarifs disponibles :</h4>
+        <div class="tarifs-grid-container">${tarifsHTML}</div>
     `;
 
-        // On insère le bloc vidéo juste AVANT le bloc détails
-        // (On supprime l'ancienne balise video qui traine dans le HTML static s'il le faut)
-        const oldStaticVideo = document.querySelector('#page-product > .page-content > video.product-video');
-        if (oldStaticVideo) oldStaticVideo.remove();
+    const oldStaticVideo = document.querySelector('#page-product > .page-content > video.product-video');
+    if (oldStaticVideo) oldStaticVideo.remove();
+    detailsContainer.insertAdjacentHTML('beforebegin', videoHTML);
 
-        detailsContainer.insertAdjacentHTML('beforebegin', videoHTML);
+    // --- LOGIQUE CAROUSEL ---
+    if (videoList.length > 1) {
+        let currentVideoIndex = 0;
+        const videoElement = document.querySelector('.video-container .product-video');
+        const dots = document.querySelectorAll('.dot');
+        const btnPrev = document.querySelector('.carousel-btn.prev');
+        const btnNext = document.querySelector('.carousel-btn.next');
 
-
-        // --- JAVASCRIPT DU CAROUSEL ---
-        if (videoList.length > 1) {
-            let currentVideoIndex = 0;
-            const videoElement = document.querySelector('.video-container .product-video');
-            const dots = document.querySelectorAll('.dot');
-            const btnPrev = document.querySelector('.carousel-btn.prev');
-            const btnNext = document.querySelector('.carousel-btn.next');
-
-            function updateCarousel() {
-                // Change la source
-                videoElement.src = videoList[currentVideoIndex];
-                videoElement.play(); // Lance la lecture auto quand on change
-
-                // Met à jour les points
-                dots.forEach((dot, index) => {
-                    dot.classList.toggle('active', index === currentVideoIndex);
-                });
-            }
-
-            // Clic Suivant
-            if (btnNext) {
-                btnNext.onclick = function () {
-                    currentVideoIndex++;
-                    if (currentVideoIndex >= videoList.length) currentVideoIndex = 0; // Boucle
-                    updateCarousel();
-                };
-            }
-
-            // Clic Précédent
-            if (btnPrev) {
-                btnPrev.onclick = function () {
-                    currentVideoIndex--;
-                    if (currentVideoIndex < 0) currentVideoIndex = videoList.length - 1; // Boucle
-                    updateCarousel();
-                };
-            }
+        function updateCarousel() {
+            videoElement.src = videoList[currentVideoIndex];
+            videoElement.play();
+            dots.forEach((dot, index) => dot.classList.toggle('active', index === currentVideoIndex));
         }
-
-        // Applique la couleur par défaut
-        if (selectedJar) {
-            const tarifItems = document.querySelectorAll('#product-details-content .tarif-item');
-            tarifItems.forEach(item => {
-                item.classList.remove(
-                    'jar-nana-junk', 
-                    'jar-pink-lemonade', 
-                    'jar-sour-diesel', 
-                    'jar-peach-rings', 
-                    'jar-banana-junk',
-                    'variant-90u',   
-                    'variant-120u',  
-                    'variant-160u',
-                    'frozen-triangle',
-                    'frozen-moon',
-                    'frozen-octane',
-                    'frozen-runtz' ,
-                    // NOUVEAUX FROZEN
-            'frozen-trape',
-            'frozen-cookie',
-            'frozen-chery',
-            'frozen-driver',
-            'frozen-tropical',
-
-/*             // Nouveaux Premium
-            'frozen-blood', 'frozen-honey', 'frozen-forbidden', 'frozen-gasboof', 'frozen-pineapple',
-            'frozen-peach', 'frozen-gasmint', 'frozen-zhead', 'frozen-mandarin', 'frozen-sour',
-            'frozen-bluez', 'frozen-24k', 'frozen-grape', 'frozen-tmz', 'frozen-yellow', 'frozen-meat', 'frozen-trap', 'frozen-ff',
-            // Sweetz
-            'sweetz-watermelon', 'sweetz-rainbow', 'sweetz-apple', 'sweetz-cherry', 'sweetz-pina', 'sweetz-runtz'
- */            
-                );
-                item.classList.add(selectedJar.colorClass);
-            });
-        }
-
-        showPage('page-product');
+        if(btnNext) btnNext.onclick = () => { currentVideoIndex = (currentVideoIndex + 1) % videoList.length; updateCarousel(); };
+        if(btnPrev) btnPrev.onclick = () => { currentVideoIndex = (currentVideoIndex - 1 + videoList.length) % videoList.length; updateCarousel(); };
     }
 
+    showPage('page-product');
+}
 
 
     // Met à jour l'affichage du panier (inchangé)
@@ -1908,7 +1852,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 'frozen-blood', 'frozen-honey', 'frozen-forbidden', 'frozen-gasboof', 'frozen-pineapple',
                 'frozen-peach', 'frozen-gasmint', 'frozen-zhead', 'frozen-mandarin', 'frozen-sour',
                 'frozen-bluez', 'frozen-24k', 'frozen-grape', 'frozen-tmz', 'frozen-yellow', 'frozen-meat', 'frozen-trap', 'frozen-ff',
-                'sweetz-watermelon', 'sweetz-rainbow', 'sweetz-apple', 'sweetz-cherry', 'sweetz-pina', 'sweetz-runtz'
+                'sweetz-watermelon', 'sweetz-rainbow', 'sweetz-apple', 'sweetz-cherry', 'sweetz-pina', 'sweetz-runtz',
+
+                // 👇 AJOUTE ÇA :
+                'top-zombie', 'top-angry', 'top-gorilla', 'top-punch'
             );
             
             // Ajouter la nouvelle couleur
@@ -1929,30 +1876,72 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
     }
 
-        // Clic sur "Ajouter au panier" (MODIFIÉ)
-        if (target.closest('.add-to-cart-btn')) {
-            const btn = target.closest('.add-to-cart-btn');
 
-            // Si c'est un bouton "Contact Privé"
-            if (btn.classList.contains('contact-private-btn')) {
-                // 1. On ouvre la page contact (ou le lien Telegram direct)
-                renderContactPage();
-                showPage('page-contact');
+    // --- NOUVEAU : Clic sur un bouton de FLAVOR (Niveau 2) ---
+    if (target.closest('.flavor-select-btn')) {
+        const btn = target.closest('.flavor-select-btn');
+        const newFlavName = btn.dataset.flavName;
+        const newFlavEmoji = btn.dataset.flavEmoji;
+        const newFlavClass = btn.dataset.flavClass;
 
-                // 2. On arrête le script pour ne pas qu'il essaie d'ajouter au panier
-                return;
+        // 1. Update State
+        selectedFlavor = { name: newFlavName, emoji: newFlavEmoji, colorClass: newFlavClass };
+
+        // 2. Update Boutons UI
+        document.querySelectorAll('.flavor-select-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        // 3. Update Tarifs UI (Couleurs + Data)
+        const tarifItems = document.querySelectorAll('#product-details-content .tarif-item');
+        tarifItems.forEach(item => {
+            // On enlève les anciennes classes de GOUT (top-zombie, etc.)
+            item.classList.remove('top-zombie', 'top-angry', 'top-gorilla', 'top-punch'); 
+            // Ajout de la nouvelle
+            if(newFlavClass) item.classList.add(newFlavClass);
+
+            // Update bouton panier
+            const addToCartBtn = item.querySelector('.add-to-cart-btn');
+            if (addToCartBtn) {
+                addToCartBtn.dataset.flavName = newFlavName + " " + newFlavEmoji;
             }
-            const productId = btn.dataset.productId;
-            const weight = btn.dataset.weight;
-            const price = parseFloat(btn.dataset.price);
-            const jarName = btn.dataset.jarName; // Récupère le nom du jar
-            const jarClass = btn.dataset.jarClass; // Récupère la classe du jar
+        });
 
-            // Appel à la fonction mise à jour
-            addToCart(productId, weight, price, jarName, jarClass);
+        tg.HapticFeedback.impactOccurred('light');
+        showNotification(`🧬 Goût : ${newFlavName}`);
+        return;
+    }
 
+      // Clic sur "Ajouter au panier" (MODIFIÉ POUR DOUBLE SÉLECTION)
+      if (target.closest('.add-to-cart-btn')) {
+        const btn = target.closest('.add-to-cart-btn');
+        if (btn.classList.contains('contact-private-btn')) {
+            tg.openTelegramLink('https://t.me/welcometosmocky67');
             return;
         }
+
+        const productId = btn.dataset.productId;
+        const weight = btn.dataset.weight;
+        const price = parseFloat(btn.dataset.price);
+        
+        // On récupère Jar (Filtration) ET Flavor (Goût)
+        const jarName = btn.dataset.jarName; 
+        const flavName = btn.dataset.flavName;
+        const jarClass = btn.dataset.jarClass;
+
+        // On combine les deux pour le nom final dans le panier
+        // Ex: "Top 🇲🇦 (120u | ZOMBIE COOKIES 🧟)"
+        let finalVariantName = '';
+        if (jarName && flavName) {
+            finalVariantName = `${jarName} | ${flavName}`;
+        } else if (jarName) {
+            finalVariantName = jarName;
+        } else if (flavName) {
+            finalVariantName = flavName;
+        }
+
+        addToCart(productId, weight, price, finalVariantName, jarClass);
+        return;
+    }
 
         // Clic sur le bouton "Contact Privé" (PV)
         if (target.closest('.contact-private-btn')) {
