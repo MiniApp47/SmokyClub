@@ -44,6 +44,31 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'TOP DRY PRENIUM ⭐️⭐️',
+                            flag: '🇲🇦',
+                            name: 'Frozen PREMIUM 🧊',
+                            farm: 'SELECTION 🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductSlur.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoSlur.mp4',      // Idem pour la vidéo
+                            description: 'On vous a ramené un produit mieux que certain Hash qui tourne qui dise des du Frozen curing top ⭐️😉',
+                            tarifs: [
+                                { weight: '5g', price: 30.00 },
+                                { weight: '10g', price: 60.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+
+                            ],
+                            // 👇 TITRE PERSONNALISÉ
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'MILKY HURRICANE', emoji: '🍼🥛', colorClass: 'frozen-gasboof' },
+                                { name: 'SLURIBOOF', emoji: '🍒', colorClass: 'frozen-honey' },
+                            ]
+                            },
+                        {
                             id: 'Frozen PRENIUM',
                             flag: '🇲🇦',
                             name: 'Frozen PREMIUM 🧊',
@@ -113,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'PURPLE PUNCH', emoji: '🍇🥊', colorClass: 'top-punch' }
                             ]
                         },
-                        {
+                   /*      {
                             id: 'BlueZushi',
                             flag: '🇲🇦',
                             name: 'Blue Zushi 🧿',
@@ -129,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 150.00},
                                 { weight: '100g', price: 280.00 },
                             ]
-                        },
+                        }, */
                       /*   {
                             id: 'GRAPPE',
                             flag: '🇲🇦',
@@ -147,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 0, private: true },
                             ]
                         }, */
-                        {
+                 /*        {
                             id: 'CREAMY',
                             flag: '🇲🇦',
                             name: 'CREAMY RUNTZ 🇺🇸⭐️',
@@ -163,7 +188,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 100.00 },
                                 { weight: '25g', price: 250.00 },
                             ]
-                        },
+                        }, */
                       /*   {
                             id: 'KUSH',
                             flag: '🇲🇦',
@@ -260,7 +285,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         }, */
-                        {
+                   /*      {
                             id: 'GMO',
                             flag: '🇲🇦',
                             name: 'GMO 🧅',
@@ -277,7 +302,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 220.00 },
                                 { weight: '100g', price: 440.00 },
                             ]
-                        },
+                        }, */
                     
                     ]
                 }
@@ -301,7 +326,43 @@ document.addEventListener('DOMContentLoaded', function () {
                          image: 'Wizard4.png', // Mets une image de farm si tu veux
                          badgeText: '2 produits', */
                     products: [
+                               {
+                            id: 'PINK LABEL',
+                            flag: '🇺🇸',
+                            name: 'PINK LABEL 🏷️',
+                            farm: '🧤STATIC ROOM STATIC 🧤',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductPink.png',
+                            video: 'VideoPink.mp4',
+                            description: 'Une pépite qu’on avait déjà et de retour profitez en ⭐️😉',
+                            tarifs: [
+                                { weight: '5g', price: 210.00 },
+                                { weight: '10g', price: 420.00 },
+                                { weight: '25g', price: 1050.00 },
+
+                            ]
+                        },
                         {
+                            id: 'DOSIDOS⛽️🎖️',
+                            flag: '🇺🇸',
+                            name: 'DOSIDOS⛽️🎖️',
+                            farm: 'CALI PLATES SINGLE SOURCE 🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductDosidos.png', 
+                            video: 'VideoDosidos.mp4',     
+                            description: 'On vous a ramener une nouvelle strain ✅⭐️curing top un délice ⚡️',
+                            tarifs: [
+                                { weight: '5g', price: 160.00 },
+                                { weight: '10g', price: 310.00 },
+                                { weight: '25g', price: 800.00 },
+                                { weight: '50g', price: 0, private: true  },
+                                { weight: '100g', price: 0, private: true  },
+
+                            ]
+                        },
+                 /*{
                             id: 'SHEESH',
                             flag: '🇺🇸',
                             name: 'SHEESH FROZEN ⭐️🇺🇸',
@@ -318,7 +379,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 950.00 },
 
                             ]
-                        },
+                        }, */
                         {
                             id: 'COSMOS',
                             flag: '🇺🇸',
@@ -373,7 +434,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 340.00 },
                             ]
                         }, */
-                        {
+                     /*    {
                             id: 'ZOAP',
                             flag: '🇺🇸',
                             name: 'ZOAP 🇺🇸🇺🇸😰',
@@ -388,7 +449,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 150.00 },
                                 { weight: '10g', price: 300.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: 'PAPAYA',
                             flag: '🇺🇸',
@@ -473,6 +534,22 @@ document.addEventListener('DOMContentLoaded', function () {
                     clickable: false,  */
                     products: [
                         {
+                            id: 'GELATO',
+                            flag: '🇺🇸',
+                            name: 'LEMON CHERRY GELATO 🍧 🍋',
+                            farm: 'CALI USA 🇺🇸 TOP SHELF',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductGelato.png',
+                            video: 'VideoGelato.mp4',
+                            description: 'Une pépite qui était compliquer à trouver un délice GAZZY 🇺🇸🇺🇸⭐️⭐️',
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 300.00 },
+                            ],
+                        },
+                        {
                             id: 'Puch',
                             flag: '🇺🇸',
                             name: 'PURPLE PUNCH 🥊🍇',
@@ -509,7 +586,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 0, private: true },
                             ],
                         },
-                        {
+                    /*     {
                             id: 'CaliBags',
                               flag: '🇺🇸',
                             name: 'CALI BAGS USA 🇺🇸',
@@ -525,8 +602,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '4 bags', price: 360.00 },
                                 { weight: 'Plus', price: 0, private: true },
                             ],
-                        },
-                        {
+                        }, */
+                   /*      {
                             id: 'CALIWEEDING',
                             flag: '🇺🇸',
                             name: 'WEEDING CAKE 🍰🥧',
@@ -544,7 +621,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 820.00 },
 
                             ]
-                        },
+                        }, */
                        /*  {
                             id: 'CALISUNSET',
                             flag: '🇺🇸',
