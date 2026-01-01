@@ -329,7 +329,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: 'ITALIAN',
                             flag: '🇺🇸',
-                            name: 'LEMON CHERRY GELATO 🇺🇸🍋🍒',
+                            name: 'LEMON CHERRY 🍋🍒',
                             farm: 'CALITE FARMS 🇺🇸',
                             promoEligible: true,
                             type: 'Hash',
