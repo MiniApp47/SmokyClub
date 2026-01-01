@@ -326,6 +326,40 @@ document.addEventListener('DOMContentLoaded', function () {
                          image: 'Wizard4.png', // Mets une image de farm si tu veux
                          badgeText: '2 produits', */
                     products: [
+                        {
+                            id: 'ITALIAN',
+                            flag: '🇺🇸',
+                            name: 'LEMON CHERRY GELATO 🇺🇸🍋🍒',
+                            farm: 'CALITE FARMS 🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductItalie.png',
+                            video: 'VideoItalie.mov',
+                            description: 'Un curing blanc de blanc une crème 🔞🔬choisis par nos soins',
+                            tarifs: [
+                                { weight: '2.5g', price: 80.00 },
+                                { weight: '5g', price: 160.00 },
+                                { weight: '10g', price: 160.00 },
+
+                            ]
+                        },
+                        {
+                            id: 'ITALIAN2',
+                            flag: '🇺🇸',
+                            name: 'ITALIAN ICE 🇮🇹🧊',
+                            farm: 'CALITE FARMS 🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductItalie2.png',
+                            video: 'VideoItalie2.mov',
+                            description: 'Une pépite qui et passer dans la salle des temps 🔞🔭goût gazzy 🇺🇸',
+                            tarifs: [
+                                { weight: '2.5g', price: 80.00 },
+                                { weight: '5g', price: 160.00 },
+                                { weight: '10g', price: 160.00 },
+
+                            ]
+                        },
                                {
                             id: 'PINK LABEL',
                             flag: '🇺🇸',
@@ -450,7 +484,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 300.00 },
                             ]
                         }, */
-                        {
+                        /* {
                             id: 'PAPAYA',
                             flag: '🇺🇸',
                             name: 'PAPAYA 🥭x ZANGRIA🇺🇸',
@@ -467,7 +501,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 1200.00 },
 
                             ]
-                        },
+                        }, */
                       /*   {
                             id: 'HONEY',
                             flag: '🇺🇸',
