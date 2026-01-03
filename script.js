@@ -44,6 +44,23 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'STATIC SIFT ⭐️⭐️⚡️⚡️',
+                            flag: '🇲🇦',
+                            name: 'GOLDCHERRY 🍒x HONEY BANANA 🍌🍌',
+                            farm: '👩‍🌾 DRYTECH X GOLDENFARMS ⚡️⭐️',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductHoney.png', // Pense à changer l'image si tu en as une nouvelle
+                            videos:['VideoHoney.mp4', 'VideoHoney2.mp4'],       // Idem pour la vidéo
+                            description: 'STATIC SIFT ⭐️⭐️⚡️⚡️ \n On vous a ramener une pépite avec un cold curing de 2 semaine blanc de blanc ✅⭐️🍾goût odeur fruités ✅⭐️⚡️⚡️ produit GAZZY',
+                            tarifs: [
+                                { weight: '2.5g', price: 50.00 },
+                                { weight: '5g', price: 90.00 },
+                                { weight: '10g', price: 180.00 },
+                                { weight: '25g', price: 420.00 },
+                            ],
+                            },
+                        {
                             id: 'TOP DRY PRENIUM ⭐️⭐️',
                             flag: '🇲🇦',
                             name: 'Frozen PREMIUM 🧊',
