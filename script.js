@@ -809,7 +809,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         },
 
-                        {
+                     /*    {
                             id: 'SWEETZ',
                             flag: '🇲🇦',
                             name: 'SWEETZ PIXIE STICKS 🇺🇸🇺🇸⭐️⭐️⚡️⚡️',
@@ -837,7 +837,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'PINA COLADA FANTA', emoji: '🍍🥥', colorClass: 'sweetz-pina' }, // J'ai mis ananas coco pour pina
                                 { name: 'CALIFORNIA RUNTZ', emoji: '🇺🇸🇺🇸', colorClass: 'sweetz-runtz' },
                             ]
-                        }
+                        } */
                       /*   {
                             id: 'Jaar',
                           flag: '🇪🇸',
@@ -882,7 +882,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                        {
+                     /*    {
                             id: 'Bolivienne',
                               flag: '🇧🇴',
                             name: 'BOLIVIENNE 🇧🇴🇧🇴',
@@ -897,7 +897,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 220.00 },
                                 { weight: '10g', price: 420.00 },
                             ]
-                        }
+                        } */
                     ]
                 }
 
