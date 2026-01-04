@@ -44,6 +44,23 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'FROSTED',
+                            flag: '🇲🇦',
+                            name: 'TWISTED FROSTED ☢️⚠️',
+                            farm: 'STREET FARMZ PRENIUM FROZEN TWISTED 💥🔞',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductTwist.png', // Pense à changer l'image si tu en as une nouvelle
+                            video:'VideoTwist.mov',       // Idem pour la vidéo
+                            description: '',
+                            tarifs: [
+                                { weight: '2.5g', price: 40.00 },
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 160.00 },
+                                { weight: '25g', price: 400.00 },
+                            ],
+                            },
+                        {
                             id: 'STATIC SIFT ⭐️⭐️⚡️⚡️',
                             flag: '🇲🇦',
                             name: 'GOLDCHERRY 🍒x HONEY BANANA 🍌🍌',
@@ -344,6 +361,23 @@ document.addEventListener('DOMContentLoaded', function () {
                          badgeText: '2 produits', */
                     products: [
                         {
+                            id: 'HASHI',
+                            flag: '🇺🇸',
+                            name: 'MR . HASHI MOTO 🇨🇳 X CALI 🇺🇸',
+                            farm: 'HASHI MOTO 👨🏻‍⚕️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductHoshi.png',
+                            video: 'VideoHoshi.mp4',
+                            description: 'On vous a ramener une foudre l’équipe avec une qualité hors du commun ✅⭐️⚡️',
+                            tarifs: [
+                                { weight: '2.5g', price: 60.00 },
+                                { weight: '5g', price: 120.00 },
+                                { weight: '10g', price: 220.00 },
+
+                            ]
+                        },
+                        {
                             id: 'ITALIAN',
                             flag: '🇺🇸',
                             name: 'LEMON CHERRY 🍋🍒',
@@ -356,7 +390,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: '2.5g', price: 80.00 },
                                 { weight: '5g', price: 160.00 },
-                                { weight: '10g', price: 160.00 },
+                                { weight: '10g', price: 320.00 },
 
                             ]
                         },
@@ -377,7 +411,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         },
-                               {
+                       /*         {
                             id: 'PINK LABEL',
                             flag: '🇺🇸',
                             name: 'PINK LABEL 🏷️',
@@ -393,7 +427,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 1050.00 },
 
                             ]
-                        },
+                        }, */
                         {
                             id: 'DOSIDOS⛽️🎖️',
                             flag: '🇺🇸',
@@ -431,7 +465,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         }, */
-                        {
+                    /*     {
                             id: 'COSMOS',
                             flag: '🇺🇸',
                             name: '🍪 COSMOS COOKIES 🧑‍🚀',
@@ -449,7 +483,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true },
 
                             ]
-                        },
+                        }, */
                        /*  {
                             id: 'Saha',
                             flag: '🇺🇸',
@@ -618,7 +652,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 0, private: true },
                             ],
                         },
-                        {
+                       /*  {
                             id: 'Cherry',
                             flag: '🇺🇸',
                             name: 'CHERRY POPPERS 🍒🍒',
@@ -636,7 +670,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ],
-                        },
+                        }, */
                     /*     {
                             id: 'CaliBags',
                               flag: '🇺🇸',
@@ -882,6 +916,24 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
+                           {
+                            id: 'SINALOA🇧🇷',
+                              flag: '🇧🇴',
+                            name: 'SINALOA🇧🇷',
+                            farm: '🦁🦁🦁🦁',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductSina.png',
+                            video: 'VideoSina.mp4',
+                            description: 'Elle risque de te faire découvrir un autre univers 🙈🙊💯😎',
+                            tarifs: [
+                                { weight: '1g', price: 60.00 },
+                                { weight: '5g', price: 250.00 },
+                                { weight: '10g', price: 0, private: true },
+                                { weight: '25g', price: 0, private: true },
+
+                            ]
+                        }
                      /*    {
                             id: 'Bolivienne',
                               flag: '🇧🇴',
@@ -2166,7 +2218,7 @@ function renderProductPage(productId) {
     // --- GESTION DU MOT DE PASSE (SHA-256) ---
 
     // 👇 METS LE HASH QUE TU AS GÉNÉRÉ À L'ÉTAPE 1 ICI 👇
-    const SECRET_HASH = "9055d6d01ed318d08a51db5253a26f6ac0d33cb93383bdcfaefa2bfd7d2e9302";
+    const SECRET_HASH = "39a6e1ac4a6767883974fa5cef80649c4b6822a0f1758ddbed44f6dd62ecc3df";
 
     // Fonction technique pour hasher du texte (ne pas toucher)
     async function sha256(message) {
