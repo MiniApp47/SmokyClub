@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             promoEligible: true,
                             type: 'Hash Marocain',
                             image: 'ProductCookies.png', // Pense à changer l'image si tu en as une nouvelle
-                            video:'VideoCookies.mp4',       // Idem pour la vidéo
+                            video:'VideoCookie.mp4',       // Idem pour la vidéo
                             description: 'Un mousseux 🧽qui sort du frais de chez les cultivateur 🤝⚡️',
                             tarifs: [
                                 { weight: '10g', price: 40.00 },
