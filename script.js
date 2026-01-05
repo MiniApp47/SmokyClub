@@ -43,6 +43,25 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
+
+                          {
+                            id: 'WEED COOKIES 🍪',
+                            flag: '🇲🇦',
+                            name: 'WEED COOKIES 🍪',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductCookies.png', // Pense à changer l'image si tu en as une nouvelle
+                            video:'VideoCookies.mp4',       // Idem pour la vidéo
+                            description: 'Un mousseux 🧽qui sort du frais de chez les cultivateur 🤝⚡️',
+                            tarifs: [
+                                { weight: '10g', price: 40.00 },
+                                { weight: '25g', price: 100.00 },
+                                { weight: '50g', price: 200.00},
+                                { weight: '100g', price: 0, private: true },
+
+                            ],
+                        },
                         {
                             id: 'FROSTED',
                             flag: '🇲🇦',
@@ -52,14 +71,23 @@ document.addEventListener('DOMContentLoaded', function () {
                             type: 'Hash Marocain',
                             image: 'ProductTwist.png', // Pense à changer l'image si tu en as une nouvelle
                             video:'VideoTwist.mov',       // Idem pour la vidéo
-                            description: '',
+                            description: 'Street farmz frozen premium twister édition limitée ⭐️⭐️🥇🥇',
                             tarifs: [
                                 { weight: '2.5g', price: 40.00 },
                                 { weight: '5g', price: 80.00 },
                                 { weight: '10g', price: 160.00 },
                                 { weight: '25g', price: 400.00 },
                             ],
-                            },
+                            // 👇 TITRE PERSONNALISÉ
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'TWISTED 4AGRUMES', emoji: '🍊🍋🥤', colorClass: 'frozen-trape'},
+                                { name: 'SOUR TWISTED', emoji: '⛽️🧄', colorClass: 'frozen-cookie'},
+                                { name: 'TWISTED FROSTED OG', emoji: '🌾🍍🥦', colorClass: 'frozen-chery'},
+                                { name: 'TWISTED GAZ', emoji: '💨🍋🍎💨', colorClass: 'frozen-driver'},
+                                { name: 'TWISTED HEAD', emoji: '🧀🧀🍒', colorClass: 'frozen-tropical'},
+                            ]
+                        },
                         {
                             id: 'STATIC SIFT ⭐️⭐️⚡️⚡️',
                             flag: '🇲🇦',
@@ -93,7 +121,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 150.00 },
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
-
                             ],
                             // 👇 TITRE PERSONNALISÉ
                             variantTitle: 'Sélectionner la variété 🍧 :', 
@@ -763,25 +790,24 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                      /*   {
-                            id: 'AMNESIAHAZE',
-                            flag: '🇳🇱',
-                            name: 'AMNESIA HAZE 🍃',
-                            farm: 'NOFARM',
+                        {
+                            id: 'GIRL SCOOT COOKIES 🍪 🌟',
+                            flag: '🇺🇸',
+                            name: 'GIRL SCOOT COOKIES 🍪 🌟',
+                            farm: '⭐️ NO FARM ',
                             promoEligible: true,
-                            type: 'Weed Hollandaise',
-                            image: 'ProductAmnesia.png',
-                            video: 'Amnesia.mov',
-                            description: 'Tête bien craquante 🤯odeur de weed imposante des ouverture 😉🧟',
+                            type: 'Weed',
+                            image: 'ProductGilr.png',
+                            video: 'VideoGirl.mov',
+                            description: 'On vous a ramener une weed 🇺🇸 🇳🇱 goût tellement sucré envoûtant 👅🥵',
                             tarifs: [
-                                { weight: '5g', price: 50.00 },
-                                { weight: '10g', price: 90.00 },
-                                { weight: '25g', price: 230.00 },
-                                { weight: '50g', price: 460.00 },
-                                //modif prive
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
-                            ]
-                        } */
+                            ],
+                        }
                     ]
                 }
 
@@ -834,7 +860,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             type: 'Hash',
                             image: 'Product98.png',
                             video: 'Video98.mov',
-                            description: 'on vous a ramener des pépite en extraction 🍯qui va te chauffer les poumon extraction pur ⭐️⚡️🥵',
+                            description: 'on vous a ramener des pépite en extraction 🍯 qui va te chauffer les poumon extraction pur ⭐️⚡️🥵',
                             tarifs: [
                                 { weight: '1g', price: 30.00 },
                                 { weight: '5g', price: 150.00 },
@@ -842,7 +868,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '28g', price: 750.00 },
                             ]
                         },
-
                      /*    {
                             id: 'SWEETZ',
                             flag: '🇲🇦',
