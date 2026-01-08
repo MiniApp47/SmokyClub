@@ -1799,7 +1799,7 @@ function renderProductPage(productId) {
         renderCart();
     }
 
-// --- FORMATAGE DU MESSAGE DE COMMANDE (Avec User + Numéro) ---
+// --- FORMATAGE DU MESSAGE DE COMMANDE (CORRIGÉ POUR MOBILE) ---
 function formatOrderMessage() {
     // --- 1. GESTION DU NUMÉRO DE COMMANDE ---
     let orderCount = localStorage.getItem('smockyOrderCount');
@@ -1811,8 +1811,7 @@ function formatOrderMessage() {
     
     const currentOrderNumber = orderCount + 1;
     localStorage.setItem('smockyOrderCount', currentOrderNumber);
-    // ----------------------------------------
-
+    
     // 2. Calculs de base
     const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
     let subTotal = cart.reduce((sum, item) => sum + item.totalPrice, 0);
@@ -1864,11 +1863,10 @@ function formatOrderMessage() {
 
     // --- 👇 RÉCUPÉRATION DU PSEUDO TELEGRAM ---
     const tgUser = window.Telegram.WebApp.initDataUnsafe?.user;
-    // On prend le @username, sinon le prénom, sinon "Client"
     const username = tgUser?.username ? '@' + tgUser.username : (tgUser?.first_name || 'Client');
 
-    // --- 👇 AJOUT DU USERNAME DANS LE TITRE ---
-    let message = `🦍 COMMANDE ${username} #${currentOrderNumber} - SMOCKY 🦍\n`;
+    // --- 👇 CORRECTION ICI : On utilise "N°" au lieu de "#" ---
+    let message = `🦍 COMMANDE ${username} N°${currentOrderNumber} - SMOCKY 🦍\n`;
     message += "==========================\n";
     
     // --- Panier ---
