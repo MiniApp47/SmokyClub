@@ -1778,7 +1778,6 @@
             margin-top: 20px;
             padding: 15px 0;
             border-bottom: 1px solid var(--tertiary-bg-color);
-            display: none;
         }
 
         #promo-input-container {
@@ -2019,6 +2018,98 @@
             object-fit: cover; /* La vidéo remplit tout le bloc sans être déformée */
             display: block;
         }
+        /* --- NOUVEAUX STYLES PANIER / CONFIRMATION --- */
+
+.options-group {
+    background: var(--secondary-bg-color);
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+    border: 1px solid var(--tertiary-bg-color);
+}
+
+.options-title {
+    color: #dfa171;
+    font-family: Copperplate, serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #dfa171;
+    padding-bottom: 5px;
+}
+
+/* Checkboxes Goodies */
+.goodies-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.custom-checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: var(--hint-color);
+}
+
+.custom-checkbox-label input {
+    margin-right: 10px;
+    accent-color: #dfa171; /* Couleur de la case cochée */
+    width: 18px;
+    height: 18px;
+}
+
+.custom-checkbox-label input:checked + span {
+    color: white;
+    font-weight: bold;
+}
+
+/* Inputs Texte et Select */
+.form-input, .form-select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    background: var(--tertiary-bg-color);
+    border: 1px solid #555;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box; /* Important pour ne pas dépasser */
+}
+
+.form-input:focus, .form-select:focus {
+    outline: none;
+    border-color: #dfa171;
+}
+
+textarea.form-input {
+    resize: vertical;
+    min-height: 60px;
+}
+
+.promo-container{
+    display: none;
+}
+
+/* Bonus Livraison */
+.bonus-delivery {
+    background: linear-gradient(45deg, #2c3e50, #000000);
+    border: 1px solid #dfa171;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.bonus-delivery label {
+    color: #dfa171;
+    font-weight: bold;
+    cursor: pointer;
+}
     </style>
 </head>
 
