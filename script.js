@@ -45,6 +45,40 @@ document.addEventListener('DOMContentLoaded', function () {
                     products: [
 
                           {
+                            id: 'BARBARA JOY 🍑☀️🌟',
+                            flag: '🇲🇦',
+                            name: 'BARBARA JOY 🍑☀️🌟',
+                            farm: 'MTRIFF FROZEN SIFT 🔞🇲🇦🛥️',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductBarbara.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoBarbara.mp4',       // Idem pour la vidéo
+                            description: 'Un curing fait maison avec une couleur translucide ☢️🚫un délice 🫦',
+                            tarifs: [
+                                { weight: '2,5g', price: 50.00 },
+                                { weight: '5g', price: 90.00 },
+                                { weight: '10g', price: 180.00},
+                                { weight: '25g', price: 430.00},
+                            ],
+                        },
+                          {
+                            id: 'CHERRY 🍒AK-47🔫',
+                            flag: '🇲🇦',
+                            name: 'CHERRY 🍒AK-47🔫',
+                            farm: 'NOORDAFRICAN FARMS 🇲🇦🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductKa.png', // Pense à changer l'image si tu en as une nouvelle
+                            video:'VideoKa.mp4',       // Idem pour la vidéo
+                            description: 'STATIC PRENIUM🌟 \n On vous a ramener une pépite l’équipe curing 🔞blanc de blanc ☀️☀️exclusif 🔞🔞',
+                            tarifs: [
+                                { weight: '2,5g', price: 80.00 },
+                                { weight: '5g', price: 160.00 },
+                                { weight: '10g', price: 300.00},
+                                { weight: '25g', price: 730.00},
+                            ],
+                        },
+                          {
                             id: 'WEED COOKIES 🍪',
                             flag: '🇲🇦',
                             name: 'WEED COOKIES 🍪',
@@ -269,7 +303,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         }, */
 
-                        {
+                   /*      {
                             id: 'Zweet',
                             flag: '🇲🇦',
                             name: 'ZWEET OG X RUNTZ ⭐️⚡️🇺🇸',
@@ -286,7 +320,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ]
-                        },
+                        }, */
 
                        /*  {
                             id: 'Frozen',
@@ -388,6 +422,56 @@ document.addEventListener('DOMContentLoaded', function () {
                          badgeText: '2 produits', */
                     products: [
                         {
+                            id: 'SHEESH',
+                            flag: '🇺🇸',
+                            name: 'SHEESH 🇺🇸',
+                            farm: ' OZK ⚠️⚠️⚠️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductSheesh.png',
+                            video: 'VideoSheesh.mov',
+                            description: 'FROZEN SIFT 🟦🇺🇸 \n On vous a ramener produit blanc de blanc ®️🌟☀️curing top odeur des terps Cali 🇺🇸',
+                            tarifs: [
+                                { weight: '2,5g', price: 80.00 },
+                                { weight: '5g', price: 160.00 },
+                                { weight: '10g', price: 300.00 },
+
+                            ]
+                        },
+                        {
+                            id: 'Saha',
+                            flag: '🇺🇸',
+                            name: 'Ice cream cake 🍰🥧',
+                            farm: ' SAHA TERPS 🇺🇸 ⭐️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductSaha.png',
+                            video: 'VideoSaha.mp4',
+                            description: '⚡️ STATIC SIFT ⚡️ \n\n On vous a ramener un délice que vous connaissez déjà sauf le strain parle de lui même 🤫Cali 🇺🇸 gazzy',
+                            tarifs: [
+                                { weight: '2,5g', price: 100.00 },
+                                { weight: '5g', price: 200.00 },
+                                { weight: '10g', price: 400.00 },
+                            ]
+                        },
+                        {
+                            id: 'WEEDING CAKE 🥧🍰🧁',
+                            flag: '🇺🇸',
+                            name: 'WEEDING CAKE 🥧🍰🧁',
+                            farm: 'CALITE FARMS 🇺🇸 🇪🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCake.png',
+                            video: 'VideoCake.mp4',
+                            description: 'STATIC SIFT ⚡️⚡️⚡️ \n SINGLE SOURCE 🌟🌟🌟\n\n EXCLUSIF 🌟🌟🌟 \n On vous a ramener la crème du moment single source un délice 🌟☀️🫨produit spéciale 🔭®️',
+                            tarifs: [
+                                { weight: '2.5g', price: 90.00 },
+                                { weight: '5g', price: 180.00 },
+                                { weight: '10g', price: 350.00 },
+
+                            ]
+                        },
+                        {
                             id: 'HASHI',
                             flag: '🇺🇸',
                             name: 'MR . HASHI MOTO 🇨🇳 X CALI 🇺🇸',
@@ -421,7 +505,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         },
-                        {
+                       /*  {
                             id: 'ITALIAN2',
                             flag: '🇺🇸',
                             name: 'ITALIAN ICE 🇮🇹🧊',
@@ -437,7 +521,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 160.00 },
 
                             ]
-                        },
+                        }, */
                        /*         {
                             id: 'PINK LABEL',
                             flag: '🇺🇸',
@@ -455,7 +539,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         }, */
-                        {
+                      /*   {
                             id: 'DOSIDOS⛽️🎖️',
                             flag: '🇺🇸',
                             name: 'DOSIDOS⛽️🎖️',
@@ -471,24 +555,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 800.00 },
                                 { weight: '50g', price: 0, private: true  },
                                 { weight: '100g', price: 0, private: true  },
-
-                            ]
-                        },
-                 /*{
-                            id: 'SHEESH',
-                            flag: '🇺🇸',
-                            name: 'SHEESH FROZEN ⭐️🇺🇸',
-                            farm: ' OZK 👅😝',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductSheesh.png',
-                            video: 'VideoSheesh.mov',
-                            description: 'On vous a ramener une grosse pépite le sheesh Frozen ⭐️✅préparer avec soin par les cultivateur un délice dire vous ✅mieux que les  Cali plates de cet année 🥇une vraie tête de Cali en bouche 👄',
-                            tarifs: [
-                                { weight: '2,5g', price: 100.00 },
-                                { weight: '5g', price: 180.00 },
-                                { weight: '10g', price: 330.00 },
-                                { weight: '25g', price: 950.00 },
 
                             ]
                         }, */
@@ -509,22 +575,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 0, private: true },
                                 { weight: '50g', price: 0, private: true },
 
-                            ]
-                        }, */
-                       /*  {
-                            id: 'Saha',
-                            flag: '🇺🇸',
-                            name: 'STATIC SIFT ⚡️⚡️',
-                            farm: ' SAHA TERPS 🇺🇸 ⭐️',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductSaha.png',
-                            video: 'VideoSaha.mov',
-                            description: 'On vous a ramener une pépite des usa 🇺🇸 translucide ta peur 😰 de la crème 🍨',
-                            tarifs: [
-                                { weight: '2,5g', price: 90.00 },
-                                { weight: '5g', price: 180.00 },
-                                { weight: '10g', price: 360.00 },
                             ]
                         }, */
                        /*  {
@@ -646,6 +696,40 @@ document.addEventListener('DOMContentLoaded', function () {
                     clickable: false,  */
                     products: [
                         {
+                            id: 'SUNDAE DRIVER 🏖️🏝️',
+                            flag: '🇺🇸',
+                            name: 'SUNDAE DRIVER 🏖️🏝️',
+                            farm: 'CALI USA 🇺🇸 TOP SHELF',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductSundae.png',
+                            video: 'VideoSundae.mp4',
+                            description: 'On vous a ramener une belle 🤩 variétés ✅juste à ouverture ❌produit gazzy 😷🇺🇸',
+                            tarifs: [
+                                { weight: '2.5g', price: 30.00 },
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 110.00 },
+                                { weight: '25g', price: 250.00 },
+                            ],
+                        },
+                        {
+                            id: 'GUSHERS 🇺🇸 🔞®️',
+                            flag: '🇺🇸',
+                            name: 'GUSHERS 🇺🇸 🔞®️',
+                            farm: 'CALI USA 🇺🇸 TOP SHELF',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductGush.png',
+                            video: 'VideoGush.mp4',
+                            description: 'On vous a ramener une belle 🤩 variétés ✅juste à ouverture ❌produit gazzy 😷🇺🇸odeur 🍋',
+                            tarifs: [
+                                { weight: '2.5g', price: 30.00 },
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 110.00 },
+                                { weight: '25g', price: 250.00 },
+                            ],
+                        },
+                        {
                             id: 'GELATO',
                             flag: '🇺🇸',
                             name: 'LEMON CHERRY GELATO 🍧 🍋',
@@ -661,7 +745,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 300.00 },
                             ],
                         },
-                        {
+                       /*  {
                             id: 'Puch',
                             flag: '🇺🇸',
                             name: 'PURPLE PUNCH 🥊🍇',
@@ -678,7 +762,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ],
-                        },
+                        }, */
                        /*  {
                             id: 'Cherry',
                             flag: '🇺🇸',
