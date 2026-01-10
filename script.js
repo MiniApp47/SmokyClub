@@ -1659,7 +1659,7 @@ function renderProductPage(productId) {
             <label style="color:grey; font-size:0.8rem;">Sélectionnez votre zone :</label>
             <select id="zone-select" class="form-select">
                 <option value="Retrait">🤝 Retrait / Meet-up (Gratuit)</option>
-                <option value="Zone 1">Zone 1 : Strasbourg (10€ - 30€)</option>
+                <option value="Zone 1">Zone 1 : 10€ à 20€ Strasbourg centre // hors Strasbourg centre 20€ à 30€</option>
                 <option value="Zone 2">Zone 2 : Colmar (30€ - 50€)</option>
                 <option value="Zone 3">Zone 3 : Mulhouse (50€ - 80€)</option>
                 <option value="Zone 4">Zone 4 : 57, 54, 55, 88, 25 (+80€)</option>
