@@ -695,7 +695,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '0 produits',
                     clickable: false,  */
                     products: [
-                        {
+                     /*    {
                             id: 'SUNDAE DRIVER 🏖️🏝️',
                             flag: '🇺🇸',
                             name: 'SUNDAE DRIVER 🏖️🏝️',
@@ -711,7 +711,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 110.00 },
                                 { weight: '25g', price: 250.00 },
                             ],
-                        },
+                        }, */
                         {
                             id: 'GUSHERS 🇺🇸 🔞®️',
                             flag: '🇺🇸',
