@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
 
-                          {
+                       /*    {
                             id: 'BARBARA JOY 🍑☀️🌟',
                             flag: '🇲🇦',
                             name: 'BARBARA JOY 🍑☀️🌟',
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 300.00},
                                 { weight: '25g', price: 730.00},
                             ],
-                        },
+                        }, */
                           {
                             id: 'WEED COOKIES 🍪',
                             flag: '🇲🇦',
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             type: 'Hash Marocain',
                             image: 'ProductCookies.png', // Pense à changer l'image si tu en as une nouvelle
                             video:'VideoCookie.mp4',       // Idem pour la vidéo
-                            description: 'Un mousseux 🧽qui sort du frais de chez les cultivateur 🤝⚡️',
+                            description: 'Un mousseux 🧽 qui sort du frais de chez les cultivateur 🤝⚡️',
                             tarifs: [
                                 { weight: '10g', price: 40.00 },
                                 { weight: '25g', price: 100.00 },
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ],
                         },
-                        {
+                       /*  {
                             id: 'FROSTED',
                             flag: '🇲🇦',
                             name: 'TWISTED FROSTED ☢️⚠️',
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'TWISTED GAZ', emoji: '💨🍋🍎💨', colorClass: 'frozen-driver'},
                                 { name: 'TWISTED HEAD', emoji: '🧀🧀🍒', colorClass: 'frozen-tropical'},
                             ]
-                        },
+                        }, */
                         {
                             id: 'STATIC SIFT ⭐️⭐️⚡️⚡️',
                             flag: '🇲🇦',
@@ -421,7 +421,7 @@ document.addEventListener('DOMContentLoaded', function () {
                          image: 'Wizard4.png', // Mets une image de farm si tu veux
                          badgeText: '2 produits', */
                     products: [
-                        {
+                     /*    {
                             id: 'SHEESH',
                             flag: '🇺🇸',
                             name: 'SHEESH 🇺🇸',
@@ -437,7 +437,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 300.00 },
 
                             ]
-                        },
+                        }, */
                         {
                             id: 'Saha',
                             flag: '🇺🇸',
@@ -454,7 +454,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 400.00 },
                             ]
                         },
-                        {
+                         {
                             id: 'WEEDING CAKE 🥧🍰🧁',
                             flag: '🇺🇸',
                             name: 'WEEDING CAKE 🥧🍰🧁',
@@ -470,8 +470,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 350.00 },
 
                             ]
-                        },
-                        {
+                        }, 
+                       /*  {
                             id: 'HASHI',
                             flag: '🇺🇸',
                             name: 'MR . HASHI MOTO 🇨🇳 X CALI 🇺🇸',
@@ -487,8 +487,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 220.00 },
 
                             ]
-                        },
-                        {
+                        }, */
+                   /*      {
                             id: 'ITALIAN',
                             flag: '🇺🇸',
                             name: 'LEMON CHERRY 🍋🍒',
@@ -504,7 +504,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 320.00 },
 
                             ]
-                        },
+                        }, */
                        /*  {
                             id: 'ITALIAN2',
                             flag: '🇺🇸',
@@ -695,23 +695,42 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '0 produits',
                     clickable: false,  */
                     products: [
-                     /*    {
-                            id: 'SUNDAE DRIVER 🏖️🏝️',
+                        {
+                            id: 'BISCOTTI 🥧🍰',
                             flag: '🇺🇸',
-                            name: 'SUNDAE DRIVER 🏖️🏝️',
-                            farm: 'CALI USA 🇺🇸 TOP SHELF',
+                            name: 'BISCOTTI 🥧🍰',
+                            farm: 'TOP SHELF 🇺🇸 ⭐️',
                             promoEligible: true,
                             type: 'Weed',
-                            image: 'ProductSundae.png',
-                            video: 'VideoSundae.mp4',
-                            description: 'On vous a ramener une belle 🤩 variétés ✅juste à ouverture ❌produit gazzy 😷🇺🇸',
+                            image: 'ProductBis.png',
+                            video: 'VideoBis.mov',
+                            description: 'On vous a ramené une pépite tout droit des usa 🇺🇸 odeur GAZZY 🥹goût spéciale 🇺🇸',
                             tarifs: [
                                 { weight: '2.5g', price: 30.00 },
                                 { weight: '5g', price: 60.00 },
-                                { weight: '10g', price: 110.00 },
-                                { weight: '25g', price: 250.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g/+', price: 0, private: true  },
+
                             ],
-                        }, */
+                        },
+                        {
+                            id: 'CÉRÉALES 🥣 MILK',
+                            flag: '🇺🇸',
+                            name: 'CÉRÉALES 🥣 MILK',
+                            farm: 'TOP SHELF 🇺🇸 ⭐️',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductMi.png',
+                            video: 'VideoMi.mov',
+                            description: 'On vous a ramené une pépite ⭐️✅céréales milk vous connaisser de vous même ⭐️📲odeur goût 👅 GAZZY 👅',
+                            tarifs: [
+                                { weight: '2.5g', price: 30.00 },
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 300.00 },
+                            ],
+                        },
                         {
                             id: 'GUSHERS 🇺🇸 🔞®️',
                             flag: '🇺🇸',
@@ -729,7 +748,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 250.00 },
                             ],
                         },
-                        {
+                     /*    {
                             id: 'GELATO',
                             flag: '🇺🇸',
                             name: 'LEMON CHERRY GELATO 🍧 🍋',
@@ -744,7 +763,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 120.00 },
                                 { weight: '25g', price: 300.00 },
                             ],
-                        },
+                        }, */
                        /*  {
                             id: 'Puch',
                             flag: '🇺🇸',
@@ -874,7 +893,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                        {
+                      /*   {
                             id: 'GIRL SCOOT COOKIES 🍪 🌟',
                             flag: '🇺🇸',
                             name: 'GIRL SCOOT COOKIES 🍪 🌟',
@@ -891,7 +910,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ],
-                        }
+                        } */
                     ]
                 }
 
@@ -935,7 +954,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                        {
+                    /*     {
                             id: '98',
                             flag: '🇲🇦',
                             name: '98% 🥵🥵🥵THC',
@@ -951,7 +970,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 300.00 },
                                 { weight: '28g', price: 750.00 },
                             ]
-                        },
+                        }, */
                      /*    {
                             id: 'SWEETZ',
                             flag: '🇲🇦',
