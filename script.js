@@ -47,13 +47,13 @@ document.addEventListener('DOMContentLoaded', function () {
                           {
                             id: 'SMOKINGREEN 💦🍀',
                             flag: '🇲🇦',
-                            name: 'SMOKING SMILE 🔞😁',
-                            farm: 'MTRIFF FROZEN SIFT 🔞🇲🇦🛥️',
+                            name: 'TOP MOUSSE 🧽',
+                            farm: 'MOUSSEUX MAROCAIN 🇲🇦',
                             promoEligible: true,
                             type: 'Hash Marocain',
                             image: 'ProductGreen.png', // Pense à changer l'image si tu en as une nouvelle
                             video: 'VideoGreen.mov',       // Idem pour la vidéo
-                            description: 'TOP MOUSSE 🧽  \n\n On vous a ramener une pépite de mousseux comme vous les aimer 🌟🌟📲📲goût odeur ✅🤫 \n   PRIX ATTRACTIF 🥇',
+                            description: 'On vous a ramener une pépite de mousseux comme vous les aimer 🌟🌟📲📲goût odeur ✅🤫 \n   PRIX ATTRACTIF 🥇',
                             tarifs: [
                                 { weight: '10g', price: 40.00},
                                 { weight: '25g', price: 100.00},
@@ -67,12 +67,12 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'WHITE APPLE RUNTZ 🍏🍎',
                             flag: '🇲🇦',
                             name: 'WHITE APPLE RUNTZ 🍏🍎',
-                            farm: 'MTRIFF FROZEN SIFT 🔞🇲🇦🛥️',
+                            farm: 'TOP 160u 📲🔞🇲🇦',
                             promoEligible: true,
                             type: 'Hash Marocain',
                             image: 'ProductWhite.png', // Pense à changer l'image si tu en as une nouvelle
                             video: 'VideoWhite.mov',       // Idem pour la vidéo
-                            description: '160u prenium 📲🔞🇲🇦 \n\n On vous a ramener une pépite des montagne goût🥵 odeur 😅texture 🥶et pour le prix 🥇 attractif',
+                            description: ' On vous a ramener une pépite des montagne goût🥵 odeur 😅texture 🥶et pour le prix 🥇 attractif',
                             tarifs: [
                                 { weight: '5g', price: 40.00 },
                                 { weight: '10g', price: 80.00},
@@ -808,7 +808,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'GUSHERS 🇺🇸 🔞®️',
                             flag: '🇺🇸',
                             name: 'GUSHERS 🇺🇸 🔞®️',
-                            farm: 'CALI USA 🇺🇸 TOP SHELF',
+                            farm: 'TOP SHELF 🇺🇸 ⭐️',
                             promoEligible: true,
                             type: 'Weed',
                             image: 'ProductGush.png',
