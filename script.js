@@ -79,10 +79,356 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 200.00},
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
-
+                                
+                                
+                            ],
+                        },
+                            {
+                                id: 'STATIC SIFT ⭐️⭐️⚡️⚡️',
+                                flag: '🇲🇦',
+                                name: 'GOLDCHERRY 🍒x HONEY BANANA 🍌🍌',
+                                farm: '👩‍🌾 DRYTECH X GOLDENFARMS ⚡️⭐️',
+                                promoEligible: true,
+                                type: 'Hash Marocain',
+                                image: 'ProductHoney.png', // Pense à changer l'image si tu en as une nouvelle
+                                videos:['VideoHoney.mp4', 'VideoHoney2.mp4', 'VideoHoney3.mov'],       // Idem pour la vidéo
+                                description: 'STATIC SIFT ⭐️⭐️⚡️⚡️ \n On vous a ramener une pépite avec un cold curing de 2 semaine blanc de blanc ✅⭐️🍾goût odeur fruités ✅⭐️⚡️⚡️ produit GAZZY',
+                                tarifs: [
+                                    { weight: '2.5g', price: 50.00 },
+                                    { weight: '5g', price: 90.00 },
+                                    { weight: '10g', price: 180.00 },
+                                    { weight: '25g', price: 420.00 },
+                                ],
+                                },
+                        {
+                            id: 'Frozen PRENIUM',
+                            flag: '🇲🇦',
+                            name: 'Frozen PREMIUM 🧊',
+                            farm: '⭐️ STREET FARM FROZEN ⭐️',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductSansNom.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoSansNom.mp4',      // Idem pour la vidéo
+                            description: 'On vous a ramener des nouveaux strain avec un curing top 🚫🍯 un délice certain  au goût de Cali 🇺🇸 certain de la weed fruités 🍌🍓🍉',
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
 
                             ],
-                        },/*
+                            // 👇 TITRE PERSONNALISÉ
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'BLOOD CHEESE / PREMIUM', emoji: '🍒🩸🧀', colorClass: 'frozen-blood' },
+                                { name: 'HONEY BANANA X GOLD CHERRY', emoji: '🍯🍌🏆🍒', colorClass: 'frozen-honey' },
+                                { name: 'FORBIDDEN GAZ / PREMIUM', emoji: '🍏🍎💨', colorClass: 'frozen-forbidden' },
+                                { name: 'SUPER GASBOOF / PREMIUM', emoji: '💨🍭🍈', colorClass: 'frozen-gasboof' },
+                                { name: 'FROSTED PINEAPPEL / PREMIUM', emoji: '🌾🍍🍎', colorClass: 'frozen-pineapple' },
+                                { name: 'MOROCCO PEACHES / PREMIUM', emoji: '🍑🇲🇦', colorClass: 'frozen-peach' },
+                                { name: 'GASMINT X FF / PREMIUM', emoji: '💨🍋🍏🍎', colorClass: 'frozen-gasmint' },
+                                { name: 'ZHEAD / PREMIUM', emoji: '🫐🍋⛽️🍭', colorClass: 'frozen-zhead' },
+                                { name: 'MANDARIN OG / PREMIUM', emoji: '🍊🥦', colorClass: 'frozen-mandarin' },
+                                { name: 'SOUR ORANGE / PREMIUM', emoji: '🍊⛽️', colorClass: 'frozen-sour' },
+                                { name: 'BLUE Z / PREMIUM', emoji: '🌊🥝', colorClass: 'frozen-bluez' },
+                                { name: '24k x MG / PREMIUM', emoji: '🏆🍊🥦', colorClass: 'frozen-24k' },
+                                { name: 'GRAPE CAKE / PREMIUM', emoji: '🍇🧁', colorClass: 'frozen-grape' },
+                                { name: 'TMZ X YELLOW / PREMIUM', emoji: '🍈🍍🟡', colorClass: 'frozen-tmz' },           
+                            ]
+                            }
+                    
+                    ]
+                }
+
+            ]
+        },
+
+        // --- Catégorie 2: V.V.S TANGER ---
+        {
+            id: 'HASHAMERICAIN',
+            name: '🇺🇸 Hash américain 🇺🇸',
+            farm: '',
+            type: 'Hash américain',
+            quality: ' 🇺🇸 Hash américain 🇺🇸',
+            image: 'CategHashA.png', // Image de la catégorie
+
+            farms: [
+                {
+                    /*      id: 'WIZARDTREES', // J'ai inventé un ID de farm
+                         name: 'Wizard trees 🔮',
+                         image: 'Wizard4.png', // Mets une image de farm si tu veux
+                         badgeText: '2 produits', */
+                    products: [
+                     /*    {
+                            id: 'FROZEN SIFT 🔵',
+                            flag: '🇺🇸',
+                            name: 'FROZEN SIFT 🔵',
+                            farm: 'SAHA SAHA TERPS 😼🤳🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductGov.png',
+                            video: 'VideoGov.mov',
+                            description: 'On vous a ramener le dernier de la gamme il manque plus que le jaune et vous aurez les frere et soeur saha ⭐️🇺🇸',
+                            tarifs: [
+                                { weight: '2,5g', price: 70.00 },
+                                { weight: '5g', price: 140.00 },
+                                { weight: '10g', price: 280.00 },
+                            ]
+                        }, */
+                        {
+                            id: 'FROSTY JAM 🤝🇺🇸⭐️',
+                            flag: '🇺🇸',
+                            name: 'FROSTY JAM 🤝🇺🇸⭐️',
+                            farm: 'SHEESH STATIC ⭐️💀',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductJam.png',
+                            video: 'VideoJam.mov',
+                            description: 'On vous a ramener un produit translucide avec du goût 👅 de la couleur translucide ⭐️🤝',
+                            tarifs: [
+                                { weight: '2,5g', price: 80.00 },
+                                { weight: '5g', price: 160.00 },
+                                { weight: '10g', price: 320.00 },
+                            ]
+                        },
+                        {
+                            id: 'CREAMIZ 🍨🍦🍮',
+                            flag: '🇺🇸',
+                            name: 'CREAMIZ 🍨🍦🍮',
+                            farm: 'SAHA SAHA TERPS 😼🤳🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCreami.png',
+                            videos: ['VideoCreami.mp4','VideoCreami1.mov' ],
+                            description: 'On vous a ramener une pépite venu tout droit des 🇺🇸 avec une odeur de Cali 🇺🇸 qui te débouche le nez 👃 un goût juste magnifique 🤩 produit parle de lui même',
+                            tarifs: [
+                                { weight: '2,5g', price: 100.00 },
+                                { weight: '5g', price: 200.00 },
+                                { weight: '10g', price: 380.00 },
+                                { weight: '25g', price: 0, private: true },
+                                { weight: '50g', price: 0, private: true },
+                            ]
+                        },
+                        {
+                            id: 'Saha',
+                            flag: '🇺🇸',
+                            name: 'Ice cream cake 🍰🥧',
+                            farm: ' SAHA TERPS 🇺🇸 ⭐️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductSaha.png',
+                            video: 'VideoSaha.mp4',
+                            description: '⚡️ STATIC SIFT ⚡️ \n\n On vous a ramener un délice que vous connaissez déjà sauf le strain parle de lui même 🤫Cali 🇺🇸 gazzy',
+                            tarifs: [
+                                { weight: '2,5g', price: 100.00 },
+                                { weight: '5g', price: 200.00 },
+                                { weight: '10g', price: 400.00 },
+                            ]
+                        }
+                 /*         {
+                            id: 'WEEDING CAKE 🥧🍰🧁',
+                            flag: '🇺🇸',
+                            name: 'WEEDING CAKE 🥧🍰🧁',
+                            farm: 'CALITE FARMS 🇺🇸 🇪🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCake.png',
+                            video: 'VideoCake.mp4',
+                            description: 'STATIC SIFT ⚡️⚡️⚡️ \n SINGLE SOURCE 🌟🌟🌟\n\n EXCLUSIF 🌟🌟🌟 \n On vous a ramener la crème du moment single source un délice 🌟☀️🫨produit spéciale 🔭®️',
+                            tarifs: [
+                                { weight: '2.5g', price: 90.00 },
+                                { weight: '5g', price: 180.00 },
+                                { weight: '10g', price: 350.00 },
+
+                            ]
+                        } */
+                    ]
+                }
+            ]
+        },
+        // --- Catégorie 2: V.V.S TANGER ---
+        {
+            id: 'WeedUsa',
+            name: '🇺🇸 Weed Usa 🇺🇸',
+            farm: '',
+            type: 'Weed Usa',
+            quality: '🇺🇸 Weed Usa 🇺🇸',
+            image: 'CategWeedU.png', // Image de la catégorie
+
+            farms: [
+                {
+                    /*id: 'WIZARDTREES',
+                    name: 'Wizard trees 🔮',
+                    image: 'CategHash.png', 
+                    badgeText: '0 produits',
+                    clickable: false,  */
+                    products: [
+                        {
+                            id: 'RUNTZ 🟣🟣',
+                            flag: '🇺🇸',
+                            name: 'RUNTZ 🟣🟣',
+                            farm: 'TOP SHELF EXOTIC 🇺🇸 🌟',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductRT.png',
+                            video: 'VideoRT.mov',
+                            description: 'On vous a ramener une Cali 🇺🇸 full gazzy en bouche 👄 un délice de Cali en bouche 👄',
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 140.00 },
+                                { weight: '25g', price: 350.00 },
+                                { weight: '50g/+', price: 0, private: true  },
+
+                            ],
+                        },
+                        {
+                            id: 'GUSHERS 🇺🇸 🔞®️',
+                            flag: '🇺🇸',
+                            name: 'GUSHERS 🇺🇸 🔞®️',
+                            farm: 'TOP SHELF 🇺🇸 ⭐️',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductGush.png',
+                            video: 'VideoGush.mp4',
+                            description: 'On vous a ramener une belle 🤩 variétés ✅juste à ouverture ❌produit gazzy 😷🇺🇸odeur 🍋',
+                            tarifs: [
+                                { weight: '2.5g', price: 30.00 },
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 110.00 },
+                                { weight: '25g', price: 250.00 },
+                            ],
+                        }
+                    ]
+                }]
+        },
+        {
+            id: 'WeedHollandaise',
+            name: '🇳🇱 Weed Hollandaise 🇳🇱',
+            farm: '',
+            type: 'Weed Hollandaise',
+            quality: '🇳🇱 Weed Hollandaise 🇳🇱',
+            image: 'CategWeedH.png', // Image de la catégorie
+
+            // La catégorie contient maintenant des "farms"
+            farms: [
+                {
+                    /*     id: 'HASH',
+                        name: 'HASH',
+                        image: 'Frosty2.png', // Mets une image de farm si tu veux
+                        badgeText: '5 produits', */
+                    products: [
+                        {
+                            id: 'GELATO COOKIES 🤫🍪 ',
+                            flag: '🇺🇸',
+                            name: 'GELATO COOKIES 🤫🍪',
+                            farm: '⭐️ NO FARM ',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductGG.png',
+                            video: 'VideoGG.mov',
+                            description: 'On vous a ramener la weed que vous avez kiffer avec une touche sucrée 🍭 et un goût à couper le souffle 💨',
+                            tarifs: [
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }
+                    ]
+                }
+
+            ]
+        },
+        {
+            id: 'Extraction',
+            name: '☢️ Extraction ☢️',
+            farm: '',
+            type: 'Extraction',
+            quality: ' ☢️ Extraction ☢️',
+            image: 'CategExtraction.png', // Image de la catégorie
+
+            // La catégorie contient maintenant des "farms"
+            farms: [
+                {
+                    /*     id: 'HASH',
+                        name: 'HASH',
+                        image: 'Frosty2.png', // Mets une image de farm si tu veux
+                        badgeText: '5 produits', */
+                    products: [
+                        
+                    ]
+                }
+
+            ]
+        },
+        {
+            id: 'HashGrande',
+            name: '🍾 Hash De Grande Envergure 🍾',
+            farm: '',
+            type: 'Hash de luxe',
+            quality: '🍾 Hash de grande envergure 🍾',
+            image: 'CategHashGrande.png', // Image de la catégorie
+
+            // La catégorie contient maintenant des "farms"
+            farms: [
+                {
+                    /*     id: 'HASH',
+                        name: 'HASH',
+                        image: 'Frosty2.png', // Mets une image de farm si tu veux
+                        badgeText: '5 produits', */
+                    products: [
+                    ]
+                }
+
+            ]
+        },
+        {
+            id: 'Écaille',
+            name: '🐠 Écaille de poisson 🐠',
+            farm: '',
+            type: 'Écaille',
+            quality: '🐠 Écaille de poisson 🐠',
+            image: 'CategEcaille.png', // Image de la catégorie
+
+            // La catégorie contient maintenant des "farms"
+            farms: [
+                {
+                    /*     id: 'HASH',
+                        name: 'HASH',
+                        image: 'Frosty2.png', // Mets une image de farm si tu veux
+                        badgeText: '5 produits', */
+                    products: [
+                           {
+                            id: 'SINALOA🇧🇷',
+                              flag: '🇧🇴',
+                            name: 'SINALOA🇧🇷',
+                            farm: '🦁🦁🦁🦁',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductSina.png',
+                            video: 'VideoSina.mp4',
+                            description: 'Elle risque de te faire découvrir un autre univers 🙈🙊💯😎',
+                            tarifs: [
+                                { weight: '1g', price: 60.00 },
+                                { weight: '5g', price: 250.00 },
+                                { weight: '10g', price: 0, private: true },
+                                { weight: '25g', price: 0, private: true },
+
+                            ]
+                        }
+                    
+                    ]
+                }
+
+            ]
+        },
+
+
+    ];
+
+     /*
                           {
                             id: 'CHERRY 🍒AK-47🔫',
                             flag: '🇲🇦',
@@ -144,23 +490,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'TWISTED HEAD', emoji: '🧀🧀🍒', colorClass: 'frozen-tropical'},
                             ]
                         }, */
-                        {
-                            id: 'STATIC SIFT ⭐️⭐️⚡️⚡️',
-                            flag: '🇲🇦',
-                            name: 'GOLDCHERRY 🍒x HONEY BANANA 🍌🍌',
-                            farm: '👩‍🌾 DRYTECH X GOLDENFARMS ⚡️⭐️',
-                            promoEligible: true,
-                            type: 'Hash Marocain',
-                            image: 'ProductHoney.png', // Pense à changer l'image si tu en as une nouvelle
-                            videos:['VideoHoney.mp4', 'VideoHoney2.mp4', 'VideoHoney3.mov'],       // Idem pour la vidéo
-                            description: 'STATIC SIFT ⭐️⭐️⚡️⚡️ \n On vous a ramener une pépite avec un cold curing de 2 semaine blanc de blanc ✅⭐️🍾goût odeur fruités ✅⭐️⚡️⚡️ produit GAZZY',
-                            tarifs: [
-                                { weight: '2.5g', price: 50.00 },
-                                { weight: '5g', price: 90.00 },
-                                { weight: '10g', price: 180.00 },
-                                { weight: '25g', price: 420.00 },
-                            ],
-                            },
                         /* {
                             id: 'TOP DRY PRENIUM ⭐️⭐️',
                             flag: '🇲🇦',
@@ -185,44 +514,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'SLURIBOOF', emoji: '🍒', colorClass: 'frozen-honey' },
                             ]
                             }, */
-                        {
-                            id: 'Frozen PRENIUM',
-                            flag: '🇲🇦',
-                            name: 'Frozen PREMIUM 🧊',
-                            farm: '⭐️ STREET FARM FROZEN ⭐️',
-                            promoEligible: true,
-                            type: 'Hash Marocain',
-                            image: 'ProductSansNom.png', // Pense à changer l'image si tu en as une nouvelle
-                            video: 'VideoSansNom.mp4',      // Idem pour la vidéo
-                            description: 'On vous a ramener des nouveaux strain avec un curing top 🚫🍯 un délice certain  au goût de Cali 🇺🇸 certain de la weed fruités 🍌🍓🍉',
-                            tarifs: [
-                                { weight: '5g', price: 50.00 },
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 250.00 },
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-
-                            ],
-                            // 👇 TITRE PERSONNALISÉ
-                            variantTitle: 'Sélectionner la variété 🍧 :', 
-                            jars: [
-                                { name: 'BLOOD CHEESE / PREMIUM', emoji: '🍒🩸🧀', colorClass: 'frozen-blood' },
-                                { name: 'HONEY BANANA X GOLD CHERRY', emoji: '🍯🍌🏆🍒', colorClass: 'frozen-honey' },
-                                { name: 'FORBIDDEN GAZ / PREMIUM', emoji: '🍏🍎💨', colorClass: 'frozen-forbidden' },
-                                { name: 'SUPER GASBOOF / PREMIUM', emoji: '💨🍭🍈', colorClass: 'frozen-gasboof' },
-                                { name: 'FROSTED PINEAPPEL / PREMIUM', emoji: '🌾🍍🍎', colorClass: 'frozen-pineapple' },
-                                { name: 'MOROCCO PEACHES / PREMIUM', emoji: '🍑🇲🇦', colorClass: 'frozen-peach' },
-                                { name: 'GASMINT X FF / PREMIUM', emoji: '💨🍋🍏🍎', colorClass: 'frozen-gasmint' },
-                                { name: 'ZHEAD / PREMIUM', emoji: '🫐🍋⛽️🍭', colorClass: 'frozen-zhead' },
-                                { name: 'MANDARIN OG / PREMIUM', emoji: '🍊🥦', colorClass: 'frozen-mandarin' },
-                                { name: 'SOUR ORANGE / PREMIUM', emoji: '🍊⛽️', colorClass: 'frozen-sour' },
-                                { name: 'BLUE Z / PREMIUM', emoji: '🌊🥝', colorClass: 'frozen-bluez' },
-                                { name: '24k x MG / PREMIUM', emoji: '🏆🍊🥦', colorClass: 'frozen-24k' },
-                                { name: 'GRAPE CAKE / PREMIUM', emoji: '🍇🧁', colorClass: 'frozen-grape' },
-                                { name: 'TMZ X YELLOW / PREMIUM', emoji: '🍈🍍🟡', colorClass: 'frozen-tmz' },           
-                            ]
-                            },
-                    /*     {
+                                 /*     {
                             id: 'Top',
                             flag: '🇲🇦',
                             name: 'Top 🇲🇦',
@@ -420,113 +712,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 440.00 },
                             ]
                         }, */
-                    
-                    ]
-                }
-
-            ]
-        },
-
-        // --- Catégorie 2: V.V.S TANGER ---
-        {
-            id: 'HASHAMERICAIN',
-            name: '🇺🇸 Hash américain 🇺🇸',
-            farm: '',
-            type: 'Hash américain',
-            quality: ' 🇺🇸 Hash américain 🇺🇸',
-            image: 'CategHashA.png', // Image de la catégorie
-
-            farms: [
-                {
-                    /*      id: 'WIZARDTREES', // J'ai inventé un ID de farm
-                         name: 'Wizard trees 🔮',
-                         image: 'Wizard4.png', // Mets une image de farm si tu veux
-                         badgeText: '2 produits', */
-                    products: [
-                        {
-                            id: 'FROZEN SIFT 🔵',
-                            flag: '🇺🇸',
-                            name: 'FROZEN SIFT 🔵',
-                            farm: 'SAHA SAHA TERPS 😼🤳🇺🇸',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductGov.png',
-                            video: 'VideoGov.mov',
-                            description: 'On vous a ramener le dernier de la gamme il manque plus que le jaune et vous aurez les frere et soeur saha ⭐️🇺🇸',
-                            tarifs: [
-                                { weight: '2,5g', price: 70.00 },
-                                { weight: '5g', price: 140.00 },
-                                { weight: '10g', price: 280.00 },
-                            ]
-                        },
-                        {
-                            id: 'FROSTY JAM 🤝🇺🇸⭐️',
-                            flag: '🇺🇸',
-                            name: 'FROSTY JAM 🤝🇺🇸⭐️',
-                            farm: 'SHEESH STATIC ⭐️💀',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductJam.png',
-                            video: 'VideoJam.mov',
-                            description: 'On vous a ramener un produit translucide avec du goût 👅 de la couleur translucide ⭐️🤝',
-                            tarifs: [
-                                { weight: '2,5g', price: 80.00 },
-                                { weight: '5g', price: 160.00 },
-                                { weight: '10g', price: 320.00 },
-                            ]
-                        },
-                        {
-                            id: 'CREAMIZ 🍨🍦🍮',
-                            flag: '🇺🇸',
-                            name: 'CREAMIZ 🍨🍦🍮',
-                            farm: 'SAHA SAHA TERPS 😼🤳🇺🇸',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductCreami.png',
-                            videos: ['VideoCreami.mp4','VideoCreami1.mov' ],
-                            description: 'On vous a ramener une pépite venu tout droit des 🇺🇸 avec une odeur de Cali 🇺🇸 qui te débouche le nez 👃 un goût juste magnifique 🤩 produit parle de lui même',
-                            tarifs: [
-                                { weight: '2,5g', price: 100.00 },
-                                { weight: '5g', price: 200.00 },
-                                { weight: '10g', price: 380.00 },
-                                { weight: '25g', price: 0, private: true },
-                                { weight: '50g', price: 0, private: true },
-                            ]
-                        },
-                        {
-                            id: 'Saha',
-                            flag: '🇺🇸',
-                            name: 'Ice cream cake 🍰🥧',
-                            farm: ' SAHA TERPS 🇺🇸 ⭐️',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductSaha.png',
-                            video: 'VideoSaha.mp4',
-                            description: '⚡️ STATIC SIFT ⚡️ \n\n On vous a ramener un délice que vous connaissez déjà sauf le strain parle de lui même 🤫Cali 🇺🇸 gazzy',
-                            tarifs: [
-                                { weight: '2,5g', price: 100.00 },
-                                { weight: '5g', price: 200.00 },
-                                { weight: '10g', price: 400.00 },
-                            ]
-                        },
-                         {
-                            id: 'WEEDING CAKE 🥧🍰🧁',
-                            flag: '🇺🇸',
-                            name: 'WEEDING CAKE 🥧🍰🧁',
-                            farm: 'CALITE FARMS 🇺🇸 🇪🇸',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductCake.png',
-                            video: 'VideoCake.mp4',
-                            description: 'STATIC SIFT ⚡️⚡️⚡️ \n SINGLE SOURCE 🌟🌟🌟\n\n EXCLUSIF 🌟🌟🌟 \n On vous a ramener la crème du moment single source un délice 🌟☀️🫨produit spéciale 🔭®️',
-                            tarifs: [
-                                { weight: '2.5g', price: 90.00 },
-                                { weight: '5g', price: 180.00 },
-                                { weight: '10g', price: 350.00 },
-
-                            ]
-                        }, 
-                       /*  {
+                               /*  {
                             id: 'HASHI',
                             flag: '🇺🇸',
                             name: 'MR . HASHI MOTO 🇨🇳 X CALI 🇺🇸',
@@ -729,46 +915,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'WHITE RUNTZ', emoji: '🇺🇸', colorClass: 'frozen-runtz' },
                             ]
                         } */
-                    ]
-                }
-            ]
-        },
-        // --- Catégorie 2: V.V.S TANGER ---
-        {
-            id: 'WeedUsa',
-            name: '🇺🇸 Weed Usa 🇺🇸',
-            farm: '',
-            type: 'Weed Usa',
-            quality: '🇺🇸 Weed Usa 🇺🇸',
-            image: 'CategWeedU.png', // Image de la catégorie
 
-            farms: [
-                {
-                    /*id: 'WIZARDTREES',
-                    name: 'Wizard trees 🔮',
-                    image: 'CategHash.png', 
-                    badgeText: '0 produits',
-                    clickable: false,  */
-                    products: [
-                        {
-                            id: 'RUNTZ 🟣🟣',
-                            flag: '🇺🇸',
-                            name: 'RUNTZ 🟣🟣',
-                            farm: 'TOP SHELF EXOTIC 🇺🇸 🌟',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductRT.png',
-                            video: 'VideoRT.mov',
-                            description: 'On vous a ramener une Cali 🇺🇸 full gazzy en bouche 👄 un délice de Cali en bouche 👄',
-                            tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 140.00 },
-                                { weight: '25g', price: 350.00 },
-                                { weight: '50g/+', price: 0, private: true  },
-
-                            ],
-                        },
-                        {
+     /*   {
                             id: 'BISCOTTI 🥧🍰',
                             flag: '🇺🇸',
                             name: 'BISCOTTI 🥧🍰',
@@ -786,8 +934,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g/+', price: 0, private: true  },
 
                             ],
-                        },
-                        {
+                        }, */
+                     /*    {
                             id: 'CÉRÉALES 🥣 MILK',
                             flag: '🇺🇸',
                             name: 'CÉRÉALES 🥣 MILK',
@@ -803,24 +951,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 120.00 },
                                 { weight: '25g', price: 300.00 },
                             ],
-                        },
-                        {
-                            id: 'GUSHERS 🇺🇸 🔞®️',
-                            flag: '🇺🇸',
-                            name: 'GUSHERS 🇺🇸 🔞®️',
-                            farm: 'TOP SHELF 🇺🇸 ⭐️',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductGush.png',
-                            video: 'VideoGush.mp4',
-                            description: 'On vous a ramener une belle 🤩 variétés ✅juste à ouverture ❌produit gazzy 😷🇺🇸odeur 🍋',
-                            tarifs: [
-                                { weight: '2.5g', price: 30.00 },
-                                { weight: '5g', price: 60.00 },
-                                { weight: '10g', price: 110.00 },
-                                { weight: '25g', price: 250.00 },
-                            ],
-                        },
+                        }, */
                      /*    {
                             id: 'GELATO',
                             flag: '🇺🇸',
@@ -947,86 +1078,6 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         } */
 
-                    ]
-                }]
-        },
-        {
-            id: 'WeedHollandaise',
-            name: '🇳🇱 Weed Hollandaise 🇳🇱',
-            farm: '',
-            type: 'Weed Hollandaise',
-            quality: '🇳🇱 Weed Hollandaise 🇳🇱',
-            image: 'CategWeedH.png', // Image de la catégorie
-
-            // La catégorie contient maintenant des "farms"
-            farms: [
-                {
-                    /*     id: 'HASH',
-                        name: 'HASH',
-                        image: 'Frosty2.png', // Mets une image de farm si tu veux
-                        badgeText: '5 produits', */
-                    products: [
-                        {
-                            id: 'GELATO COOKIES 🤫🍪 ',
-                            flag: '🇺🇸',
-                            name: 'GELATO COOKIES 🤫🍪',
-                            farm: '⭐️ NO FARM ',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductGG.png',
-                            video: 'VideoGG.mov',
-                            description: 'On vous a ramener la weed que vous avez kiffer avec une touche sucrée 🍭 et un goût à couper le souffle 💨',
-                            tarifs: [
-                                { weight: '5g', price: 40.00 },
-                                { weight: '10g', price: 80.00 },
-                                { weight: '25g', price: 200.00 },
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-                            ],
-                        }
-                    ]
-                }
-
-            ]
-        },
-        {
-            id: 'Extraction',
-            name: '☢️ Extraction ☢️',
-            farm: '',
-            type: 'Extraction',
-            quality: ' ☢️ Extraction ☢️',
-            image: 'CategExtraction.png', // Image de la catégorie
-
-            // La catégorie contient maintenant des "farms"
-            farms: [
-                {
-                    /*     id: 'HASH',
-                        name: 'HASH',
-                        image: 'Frosty2.png', // Mets une image de farm si tu veux
-                        badgeText: '5 produits', */
-                    products: [
-                        
-                    ]
-                }
-
-            ]
-        },
-        {
-            id: 'HashGrande',
-            name: '🍾 Hash De Grande Envergure 🍾',
-            farm: '',
-            type: 'Hash de luxe',
-            quality: '🍾 Hash de grande envergure 🍾',
-            image: 'CategHashGrande.png', // Image de la catégorie
-
-            // La catégorie contient maintenant des "farms"
-            farms: [
-                {
-                    /*     id: 'HASH',
-                        name: 'HASH',
-                        image: 'Frosty2.png', // Mets une image de farm si tu veux
-                        badgeText: '5 produits', */
-                    products: [
                     /*     {
                             id: '98',
                             flag: '🇲🇦',
@@ -1096,69 +1147,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'BANANA JUNK', emoji: '🍌', colorClass: 'jar-banana-junk' }
                             ]
                         } */
-                    ]
-                }
-
-            ]
-        },
-        {
-            id: 'Écaille',
-            name: '🐠 Écaille de poisson 🐠',
-            farm: '',
-            type: 'Écaille',
-            quality: '🐠 Écaille de poisson 🐠',
-            image: 'CategEcaille.png', // Image de la catégorie
-
-            // La catégorie contient maintenant des "farms"
-            farms: [
-                {
-                    /*     id: 'HASH',
-                        name: 'HASH',
-                        image: 'Frosty2.png', // Mets une image de farm si tu veux
-                        badgeText: '5 produits', */
-                    products: [
-                           {
-                            id: 'SINALOA🇧🇷',
-                              flag: '🇧🇴',
-                            name: 'SINALOA🇧🇷',
-                            farm: '🦁🦁🦁🦁',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductSina.png',
-                            video: 'VideoSina.mp4',
-                            description: 'Elle risque de te faire découvrir un autre univers 🙈🙊💯😎',
-                            tarifs: [
-                                { weight: '1g', price: 60.00 },
-                                { weight: '5g', price: 250.00 },
-                                { weight: '10g', price: 0, private: true },
-                                { weight: '25g', price: 0, private: true },
-
-                            ]
-                        }
-                     /*    {
-                            id: 'Bolivienne',
-                              flag: '🇧🇴',
-                            name: 'BOLIVIENNE 🇧🇴🇧🇴',
-                            farm: '🦁🦁🦁🦁',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductBoliv.png',
-                            video: 'Boliv.mov',
-                            description: 'Odeur qui fouette 🧟qui débouche le nez 👃 tu risque de passé un bon voyage 🛫',
-                            tarifs: [
-                                { weight: '1g', price: 60.00 },
-                                { weight: '5g', price: 220.00 },
-                                { weight: '10g', price: 420.00 },
-                            ]
-                        } */
-                    ]
-                }
-
-            ]
-        },
-
-
-    ];
 
     // --- VARIABLES D'ÉTAT ---
     let cart = [];
