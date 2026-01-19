@@ -160,22 +160,42 @@ document.addEventListener('DOMContentLoaded', function () {
                          image: 'Wizard4.png', // Mets une image de farm si tu veux
                          badgeText: '2 produits', */
                     products: [
-                     /*    {
-                            id: 'FROZEN SIFT 🔵',
+                        {
+                            id: 'COSMOS 🧑‍🚀COOKIES 🍪',
                             flag: '🇺🇸',
-                            name: 'FROZEN SIFT 🔵',
-                            farm: 'SAHA SAHA TERPS 😼🤳🇺🇸',
+                            name: 'COSMOS 🧑‍🚀COOKIES 🍪',
+                            farm: 'SHEESH STATIC 🇺🇸 ⭐️🌟',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductGov.png',
-                            video: 'VideoGov.mov',
-                            description: 'On vous a ramener le dernier de la gamme il manque plus que le jaune et vous aurez les frere et soeur saha ⭐️🇺🇸',
+                            image: 'ProductCos.png',
+                            video: 'VideoCos.mov',
+                            description: 'On vous a ramener une pépite 📲🌟avec un curing à blanc 🍯et un goût fabuleux ☀️🫡',
                             tarifs: [
-                                { weight: '2,5g', price: 70.00 },
-                                { weight: '5g', price: 140.00 },
-                                { weight: '10g', price: 280.00 },
+                                { weight: '2,5g', price: 100.00 },
+                                { weight: '5g', price: 200.00 },
+                                { weight: '10g', price: 380.00 },
+                                { weight: '25g', price: 0, private: true },
+                                { weight: '50g', price: 0, private: true },
                             ]
-                        }, */
+                        },
+                        {
+                            id: 'COOKIES 🍪 DOUGH 🥶',
+                            flag: '🇺🇸',
+                            name: 'COOKIES 🍪 DOUGH 🥶',
+                            farm: 'SHEESH STATIC 🇺🇸 ⭐️🌟',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductDoug.png',
+                            video: 'VideoDoug.mov',
+                            description: 'On vous a ramener une  pépite 🫡 odeur de usa 🇺🇸 goût tu risque de surfer 🏄 sur la vague 🌊 curing blanc de blanc 🌟',
+                            tarifs: [
+                                { weight: '2,5g', price: 100.00 },
+                                { weight: '5g', price: 200.00 },
+                                { weight: '10g', price: 400.00 },
+                                { weight: '25g', price: 0, private: true },
+                                { weight: '50g', price: 0, private: true },
+                            ]
+                        },
                         {
                             id: 'FROSTY JAM 🤝🇺🇸⭐️',
                             flag: '🇺🇸',
