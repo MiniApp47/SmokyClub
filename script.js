@@ -285,6 +285,45 @@ document.addEventListener('DOMContentLoaded', function () {
                     clickable: false,  */
                     products: [
                         {
+                            id: 'GMO',
+                            flag: '🇺🇸',
+                            name: 'GMO 🧅',
+                            farm: 'TOP SHELF 🇺🇸 EXOTICS',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductGmo1.png',
+                            video: 'VideoGmo1.mov',
+                            description: 'On vous a ramené des tête compact bien GAZZY 🥵👅odeur de Cali qui fouette ⭐️⭐️',
+                            tarifs: [
+                                { weight: '2.5g', price: 40.00 },
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 140.00 },
+                                { weight: '25g', price: 350.00 },
+                                { weight: '50g', price: 0, private: true  },
+                                { weight: '100g', price: 0, private: true  },
+                            ]
+                        },
+                        {
+                            id: 'CALIWEEDING',
+                            flag: '🇺🇸',
+                            name: 'WEEDING CAKE 🍰🥧',
+                            farm: 'TOP SHELF 🇺🇸 EXOTICS',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductWeedi.png',
+                            video: 'VideoWeedi.mov',
+                            description: 'On vous a ramener une pépite la WEEDING 🇺🇸 que vous connais et tous ⭐️⭐️🍯🍯 sa fouette à travers le pochon ⭐️⭐️✅✅',
+                            tarifs: [
+                                { weight: '2.5g', price: 40.00 },
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 140.00 },
+                                { weight: '25g', price: 350.00 },
+                                { weight: '50g', price: 0, private: true  },
+                                { weight: '100g', price: 0, private: true  },
+
+                            ]
+                        },
+                        {
                             id: 'RUNTZ 🟣🟣',
                             flag: '🇺🇸',
                             name: 'RUNTZ 🟣🟣',
