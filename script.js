@@ -292,7 +292,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             promoEligible: true,
                             type: 'Weed',
                             image: 'ProductGmo1.png',
-                            video: 'VideoGmo1.mov',
+                            videos: ['VideoGmo1.mov','VideoGmo2.mov'],
                             description: 'On vous a ramené des tête compact bien GAZZY 🥵👅odeur de Cali qui fouette ⭐️⭐️',
                             tarifs: [
                                 { weight: '2.5g', price: 40.00 },
@@ -311,7 +311,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             promoEligible: true,
                             type: 'Weed',
                             image: 'ProductWeedi.png',
-                            video: 'VideoWeedi.mov',
+                            videos: ['VideoWeedi.mov','VideoWeedi2.mov'],
                             description: 'On vous a ramener une pépite la WEEDING 🇺🇸 que vous connais et tous ⭐️⭐️🍯🍯 sa fouette à travers le pochon ⭐️⭐️✅✅',
                             tarifs: [
                                 { weight: '2.5g', price: 40.00 },
