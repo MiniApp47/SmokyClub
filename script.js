@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 
                             ],
                         },
-                            {
+                            /* {
                                 id: 'STATIC SIFT ⭐️⭐️⚡️⚡️',
                                 flag: '🇲🇦',
                                 name: 'GOLDCHERRY 🍒x HONEY BANANA 🍌🍌',
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                     { weight: '10g', price: 180.00 },
                                     { weight: '25g', price: 420.00 },
                                 ],
-                                },
+                                }, */
                         {
                             id: 'Frozen PRENIUM',
                             flag: '🇲🇦',
@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 0, private: true },
                                 { weight: '50g', price: 0, private: true },
                             ]
-                        },
+                        },/* ,
                         {
                             id: 'FROSTY JAM 🤝🇺🇸⭐️',
                             flag: '🇺🇸',
@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 160.00 },
                                 { weight: '10g', price: 320.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: 'CREAMIZ 🍨🍦🍮',
                             flag: '🇺🇸',
@@ -323,7 +323,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         },
-                        {
+                        /* {
                             id: 'RUNTZ 🟣🟣',
                             flag: '🇺🇸',
                             name: 'RUNTZ 🟣🟣',
@@ -340,7 +340,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g/+', price: 0, private: true  },
 
                             ],
-                        },
+                        } *//* ,
                         {
                             id: 'GUSHERS 🇺🇸 🔞®️',
                             flag: '🇺🇸',
@@ -357,7 +357,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 110.00 },
                                 { weight: '25g', price: 250.00 },
                             ],
-                        }
+                        } */
                     ]
                 }]
         },
@@ -523,7 +523,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ],
                         }, */
-                       /*  {
+                        /* {
                             id: 'FROSTED',
                             flag: '🇲🇦',
                             name: 'TWISTED FROSTED ☢️⚠️',
