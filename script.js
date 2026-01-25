@@ -43,6 +43,51 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
+                        {
+                            id: 'TOP DRY SIFT 🇲🇦',
+                            flag: '🇲🇦',
+                            name: 'TOP DRY SIFT 🇲🇦',
+                            farm: '🔴 NO FARM 🔴',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductCur.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoCur.mp4',       // Idem pour la vidéo
+                            description: 'On vous a ramener un Hash curing top 🤪✅odeur de weed prix 🥇 attractif',
+                            tarifs: [
+                                { weight: '5g', price: 30.00},
+                                { weight: '10g', price: 60.00},
+                                { weight: '25g', price: 150.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+
+
+                            ],
+                        }, 
+                        {
+                            id: 'Top',
+                            flag: '🇲🇦',
+                            name: 'Top 🇲🇦',
+                            farm: 'SELECTION 🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductTop1.png',
+                            video: 'VideoTop.mov',      // Vidéo 1                     
+                            description: 'On vous a ramener 2 pépite pour les petite poche curing au top 👌 odeur de weed fruités 🍑🍌',
+                            tarifs: [
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 200.00 },
+                                // priver
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                            // 👇 NIVEAU 1 : FILTRATION
+                            variantTitle: '1️⃣ Sélectionner la filtration :', 
+                            jars: [
+                                { name: '120u', emoji: '🔵', colorClass: 'variant-120u' },
+                                { name: '105u', emoji: '🟢', colorClass: 'variant-160u' }
+                            ],
+                        },
 
                           {
                             id: 'SMOKINGREEN 💦🍀',
@@ -121,20 +166,20 @@ document.addEventListener('DOMContentLoaded', function () {
                             // 👇 TITRE PERSONNALISÉ
                             variantTitle: 'Sélectionner la variété 🍧 :', 
                             jars: [
-                                { name: 'BLOOD CHEESE / PREMIUM', emoji: '🍒🩸🧀', colorClass: 'frozen-blood' },
+/*                                 { name: 'BLOOD CHEESE / PREMIUM', emoji: '🍒🩸🧀', colorClass: 'frozen-blood' },
                                 { name: 'HONEY BANANA X GOLD CHERRY', emoji: '🍯🍌🏆🍒', colorClass: 'frozen-honey' },
                                 { name: 'FORBIDDEN GAZ / PREMIUM', emoji: '🍏🍎💨', colorClass: 'frozen-forbidden' },
                                 { name: 'SUPER GASBOOF / PREMIUM', emoji: '💨🍭🍈', colorClass: 'frozen-gasboof' },
                                 { name: 'FROSTED PINEAPPEL / PREMIUM', emoji: '🌾🍍🍎', colorClass: 'frozen-pineapple' },
-                                { name: 'MOROCCO PEACHES / PREMIUM', emoji: '🍑🇲🇦', colorClass: 'frozen-peach' },
-                                { name: 'GASMINT X FF / PREMIUM', emoji: '💨🍋🍏🍎', colorClass: 'frozen-gasmint' },
+ */                             /*  name: 'MOROCCO PEACHES / PREMIUM', emoji: '🍑🇲🇦', colorClass: 'frozen-peach' },
+                                { name: 'GASMINT X FF / PREMIUM', emoji: '💨🍋🍏🍎', colorClass: 'frozen-gasmint' }, */
                                 { name: 'ZHEAD / PREMIUM', emoji: '🫐🍋⛽️🍭', colorClass: 'frozen-zhead' },
                                 { name: 'MANDARIN OG / PREMIUM', emoji: '🍊🥦', colorClass: 'frozen-mandarin' },
-                                { name: 'SOUR ORANGE / PREMIUM', emoji: '🍊⛽️', colorClass: 'frozen-sour' },
+                                /* { name: 'SOUR ORANGE / PREMIUM', emoji: '🍊⛽️', colorClass: 'frozen-sour' },
                                 { name: 'BLUE Z / PREMIUM', emoji: '🌊🥝', colorClass: 'frozen-bluez' },
                                 { name: '24k x MG / PREMIUM', emoji: '🏆🍊🥦', colorClass: 'frozen-24k' },
                                 { name: 'GRAPE CAKE / PREMIUM', emoji: '🍇🧁', colorClass: 'frozen-grape' },
-                                { name: 'TMZ X YELLOW / PREMIUM', emoji: '🍈🍍🟡', colorClass: 'frozen-tmz' },           
+                                { name: 'TMZ X YELLOW / PREMIUM', emoji: '🍈🍍🟡', colorClass: 'frozen-tmz' }, */           
                             ]
                             }
                     
@@ -160,6 +205,24 @@ document.addEventListener('DOMContentLoaded', function () {
                          image: 'Wizard4.png', // Mets une image de farm si tu veux
                          badgeText: '2 produits', */
                     products: [
+                        {
+                            id: 'MELLOW YELLOW 🍈',
+                            flag: '🇺🇸',
+                            name: 'MELLOW YELLOW 🍈',
+                            farm: 'SHEESH STATIC 🇺🇸 ⭐️🌟',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductMellow.png',
+                            video: 'VideoMellow.mov',
+                            description: 'On vous a ramener une 3 eme variétés de la famille sheesh 🇺🇸un délice 🤪translucide',
+                            tarifs: [
+                                { weight: '2,5g', price: 100.00 },
+                                { weight: '5g', price: 200.00 },
+                                { weight: '10g', price: 400.00 },
+                                { weight: '25g', price: 0, private: true },
+                                { weight: '50g', price: 0, private: true },
+                            ]
+                        },
                         {
                             id: 'COSMOS 🧑‍🚀COOKIES 🍪',
                             flag: '🇺🇸',
@@ -212,7 +275,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 320.00 },
                             ]
                         }, */
-                        {
+                     /*    {
                             id: 'CREAMIZ 🍨🍦🍮',
                             flag: '🇺🇸',
                             name: 'CREAMIZ 🍨🍦🍮',
@@ -229,7 +292,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 0, private: true },
                                 { weight: '50g', price: 0, private: true },
                             ]
-                        },
+                        }, */
                         {
                             id: 'Saha',
                             flag: '🇺🇸',
