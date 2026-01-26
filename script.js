@@ -348,6 +348,44 @@ document.addEventListener('DOMContentLoaded', function () {
                     clickable: false,  */
                     products: [
                         {
+                            id: 'SUPER BOOF 🇺🇸',
+                            flag: '🇺🇸',
+                            name: 'SUPER BOOF 🇺🇸',
+                            farm: 'CALI TOP SHELF 🇺🇸 ',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductBoof.png',
+                            video: 'VideoBoof.mov',
+                            description: 'Une weed introuvable sur le marché un délice 🔞🥶',
+                            tarifs: [
+                                { weight: '2.5g', price: 30.00 },
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 0, private: true  },
+                                { weight: '100g', price: 0, private: true  },
+                            ]
+                        },
+                        {
+                            id: 'COOKIES 🍪 CREAM🍨',
+                            flag: '🇺🇸',
+                            name: 'COOKIES 🍪 CREAM🍨',
+                            farm: 'CALI TOP SHELF 🇺🇸 ',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductCream.png',
+                            video: 'VideoCream.mov',
+                            description: 'Pas besoin en parler Cali full gazzy crémeuse 🔌®️🥵',
+                            tarifs: [
+                                { weight: '2.5g', price: 30.00 },
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 0, private: true  },
+                                { weight: '100g', price: 0, private: true  },
+                            ]
+                        },
+                        {
                             id: 'GMO',
                             flag: '🇺🇸',
                             name: 'GMO 🧅',
