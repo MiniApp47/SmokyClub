@@ -105,11 +105,10 @@ document.addEventListener('DOMContentLoaded', function () {
                             variantTitle: '1️⃣ Sélectionner la filtration :', 
                             jars: [
                                 { name: '120u', emoji: '🔵', colorClass: 'variant-120u' },
-                                { name: '105u', emoji: '🟢', colorClass: 'variant-160u' }
                             ],
                         },
 
-                          {
+                        /*   {
                             id: 'SMOKINGREEN 💦🍀',
                             flag: '🇲🇦',
                             name: 'TOP MOUSSE 🧽',
@@ -127,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
                             ],
-                        }, 
+                        },  */
                           {
                             id: 'WHITE APPLE RUNTZ 🍏🍎',
                             flag: '🇲🇦',
@@ -261,24 +260,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true },
                             ]
                         },
-                        {
-                            id: 'COOKIES 🍪 DOUGH 🥶',
-                            flag: '🇺🇸',
-                            name: 'COOKIES 🍪 DOUGH 🥶',
-                            farm: 'SHEESH STATIC 🇺🇸 ⭐️🌟',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductDoug.png',
-                            video: 'VideoDoug.mov',
-                            description: 'On vous a ramener une  pépite 🫡 odeur de usa 🇺🇸 goût tu risque de surfer 🏄 sur la vague 🌊 curing blanc de blanc 🌟',
-                            tarifs: [
-                                { weight: '2,5g', price: 100.00 },
-                                { weight: '5g', price: 200.00 },
-                                { weight: '10g', price: 400.00 },
-                                { weight: '25g', price: 0, private: true },
-                                { weight: '50g', price: 0, private: true },
-                            ]
-                        },/* ,
+                    /* ,
                         {
                             id: 'FROSTY JAM 🤝🇺🇸⭐️',
                             flag: '🇺🇸',
@@ -367,56 +349,18 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '0 produits',
                     clickable: false,  */
                     products: [
-                      /*   {
-                            id: 'SUPER BOOF 🇺🇸',
-                            flag: '🇺🇸',
-                            name: 'SUPER BOOF 🇺🇸',
-                            farm: 'CALI TOP SHELF 🇺🇸 ',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductBoof.png',
-                            video: 'VideoBoof.mov',
-                            description: 'Une weed introuvable sur le marché un délice 🔞🥶',
-                            tarifs: [
-                                { weight: '2.5g', price: 30.00 },
-                                { weight: '5g', price: 60.00 },
-                                { weight: '10g', price: 120.00 },
-                                { weight: '25g', price: 300.00 },
-                                { weight: '50g', price: 0, private: true  },
-                                { weight: '100g', price: 0, private: true  },
-                            ]
-                        },
                         {
-                            id: 'COOKIES 🍪 CREAM🍨',
+                            id: 'CALISUNSET',
                             flag: '🇺🇸',
-                            name: 'COOKIES 🍪 CREAM🍨',
-                            farm: 'CALI TOP SHELF 🇺🇸 ',
+                            name: 'SUNSET SHERBET 🇺🇸',
+                            farm: 'TOP SHELF EXOTICS 🍹',
                             promoEligible: true,
                             type: 'Weed',
-                            image: 'ProductCream.png',
-                            video: 'VideoCream.mov',
-                            description: 'Pas besoin en parler Cali full gazzy crémeuse 🔌®️🥵',
+                            image: 'ProductSunset.png',
+                            // clickable: false, 
+                            video:  'VideoSunset.mov',      // Vidéo 1
+                            description: 'On vous a ramener un best seller poleneuse odeur 🇺🇸fouettante 🫡😉t’aura du mal à temp remettre 🌟🌟🌟',
                             tarifs: [
-                                { weight: '2.5g', price: 30.00 },
-                                { weight: '5g', price: 60.00 },
-                                { weight: '10g', price: 120.00 },
-                                { weight: '25g', price: 300.00 },
-                                { weight: '50g', price: 0, private: true  },
-                                { weight: '100g', price: 0, private: true  },
-                            ]
-                        }, */
-                        {
-                            id: 'GMO',
-                            flag: '🇺🇸',
-                            name: 'GMO 🧅',
-                            farm: 'TOP SHELF 🇺🇸 EXOTICS',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductGmo1.png',
-                            videos: ['VideoGmo1.mov','VideoGmo2.mov'],
-                            description: 'On vous a ramené des tête compact bien GAZZY 🥵👅odeur de Cali qui fouette ⭐️⭐️',
-                            tarifs: [
-                                { weight: '2.5g', price: 40.00 },
                                 { weight: '5g', price: 70.00 },
                                 { weight: '10g', price: 140.00 },
                                 { weight: '25g', price: 350.00 },
@@ -424,6 +368,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 0, private: true  },
                             ]
                         },
+                     
                         {
                             id: 'CALIWEEDING',
                             flag: '🇺🇸',
@@ -444,41 +389,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         },
-                        /* {
-                            id: 'RUNTZ 🟣🟣',
-                            flag: '🇺🇸',
-                            name: 'RUNTZ 🟣🟣',
-                            farm: 'TOP SHELF EXOTIC 🇺🇸 🌟',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductRT.png',
-                            video: 'VideoRT.mov',
-                            description: 'On vous a ramener une Cali 🇺🇸 full gazzy en bouche 👄 un délice de Cali en bouche 👄',
-                            tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 140.00 },
-                                { weight: '25g', price: 350.00 },
-                                { weight: '50g/+', price: 0, private: true  },
 
-                            ],
-                        } *//* ,
-                        {
-                            id: 'GUSHERS 🇺🇸 🔞®️',
-                            flag: '🇺🇸',
-                            name: 'GUSHERS 🇺🇸 🔞®️',
-                            farm: 'TOP SHELF 🇺🇸 ⭐️',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductGush.png',
-                            video: 'VideoGush.mp4',
-                            description: 'On vous a ramener une belle 🤩 variétés ✅juste à ouverture ❌produit gazzy 😷🇺🇸odeur 🍋',
-                            tarifs: [
-                                { weight: '2.5g', price: 30.00 },
-                                { weight: '5g', price: 60.00 },
-                                { weight: '10g', price: 110.00 },
-                                { weight: '25g', price: 250.00 },
-                            ],
-                        } */
                     ]
                 }]
         },
