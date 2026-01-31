@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'SUPER TROP CHERRY 🍒',
                             flag: '🇲🇦',
                             name: 'SUPER TROP CHERRY 🍒',
-                            farm: '🔴 NO FARM 🔴',
+                            farm: 'FrozenFarmz 🔌',
                             promoEligible: true,
                             type: 'Hash Marocain',
                             image: 'ProductSuper.png', // Pense à changer l'image si tu en as une nouvelle
@@ -448,6 +448,24 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
+                        {
+                            id: 'WEEDING PIE 🇺🇸🥧',
+                            flag: '🇺🇸',
+                            name: 'WEEDING PIE 🇺🇸🥧',
+                            farm: 'SIXSTAR ®️🇺🇸FULL MELT 💎',
+                            promoEligible: true,
+                            type: 'Extraction',
+                            image: 'ProductWeeding.png',
+                            video: 'VideoWeeding.mov',
+                            description: 'On vous a ramener le champion de la 🏆cannabis cup de exclusif de chez exclu ®️🔞 \n A fumer avec modération 🔞',
+                            tarifs: [
+                                { weight: '1,25g', price: 60.00},
+                                { weight: '2,5g', price: 120.00},
+                                { weight: '5g', price: 240.00},
+                                { weight: '10g', price: 480.00},
+                                { weight: 'Pour +', price: 0, private: true },
+                            ],
+                        }, 
                         
                     ]
                 }
