@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                     { weight: '25g', price: 420.00 },
                                 ],
                                 }, */
-                        {
+                        /* {
                             id: 'Frozen PRENIUM',
                             flag: '🇲🇦',
                             name: 'Frozen PREMIUM 🧊',
@@ -192,16 +192,16 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'SUPER GASBOOF / PREMIUM', emoji: '💨🍭🍈', colorClass: 'frozen-gasboof' },
                                 { name: 'FROSTED PINEAPPEL / PREMIUM', emoji: '🌾🍍🍎', colorClass: 'frozen-pineapple' },
  */                             /*  name: 'MOROCCO PEACHES / PREMIUM', emoji: '🍑🇲🇦', colorClass: 'frozen-peach' },
-                                { name: 'GASMINT X FF / PREMIUM', emoji: '💨🍋🍏🍎', colorClass: 'frozen-gasmint' }, */
+                                { name: 'GASMINT X FF / PREMIUM', emoji: '💨🍋🍏🍎', colorClass: 'frozen-gasmint' }, 
                                 { name: 'ZHEAD / PREMIUM', emoji: '🫐🍋⛽️🍭', colorClass: 'frozen-zhead' },
                                 { name: 'MANDARIN OG / PREMIUM', emoji: '🍊🥦', colorClass: 'frozen-mandarin' },
                                 /* { name: 'SOUR ORANGE / PREMIUM', emoji: '🍊⛽️', colorClass: 'frozen-sour' },
                                 { name: 'BLUE Z / PREMIUM', emoji: '🌊🥝', colorClass: 'frozen-bluez' },
                                 { name: '24k x MG / PREMIUM', emoji: '🏆🍊🥦', colorClass: 'frozen-24k' },
                                 { name: 'GRAPE CAKE / PREMIUM', emoji: '🍇🧁', colorClass: 'frozen-grape' },
-                                { name: 'TMZ X YELLOW / PREMIUM', emoji: '🍈🍍🟡', colorClass: 'frozen-tmz' }, */           
+                                { name: 'TMZ X YELLOW / PREMIUM', emoji: '🍈🍍🟡', colorClass: 'frozen-tmz' },            
                             ]
-                            }
+                            } */
                     
                     ]
                 }
@@ -367,7 +367,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '0 produits',
                     clickable: false,  */
                     products: [
-                        {
+                      /*   {
                             id: 'SUPER BOOF 🇺🇸',
                             flag: '🇺🇸',
                             name: 'SUPER BOOF 🇺🇸',
@@ -404,7 +404,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true  },
                                 { weight: '100g', price: 0, private: true  },
                             ]
-                        },
+                        }, */
                         {
                             id: 'GMO',
                             flag: '🇺🇸',
