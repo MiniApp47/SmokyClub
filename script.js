@@ -44,6 +44,24 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'MUEL FUEL ⛽️X TANGERINE SQUEEZ 🍊',
+                            flag: '🇲🇦',
+                            name: 'MUEL FUEL ⛽️X TANGERINE SQUEEZ 🍊',
+                            farm: 'STATIC X WPFF 🌱',
+                            promoEligible: true,
+                            type: 'Hash de luxe',
+                            image: 'ProductMuel.png', // Pense à changer l'image si tu en as une nouvelle
+                            videos: ['VideoMuel.mov','VideoMuel2.mov'],       // Idem pour la vidéo
+                            description: 'On vous a ramener un produit tout droit venu du pays 🇲🇦 \n bi color 🔞🥵un délice fruités 🍑🍌🍓🍉',
+                            tarifs: [
+                                { weight: '2,5g', price: 60.00},
+                                { weight: '5g', price: 120.00},
+                                { weight: '10g', price: 240.00},
+                                { weight: '25g', price: 600.00},
+                                { weight: '30g', price: 0, private: true },
+                            ],
+                        }, 
+                        {
                             id: 'SUPER TROP CHERRY 🍒',
                             flag: '🇲🇦',
                             name: 'SUPER TROP CHERRY 🍒',
@@ -488,24 +506,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                        {
-                            id: 'MUEL FUEL ⛽️X TANGERINE SQUEEZ 🍊',
-                            flag: '🇲🇦',
-                            name: 'MUEL FUEL ⛽️X TANGERINE SQUEEZ 🍊',
-                            farm: 'STATIC X WPFF 🌱',
-                            promoEligible: true,
-                            type: 'Hash de luxe',
-                            image: 'ProductMuel.png', // Pense à changer l'image si tu en as une nouvelle
-                            videos: ['VideoMuel.mov','VideoMuel2.mov'],       // Idem pour la vidéo
-                            description: 'On vous a ramener un produit tout droit venu du pays 🇲🇦 \n bi color 🔞🥵un délice fruités 🍑🍌🍓🍉',
-                            tarifs: [
-                                { weight: '2,5g', price: 60.00},
-                                { weight: '5g', price: 120.00},
-                                { weight: '10g', price: 240.00},
-                                { weight: '25g', price: 600.00},
-                                { weight: '30g', price: 0, private: true },
-                            ],
-                        }, 
+
                     ]
                 }
 
