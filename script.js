@@ -43,6 +43,49 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
+                         {
+                            id: 'FRESH FROZEN 🥶🧊',
+                            flag: '🇲🇦',
+                            name: 'FRESH FROZEN 🥶🧊',
+                            farm: '🔴 NO FARM 🔴',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductFroz.png', // Pense à changer l'image si tu en as une nouvelle
+                            videos: ['VideoFroz.mov','VideoFroz1.mov','VideoFroz2.mov','VideoFroz3.mov','VideoFroz4.mov'],      // Idem pour la vidéo
+                            description: 'On vous a ramener un fresh Frozen qui va vous 😉🤫texture pétant odeur de 🥵',
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+
+                            ],
+                            // 👇 TITRE PERSONNALISÉ
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'STRAWBERRY MILK', emoji: '🍼🥛', colorClass: 'frozen-gasboof' },
+                                { name: 'BLUE GAZOLINE', emoji: '🫐⛽️', colorClass: 'frozen-zhead' },
+                                { name: 'ZELATO', emoji: '🇺🇸🍋', colorClass: 'frozen-gasmint' }, 
+                                { name: 'ZANGRIA ZUSHI', emoji: '🍣', colorClass: 'frozen-grape' },
+                                {  name: 'GUAVA RUNTZ', emoji: '🥭🇺🇸', colorClass: 'frozen-peach' },
+
+
+
+/*                                 { name: 'BLOOD CHEESE / PREMIUM', emoji: '🍒🩸🧀', colorClass: 'frozen-blood' },
+                                { name: 'HONEY BANANA X GOLD CHERRY', emoji: '🍯🍌🏆🍒', colorClass: 'frozen-honey' },
+                                { name: 'FORBIDDEN GAZ / PREMIUM', emoji: '🍏🍎💨', colorClass: 'frozen-forbidden' },
+                                { name: 'SUPER GASBOOF / PREMIUM', emoji: '💨🍭🍈', colorClass: 'frozen-gasboof' },
+                                { name: 'FROSTED PINEAPPEL / PREMIUM', emoji: '🌾🍍🍎', colorClass: 'frozen-pineapple' },
+                                { name: 'GASMINT X FF / PREMIUM', emoji: '💨🍋🍏🍎', colorClass: 'frozen-gasmint' }, 
+                                { name: 'ZHEAD / PREMIUM', emoji: '🫐🍋⛽️🍭', colorClass: 'frozen-zhead' },
+                                { name: 'MANDARIN OG / PREMIUM', emoji: '🍊🥦', colorClass: 'frozen-mandarin' },
+                                /* { name: 'SOUR ORANGE / PREMIUM', emoji: '🍊⛽️', colorClass: 'frozen-sour' },
+                                { name: 'BLUE Z / PREMIUM', emoji: '🌊🥝', colorClass: 'frozen-bluez' },
+                                { name: '24k x MG / PREMIUM', emoji: '🏆🍊🥦', colorClass: 'frozen-24k' },
+                                { name: 'TMZ X YELLOW / PREMIUM', emoji: '🍈🍍🟡', colorClass: 'frozen-tmz' }, */           
+                            ]
+                            },
                         {
                             id: 'MUEL FUEL ⛽️X TANGERINE SQUEEZ 🍊',
                             flag: '🇲🇦',
@@ -478,9 +521,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             description: 'On vous a ramener le champion de la 🏆cannabis cup de exclusif de chez exclu ®️🔞 \n A fumer avec modération 🔞',
                             tarifs: [
                                 { weight: '1,25g', price: 60.00},
-                                { weight: '2,5g', price: 120.00},
-                                { weight: '5g', price: 240.00},
-                                { weight: '10g', price: 480.00},
+                                { weight: '2,5g', price: 110.00},
+                                { weight: '5g', price: 220.00},
+                                { weight: '10g', price: 440.00},
                                 { weight: 'Pour +', price: 0, private: true },
                             ],
                         }, 
