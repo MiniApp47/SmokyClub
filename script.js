@@ -43,6 +43,24 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
+                        {
+                            id: 'MELONADE 🍉🍈',
+                            flag: '🇲🇦',
+                            name: 'MELONADE 🍉🍈',
+                            farm: 'BLACK FARM GENETIX 🧬🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash de luxe',
+                            image: 'ProductMelo.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoMelo.mov',       // Idem pour la vidéo
+                            description: '90u ✅🌟 \n\n On vous a ramener un produit mieux que certain frozen static 🫨🔞texture pétant fruités 🍑🍌🍓',
+                            tarifs: [
+                                { weight: '5g', price: 40.00},
+                                { weight: '10g', price: 80.00},
+                                { weight: '25g', price: 200.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
                          {
                             id: 'FRESH FROZEN 🥶🧊',
                             flag: '🇲🇦',
@@ -188,7 +206,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ],
                         },  */
-                          {
+                       /*    {
                             id: 'WHITE APPLE RUNTZ 🍏🍎',
                             flag: '🇲🇦',
                             name: 'WHITE APPLE RUNTZ 🍏🍎',
@@ -207,7 +225,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 
                                 
                             ],
-                        },
+                        }, */
                             /* {
                                 id: 'STATIC SIFT ⭐️⭐️⚡️⚡️',
                                 flag: '🇲🇦',
@@ -286,6 +304,31 @@ document.addEventListener('DOMContentLoaded', function () {
                          badgeText: '2 produits', */
                     products: [
                         {
+                            id: 'FROZEN SIFT 🔵',
+                            flag: '🇺🇸',
+                            name: 'FROZEN SIFT 🔵',
+                            farm: 'CALI PLATES 🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductPlate.png',
+                            video: 'VideoPlate.mov',
+                            description: 'On vous ramener des pépites full gazeux full 🇺🇸',
+                              // 👇 TITRE PERSONNALISÉ
+                              variantTitle: 'Sélectionner la variété 🍧 :', 
+                              jars: [
+                                  { name: 'OTTER POPS', emoji: '💨🇺🇸', colorClass: 'frozen-gasmint' }, 
+                                  { name: 'GRAPPE BAR', emoji: '🍇🇺🇸', colorClass: 'frozen-zhead' },
+                              ],
+                            tarifs: [
+                                { weight: '2,5g', price: 60.00 },
+                                { weight: '5g', price: 120.00 },
+                                { weight: '10g', price: 240.00 },
+                                { weight: '25g', price: 600.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ]
+                        },
+                        {
                             id: 'MELLOW YELLOW 🍈',
                             flag: '🇺🇸',
                             name: 'MELLOW YELLOW 🍈',
@@ -303,7 +346,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true },
                             ]
                         },
-                        {
+                      /*   {
                             id: 'COSMOS 🧑‍🚀COOKIES 🍪',
                             flag: '🇺🇸',
                             name: 'COSMOS 🧑‍🚀COOKIES 🍪',
@@ -320,7 +363,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 0, private: true },
                                 { weight: '50g', price: 0, private: true },
                             ]
-                        },
+                        }, */
                     /* ,
                         {
                             id: 'FROSTY JAM 🤝🇺🇸⭐️',
@@ -410,7 +453,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '0 produits',
                     clickable: false,  */
                     products: [
-                        {
+                      /*   {
                             id: 'CALISUNSET',
                             flag: '🇺🇸',
                             name: 'SUNSET SHERBET 🇺🇸',
@@ -428,7 +471,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true  },
                                 { weight: '100g', price: 0, private: true  },
                             ]
-                        },
+                        }, */
                      
                         {
                             id: 'CALIWEEDING',
@@ -470,7 +513,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                        {
+                      /*   {
                             id: 'GELATO COOKIES 🤫🍪 ',
                             flag: '🇺🇸',
                             name: 'GELATO COOKIES 🤫🍪',
@@ -487,7 +530,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ],
-                        }
+                        } */
                     ]
                 }
 
