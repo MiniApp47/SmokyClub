@@ -44,6 +44,32 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'SULTAN STATIC ⚡️',
+                            flag: '🇲🇦',
+                            name: 'SULTAN STATIC ⚡️',
+                            farm: 'MOUNTAIN MONKEYZ 🇲🇦🇳🇱',
+                            promoEligible: true,
+                            type: 'Hash de luxe',
+                            image: 'ProductSultan.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoSultan.mp4',       // Idem pour la vidéo
+                            description: 'On vous a ramener un produit qui brille juste au visuel 🤝⚜️ avec ses terpène de malade ✅exclusivement dépêchez vous',
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'PAPAYA', emoji: '🥭', colorClass: 'frozen-sour' },
+                                { name: 'GOLD PRESSE', emoji: '⚜️', colorClass: 'frozen-24k' },
+                                { name: 'HONEY BANANA', emoji: '🍯', colorClass: 'frozen-honey' }, 
+                            ],
+                            
+                            tarifs: [
+                                { weight: '2,5', price: 60.00},
+                                { weight: '5g', price: 120.00},
+                                { weight: '10g', price: 210.00},
+                                { weight: '25g', price: 550.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                        {
                             id: 'STATIC ⚡️',
                             flag: '🇲🇦',
                             name: 'STATIC ⚡️',
@@ -323,6 +349,24 @@ document.addEventListener('DOMContentLoaded', function () {
                          badgeText: '2 produits', */
                     products: [
                         {
+                            id: 'CREAMY ICE 💦🍧',
+                            flag: '🇺🇸',
+                            name: 'CREAMY ICE 💦🍧',
+                            farm: 'WEFLIPS 🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductIceC.png',
+                            video: 'VideoIceC.mp4',
+                            description: 'On vous a ramener le frère du static le Frozen 🇺🇸 weflips 🤝⚡️dinguerie en static et en Frozen ses quelque chose les ami ⭐️⭐️✅✅',
+                            tarifs: [
+                                { weight: '2,5g', price: 90.00 },
+                                { weight: '5g', price: 180.00 },
+                                { weight: '10g', price: 350.00 },
+                                { weight: '25g', price: 880.00 },
+                                { weight: '50g', price: 0, private: true },
+                            ]
+                        },
+                        {
                             id: 'FROZEN SIFT 🔵',
                             flag: '🇺🇸',
                             name: 'FROZEN SIFT 🔵',
@@ -492,6 +536,32 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         }, */
                      
+                        {
+                            id: 'BAGS SCELLÉ 3,5g 🤝🔐',
+                            flag: '🇺🇸',
+                            name: 'BAGS SCELLÉ 3,5g 🤝🔐',
+                            farm: 'HEAVY LOADZ 🇺🇸',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductBags.png',
+                            video: 'VideoBags.mp4',
+                            description: '',
+                               // 👇 TITRE PERSONNALISÉ
+                               variantTitle: 'Sélectionner la variété 🍧 :', 
+                               jars: [
+                                   { name: 'SUPER CANDY MILO ⭐️ (Édition baby Milo 🙊)', emoji: '', colorClass: 'frozen-zhead' },
+                                   { name: 'HEAVY LOADS DO AMERICA 🇺🇸 (édition feuilletons américain 🇺🇸)', emoji: '', colorClass: 'frozen-bluez' },
+                                   { name: 'FACE MELTERZ 🇺🇸  🧽 (Édition bob l’éponge 🧽)', emoji: '🍈', colorClass: 'frozen-tmz' },            
+                               ],
+                               
+                            tarifs: [
+                                { weight: '3,5g', price: 120.00 },
+                                { weight: '7g', price: 230.00 },
+                                { weight: '14g', price: 450.00 },
+                                { weight: 'Pour +', price: 0, private: true  },
+
+                            ]
+                        },
                         {
                             id: 'CALIWEEDING',
                             flag: '🇺🇸',
