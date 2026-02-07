@@ -44,6 +44,25 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'STATIC ⚡️',
+                            flag: '🇲🇦',
+                            name: 'STATIC ⚡️',
+                            farm: 'HASH WARRIOR 🏴‍☠️',
+                            promoEligible: true,
+                            type: 'Hash de luxe',
+                            image: 'ProductSta.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoSta.mov',       // Idem pour la vidéo
+                            description: 'On vous a ramener une pépite ⭐️🤝odeur goût 👅🤝⚡️',
+                            tarifs: [
+                                { weight: '2,5', price: 50.00},
+                                { weight: '5g', price: 100.00},
+                                { weight: '10g', price: 200.00},
+                                { weight: '25g', price: 500.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                        {
                             id: 'MELONADE 🍉🍈',
                             flag: '🇲🇦',
                             name: 'MELONADE 🍉🍈',
