@@ -44,6 +44,29 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'TOP MOUSSE 🧽',
+                            flag: '🇲🇦',
+                            name: 'TOP MOUSSE 🧽',
+                            farm: '🔴 NO FARM 🔴',
+                            promoEligible: true,
+                            type: 'Hash de luxe',
+                            image: 'ProductSmile.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoSmile.mov',       // Idem pour la vidéo
+                            description: 'Mousse marocaine odeur de weed 🤝⭐️🇲🇦',
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'SMOKINGREEN', emoji: '⭐️⭐️⭐️', colorClass: 'frozen-zhead' },
+                                { name: 'SMOKING SMILE', emoji: '😁😁', colorClass: 'frozen-pineapple' }, 
+                            ],
+                            
+                            tarifs: [
+                                { weight: '10g', price: 40.00},
+                                { weight: '25g', price: 100.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                        {
                             id: 'SULTAN STATIC ⚡️',
                             flag: '🇲🇦',
                             name: 'SULTAN STATIC ⚡️',
