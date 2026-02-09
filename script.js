@@ -625,24 +625,24 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                      /*   {
-                            id: 'GELATO COOKIES 🤫🍪 ',
+                        {
+                            id: 'JEALOUSY 🇺🇸',
                             flag: '🇺🇸',
-                            name: 'GELATO COOKIES 🤫🍪',
+                            name: 'JEALOUSY 🇺🇸',
                             farm: '⭐️ NO FARM ',
                             promoEligible: true,
                             type: 'Weed',
-                            image: 'ProductGG.png',
-                            video: 'VideoGG.mov',
-                            description: 'On vous a ramener la weed que vous avez kiffer avec une touche sucrée 🍭 et un goût à couper le souffle 💨',
+                            image: 'ProductJea.png',
+                            video: 'VideoJea.mov',
+                            description: 'On vous a ramener une pépite ✅🇳🇱🇺🇸rapport qualité prix 🥇',
                             tarifs: [
-                                { weight: '5g', price: 40.00 },
-                                { weight: '10g', price: 80.00 },
-                                { weight: '25g', price: 200.00 },
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 90.00 },
+                                { weight: '25g', price: 230.00 },
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ],
-                        } */
+                        }
                     ]
                 }
 
