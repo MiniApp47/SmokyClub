@@ -663,7 +663,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         {
                             id: 'MIMOSA  🇳🇱',
                             flag: '🇳🇱',
-                            name: 'JEALOUSY 🇳🇱',
+                            name: 'MIMOSA 🇳🇱',
                             farm: '⭐️ NO FARM ',
                             promoEligible: true,
                             type: 'Weed',
