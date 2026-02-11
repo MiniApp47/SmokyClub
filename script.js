@@ -44,6 +44,23 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'PREMIUM ⭐️',
+                            flag: '🇲🇦',
+                            name: 'PREMIUM ⭐️',
+                            farm: '🏔️ MONTAGNE DU RIFF 🏔️',
+                            promoEligible: true,
+                            type: 'Hash de luxe',
+                            image: 'ProductPren.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoPren.mov',       // Idem pour la vidéo
+                            description: 'On vous a ramener les dernière  récolte 🤝⭐️de mousse 🧽', 
+                            tarifs: [
+                                { weight: '10g', price: 40.00},
+                                { weight: '25g', price: 100.00},
+                                { weight: '50g', price: 200.00},
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                        {
                             id: 'TOP MOUSSE 🧽',
                             flag: '🇲🇦',
                             name: 'TOP MOUSSE 🧽',
@@ -626,9 +643,45 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
-                            id: 'JEALOUSY 🇺🇸',
-                            flag: '🇺🇸',
-                            name: 'JEALOUSY 🇺🇸',
+                            id: 'GORILLA GLUE 🦍🇳🇱',
+                            flag: '🇳🇱',
+                            name: 'GORILLA GLUE 🦍 🇳🇱',
+                            farm: '⭐️ NO FARM ',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductGorrilla.png',
+                            video: 'VideoGorilla.mov',
+                            description: 'On vous a ramener une petite pépite goût 👅 odeur ⭐️🤝',
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        },
+                        {
+                            id: 'MIMOSA  🇳🇱',
+                            flag: '🇳🇱',
+                            name: 'JEALOUSY 🇳🇱',
+                            farm: '⭐️ NO FARM ',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductMimosa.png',
+                            video: 'VideoMimosa.mov',
+                            description: 'On vous a ramener une pépite odeur 🇳🇱🇺🇸 spéciale 🤝⭐️',
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        },
+                        {
+                            id: 'JEALOUSY 🇳🇱',
+                            flag: '🇳🇱',
+                            name: 'JEALOUSY 🇳🇱',
                             farm: '⭐️ NO FARM ',
                             promoEligible: true,
                             type: 'Weed',
@@ -2719,7 +2772,7 @@ function formatOrderMessage() {
       if (target.closest('.add-to-cart-btn')) {
         const btn = target.closest('.add-to-cart-btn');
         if (btn.classList.contains('contact-private-btn')) {
-            tg.openTelegramLink('https://t.me/welcometosmocky67');
+            tg.openTelegramLink('https://t.me/smockyclubofficial6');
             return;
         }
 
@@ -2752,7 +2805,7 @@ function formatOrderMessage() {
             // Option 1 : Rediriger vers la page LINKS de l'app
             // renderContactPage();
             //showPage('page-contact');
-            tg.openTelegramLink('https://t.me/welcometosmocky67')
+            tg.openTelegramLink('https://t.me/smockyclubofficial6')
             // Option 2 (Alternative) : Ouvrir direct ton Telegram personnel
             // tg.openTelegramLink('https://t.me/TON_PSEUDO');
 
@@ -2832,7 +2885,7 @@ function formatOrderMessage() {
         if (target.closest('#confirm-order-button')) {
 
             // 1. TON PSEUDO TELEGRAM
-            const targetUsername = 'welcometosmocky67';
+            const targetUsername = 'smockyclubofficial6';
 
             // 2. On prépare le message
             let message = formatOrderMessage();
