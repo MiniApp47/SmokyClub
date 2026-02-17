@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             promoEligible: true,
                             type: 'Hash de luxe',
                             image: 'ProductSultan.png', // Pense à changer l'image si tu en as une nouvelle
-                            video: 'VideoSultan.mp4',       // Idem pour la vidéo
+                            videos: ['VideoSultan.mp4','VideoSultan2.mov'] ,      // Idem pour la vidéo
                             description: 'On vous a ramener un produit qui brille juste au visuel 🤝⚜️ avec ses terpène de malade ✅exclusivement dépêchez vous',
                             variantTitle: 'Sélectionner la variété 🍧 :', 
                             jars: [
@@ -327,6 +327,24 @@ document.addEventListener('DOMContentLoaded', function () {
                          badgeText: '2 produits', */
                     products: [
                         {
+                            id: 'GUSHER MINTS 🇺🇸',
+                            flag: '🇺🇸',
+                            name: 'GUSHER MINTS 🇺🇸',
+                            farm: 'CALITE FARM 🦍🦍🇺🇸🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductMint.png',
+                            video: 'VideoMint.mov',
+                            description: 'On vous a ramener une pépite blanc de blanc comme vous aimer 🧡 texture blanc goût 👅 de Cali  🇺🇸 en bouche un délice ⭐️',
+                            tarifs: [
+                                { weight: '2,5g', price: 90.00 },
+                                { weight: '5g', price: 180.00 },
+                                { weight: '10g', price: 360.00 },
+                                { weight: '25g', price: 0, private: true },
+                                { weight: '50g', price: 0, private: true },
+                            ]
+                        },
+                        {
                             id: 'CREAMY ICE 💦🍧',
                             flag: '🇺🇸',
                             name: 'CREAMY ICE 💦🍧',
@@ -493,6 +511,60 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
+                        {
+                            id: 'CREAMY POUND 🇺🇸',
+                            flag: '🇳🇱',
+                            name: 'CREAMY POUND 🇺🇸',
+                            farm: '⭐️ NO FARM ',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductPound.png',
+                            video: 'VideoPound.mov',
+                            description: 'On vous a ramener la Creamy ⭐️✋pound 🍮gazzy 🇺🇸 gout 🇺🇸',
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        },
+                        {
+                            id: 'PURPLE QUEEN🟣🍇',
+                            flag: '🇳🇱',
+                            name: 'PURPLE QUEEN🟣🍇',
+                            farm: '⭐️ NO FARM ',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductQueen.png',
+                            video: 'VideoQueen.mov',
+                            description: 'On vous a ramené une légende ⭐️⭐️🤝🤝 odeur gazzy 🇺🇸🇺🇸🇺🇸',
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        },
+                        {
+                            id: 'LEMON CHERRY GELATO 🇳🇱',
+                            flag: '🇳🇱',
+                            name: 'LEMON CHERRY GELATO 🇳🇱',
+                            farm: 'LCG 🤝⭐️',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductLgc.png',
+                            video: 'VideoLgc.mov',
+                            description: 'On vous a ramené une note sucré ⭐️🤝',
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 90.00 },
+                                { weight: '25g', price: 230.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        },
                         {
                             id: 'GORILLA GLUE 🦍🇳🇱',
                             flag: '🇳🇱',
