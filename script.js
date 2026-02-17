@@ -75,6 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'PAPAYA', emoji: '🥭', colorClass: 'frozen-sour' },
                                 { name: 'GOLD PRESSE', emoji: '⚜️', colorClass: 'frozen-24k' },
                                 { name: 'HONEY BANANA', emoji: '🍯', colorClass: 'frozen-honey' }, 
+                                { name: 'ICE CREAM', emoji: '🥶🧊', colorClass: 'frozen-bluez' }, 
                             ],
                             
                             tarifs: [
@@ -105,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             ],
                         }, 
                          /*{
-                            id: 'FRESH FROZEN 🥶🧊',
+                            id: 'FRESH FROZEN 🥶🧊 frozen-bluez',
                             flag: '🇲🇦',
                             name: 'FRESH FROZEN 🥶🧊',
                             farm: '🔴 NO FARM 🔴',
