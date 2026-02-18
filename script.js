@@ -361,6 +361,32 @@ document.addEventListener('DOMContentLoaded', function () {
                          badgeText: '2 produits', */
                     products: [
                         {
+                            id: 'Jaar',
+                            flag: '🇪🇸',
+                            name: 'JAAR SCELLÉ SOCIAL CLUB 🔞📲🇪🇸',
+                            farm: 'STATIC 🇺🇸 | HASH AMÉRICAIN 🇺🇸',
+                            promoEligible: true,
+                            type: 'Piatella / Static',
+                            image: 'ProductJaar.png', // Garde ton image actuelle
+                            video: 'VideoJaar.mp4',
+                            description: 'On vous a ramené un produit venu tout droit des portes des social clubs espagnols 🔞📲🧬🔌🤫\n\nQualité supérieure type Piatella / Static Sift.',
+                            
+                            // On définit ici les goûts avec leurs prix spécifiques
+                            variantTitle: 'Sélectionner votre Jaar (3g environ) 🏺 :', 
+                            jars: [
+                                { name: 'HASH BURGER X CHEEDAR 🍔', emoji: '🍔', price: 90.00, colorClass: 'jar-nana-junk' },
+                                { name: 'ORANGE Z X GELATO 🍊', emoji: '🍊', price: 100.00, colorClass: 'jar-pink-lemonade' },
+                                { name: 'ROSES 🌹 DES ÎLES 🏖️', emoji: '🏝️', price: 90.00, colorClass: 'jar-peach-rings' },
+                                { name: 'COCO LOVE 🥥', emoji: '🥥', price: 100.00, colorClass: 'jar-banana-junk' },
+                                { name: 'COOKIES 🍪 DOUGH', emoji: '🍪', price: 90.00, colorClass: 'jar-sour-diesel' }
+                            ],
+                            
+                            // Le bouton "Ajouter" prendra le prix du Jar sélectionné
+                            tarifs: [
+                                { weight: 'La Jaar', price: 90.00 } // Prix de base affiché sur la carte
+                            ]
+                        },
+                        {
                             id: 'GUSHER MINTS 🇺🇸',
                             flag: '🇺🇸',
                             name: 'GUSHER MINTS 🇺🇸',
@@ -1838,14 +1864,15 @@ function renderProductPage(productId) {
     // --- HTML POUR LES JAR (Niveau 1) ---
     let jarSelectorHTML = '';
     if (product.jars) {
-        const jarButtons = product.jars.map((jar, index) => `
-        <button class="jar-select-btn ${jar.colorClass} ${index === 0 ? 'active' : ''}" 
-            data-jar-name="${jar.name}" 
-            data-jar-emoji="${jar.emoji}" 
-            data-jar-class="${jar.colorClass}">
-            ${jar.name} ${jar.emoji}
-        </button>
-    `).join('');
+        // Dans renderProductPage, modifie la génération des boutons jar :
+const jarButtons = product.jars.map((jar, index) => `
+<button class="jar-select-btn ${jar.colorClass} ${index === 0 ? 'active' : ''}" 
+    data-jar-name="${jar.name}" 
+    data-jar-emoji="${jar.emoji}" 
+    data-jar-class="${jar.colorClass}"
+    data-price="${jar.price}"> ${jar.name} ${jar.emoji}
+</button>
+`).join('');
         jarSelectorHTML = `
         <h4 class="jar-title">${product.variantTitle ? product.variantTitle : 'Sélectionner :'}</h4>
         <div class="jar-selector-container">${jarButtons}</div>
@@ -2593,86 +2620,47 @@ function formatOrderMessage() {
             });
         }
 
-      // Clic sur un bouton de sélection de Jar
-      if (target.closest('.jar-select-btn')) {
-        const btn = target.closest('.jar-select-btn');
-        const newJarName = btn.dataset.jarName;
-        const newJarEmoji = btn.dataset.jarEmoji;
-        const newJarClass = btn.dataset.jarClass;
+    // --- MISE À JOUR DYNAMIQUE DU PRIX SELON LA JAAR ---
+if (target.closest('.jar-select-btn')) {
+    const btn = target.closest('.jar-select-btn');
+    const newJarName = btn.dataset.jarName;
+    const newJarEmoji = btn.dataset.jarEmoji;
+    const newJarClass = btn.dataset.jarClass;
+    const newPrice = parseFloat(btn.dataset.price); // On récupère le prix spécifique
 
-        // --- 🧠 LOGIQUE INTELLIGENTE DU TEXTE DE NOTIF ---
-        let typeLabel = "Variété"; // Par défaut, on dit "Variété"
-        
-        // On cherche le titre au-dessus des boutons pour savoir de quoi on parle
-        const container = btn.closest('.jar-selector-container');
-        if (container) {
-            // On cherche le titre juste avant le conteneur (le <h4>)
-            const titleElement = container.previousElementSibling; 
-            // On regarde aussi si le titre est encore avant (au cas où il y a un <br> ou autre)
-            const realTitle = titleElement && titleElement.classList.contains('jar-title') ? titleElement : container.parentElement.querySelector('.jar-title');
+    selectedJar = {
+        name: newJarName,
+        emoji: newJarEmoji,
+        colorClass: newJarClass,
+        price: newPrice
+    };
 
-            if (realTitle) {
-                const text = realTitle.innerText.toLowerCase();
-                if (text.includes('filtration')) {
-                    typeLabel = "Filtration";
-                } else if (text.includes('jar') || text.includes('jaar')) {
-                    typeLabel = "Jar";
-                } else if (text.includes('gout') || text.includes('goût')) {
-                    typeLabel = "Goût";
-                }
-            }
+    // Update UI : Bouton actif
+    document.querySelectorAll('.jar-select-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    // Update UI : Bloc des tarifs et bouton d'ajout
+    const tarifItems = document.querySelectorAll('#product-details-content .tarif-item');
+    tarifItems.forEach(item => {
+        // Mise à jour visuelle du prix dans le carré
+        const priceDisplay = item.querySelector('.tarif-price');
+        if (priceDisplay && !isNaN(newPrice)) {
+            priceDisplay.innerText = `${newPrice.toFixed(2)}€`;
         }
-        // --------------------------------------------------
 
-        // 1. Mettre à jour la variable d'état
-        selectedJar = {
-            name: newJarName,
-            emoji: newJarEmoji,
-            colorClass: newJarClass
-        };
+        // Mise à jour des données du bouton d'ajout au panier
+        const addToCartBtn = item.querySelector('.add-to-cart-btn');
+        if (addToCartBtn) {
+            addToCartBtn.dataset.jarName = newJarName + newJarEmoji;
+            addToCartBtn.dataset.jarClass = newJarClass;
+            addToCartBtn.dataset.price = newPrice; // Le prix change ici !
+        }
+    });
 
-        // 2. Mettre à jour le bouton actif
-        document.querySelectorAll('.jar-select-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-
-        // 3. Mettre à jour la couleur et les data-attributs du bloc des tarifs
-        const tarifItems = document.querySelectorAll('#product-details-content .tarif-item');
-        tarifItems.forEach(item => {
-            // Supprimer toutes les classes de jar existantes (Anciennes + Nouvelles)
-            item.classList.remove(
-                'jar-nana-junk', 'jar-pink-lemonade', 'jar-sour-diesel', 'jar-peach-rings', 'jar-banana-junk',
-                'variant-90u', 'variant-120u', 'variant-160u',
-                'frozen-triangle', 'frozen-moon', 'frozen-octane', 'frozen-runtz',
-                // Anciens Frozen
-                'frozen-trape', 'frozen-cookie', 'frozen-chery', 'frozen-driver', 'frozen-tropical',
-                // Nouveaux Premium & Sweetz (Ajoutés récemment)
-                'frozen-blood', 'frozen-honey', 'frozen-forbidden', 'frozen-gasboof', 'frozen-pineapple',
-                'frozen-peach', 'frozen-gasmint', 'frozen-zhead', 'frozen-mandarin', 'frozen-sour',
-                'frozen-bluez', 'frozen-24k', 'frozen-grape', 'frozen-tmz', 'frozen-yellow', 'frozen-meat', 'frozen-trap', 'frozen-ff',
-                'sweetz-watermelon', 'sweetz-rainbow', 'sweetz-apple', 'sweetz-cherry', 'sweetz-pina', 'sweetz-runtz',
-
-                // 👇 AJOUTE ÇA :
-                'top-zombie', 'top-angry', 'top-gorilla', 'top-punch'
-            );
-            
-            // Ajouter la nouvelle couleur
-            item.classList.add(newJarClass);
-
-            // Mettre à jour les data-attributs du bouton "ajouter au panier"
-            const addToCartBtn = item.querySelector('.add-to-cart-btn');
-            if (addToCartBtn) {
-                addToCartBtn.dataset.jarName = newJarName + newJarEmoji;
-                addToCartBtn.dataset.jarClass = newJarClass;
-            }
-        });
-
-        tg.HapticFeedback.impactOccurred('light');
-        
-        // Afficher la notification avec le bon texte (Variété, Filtration ou Jar)
-        showNotification(`✅ ${typeLabel} : ${newJarName} ${newJarEmoji}`);
-        return;
-    }
-
+    tg.HapticFeedback.impactOccurred('light');
+    showNotification(`✅ Sélection : ${newJarName} ${newJarEmoji} (${newPrice}€)`);
+    return;
+}
 
     // --- NOUVEAU : Clic sur un bouton de FLAVOR (Niveau 2) ---
     if (target.closest('.flavor-select-btn')) {
