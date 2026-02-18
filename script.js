@@ -44,6 +44,39 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'Top',
+                            flag: '🇲🇦',
+                            name: 'Top 🇲🇦',
+                            farm: 'SELECTION 🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductTop1.png',
+                            video: 'VideoTop.mov',      // Vidéo 1                     
+                            description: 'On vous a ramener une récolte fraîche 😉🤫🌟odeur fruités goût 🔭🥶',
+                            tarifs: [
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 0, private: true },
+                                // priver
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                           /*  // 👇 NIVEAU 1 : FILTRATION
+                            variantTitle: '1️⃣ Sélectionner la filtration :', 
+                            jars: [
+                                { name: '120u', emoji: '🔵', colorClass: 'variant-120u' },
+                                { name: '160u', emoji: '🔴', colorClass: 'variant-160u' },
+                                { name: '105u', emoji: '🟢', colorClass: 'variant-90u' }
+                            ], */
+                            // 👇 NIVEAU 2 : GOÛTS (NOUVEAU)
+                            variantTitle2: '2️⃣ Sélectionner le goût 🧬 :',
+                            flavors: [
+                                { name: '120u - WHITE APPLE RUNTZ', emoji: '🍏', colorClass: 'top-zombie' },
+                                { name: '160u - GRAPPE CAKE', emoji: '🍇', colorClass: 'top-angry' },
+                                { name: '105u - PIE LATTI', emoji: '🥧', colorClass: 'top-gorilla' },
+                            ]
+                        },
+                        {
                             id: 'PREMIUM ⭐️',
                             flag: '🇲🇦',
                             name: 'PREMIUM ⭐️',
