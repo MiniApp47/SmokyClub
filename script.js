@@ -105,7 +105,6 @@ document.addEventListener('DOMContentLoaded', function () {
                             description: 'On vous a ramener un produit qui brille juste au visuel 🤝⚜️ avec ses terpène de malade ✅exclusivement dépêchez vous',
                             variantTitle: 'Sélectionner la variété 🍧 :', 
                             jars: [
-                                { name: 'PAPAYA', emoji: '🥭', colorClass: 'frozen-sour' },
                                 { name: 'GOLD PRESSE', emoji: '⚜️', colorClass: 'frozen-24k' },
                                 { name: 'HONEY BANANA', emoji: '🍯', colorClass: 'frozen-honey' }, 
                                 { name: 'ICE CREAM', emoji: '🥶🧊', colorClass: 'frozen-bluez' }, 
@@ -198,51 +197,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 600.00},
                                 { weight: '30g', price: 0, private: true },
                             ],
-                        }, 
-                        {
-                            id: 'SUPER TROP CHERRY 🍒',
-                            flag: '🇲🇦',
-                            name: 'SUPER TROP CHERRY 🍒',
-                            farm: 'FrozenFarmz 🔌',
-                            promoEligible: true,
-                            type: 'Hash Marocain',
-                            image: 'ProductSuper.png', // Pense à changer l'image si tu en as une nouvelle
-                            videos: ['VideoSuper.mov','VideoSuper2.mov'],       // Idem pour la vidéo
-                            description: 'On vous ramener une pépite qui et passer dans nos  main 🖐️ un curing au top 👌 dégoulinant 🔥🍯',
-                            tarifs: [
-                                { weight: '5g', price: 50.00},
-                                { weight: '10g', price: 100.00},
-                                { weight: '25g', price: 250.00},
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-
-
-                            ],
-                        }, 
-                        {
-                            id: 'Top',
-                            flag: '🇲🇦',
-                            name: 'Top 🇲🇦',
-                            farm: 'SELECTION 🇲🇦',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductTop1.png',
-                            video: 'VideoTop.mov',      // Vidéo 1                     
-                            description: 'On vous a ramener 2 pépite pour les petite poche curing au top 👌 odeur de weed fruités 🍑🍌',
-                            tarifs: [
-                                { weight: '5g', price: 40.00 },
-                                { weight: '10g', price: 80.00 },
-                                { weight: '25g', price: 200.00 },
-                                // priver
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-                            ],
-                            // 👇 NIVEAU 1 : FILTRATION
-                            variantTitle: '1️⃣ Sélectionner la filtration :', 
-                            jars: [
-                                { name: '120u', emoji: '🔵', colorClass: 'variant-120u' },
-                            ],
-                        },
+                        }
 
                         /*   {
                             id: 'SMOKINGREEN 💦🍀',
@@ -403,43 +358,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 0, private: true },
                                 { weight: '50g', price: 0, private: true },
                             ]
-                        },
-                        {
-                            id: 'CREAMY ICE 💦🍧',
-                            flag: '🇺🇸',
-                            name: 'CREAMY ICE 💦🍧',
-                            farm: 'WEFLIPS 🇺🇸',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductIceC.png',
-                            video: 'VideoIceC.mp4',
-                            description: 'On vous a ramener le frère du static le Frozen 🇺🇸 weflips 🤝⚡️dinguerie en static et en Frozen ses quelque chose les ami ⭐️⭐️✅✅',
-                            tarifs: [
-                                { weight: '2,5g', price: 90.00 },
-                                { weight: '5g', price: 180.00 },
-                                { weight: '10g', price: 350.00 },
-                                { weight: '25g', price: 880.00 },
-                                { weight: '50g', price: 0, private: true },
-                            ]
-                        },
-                        {
-                            id: 'MELLOW YELLOW 🍈',
-                            flag: '🇺🇸',
-                            name: 'MELLOW YELLOW 🍈',
-                            farm: 'SHEESH STATIC 🇺🇸 ⭐️🌟',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductMellow.png',
-                            video: 'VideoMellow.mov',
-                            description: 'On vous a ramener une 3 eme variétés de la famille sheesh 🇺🇸un délice 🤪translucide',
-                            tarifs: [
-                                { weight: '2,5g', price: 100.00 },
-                                { weight: '5g', price: 200.00 },
-                                { weight: '10g', price: 400.00 },
-                                { weight: '25g', price: 0, private: true },
-                                { weight: '50g', price: 0, private: true },
-                            ]
-                        },
+                        }
                       /*   {
                             id: 'COSMOS 🧑‍🚀COOKIES 🍪',
                             flag: '🇺🇸',
@@ -571,24 +490,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                        {
-                            id: 'CREAMY POUND 🇺🇸',
-                            flag: '🇳🇱',
-                            name: 'CREAMY POUND 🇺🇸',
-                            farm: '⭐️ NO FARM ',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductPound.png',
-                            video: 'VideoPound.mov',
-                            description: 'On vous a ramener la Creamy ⭐️✋pound 🍮gazzy 🇺🇸 gout 🇺🇸',
-                            tarifs: [
-                                { weight: '5g', price: 50.00 },
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 250.00 },
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-                            ],
-                        },
+                       
                         {
                             id: 'PURPLE QUEEN🟣🍇',
                             flag: '🇳🇱',
@@ -607,24 +509,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 0, private: true },
                             ],
                         },
-                        {
-                            id: 'LEMON CHERRY GELATO 🇳🇱',
-                            flag: '🇳🇱',
-                            name: 'LEMON CHERRY GELATO 🇳🇱',
-                            farm: 'LCG 🤝⭐️',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductLgc.png',
-                            video: 'VideoLgc.mov',
-                            description: 'On vous a ramené une note sucré ⭐️🤝',
-                            tarifs: [
-                                { weight: '5g', price: 50.00 },
-                                { weight: '10g', price: 90.00 },
-                                { weight: '25g', price: 230.00 },
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-                            ],
-                        },
+                        
                         {
                             id: 'GORILLA GLUE 🦍🇳🇱',
                             flag: '🇳🇱',
@@ -657,24 +542,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 50.00 },
                                 { weight: '10g', price: 100.00 },
                                 { weight: '25g', price: 250.00 },
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-                            ],
-                        },
-                        {
-                            id: 'JEALOUSY 🇳🇱',
-                            flag: '🇳🇱',
-                            name: 'JEALOUSY 🇳🇱',
-                            farm: '⭐️ NO FARM ',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductJea.png',
-                            video: 'VideoJea.mov',
-                            description: 'On vous a ramener une pépite ✅🇳🇱🇺🇸rapport qualité prix 🥇',
-                            tarifs: [
-                                { weight: '5g', price: 50.00 },
-                                { weight: '10g', price: 90.00 },
-                                { weight: '25g', price: 230.00 },
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ],
