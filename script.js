@@ -44,6 +44,29 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'TOP MOUSSE 🧽',
+                            flag: '🇲🇦',
+                            name: 'TOP MOUSSE 🧽',
+                            farm: 'MOUSSE MAROCAINE 🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductTM.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoTM.mov',      // Idem pour la vidéo
+                            description: 'On vous a ramener récolte 2k26 tout fraîche 🌟📲',
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'YUZU', emoji: '🍋', colorClass: 'frozen-gasmint' },
+                                { name: 'APPLE PIE', emoji: '🍏', colorClass: 'frozen-sour' }, 
+                            ],
+                            
+                            tarifs: [
+                                { weight: '10g', price: 40.00},
+                                { weight: '25g', price: 80.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                        {
                             id: 'Top',
                             flag: '🇲🇦',
                             name: 'Top 🇲🇦',
@@ -316,6 +339,35 @@ document.addEventListener('DOMContentLoaded', function () {
                          badgeText: '2 produits', */
                     products: [
                         {
+                            id: 'OLIVE 🫒 DOUBLE STATIC 🇺🇸',
+                            flag: '🇪🇸',
+                            name: 'OLIVE 🫒 DOUBLE STATIC 🇺🇸',
+                            farm: 'STATIC 🇺🇸 | HASH AMÉRICAIN 🇺🇸',
+                            promoEligible: true,
+                            type: 'Piatella / Static',
+                            image: 'ProductOlive.png', // Garde ton image actuelle
+                            video: 'VideoOlive.mov',
+                            description: 'On vous a ramené une pépite avec les récolte de Cali 🇺🇸 une explosion 💥 saveur 😛',
+                            
+                            // On définit ici les goûts avec leurs prix spécifiques
+                            variantTitle: 'Sélectionner votre Olive :', 
+                            jars: [
+                                { name: 'BISCOTTI', emoji: '🇺🇸', colorClass: 'frozen-bluez' },
+                                { name: 'LEMON CHERRY GELATO', emoji: '🍋', colorClass: 'frozen-tmz' },
+                                { name: 'ZKITLES', emoji: '🍭', colorClass: 'frozen-zhead' },
+                            ],
+                            
+                            // Le bouton "Ajouter" prendra le prix du Jar sélectionné
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 230.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+
+                            ],
+                        },
+                        {
                             id: 'Jaar',
                             flag: '🇪🇸',
                             name: 'JAAR SCELLÉ SOCIAL CLUB 🔞📲🇪🇸',
@@ -450,25 +502,44 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '0 produits',
                     clickable: false,  */
                     products: [
-                      /*   {
-                            id: 'CALISUNSET',
+                        {
+                            id: 'BLUE DREAM 💤😴',
+                            flag: '🇺🇸',
+                            name: 'BLUE DREAM 💤😴',
+                            farm: 'TOP SHELF EXOTICS 🍹',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductBlueDream.png',
+                            video:  'VideoBlueDream.mov',      // Vidéo 1
+                            description: 'On vous a ramener une pépite direct venu des 🇺🇸 gazzy 🇺🇸 un délice 🤫🥵',
+                            tarifs: [
+                                { weight: '2,5g', price: 40.00 },
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 140.00 },
+                                { weight: '25g', price: 350.00 },
+                                { weight: '56g', price: 0, private: true  },
+                                { weight: '112g', price: 0, private: true  },
+                            ]
+                        },
+                        {
+                            id: 'SUNSET SHERBET 🇺🇸',
                             flag: '🇺🇸',
                             name: 'SUNSET SHERBET 🇺🇸',
                             farm: 'TOP SHELF EXOTICS 🍹',
                             promoEligible: true,
                             type: 'Weed',
                             image: 'ProductSunset.png',
-                            // clickable: false, 
                             video:  'VideoSunset.mov',      // Vidéo 1
-                            description: 'On vous a ramener un best seller poleneuse odeur 🇺🇸fouettante 🫡😉t’aura du mal à temp remettre 🌟🌟🌟',
+                            description: 'On vous a ramener une pépite des 🇺🇸 odeurs 👃 goût 👅 gazzy',
                             tarifs: [
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 140.00 },
-                                { weight: '25g', price: 350.00 },
-                                { weight: '50g', price: 0, private: true  },
-                                { weight: '100g', price: 0, private: true  },
+                                { weight: '2,5g', price: 30.00 },
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 240.00 },
+                                { weight: '56g', price: 0, private: true  },
+                                { weight: '112g', price: 0, private: true  },
                             ]
-                        }, */
+                        },
                      
                   
                     ]
