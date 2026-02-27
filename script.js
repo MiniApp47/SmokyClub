@@ -340,7 +340,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     products: [
                         {
                             id: 'OLIVE 🫒 DOUBLE STATIC 🇺🇸',
-                            flag: '🇪🇸',
+                            flag: '🇺🇸',
                             name: 'OLIVE 🫒 DOUBLE STATIC 🇺🇸',
                             farm: 'STATIC 🇺🇸 | HASH AMÉRICAIN 🇺🇸',
                             promoEligible: true,
@@ -348,13 +348,12 @@ document.addEventListener('DOMContentLoaded', function () {
                             image: 'ProductOlive.png', // Garde ton image actuelle
                             video: 'VideoOlive.mov',
                             description: 'On vous a ramené une pépite avec les récolte de Cali 🇺🇸 une explosion 💥 saveur 😛',
-                            
-                            // On définit ici les goûts avec leurs prix spécifiques
-                            variantTitle: 'Sélectionner votre Olive :', 
+
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
                             jars: [
                                 { name: 'BISCOTTI', emoji: '🇺🇸', colorClass: 'frozen-bluez' },
-                                { name: 'LEMON CHERRY GELATO', emoji: '🍋', colorClass: 'frozen-tmz' },
-                                { name: 'ZKITLES', emoji: '🍭', colorClass: 'frozen-zhead' },
+                                { name: 'LEMON CHERRY GELATO', emoji: '🍋', colorClass: 'frozen-honey' }, 
+                                { name: 'ZKITLES', emoji: '🍭', colorClass: 'frozen-zhead' }, 
                             ],
                             
                             // Le bouton "Ajouter" prendra le prix du Jar sélectionné
@@ -369,7 +368,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         },
                         {
                             id: 'Jaar',
-                            flag: '🇪🇸',
+                            flag: '🇺🇸',
                             name: 'JAAR SCELLÉ SOCIAL CLUB 🔞📲🇪🇸',
                             farm: 'STATIC 🇺🇸 | HASH AMÉRICAIN 🇺🇸',
                             promoEligible: true,
