@@ -44,6 +44,47 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'GMO',
+                            flag: '🇲🇦',
+                            name: 'GMO 🧅',
+                            farm: ' ⭐️ NO FARM ',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductGmo.png',
+                            video: 'VideoGmo.mov',
+                            description: 'On vous a ramener ✅®️mousse bien fraîche 🌟®️',
+                            tarifs: [
+                                { weight: '10g', price: 40.00 },
+                                { weight: '25g', price: 100.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ]
+                        },
+                        {
+                            id: 'ZAPPLEZZ🍏🍎',
+                            flag: '🇲🇦',
+                            name: 'ZAPPLEZZ🍏🍎',
+                            farm: 'MOUSSE MAROCAINE 🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductTM2.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoTM2.mov',      // Idem pour la vidéo
+                            description: 'On vous a ramener 📲une récolte 2k26 odeur fruités \n 🍌🍉🍓curing top 🍯',
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'WEDDING SLURRIPIE', emoji: '🍰🧁', colorClass: 'top-angry' },
+                                { name: 'ZAPPLEZZ', emoji: '🍏🍎', colorClass: 'top-gorilla' }, 
+                            ],
+                            
+                            tarifs: [
+                                { weight: '5g', price: 40.00},
+                                { weight: '10g', price: 80.00},
+                                { weight: '25g', price: 200.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                        {
                             id: 'TOP MOUSSE 🧽',
                             flag: '🇲🇦',
                             name: 'TOP MOUSSE 🧽',
@@ -339,6 +380,23 @@ document.addEventListener('DOMContentLoaded', function () {
                          badgeText: '2 produits', */
                     products: [
                         {
+                            id: 'PAPAYA X ZANGRIA 🇺🇸 #8',
+                            flag: '🇺🇸',
+                            name: 'PAPAYA X ZANGRIA 🇺🇸 #8',
+                            farm: 'WIZARD THEES X GOLDEN HEAD WARRIOR 🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductPZ.png',
+                            video: 'VideoPZ.mov',
+                            description: 'On vous a ramener un produit incroyable blanc de l’intérieur à l’extérieur ⭐️🍯',
+                            tarifs: [
+                                { weight: '1,25g', price: 60.00 },
+                                { weight: '2,5g', price: 120.00 },
+                                { weight: '5g', price: 240.00 },
+                                { weight: '10g', price: 480.00 },
+                            ]
+                        },
+                        {
                             id: 'OLIVE 🫒 DOUBLE STATIC 🇺🇸',
                             flag: '🇺🇸',
                             name: 'OLIVE 🫒 DOUBLE STATIC 🇺🇸',
@@ -561,6 +619,24 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                        
+                        {
+                            id: 'PURPLE PUNCH 🇺🇸',
+                            flag: '🇳🇱',
+                            name: 'PURPLE PUNCH 🇺🇸',
+                            farm: '⭐️ NO FARM ',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductPunch.png',
+                            video: 'VideoPunch.mov',
+                            description: 'On vous a ramener une pépite 🌟PURPLE punch référence 🇺🇸 gazzy goûtu 😜',
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        },
                         {
                             id: 'PURPLE QUEEN🟣🍇',
                             flag: '🇳🇱',
@@ -2198,14 +2274,22 @@ const jarButtons = product.jars.map((jar, index) => `
     }
 
     // --- LOGIQUE DU PANIER ---
-
     function addToCart(productId, weight, price, jarName = null, jarClass = null) {
-        // La jar fait partie de l'ID pour avoir une ligne de panier par saveur/poids
+        // 1. Sécurisation du prix
+        const cleanPrice = parseFloat(price) || 0;
+    
+        // 2. Récupération du produit
+        const product = getProductById(productId);
+        if (!product) {
+            console.error("Erreur : Produit introuvable lors de l'ajout au panier.");
+            return;
+        }
+    
+        // 3. Création de l'ID unique pour le panier
         const cartItemId = `${productId}-${weight}${jarName ? '-' + jarName.replace(/[^a-zA-Z0-9]/g, '') : ''}`;
         const existingItem = cart.find(item => item.id === cartItemId);
-
-        const product = getProductById(productId);
-
+    
+        // 4. Ajout ou mise à jour de la quantité
         if (existingItem) {
             existingItem.quantity++;
             existingItem.totalPrice = existingItem.quantity * existingItem.unitPrice;
@@ -2213,20 +2297,36 @@ const jarButtons = product.jars.map((jar, index) => `
             cart.push({
                 id: cartItemId,
                 productId: productId,
-                name: product.name + (jarName ? ` (${jarName})` : ''), // Ajoute le nom du jar au nom du produit
+                name: product.name + (jarName ? ` (${jarName})` : ''),
                 image: product.image,
                 weight: weight,
                 quantity: 1,
-                unitPrice: price,
-                totalPrice: price,
-                jarClass: jarClass // Stocke la classe pour une éventuelle utilisation dans le panier (optionnel)
+                unitPrice: cleanPrice,
+                totalPrice: cleanPrice,
+                jarClass: jarClass
             });
         }
+    
+        // 5. Mise à jour de l'interface
         renderCart();
-        tg.HapticFeedback.notificationOccurred('success');
-        showNotification(`✅ ${product.name} ${jarName ? '(' + jarName + ')' : ''} ajouté au panier !`);
+    
+        // 6. Notifications (Vibration + Message visuel)
+        try {
+            tg.HapticFeedback.notificationOccurred('success');
+        } catch (e) {
+            // Sécurité si testé sur navigateur PC
+        }
+        
+        // 👇 La notification est bien de retour ici
+        let notifMessage = `✅ ${product.name}`;
+        if (jarName && jarName.trim() !== '') {
+            notifMessage += ` (${jarName})`;
+        }
+        notifMessage += ` ajouté au panier !`;
+        
+        showNotification(notifMessage);
     }
-
+    
     // updateQuantity (inchangé)
     function updateQuantity(cartItemId, action) {
         const item = cart.find(i => i.id === cartItemId);
@@ -2557,45 +2657,64 @@ function formatOrderMessage() {
             });
         }
 
-    // --- MISE À JOUR DYNAMIQUE DU PRIX SELON LA JAAR ---
+   // --- MISE À JOUR DYNAMIQUE DU PRIX SELON LA JAAR ---
 if (target.closest('.jar-select-btn')) {
     const btn = target.closest('.jar-select-btn');
     const newJarName = btn.dataset.jarName;
     const newJarEmoji = btn.dataset.jarEmoji;
     const newJarClass = btn.dataset.jarClass;
-    const newPrice = parseFloat(btn.dataset.price); // On récupère le prix spécifique
+    const newPrice = parseFloat(btn.dataset.price);
 
-    selectedJar = {
-        name: newJarName,
-        emoji: newJarEmoji,
-        colorClass: newJarClass,
-        price: newPrice
-    };
+    // 1. RÉCUPÉRATION SÉCURISÉE DE L'ID DU PRODUIT
+    let productId;
+    const card = btn.closest('.product-item-card') || btn.closest('.product-card');
+    if (card) {
+        productId = card.dataset.productId; // Si on est sur la liste
+    } else {
+        // Si on est sur la page produit, on lit l'ID depuis le bouton d'ajout au panier
+        const sampleBtn = document.querySelector('.add-to-cart-btn');
+        if (sampleBtn) productId = sampleBtn.dataset.productId;
+    }
 
-    // Update UI : Bouton actif
-    document.querySelectorAll('.jar-select-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
+    const product = getProductById(productId);
 
-    // Update UI : Bloc des tarifs et bouton d'ajout
-    const tarifItems = document.querySelectorAll('#product-details-content .tarif-item');
-    tarifItems.forEach(item => {
-        // Mise à jour visuelle du prix dans le carré
-        const priceDisplay = item.querySelector('.tarif-price');
+    // Sécurité anti-crash si le produit n'est pas trouvé
+    if (!product) return; 
+
+    // 2. LOGIQUE SÉPARÉE (JAAR VS AUTRES)
+    if (product.id === 'Jaar') {
+        selectedJar = { name: newJarName, emoji: newJarEmoji, colorClass: newJarClass, price: newPrice };
+        
+        // Mise à jour visuelle du prix uniquement si c'est le Jaar
+        const priceDisplay = document.querySelector('.tarif-price');
         if (priceDisplay && !isNaN(newPrice)) {
             priceDisplay.innerText = `${newPrice.toFixed(2)}€`;
         }
+    } else {
+        selectedJar = { name: newJarName, emoji: newJarEmoji, colorClass: newJarClass };
+    }
 
-        // Mise à jour des données du bouton d'ajout au panier
+    // 3. MISE À JOUR VISUELLE DES BOUTONS (UI)
+    document.querySelectorAll('.jar-select-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    // 4. MISE À JOUR DES DONNÉES DU PANIER
+    const tarifItems = document.querySelectorAll('.tarif-item');
+    tarifItems.forEach(item => {
         const addToCartBtn = item.querySelector('.add-to-cart-btn');
         if (addToCartBtn) {
-            addToCartBtn.dataset.jarName = newJarName + newJarEmoji;
+            addToCartBtn.dataset.jarName = newJarName + " " + newJarEmoji;
             addToCartBtn.dataset.jarClass = newJarClass;
-            addToCartBtn.dataset.price = newPrice; // Le prix change ici !
+            
+            // Uniquement pour Jaar, on actualise le prix du bouton
+            if (product.id === 'Jaar' && !isNaN(newPrice)) {
+                addToCartBtn.dataset.price = newPrice;
+            }
         }
     });
 
     tg.HapticFeedback.impactOccurred('light');
-    showNotification(`✅ Sélection : ${newJarName} ${newJarEmoji} (${newPrice}€)`);
+    showNotification(`✅ Sélection : ${newJarName}`);
     return;
 }
 
