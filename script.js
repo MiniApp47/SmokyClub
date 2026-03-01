@@ -416,9 +416,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             
                             // Le bouton "Ajouter" prendra le prix du Jar sélectionné
                             tarifs: [
-                                { weight: '5g', price: 60.00 },
-                                { weight: '10g', price: 120.00 },
-                                { weight: '25g', price: 230.00 },
+                                { weight: '5g', price: 110.00 },
+                                { weight: '10g', price: 220.00 },
+                                { weight: '20g', price: 420.00 },
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
 
