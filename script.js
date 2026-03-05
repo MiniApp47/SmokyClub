@@ -44,22 +44,30 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
-                            id: 'GMO',
+                            id: 'FROZEN 🥶🧊',
                             flag: '🇲🇦',
-                            name: 'GMO 🧅',
-                            farm: ' ⭐️ NO FARM ',
+                            name: 'FROZEN 🥶🧊',
+                            farm: 'BLACK FARM GENETIX 🇲🇦',
                             promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductGmo.png',
-                            video: 'VideoGmo.mov',
-                            description: 'On vous a ramener ✅®️mousse bien fraîche 🌟®️',
+                            type: 'Hash Marocain',
+                            image: 'ProductHigh.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoHigh.mov',      // Idem pour la vidéo
+                            description: 'On vous a ramené une pépite mieux que les Frozen qui tourne et static 🌟✅📲 pour le prix défiant toute concurrence 🔬produit exclusif 🤫😉',
+                              // 👇 TITRE PERSONNALISÉ
+                              variantTitle: 'Sélectionner la variété 🍧 :', 
+                              jars: [
+                                  { name: 'HIGH OCTANE', emoji: '🍒🔞', colorClass: 'frozen-blood' },
+                                  { name: 'ORANGEADE', emoji: '🏆🍊', colorClass: 'frozen-24k' },
+                              ],
                             tarifs: [
-                                { weight: '10g', price: 40.00 },
-                                { weight: '25g', price: 100.00 },
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 90.00 },
+                                { weight: '25g', price: 230.00 },
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
+
                             ]
-                        },
+                            },
                         {
                             id: 'ZAPPLEZZ🍏🍎',
                             flag: '🇲🇦',
@@ -244,7 +252,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'TMZ X YELLOW / PREMIUM', emoji: '🍈🍍🟡', colorClass: 'frozen-tmz' },          
                             ]
                             }, */ 
-                        {
+                        /* {
                             id: 'MUEL FUEL ⛽️X TANGERINE SQUEEZ 🍊',
                             flag: '🇲🇦',
                             name: 'MUEL FUEL ⛽️X TANGERINE SQUEEZ 🍊',
@@ -261,7 +269,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 600.00},
                                 { weight: '30g', price: 0, private: true },
                             ],
-                        }
+                        } */
 
                         /*   {
                             id: 'SMOKINGREEN 💦🍀',
@@ -424,7 +432,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ],
                         },
-                        {
+                      /*   {
                             id: 'Jaar',
                             flag: '🇺🇸',
                             name: 'JAAR SCELLÉ SOCIAL CLUB 🔞📲🇪🇸',
@@ -449,7 +457,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: 'La Jaar', price: 90.00 } // Prix de base affiché sur la carte
                             ]
-                        },
+                        }, */
                         {
                             id: 'GUSHER MINTS 🇺🇸',
                             flag: '🇺🇸',
@@ -656,7 +664,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             ],
                         },
                         
-                        {
+                     /*    {
                             id: 'GORILLA GLUE 🦍🇳🇱',
                             flag: '🇳🇱',
                             name: 'GORILLA GLUE 🦍 🇳🇱',
@@ -673,8 +681,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ],
-                        },
-                        {
+                        }, */
+                      /*   {
                             id: 'MIMOSA  🇳🇱',
                             flag: '🇳🇱',
                             name: 'MIMOSA 🇳🇱',
@@ -691,7 +699,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ],
-                        }
+                        } */
                     ]
                 }
 
