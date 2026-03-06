@@ -44,6 +44,30 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'FROZEN SIFT 🧊🍧',
+                            flag: '🇲🇦',
+                            name: 'FROZEN SIFT 🧊🍧',
+                            farm: 'SELECTION 🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductRFB.png', // Pense à changer l'image si tu en as une nouvelle
+                            videos: ['VideoRFB.mov','VideoRFB1.mov'],      // Idem pour la vidéo
+                            description: 'On vous a ramené une qualité blanc de blanc avec un mutage fait maison 📲🤫',
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'CALIFORNIA GOLD', emoji: '🏆', colorClass: 'frozen-gasmint' },
+                                { name: 'RUNTZ FRUITY BUZZARD', emoji: '🍑', colorClass: 'frozen-sour' }, 
+                            ],
+                            
+                            tarifs: [
+                                { weight: '5g', price: 50.00},
+                                { weight: '10g', price: 100.00},
+                                { weight: '25g', price: 230.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                        {
                             id: 'FROZEN 🥶🧊',
                             flag: '🇲🇦',
                             name: 'FROZEN 🥶🧊',
@@ -144,11 +168,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             variantTitle2: '2️⃣ Sélectionner le goût 🧬 :',
                             flavors: [
                                 { name: '120u - WHITE APPLE RUNTZ', emoji: '🍏', colorClass: 'top-zombie' },
-                                { name: '160u - GRAPPE CAKE', emoji: '🍇', colorClass: 'top-angry' },
-                                { name: '105u - PIE LATTI', emoji: '🥧', colorClass: 'top-gorilla' },
                             ]
                         },
-                        {
+                       /*  {
                             id: 'PREMIUM ⭐️',
                             flag: '🇲🇦',
                             name: 'PREMIUM ⭐️',
@@ -164,7 +186,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 200.00},
                                 { weight: '100g', price: 0, private: true },
                             ],
-                        }, 
+                        }, */ 
                         {
                             id: 'SULTAN STATIC ⚡️',
                             flag: '🇲🇦',
@@ -387,7 +409,37 @@ document.addEventListener('DOMContentLoaded', function () {
                          image: 'Wizard4.png', // Mets une image de farm si tu veux
                          badgeText: '2 produits', */
                     products: [
-                        {
+                             {
+                            id: 'Jaar',
+                            flag: '🇺🇸',
+                            name: 'JAAR SCELLÉ COFEE SHOP 🔞📲',
+                            farm: 'CURED LABZ 🇪🇸 X HEAVY LOADS 🇺🇸',
+                            promoEligible: true,
+                            type: 'Piatella / Static',
+                            image: 'ProductJaar.png', // Garde ton image actuelle
+                            videos: ['VideoJaar1.mov','VideoJaar.mov'],
+                            description: 'On vous a ramener un produit tout droit venu du cofee avec sa boîte 🤫🌟 exclusif dépêche toi si tu veux goûter inédit 🌟',
+                            
+                            // On définit ici les goûts avec leurs prix spécifiques
+                           /*  variantTitle: 'Sélectionner votre Jaar (3g environ) 🏺 :', 
+                            jars: [
+                                { name: 'HASH BURGER X CHEEDAR 🍔', emoji: '🍔', price: 90.00, colorClass: 'jar-nana-junk' },
+                                { name: 'ORANGE Z X GELATO 🍊', emoji: '🍊', price: 100.00, colorClass: 'jar-pink-lemonade' },
+                                { name: 'ROSES 🌹 DES ÎLES 🏖️', emoji: '🏝️', price: 90.00, colorClass: 'jar-peach-rings' },
+                                { name: 'COCO LOVE 🥥', emoji: '🥥', price: 100.00, colorClass: 'jar-banana-junk' },
+                                { name: 'COOKIES 🍪 DOUGH', emoji: '🍪', price: 90.00, colorClass: 'jar-sour-diesel' }
+                            ], */
+                            
+                            // Le bouton "Ajouter" prendra le prix du Jar sélectionné
+                            tarifs: [
+                                { weight: 'La Jaar', price: 100.00 }, // Prix de base affiché sur la carte
+                                { weight: '2 Jaar', price: 200.00 }, // Prix de base affiché sur la carte
+                                { weight: '3 Jaar', price: 300.00 }, // Prix de base affiché sur la carte
+                                { weight: '4 Jaar', price: 380.00 }, // Prix de base affiché sur la carte
+                                { weight: '5 Jaar', price: 480.00 } // Prix de base affiché sur la carte
+                            ]
+                        }, 
+                       /*  {
                             id: 'PAPAYA X ZANGRIA 🇺🇸 #8',
                             flag: '🇺🇸',
                             name: 'PAPAYA X ZANGRIA 🇺🇸 #8',
@@ -403,7 +455,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 240.00 },
                                 { weight: '10g', price: 480.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: 'OLIVE 🫒 DOUBLE STATIC 🇺🇸',
                             flag: '🇺🇸',
@@ -432,50 +484,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ],
                         },
-                      /*   {
-                            id: 'Jaar',
-                            flag: '🇺🇸',
-                            name: 'JAAR SCELLÉ SOCIAL CLUB 🔞📲🇪🇸',
-                            farm: 'STATIC 🇺🇸 | HASH AMÉRICAIN 🇺🇸',
-                            promoEligible: true,
-                            type: 'Piatella / Static',
-                            image: 'ProductJaar.png', // Garde ton image actuelle
-                            video: 'VideoJaar.mp4',
-                            description: 'On vous a ramené un produit venu tout droit des portes des social clubs espagnols 🔞📲🧬🔌🤫\n\nQualité supérieure type Piatella / Static Sift.',
-                            
-                            // On définit ici les goûts avec leurs prix spécifiques
-                            variantTitle: 'Sélectionner votre Jaar (3g environ) 🏺 :', 
-                            jars: [
-                                { name: 'HASH BURGER X CHEEDAR 🍔', emoji: '🍔', price: 90.00, colorClass: 'jar-nana-junk' },
-                                { name: 'ORANGE Z X GELATO 🍊', emoji: '🍊', price: 100.00, colorClass: 'jar-pink-lemonade' },
-                                { name: 'ROSES 🌹 DES ÎLES 🏖️', emoji: '🏝️', price: 90.00, colorClass: 'jar-peach-rings' },
-                                { name: 'COCO LOVE 🥥', emoji: '🥥', price: 100.00, colorClass: 'jar-banana-junk' },
-                                { name: 'COOKIES 🍪 DOUGH', emoji: '🍪', price: 90.00, colorClass: 'jar-sour-diesel' }
-                            ],
-                            
-                            // Le bouton "Ajouter" prendra le prix du Jar sélectionné
-                            tarifs: [
-                                { weight: 'La Jaar', price: 90.00 } // Prix de base affiché sur la carte
-                            ]
-                        }, */
-                        {
-                            id: 'GUSHER MINTS 🇺🇸',
-                            flag: '🇺🇸',
-                            name: 'GUSHER MINTS 🇺🇸',
-                            farm: 'CALITE FARM 🦍🦍🇺🇸🇺🇸',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductMint.png',
-                            video: 'VideoMint.mov',
-                            description: 'On vous a ramener une pépite blanc de blanc comme vous aimer 🧡 texture blanc goût 👅 de Cali  🇺🇸 en bouche un délice ⭐️',
-                            tarifs: [
-                                { weight: '2,5g', price: 90.00 },
-                                { weight: '5g', price: 180.00 },
-                                { weight: '10g', price: 360.00 },
-                                { weight: '25g', price: 0, private: true },
-                                { weight: '50g', price: 0, private: true },
-                            ]
-                        }
+                       
                       /*   {
                             id: 'COSMOS 🧑‍🚀COOKIES 🍪',
                             flag: '🇺🇸',
