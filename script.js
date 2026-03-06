@@ -421,22 +421,15 @@ document.addEventListener('DOMContentLoaded', function () {
                             description: 'On vous a ramener un produit tout droit venu du cofee avec sa boîte 🤫🌟 exclusif dépêche toi si tu veux goûter inédit 🌟',
                             
                             // On définit ici les goûts avec leurs prix spécifiques
-                           /*  variantTitle: 'Sélectionner votre Jaar (3g environ) 🏺 :', 
+                            variantTitle: 'Sélectionner votre Jaar (3g environ) 🏺 :', 
                             jars: [
-                                { name: 'HASH BURGER X CHEEDAR 🍔', emoji: '🍔', price: 90.00, colorClass: 'jar-nana-junk' },
-                                { name: 'ORANGE Z X GELATO 🍊', emoji: '🍊', price: 100.00, colorClass: 'jar-pink-lemonade' },
-                                { name: 'ROSES 🌹 DES ÎLES 🏖️', emoji: '🏝️', price: 90.00, colorClass: 'jar-peach-rings' },
-                                { name: 'COCO LOVE 🥥', emoji: '🥥', price: 100.00, colorClass: 'jar-banana-junk' },
-                                { name: 'COOKIES 🍪 DOUGH', emoji: '🍪', price: 90.00, colorClass: 'jar-sour-diesel' }
-                            ], */
+                                { name: 'ZILLION', emoji: '💴', price: 100.00, colorClass: 'jar-pink-lemonade' },
+                                { name: 'JAPANESE MELON', emoji: '🍈 ', price: 110.00, colorClass: 'jar-banana-junk' },
+                            ],
                             
                             // Le bouton "Ajouter" prendra le prix du Jar sélectionné
                             tarifs: [
                                 { weight: 'La Jaar', price: 100.00 }, // Prix de base affiché sur la carte
-                                { weight: '2 Jaar', price: 200.00 }, // Prix de base affiché sur la carte
-                                { weight: '3 Jaar', price: 300.00 }, // Prix de base affiché sur la carte
-                                { weight: '4 Jaar', price: 380.00 }, // Prix de base affiché sur la carte
-                                { weight: '5 Jaar', price: 480.00 } // Prix de base affiché sur la carte
                             ]
                         }, 
                        /*  {
