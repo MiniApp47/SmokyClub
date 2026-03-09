@@ -44,6 +44,52 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'STATIC SIFT 🍭',
+                            flag: '🇺🇸',
+                            name: 'STATIC SIFT 🍭',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Static',
+                            image: 'ProductPinkG.png', // Garde ton image actuelle
+                            video: 'VideoPinkG.mov',
+                            description: 'On vous a ramener un produit sortit de la machine du temp 📲🔌🫨 odeur gazzy fruités 🍑🍓texture cassant et curing dégoulinant 🥵😉',
+
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'CALI HONEY', emoji: '🐻 🇺🇸 🇲🇦', colorClass: 'frozen-honey' }, 
+                                { name: 'PINK  GASOLINE', emoji: '⛽️', colorClass: 'frozen-zhead' }, 
+                            ],
+                            
+                            // Le bouton "Ajouter" prendra le prix du Jar sélectionné
+                            tarifs: [
+                                { weight: '2.5g', price: 40.00 },
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '20g', price: 380.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+
+                            ],
+                        },
+                        {
+                            id: 'STATIC SIFT 🇲🇦 ⚡️',
+                            flag: '🇺🇸',
+                            name: 'STATIC SIFT 🇲🇦 ⚡️',
+                            farm: 'CALIFORNIA 🇺🇸 GOLD ⚜️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductStc.png',
+                            video: 'VideoStc.mov',
+                            description: 'On vous ramène une exclu en static blanc de blanc 🔞📲🌟 \n Prix attractif 🤫',
+                            tarifs: [
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ]
+                        },
+                        {
                             id: 'FROZEN SIFT 🧊🍧',
                             flag: '🇲🇦',
                             name: 'FROZEN SIFT 🧊🍧',
@@ -170,23 +216,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: '120u - WHITE APPLE RUNTZ', emoji: '🍏', colorClass: 'top-zombie' },
                             ]
                         },
-                       /*  {
-                            id: 'PREMIUM ⭐️',
-                            flag: '🇲🇦',
-                            name: 'PREMIUM ⭐️',
-                            farm: '🏔️ MONTAGNE DU RIFF 🏔️',
-                            promoEligible: true,
-                            type: 'Hash de luxe',
-                            image: 'ProductPren.png', // Pense à changer l'image si tu en as une nouvelle
-                            video: 'VideoPren.mov',       // Idem pour la vidéo
-                            description: 'On vous a ramener les dernière  récolte 🤝⭐️de mousse 🧽', 
-                            tarifs: [
-                                { weight: '10g', price: 40.00},
-                                { weight: '25g', price: 100.00},
-                                { weight: '50g', price: 200.00},
-                                { weight: '100g', price: 0, private: true },
-                            ],
-                        }, */ 
                         {
                             id: 'SULTAN STATIC ⚡️',
                             flag: '🇲🇦',
@@ -274,118 +303,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'TMZ X YELLOW / PREMIUM', emoji: '🍈🍍🟡', colorClass: 'frozen-tmz' },          
                             ]
                             }, */ 
-                        /* {
-                            id: 'MUEL FUEL ⛽️X TANGERINE SQUEEZ 🍊',
-                            flag: '🇲🇦',
-                            name: 'MUEL FUEL ⛽️X TANGERINE SQUEEZ 🍊',
-                            farm: 'STATIC X WPFF 🌱',
-                            promoEligible: true,
-                            type: 'Hash de luxe',
-                            image: 'ProductMuel.png', // Pense à changer l'image si tu en as une nouvelle
-                            videos: ['VideoMuel.mov','VideoMuel2.mov'],       // Idem pour la vidéo
-                            description: 'On vous a ramener un produit tout droit venu du pays 🇲🇦 \n bi color 🔞🥵un délice fruités 🍑🍌🍓🍉',
-                            tarifs: [
-                                { weight: '2,5g', price: 60.00},
-                                { weight: '5g', price: 120.00},
-                                { weight: '10g', price: 240.00},
-                                { weight: '25g', price: 600.00},
-                                { weight: '30g', price: 0, private: true },
-                            ],
-                        } */
 
-                        /*   {
-                            id: 'SMOKINGREEN 💦🍀',
-                            flag: '🇲🇦',
-                            name: 'TOP MOUSSE 🧽',
-                            farm: 'MOUSSEUX MAROCAIN 🇲🇦',
-                            promoEligible: true,
-                            type: 'Hash Marocain',
-                            image: 'ProductGreen.png', // Pense à changer l'image si tu en as une nouvelle
-                            video: 'VideoGreen.mov',       // Idem pour la vidéo
-                            description: 'On vous a ramener une pépite de mousseux comme vous les aimer 🌟🌟📲📲goût odeur ✅🤫 \n   PRIX ATTRACTIF 🥇',
-                            tarifs: [
-                                { weight: '10g', price: 40.00},
-                                { weight: '25g', price: 100.00},
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-
-
-                            ],
-                        },  */
-                       /*    {
-                            id: 'WHITE APPLE RUNTZ 🍏🍎',
-                            flag: '🇲🇦',
-                            name: 'WHITE APPLE RUNTZ 🍏🍎',
-                            farm: 'TOP 160u 📲🔞🇲🇦',
-                            promoEligible: true,
-                            type: 'Hash Marocain',
-                            image: 'ProductWhite.png', // Pense à changer l'image si tu en as une nouvelle
-                            video: 'VideoWhite.mov',       // Idem pour la vidéo
-                            description: ' On vous a ramener une pépite des montagne goût🥵 odeur 😅texture 🥶et pour le prix 🥇 attractif',
-                            tarifs: [
-                                { weight: '5g', price: 40.00 },
-                                { weight: '10g', price: 80.00},
-                                { weight: '25g', price: 200.00},
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-                                
-                                
-                            ],
-                        }, */
-                            /* {
-                                id: 'STATIC SIFT ⭐️⭐️⚡️⚡️',
-                                flag: '🇲🇦',
-                                name: 'GOLDCHERRY 🍒x HONEY BANANA 🍌🍌',
-                                farm: '👩‍🌾 DRYTECH X GOLDENFARMS ⚡️⭐️',
-                                promoEligible: true,
-                                type: 'Hash Marocain',
-                                image: 'ProductHoney.png', // Pense à changer l'image si tu en as une nouvelle
-                                videos:['VideoHoney.mp4', 'VideoHoney2.mp4', 'VideoHoney3.mov'],       // Idem pour la vidéo
-                                description: 'STATIC SIFT ⭐️⭐️⚡️⚡️ \n On vous a ramener une pépite avec un cold curing de 2 semaine blanc de blanc ✅⭐️🍾goût odeur fruités ✅⭐️⚡️⚡️ produit GAZZY',
-                                tarifs: [
-                                    { weight: '2.5g', price: 50.00 },
-                                    { weight: '5g', price: 90.00 },
-                                    { weight: '10g', price: 180.00 },
-                                    { weight: '25g', price: 420.00 },
-                                ],
-                                }, */
-                        /* {
-                            id: 'Frozen PRENIUM',
-                            flag: '🇲🇦',
-                            name: 'Frozen PREMIUM 🧊',
-                            farm: '⭐️ STREET FARM FROZEN ⭐️',
-                            promoEligible: true,
-                            type: 'Hash Marocain',
-                            image: 'ProductSansNom.png', // Pense à changer l'image si tu en as une nouvelle
-                            video: 'VideoSansNom.mp4',      // Idem pour la vidéo
-                            description: 'On vous a ramener des nouveaux strain avec un curing top 🚫🍯 un délice certain  au goût de Cali 🇺🇸 certain de la weed fruités 🍌🍓🍉',
-                            tarifs: [
-                                { weight: '5g', price: 50.00 },
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 250.00 },
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-
-                            ],
-                            // 👇 TITRE PERSONNALISÉ
-                            variantTitle: 'Sélectionner la variété 🍧 :', 
-                            jars: [
-/*                                 { name: 'BLOOD CHEESE / PREMIUM', emoji: '🍒🩸🧀', colorClass: 'frozen-blood' },
-                                { name: 'HONEY BANANA X GOLD CHERRY', emoji: '🍯🍌🏆🍒', colorClass: 'frozen-honey' },
-                                { name: 'FORBIDDEN GAZ / PREMIUM', emoji: '🍏🍎💨', colorClass: 'frozen-forbidden' },
-                                { name: 'SUPER GASBOOF / PREMIUM', emoji: '💨🍭🍈', colorClass: 'frozen-gasboof' },
-                                { name: 'FROSTED PINEAPPEL / PREMIUM', emoji: '🌾🍍🍎', colorClass: 'frozen-pineapple' },
- */                             /*  name: 'MOROCCO PEACHES / PREMIUM', emoji: '🍑🇲🇦', colorClass: 'frozen-peach' },
-                                { name: 'GASMINT X FF / PREMIUM', emoji: '💨🍋🍏🍎', colorClass: 'frozen-gasmint' }, 
-                                { name: 'ZHEAD / PREMIUM', emoji: '🫐🍋⛽️🍭', colorClass: 'frozen-zhead' },
-                                { name: 'MANDARIN OG / PREMIUM', emoji: '🍊🥦', colorClass: 'frozen-mandarin' },
-                                /* { name: 'SOUR ORANGE / PREMIUM', emoji: '🍊⛽️', colorClass: 'frozen-sour' },
-                                { name: 'BLUE Z / PREMIUM', emoji: '🌊🥝', colorClass: 'frozen-bluez' },
-                                { name: '24k x MG / PREMIUM', emoji: '🏆🍊🥦', colorClass: 'frozen-24k' },
-                                { name: 'GRAPE CAKE / PREMIUM', emoji: '🍇🧁', colorClass: 'frozen-grape' },
-                                { name: 'TMZ X YELLOW / PREMIUM', emoji: '🍈🍍🟡', colorClass: 'frozen-tmz' },            
-                            ]
-                            } */
+                   
                     
                     ]
                 }
@@ -409,6 +328,23 @@ document.addEventListener('DOMContentLoaded', function () {
                          image: 'Wizard4.png', // Mets une image de farm si tu veux
                          badgeText: '2 produits', */
                     products: [
+                        {
+                            id: 'STATIC SIFT 🇲🇦 ⚡️',
+                            flag: '🇺🇸',
+                            name: 'STATIC SIFT 🇲🇦 ⚡️',
+                            farm: 'CALIFORNIA 🇺🇸 GOLD ⚜️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductPZ.png',
+                            video: 'VideoPZ.mov',
+                            description: 'On vous ramène une exclu en static blanc de blanc 🔞📲🌟 \n Prix attractif 🤫',
+                            tarifs: [
+                                { weight: '1,25g', price: 60.00 },
+                                { weight: '2,5g', price: 120.00 },
+                                { weight: '5g', price: 240.00 },
+                                { weight: '10g', price: 480.00 },
+                            ]
+                        },
                              {
                             id: 'Jaar',
                             flag: '🇺🇸',
@@ -432,23 +368,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: 'La Jaar', price: 100.00 }, // Prix de base affiché sur la carte
                             ]
                         }, 
-                       /*  {
-                            id: 'PAPAYA X ZANGRIA 🇺🇸 #8',
-                            flag: '🇺🇸',
-                            name: 'PAPAYA X ZANGRIA 🇺🇸 #8',
-                            farm: 'WIZARD THEES X GOLDEN HEAD WARRIOR 🇺🇸',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductPZ.png',
-                            video: 'VideoPZ.mov',
-                            description: 'On vous a ramener un produit incroyable blanc de l’intérieur à l’extérieur ⭐️🍯',
-                            tarifs: [
-                                { weight: '1,25g', price: 60.00 },
-                                { weight: '2,5g', price: 120.00 },
-                                { weight: '5g', price: 240.00 },
-                                { weight: '10g', price: 480.00 },
-                            ]
-                        }, */
+                       
                         {
                             id: 'OLIVE 🫒 DOUBLE STATIC 🇺🇸',
                             flag: '🇺🇸',
@@ -477,77 +397,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ],
                         },
-                       
-                      /*   {
-                            id: 'COSMOS 🧑‍🚀COOKIES 🍪',
-                            flag: '🇺🇸',
-                            name: 'COSMOS 🧑‍🚀COOKIES 🍪',
-                            farm: 'SHEESH STATIC 🇺🇸 ⭐️🌟',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductCos.png',
-                            video: 'VideoCos.mov',
-                            description: 'On vous a ramener une pépite 📲🌟avec un curing à blanc 🍯et un goût fabuleux ☀️🫡',
-                            tarifs: [
-                                { weight: '2,5g', price: 100.00 },
-                                { weight: '5g', price: 200.00 },
-                                { weight: '10g', price: 380.00 },
-                                { weight: '25g', price: 0, private: true },
-                                { weight: '50g', price: 0, private: true },
-                            ]
-                        }, */
-                    /* ,
-                        {
-                            id: 'FROSTY JAM 🤝🇺🇸⭐️',
-                            flag: '🇺🇸',
-                            name: 'FROSTY JAM 🤝🇺🇸⭐️',
-                            farm: 'SHEESH STATIC ⭐️💀',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductJam.png',
-                            video: 'VideoJam.mov',
-                            description: 'On vous a ramener un produit translucide avec du goût 👅 de la couleur translucide ⭐️🤝',
-                            tarifs: [
-                                { weight: '2,5g', price: 80.00 },
-                                { weight: '5g', price: 160.00 },
-                                { weight: '10g', price: 320.00 },
-                            ]
-                        }, */
-                     /*    {
-                            id: 'CREAMIZ 🍨🍦🍮',
-                            flag: '🇺🇸',
-                            name: 'CREAMIZ 🍨🍦🍮',
-                            farm: 'SAHA SAHA TERPS 😼🤳🇺🇸',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductCreami.png',
-                            videos: ['VideoCreami.mp4','VideoCreami1.mov' ],
-                            description: 'On vous a ramener une pépite venu tout droit des 🇺🇸 avec une odeur de Cali 🇺🇸 qui te débouche le nez 👃 un goût juste magnifique 🤩 produit parle de lui même',
-                            tarifs: [
-                                { weight: '2,5g', price: 100.00 },
-                                { weight: '5g', price: 200.00 },
-                                { weight: '10g', price: 380.00 },
-                                { weight: '25g', price: 0, private: true },
-                                { weight: '50g', price: 0, private: true },
-                            ]
-                        }, 
-                       {
-                            id: 'WEEDING CAKE 🥧🍰🧁',
-                            flag: '🇺🇸',
-                            name: 'WEEDING CAKE 🥧🍰🧁',
-                            farm: 'CALITE FARMS 🇺🇸 🇪🇸',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductCake.png',
-                            video: 'VideoCake.mp4',
-                            description: 'STATIC SIFT ⚡️⚡️⚡️ \n SINGLE SOURCE 🌟🌟🌟\n\n EXCLUSIF 🌟🌟🌟 \n On vous a ramener la crème du moment single source un délice 🌟☀️🫨produit spéciale 🔭®️',
-                            tarifs: [
-                                { weight: '2.5g', price: 90.00 },
-                                { weight: '5g', price: 180.00 },
-                                { weight: '10g', price: 350.00 },
-
-                            ]
-                        } */
                     ]
                 }
             ]
@@ -569,6 +418,24 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '0 produits',
                     clickable: false,  */
                     products: [
+                        {
+                            id: 'MOCHI GELATO 🇺🇸',
+                            flag: '🇺🇸',
+                            name: 'MOCHI GELATO 🇺🇸',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductMochi.png',
+                            video:  'VideoMochi.mov',      // Vidéo 1
+                            description: 'On vous a ramener une pépite 🇺🇸 mochi gelato goûtu pour sont odeur 👃et sont goût 👅',
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 280.00 },
+                                { weight: '56g', price: 0, private: true  },
+                                { weight: '112g', price: 0, private: true  },
+                            ]
+                        },
                         {
                             id: 'BLUE DREAM 💤😴',
                             flag: '🇺🇸',
@@ -666,42 +533,6 @@ document.addEventListener('DOMContentLoaded', function () {
                             ],
                         },
                         
-                     /*    {
-                            id: 'GORILLA GLUE 🦍🇳🇱',
-                            flag: '🇳🇱',
-                            name: 'GORILLA GLUE 🦍 🇳🇱',
-                            farm: '⭐️ NO FARM ',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductGorrilla.png',
-                            video: 'VideoGorilla.mov',
-                            description: 'On vous a ramener une petite pépite goût 👅 odeur ⭐️🤝',
-                            tarifs: [
-                                { weight: '5g', price: 50.00 },
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 250.00 },
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-                            ],
-                        }, */
-                      /*   {
-                            id: 'MIMOSA  🇳🇱',
-                            flag: '🇳🇱',
-                            name: 'MIMOSA 🇳🇱',
-                            farm: '⭐️ NO FARM ',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductMimosa.png',
-                            video: 'VideoMimosa.mov',
-                            description: 'On vous a ramener une pépite odeur 🇳🇱🇺🇸 spéciale 🤝⭐️',
-                            tarifs: [
-                                { weight: '5g', price: 50.00 },
-                                { weight: '10g', price: 100.00 },
-                                { weight: '25g', price: 250.00 },
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-                            ],
-                        } */
                     ]
                 }
 
