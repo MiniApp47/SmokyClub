@@ -419,6 +419,60 @@ document.addEventListener('DOMContentLoaded', function () {
                     clickable: false,  */
                     products: [
                         {
+                            id: 'CALI 🇺🇸 TOP SHELF 🌟',
+                            flag: '🇺🇸',
+                            name: 'CALI 🇺🇸 TOP SHELF 🌟',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'WeedUsa',
+                            image: 'ProductTpc.png', 
+                            videos: 'VideoTpc.mov',
+                            description: 'Good vibes 😉 produit gazzy et surtout exclusif 🌟🇺🇸',
+                                  // 👇 TITRE PERSONNALISÉ
+                                  variantTitle: 'Sélectionner la variété 🍧 :', 
+                                  jars: [
+                                    { name: 'RS11', emoji: '🇺🇸', colorClass: 'frozen-mandarin' },
+                                    { name: 'LCG ', emoji: '🇺🇸', colorClass: 'frozen-24k' },
+                                    { name: 'CÉRÉALES MILK', emoji: '🥣🍼🇺🇸', colorClass: 'frozen-bluez' },
+                                    { name: 'RAINBOW RUNTZ', emoji: '🌈🇺🇸', colorClass: 'frozen-tmz' },          
+                                      ],
+                            tarifs: [
+                                { weight: '5g', price: 70.00 },
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 340.00 },
+                                { weight: '56g', price: 0, private: true },
+                                { weight: '112g', price: 0, private: true },
+
+                            ]
+                        },
+                        {
+                            id: 'MIDL SHELF ®️',
+                            flag: '🇺🇸',
+                            name: 'MIDL SHELF ®️',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'WeedUsa',
+                            image: 'ProductMidMac.png', 
+                            videos: 'VideoMidMac.mov',
+                            description: 'On vous a ramener 4 pépite à vous de vous régaler 🇺🇸🤫',
+                                  // 👇 TITRE PERSONNALISÉ
+                                  variantTitle: 'Sélectionner la variété 🍧 :', 
+                                  jars: [
+                                      { name: 'WEEDING CAKE', emoji: '🍰', colorClass: 'frozen-gasboof' },
+                                      { name: 'MAC ONE 1', emoji: '🇺🇸', colorClass: 'frozen-zhead' },
+                                      { name: 'PURPLE SKITLLES', emoji: '🍬 🇺🇸', colorClass: 'frozen-zhead' },
+                                       { name: 'WHITE RUNTZ', emoji: '🇺🇸 🌹', colorClass: 'frozen-sour' },
+                                  ],
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+
+                            ]
+                            },
+                        {
                             id: 'MOCHI GELATO 🇺🇸',
                             flag: '🇺🇸',
                             name: 'MOCHI GELATO 🇺🇸',
