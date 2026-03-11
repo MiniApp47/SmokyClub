@@ -426,7 +426,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             promoEligible: true,
                             type: 'WeedUsa',
                             image: 'ProductTpc.png', 
-                            videos: 'VideoTpc.mov',
+                            video: 'VideoTpc.mov',
                             description: 'Good vibes 😉 produit gazzy et surtout exclusif 🌟🇺🇸',
                                   // 👇 TITRE PERSONNALISÉ
                                   variantTitle: 'Sélectionner la variété 🍧 :', 
@@ -451,9 +451,9 @@ document.addEventListener('DOMContentLoaded', function () {
                             name: 'MIDL SHELF ®️',
                             farm: '',
                             promoEligible: true,
-                            type: 'WeedUsa',
+                            type: 'Weed',
                             image: 'ProductMidMac.png', 
-                            videos: 'VideoMidMac.mov',
+                            video: 'VideoMidMac.mov',
                             description: 'On vous a ramener 4 pépite à vous de vous régaler 🇺🇸🤫',
                                   // 👇 TITRE PERSONNALISÉ
                                   variantTitle: 'Sélectionner la variété 🍧 :', 
