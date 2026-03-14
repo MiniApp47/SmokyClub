@@ -2651,7 +2651,7 @@ if (target.closest('.jar-select-btn')) {
       if (target.closest('.add-to-cart-btn')) {
         const btn = target.closest('.add-to-cart-btn');
         if (btn.classList.contains('contact-private-btn')) {
-            tg.openTelegramLink('https://t.me/smockyclubofficial6');
+            tg.openTelegramLink('https://t.me/smockycluboff67');
             return;
         }
 
@@ -2684,7 +2684,7 @@ if (target.closest('.jar-select-btn')) {
             // Option 1 : Rediriger vers la page LINKS de l'app
             // renderContactPage();
             //showPage('page-contact');
-            tg.openTelegramLink('https://t.me/smockyclubofficial6')
+            tg.openTelegramLink('https://t.me/smockycluboff67')
             // Option 2 (Alternative) : Ouvrir direct ton Telegram personnel
             // tg.openTelegramLink('https://t.me/TON_PSEUDO');
 
@@ -2764,7 +2764,7 @@ if (target.closest('.jar-select-btn')) {
         if (target.closest('#confirm-order-button')) {
 
             // 1. TON PSEUDO TELEGRAM
-            const targetUsername = 'smockyclubofficial6';
+            const targetUsername = 'smockycluboff67';
 
             // 2. On prépare le message
             let message = formatOrderMessage();
