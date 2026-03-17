@@ -44,6 +44,88 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                         {
+                            id: 'Resine Marocaine 🏭',
+                            flag: '🇺🇸',
+                            name: 'Resine Marocaine 🏭',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Static',
+                            image: 'ProductRM.png', // Garde ton image actuelle
+                            videos: ['VideoRM.mov','VideoRM1.mov'],
+                            description: 'L’UNE DES MEILLEURE RÉSINE MAROCAINE DÉLICIEUSE 🤤 👀',
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'HONEY BANANA', emoji: '🍌', colorClass: 'frozen-honey' }, 
+                                { name: 'MOROCCO PEACH', emoji: '🍑', colorClass: 'frozen-zhead' }, 
+                            ],
+                            
+                            // Le bouton "Ajouter" prendra le prix du Jar sélectionné
+                            tarifs: [
+                                { weight: '100g', price: 900.00 },
+                                { weight: '200g', price: 1800.00 },
+                                { weight: '500g', price: 0, private: true },
+
+                            ],
+                        },
+                        {
+                            id: 'BLUE CHEESE 🧀🧀',
+                            flag: '🇲🇦',
+                            name: 'BLUE CHEESE 🧀🧀',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductBC.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoBC.mov',     // Idem pour la vidéo
+                            description: 'STATIC SIFT ⚡️⚡️',
+                            tarifs: [
+                                { weight: '5g', price: 40.00},
+                                { weight: '10g', price: 80.00},
+                                { weight: '25g', price: 200.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                        {
+                            id: 'MENTAL RAINBOW 🆕🌟',
+                            flag: '🇲🇦',
+                            name: 'MENTAL RAINBOW 🆕🌟',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductMR.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoMR.mov',     // Idem pour la vidéo
+                            description: 'DOUBLE STATIC \n\n L’UNE DES MEILLEURE RÉSINE MAROCAINE DÉLICIEUSE 🤤 👀 ',
+                            tarifs: [
+                                { weight: '50g', price: 800.00},
+                                { weight: '100g', price: 1600.00},
+                                { weight: '200g', price: 0, private: true },
+                                { weight: '500g', price: 0, private: true },
+                            ],
+                        }, 
+                        {
+                            id: 'FROZEN MAROCAIN 🇲🇦',
+                            flag: '🇲🇦',
+                            name: 'FROZEN MAROCAIN 🇲🇦',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductOgH.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoOgH.mov',     // Idem pour la vidéo
+                            description: '',
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'PINK GASOLINE', emoji: '🛢️', colorClass: 'frozen-24k' },
+                                { name: 'SUPERBOOF', emoji: '®️', colorClass: 'frozen-bluez' }, 
+                                { name: 'Ogkush x honey', emoji: '🔥', colorClass: 'frozen-honey' }, 
+                            ],
+                            
+                            tarifs: [
+                                { weight: '100g', price: 450.00},
+                                { weight: '200g', price: 900.00},
+                                { weight: '500g', price: 0, private: true },
+                            ],
+                        }, 
+                        {
                             id: 'STATIC SIFT 🍭',
                             flag: '🇺🇸',
                             name: 'STATIC SIFT 🍭',
@@ -328,6 +410,22 @@ document.addEventListener('DOMContentLoaded', function () {
                          image: 'Wizard4.png', // Mets une image de farm si tu veux
                          badgeText: '2 produits', */
                     products: [
+                        {
+                            id: 'CANDY RUNTZ 🍬 🇺🇸',
+                            flag: '🇺🇸',
+                            name: 'CANDY RUNTZ 🍬 🇺🇸',
+                            farm: 'GOLDEN HEAD WARRIOR 🇺🇸 X WIZARD THREES 🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCr.png',
+                            video: 'VideoCr.mov',
+                            description: 'Une tête de Cali en bouche avec un goût de bonbon 🍬 qui revien ✅ \n\n DU CAVIAR 🔥🔥🔥',
+                            tarifs: [
+                                { weight: '2,5g', price: 130.00 },
+                                { weight: '5g', price: 250.00 },
+                                { weight: '10g', price: 480.00 },
+                            ]
+                        },
                         {
                             id: 'STATIC SIFT 🇲🇦 ⚡️',
                             flag: '🇺🇸',
