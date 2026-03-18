@@ -426,7 +426,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 480.00 },
                             ]
                         },
-                        {
+                      /*   {
                             id: 'STATIC SIFT 🇲🇦 ⚡️',
                             flag: '🇺🇸',
                             name: 'STATIC SIFT 🇲🇦 ⚡️',
@@ -442,8 +442,8 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 240.00 },
                                 { weight: '10g', price: 480.00 },
                             ]
-                        },
-                             {
+                        }, */
+                           /*   {
                             id: 'Jaar',
                             flag: '🇺🇸',
                             name: 'JAAR SCELLÉ COFEE SHOP 🔞📲',
@@ -465,7 +465,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             tarifs: [
                                 { weight: 'La Jaar', price: 100.00 }, // Prix de base affiché sur la carte
                             ]
-                        }, 
+                        },  */
                        
                         {
                             id: 'OLIVE 🫒 DOUBLE STATIC 🇺🇸',
