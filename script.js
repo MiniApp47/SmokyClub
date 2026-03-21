@@ -334,6 +334,22 @@ document.addEventListener('DOMContentLoaded', function () {
                          badgeText: '2 produits', */
                     products: [
                         {
+                            id: 'HUMBOLT HASH 🇺🇸',
+                            flag: '🇺🇸',
+                            name: 'HUMBOLT HASH 🇺🇸',
+                            farm: 'GOLDEN HEAD WARRIOR 🇺🇸 X WIZARD THREES 🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductHH.png',
+                            video: 'VideoHH.mov',
+                            description: 'On vous a ramener une pépite qui fouette les île 🏝️ 🇺🇸 translucide ✨y’a 2 an on en avait l’équipe mais là avec le curing fait maison 🏠📲un délice 🌙 exclu strasbourgeois 🔌❌',
+                            tarifs: [
+                                { weight: '2,5g', price: 110.00 },
+                                { weight: '5g', price: 210.00 },
+                                { weight: '10g', price: 420.00 },
+                            ]
+                        },
+                        {
                             id: 'CANDY RUNTZ 🍬 🇺🇸',
                             flag: '🇺🇸',
                             name: 'CANDY RUNTZ 🍬 🇺🇸',
@@ -349,23 +365,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 480.00 },
                             ]
                         },
-                      /*   {
-                            id: 'STATIC SIFT 🇲🇦 ⚡️',
-                            flag: '🇺🇸',
-                            name: 'STATIC SIFT 🇲🇦 ⚡️',
-                            farm: 'CALIFORNIA 🇺🇸 GOLD ⚜️',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductPZ.png',
-                            video: 'VideoPZ.mov',
-                            description: 'On vous ramène une exclu en static blanc de blanc 🔞📲🌟 \n Prix attractif 🤫',
-                            tarifs: [
-                                { weight: '1,25g', price: 60.00 },
-                                { weight: '2,5g', price: 120.00 },
-                                { weight: '5g', price: 240.00 },
-                                { weight: '10g', price: 480.00 },
-                            ]
-                        }, */
+                    
                            /*   {
                             id: 'Jaar',
                             flag: '🇺🇸',
@@ -439,6 +439,44 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '0 produits',
                     clickable: false,  */
                     products: [
+                        {
+                            id: 'WEEDING CHEESECAKE 🇺🇸 🧀',
+                            flag: '🇺🇸',
+                            name: 'WEEDING CHEESECAKE 🇺🇸 🧀',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductWC.png',
+                            video:  'VideoWC.mov',      // Vidéo 1
+                            description: '',
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 90.00 },
+                                { weight: '25g', price: 220.00 },
+                                { weight: '50g', price: 0, private: true  },
+                                { weight: '112g', price: 0, private: true  },
+                            ]
+                        },
+                        {
+                            id: 'WHITE RUNTZ 🇺🇸',
+                            flag: '🇺🇸',
+                            name: 'WHITE RUNTZ 🇺🇸',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductWR.png',
+                            video:  'VideoWR.mov',      // Vidéo 1
+                            description: '',
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 0, private: true  },
+                                { weight: '112g', price: 0, private: true  },
+                            ]
+                        },
+                   
+                        
                        /*  {
                             id: 'CALI 🇺🇸 TOP SHELF 🌟',
                             flag: '🇺🇸',
@@ -533,7 +571,24 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                       
+                        {
+                            id: 'CHERRY PIE CALI 🇺🇸',
+                            flag: '🇳🇱',
+                            name: 'CHERRY PIE CALI 🇺🇸',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductCPC.png',
+                            video:  'VideoCPC.mov',      // Vidéo 1
+                            description: '',
+                            tarifs: [
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 400.00 },
+                                { weight: '100g', price: 0, private: true  },
+                            ]
+                        },
                         {
                             id: 'AMNESIA HAZE 🇳🇱🇳🇱',
                             flag: '🇳🇱',
