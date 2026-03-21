@@ -220,84 +220,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                             },
-                        {
-                            id: 'ZAPPLEZZ🍏🍎',
-                            flag: '🇲🇦',
-                            name: 'ZAPPLEZZ🍏🍎',
-                            farm: 'MOUSSE MAROCAINE 🇲🇦',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductTM2.png', // Pense à changer l'image si tu en as une nouvelle
-                            video: 'VideoTM2.mov',      // Idem pour la vidéo
-                            description: 'On vous a ramener 📲une récolte 2k26 odeur fruités \n 🍌🍉🍓curing top 🍯',
-                            variantTitle: 'Sélectionner la variété 🍧 :', 
-                            jars: [
-                                { name: 'WEDDING SLURRIPIE', emoji: '🍰🧁', colorClass: 'top-angry' },
-                                { name: 'ZAPPLEZZ', emoji: '🍏🍎', colorClass: 'top-gorilla' }, 
-                            ],
-                            
-                            tarifs: [
-                                { weight: '5g', price: 40.00},
-                                { weight: '10g', price: 80.00},
-                                { weight: '25g', price: 200.00},
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-                            ],
-                        }, 
-                        {
-                            id: 'TOP MOUSSE 🧽',
-                            flag: '🇲🇦',
-                            name: 'TOP MOUSSE 🧽',
-                            farm: 'MOUSSE MAROCAINE 🇲🇦',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductTM.png', // Pense à changer l'image si tu en as une nouvelle
-                            video: 'VideoTM.mov',      // Idem pour la vidéo
-                            description: 'On vous a ramener récolte 2k26 tout fraîche 🌟📲',
-                            variantTitle: 'Sélectionner la variété 🍧 :', 
-                            jars: [
-                                { name: 'YUZU', emoji: '🍋', colorClass: 'frozen-gasmint' },
-                                { name: 'APPLE PIE', emoji: '🍏', colorClass: 'frozen-sour' }, 
-                            ],
-                            
-                            tarifs: [
-                                { weight: '10g', price: 40.00},
-                                { weight: '25g', price: 80.00},
-                                { weight: '50g', price: 0, private: true },
-                                { weight: '100g', price: 0, private: true },
-                            ],
-                        }, 
-                        {
-                            id: 'Top',
-                            flag: '🇲🇦',
-                            name: 'Top 🇲🇦',
-                            farm: 'SELECTION 🇲🇦',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductTop1.png',
-                            video: 'VideoTop.mov',      // Vidéo 1                     
-                            description: 'On vous a ramener une récolte fraîche 😉🤫🌟odeur fruités goût 🔭🥶',
-                            tarifs: [
-                                { weight: '5g', price: 40.00 },
-                                { weight: '10g', price: 80.00 },
-                                { weight: '25g', price: 200.00 },
-                                { weight: '50g', price: 0, private: true },
-                                // priver
-                                { weight: '100g', price: 0, private: true },
-                            ],
-                           /*  // 👇 NIVEAU 1 : FILTRATION
-                            variantTitle: '1️⃣ Sélectionner la filtration :', 
-                            jars: [
-                                { name: '120u', emoji: '🔵', colorClass: 'variant-120u' },
-                                { name: '160u', emoji: '🔴', colorClass: 'variant-160u' },
-                                { name: '105u', emoji: '🟢', colorClass: 'variant-90u' }
-                            ], */
-                            // 👇 NIVEAU 2 : GOÛTS (NOUVEAU)
-                            variantTitle2: '2️⃣ Sélectionner le goût 🧬 :',
-                            flavors: [
-                                { name: '120u - WHITE APPLE RUNTZ', emoji: '🍏', colorClass: 'top-zombie' },
-                            ]
-                        },
+                       
                         {
                             id: 'SULTAN STATIC ⚡️',
                             flag: '🇲🇦',
@@ -467,7 +390,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             ]
                         },  */
                        
-                        {
+                       /*  {
                             id: 'OLIVE 🫒 DOUBLE STATIC 🇺🇸',
                             flag: '🇺🇸',
                             name: 'OLIVE 🫒 DOUBLE STATIC 🇺🇸',
@@ -494,7 +417,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 0, private: true },
 
                             ],
-                        },
+                        }, */
                     ]
                 }
             ]
@@ -516,7 +439,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '0 produits',
                     clickable: false,  */
                     products: [
-                        {
+                       /*  {
                             id: 'CALI 🇺🇸 TOP SHELF 🌟',
                             flag: '🇺🇸',
                             name: 'CALI 🇺🇸 TOP SHELF 🌟',
@@ -542,7 +465,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '112g', price: 0, private: true },
 
                             ]
-                        },
+                        }, */
                         {
                             id: 'MIDL SHELF ®️',
                             flag: '🇺🇸',
@@ -588,44 +511,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '112g', price: 0, private: true  },
                             ]
                         },
-                        {
-                            id: 'BLUE DREAM 💤😴',
-                            flag: '🇺🇸',
-                            name: 'BLUE DREAM 💤😴',
-                            farm: 'TOP SHELF EXOTICS 🍹',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductBlueDream.png',
-                            video:  'VideoBlueDream.mov',      // Vidéo 1
-                            description: 'On vous a ramener une pépite direct venu des 🇺🇸 gazzy 🇺🇸 un délice 🤫🥵',
-                            tarifs: [
-                                { weight: '2,5g', price: 40.00 },
-                                { weight: '5g', price: 70.00 },
-                                { weight: '10g', price: 140.00 },
-                                { weight: '25g', price: 350.00 },
-                                { weight: '56g', price: 0, private: true  },
-                                { weight: '112g', price: 0, private: true  },
-                            ]
-                        },
-                        {
-                            id: 'SUNSET SHERBET 🇺🇸',
-                            flag: '🇺🇸',
-                            name: 'SUNSET SHERBET 🇺🇸',
-                            farm: 'TOP SHELF EXOTICS 🍹',
-                            promoEligible: true,
-                            type: 'Weed',
-                            image: 'ProductSunset.png',
-                            video:  'VideoSunset.mov',      // Vidéo 1
-                            description: 'On vous a ramener une pépite des 🇺🇸 odeurs 👃 goût 👅 gazzy',
-                            tarifs: [
-                                { weight: '2,5g', price: 30.00 },
-                                { weight: '5g', price: 60.00 },
-                                { weight: '10g', price: 120.00 },
-                                { weight: '25g', price: 240.00 },
-                                { weight: '56g', price: 0, private: true  },
-                                { weight: '112g', price: 0, private: true  },
-                            ]
-                        },
+                   
                      
                   
                     ]
@@ -648,6 +534,24 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText: '5 produits', */
                     products: [
                        
+                        {
+                            id: 'AMNESIA HAZE 🇳🇱🇳🇱',
+                            flag: '🇳🇱',
+                            name: 'AMNESIA HAZE 🇳🇱🇳🇱',
+                            farm: '⭐️ NO FARM ',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductHaze.png',
+                            video: 'VideoHaze.mov',
+                            description: 'GOOD QUALITY 23%thc 🔞📲 \n\n  On vous a ramené une pépite bien fouettante 🫨🫨🫨et une odeur bien fraîche de beu 🌟👌sa fait rappeler la bonne époque pour ceux qui ont connu les vraie odeur de haze 🔞🔥',
+                            tarifs: [
+                                { weight: '5g', price: 30.00 },
+                                { weight: '10g', price: 60.00 },
+                                { weight: '25g', price: 150.00 },
+                                { weight: '50g', price: 300.00 },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        },
                         {
                             id: 'PURPLE PUNCH 🇺🇸',
                             flag: '🇳🇱',
@@ -706,7 +610,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                        {
+                        /* {
                             id: 'WEEDING PIE 🇺🇸🥧',
                             flag: '🇺🇸',
                             name: 'WEEDING PIE 🇺🇸🥧',
@@ -723,7 +627,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 440.00},
                                 { weight: 'Pour +', price: 0, private: true },
                             ],
-                        }, 
+                        },  */
                         
                     ]
                 }
