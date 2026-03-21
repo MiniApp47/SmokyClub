@@ -454,7 +454,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 90.00 },
                                 { weight: '25g', price: 220.00 },
                                 { weight: '50g', price: 0, private: true  },
-                                { weight: '112g', price: 0, private: true  },
+                                { weight: '100g', price: 0, private: true  },
                             ]
                         },
                         {
@@ -472,7 +472,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '10g', price: 80.00 },
                                 { weight: '25g', price: 200.00 },
                                 { weight: '50g', price: 0, private: true  },
-                                { weight: '112g', price: 0, private: true  },
+                                { weight: '100g', price: 0, private: true  },
                             ]
                         },
                    
