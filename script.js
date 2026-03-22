@@ -337,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             id: 'HUMBOLT HASH 🇺🇸',
                             flag: '🇺🇸',
                             name: 'HUMBOLT HASH 🇺🇸',
-                            farm: 'GOLDEN HEAD WARRIOR 🇺🇸 X WIZARD THREES 🇺🇸',
+                            farm: '',
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductHH.png',
