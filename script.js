@@ -334,6 +334,22 @@ document.addEventListener('DOMContentLoaded', function () {
                          badgeText: '2 produits', */
                     products: [
                         {
+                            id: 'PURPLE RUNTZ 🇺🇸🌟',
+                            flag: '🇺🇸',
+                            name: 'PURPLE RUNTZ 🇺🇸🌟',
+                            farm: 'HASH FORCE ONE 🪖🎖️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductPR.png',
+                            video: 'VideoPR.mov',
+                            description: 'TOP TIERS STATIC SIFT 🇺🇸 🌟\n On vous a ramener une pépite l’équipe hash force one de blanc de blanc ✌️👀🔌 chaque taff ses une découverte 🤲 \n\n Produit exclusif 💯💯®️®️',
+                            tarifs: [
+                                { weight: '2,5g', price: 100.00 },
+                                { weight: '5g', price: 200.00 },
+                                { weight: '10g', price: 400.00 },
+                            ]
+                        },
+                        {
                             id: 'HUMBOLT HASH 🇺🇸',
                             flag: '🇺🇸',
                             name: 'HUMBOLT HASH 🇺🇸',
@@ -341,7 +357,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             promoEligible: true,
                             type: 'Hash',
                             image: 'ProductHH.png',
-                            video: 'VideoHH.mov',
+                            videos: ['VideoHH.mov','VideoHH1.mov'],
                             description: 'On vous a ramener une pépite qui fouette les île 🏝️ 🇺🇸 translucide ✨y’a 2 an on en avait l’équipe mais là avec le curing fait maison 🏠📲un délice 🌙 exclu strasbourgeois 🔌❌',
                             tarifs: [
                                 { weight: '2,5g', price: 110.00 },
@@ -469,7 +485,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             description: '',
                             tarifs: [
                                 { weight: '5g', price: 50.00 },
-                                { weight: '10g', price: 80.00 },
+                                { weight: '10g', price: 100.00 },
                                 { weight: '25g', price: 200.00 },
                                 { weight: '50g', price: 0, private: true  },
                                 { weight: '100g', price: 0, private: true  },
@@ -1520,6 +1536,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // --- NAVIGATION ---
     function showPage(pageId) {
+         // 👇 AJOUT STRATÉGIQUE : Coupe toutes les vidéos instantanément au changement de page
+        document.querySelectorAll('video').forEach(video => {
+            video.pause();
+        });
         pages.forEach(p => p.classList.remove('active'));
         // S'assure que la page existe avant de l'activer
         const page = document.getElementById(pageId);
