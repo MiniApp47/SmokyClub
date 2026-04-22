@@ -2862,7 +2862,7 @@ if (target.closest('.jar-select-btn')) {
     // --- GESTION DU MOT DE PASSE (SHA-256) ---
 
     // 👇 METS LE HASH QUE TU AS GÉNÉRÉ À L'ÉTAPE 1 ICI 👇
-    const SECRET_HASH = "39a6e1ac4a6767883974fa5cef80649c4b6822a0f1758ddbed44f6dd62ecc3df";
+    const SECRET_HASH = "02a8bc351120286d811c5620346b0c217530e44fe553da7cb91383a123ab61ec";
 
     // Fonction technique pour hasher du texte (ne pas toucher)
     async function sha256(message) {
