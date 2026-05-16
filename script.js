@@ -41,9 +41,147 @@ document.addEventListener('DOMContentLoaded', function () {
                     /*     id: 'HASH',
                         name: 'HASH',
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
-                        badgeText: '5 produits', */
+                        badgeText
+                        : '5 produits', */
                     products: [
+                         {
+                            id: 'SPACE DROP ⭐️💦✈️',
+                            flag: '🇲🇦',
+                            name: 'SPACE DROP ⭐️💦✈️',
+                            farm: 'POPEYE FARMZ 🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash de luxe',
+                            image: 'ProductSP.png', // Pense à changer l'image si tu en as une nouvelle
+                            videos: ['VideoSP.mov','VideoSP2.mov'],       // Idem pour la vidéo
+                            description: 'STATIC ⚡️ \n\n On vous en parle pas POPEYE exclusivité 🇲🇦✅odeur goût un travaille de champion ⚽️',
+                            tarifs: [
+                                { weight: '5g', price: 70.00},
+                                { weight: '10g', price: 130.00},
+                                { weight: '25g', price: 300.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                           {
+                            id: 'RÉAL TERPS ®️✅',
+                            flag: '🇲🇦',
+                            name: 'RÉAL TERPS ®️✅',
+                            farm: 'TOP 160u 🔴',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductTop16.png', 
+                            video: 'VideoTop16.mov',  
+                            description: 'On vous a ramener un 160u tamisage top ✅goût odeur 👅',
+                            tarifs: [
+                                { weight: '5g', price: 30.00},
+                                { weight: '10g', price: 60.00},
+                                { weight: '25g', price: 150.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                         {
+                            id: 'FRESH FROZEN 🇲🇦🧊💦',
+                            flag: '🇺🇸',
+                            name: 'FRESH FROZEN 🇲🇦🧊💦',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Static',
+                            image: 'ProductFFM.png', // Garde ton image actuelle
+                            video: 'VideoFFM.mov',  
+                            description: 'On vous a ramener un fresh Frozen ✅🧊💦qualité translucide 🍯 odeur 😜',
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'SUPER ICC', emoji: '🇺🇸', colorClass: 'frozen-honey' }, 
+                                { name: 'ORANGE CREAM', emoji: '🍊', colorClass: 'frozen-zhead' }, 
+                            ],
+                            
+                            // Le bouton "Ajouter" prendra le prix du Jar sélectionné
+                            tarifs: [
+                                { weight: '5g', price: 40.00},
+                                { weight: '10g', price: 80.00},
+                                { weight: '25g', price: 200.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+
+                            ],
+                        },
                         {
+                            id: 'FROZEN 🧊',
+                            flag: '🇲🇦',
+                            name: 'FROZEN 🧊',
+                            farm: 'PAIN 50g 🤝⭐️',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductPain.png', 
+                            videos: ['VideoPain.mov', 'VideoPain2.mp4' ],
+                            description: 'On vous a ramener un produit fait que par 50g ⭐️✅ frais pétant ⭐️qualité 💯',
+                              variantTitle: 'Sélectionner votre Strain :', 
+                            jars: [
+                                { name: 'AMERICAN PIE', emoji: '🇺🇸', colorClass: 'jar-pink-lemonade' },
+                                { name: 'BLUE JEALOUSY', emoji: '🇺🇸', colorClass: 'jar-banana-junk' },
+                            ],
+                            tarifs: [
+                                { weight: '5g', price: 40.00},
+                                { weight: '10g', price: 80.00},
+                                { weight: '25g', price: 200.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                        {
+                            id: 'TOP MOUSSE 🧽 🇲🇦',
+                            flag: '🇲🇦',
+                            name: 'TOP MOUSSE 🧽 🇲🇦',
+                            farm: 'SUPER MOUSSE 🧽',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductTopMM.png', 
+                            video: 'VideoTopMM.mov',  
+                            description: 'On vous a ramener une autre gamme de jaune terrain ®️🧽',
+                            tarifs: [
+                                { weight: '10g', price: 40.00},
+                                { weight: '25g', price: 120.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                        {
+                            id: 'TOP DRY SIFT 🇲🇦⭐️',
+                            flag: '🇲🇦',
+                            name: 'TOP DRY SIFT 🇲🇦⭐️',
+                            farm: 'BONNE MAMAN 🧓',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductTopD.png', 
+                            video: 'VideoTopD.mov',  
+                            description: 'On vous a ramener un HASH sec pétant goût 🇲🇦 curing 🍯top pour les pépite poche 🧳',
+                            tarifs: [
+                                { weight: '5g', price: 30.00},
+                                { weight: '10g', price: 60.00},
+                                { weight: '25g', price: 150.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                             {
+                            id: 'GELATO 33🤝🧽',
+                            flag: '🇲🇦',
+                            name: 'GELATO 33🤝🧽',
+                            farm: 'TOP MOUSSE 🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductGGL.png', 
+                            video: 'VideoGGL.mov',  
+                            description: 'On vous a ramener un jaune \n Élite  🇲🇦 qualité goût odeur 🍋 la vraie mousse 🧽',
+                            tarifs: [
+                                { weight: '10g', price: 50.00},
+                                { weight: '25g', price: 130.00},
+                                { weight: '50g', price: 200.00},
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                 /*        {
                             id: 'Resine Marocaine 🏭',
                             flag: '🇺🇸',
                             name: 'Resine Marocaine 🏭',
@@ -124,7 +262,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '200g', price: 900.00},
                                 { weight: '500g', price: 0, private: true },
                             ],
-                        }, 
+                        },  */
                         {
                             id: 'STATIC SIFT 🍭',
                             flag: '🇺🇸',
@@ -456,6 +594,42 @@ document.addEventListener('DOMContentLoaded', function () {
                     clickable: false,  */
                     products: [
                         {
+                            id: 'JEALOUSY 🇺🇸',
+                            flag: '🇺🇸',
+                            name: 'JEALOUSY 🇺🇸',
+                            farm: 'TOP SHELF 🇺🇸',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductJJ.png',
+                            video:  'VideoJJ.mov',      // Vidéo 1
+                            description: 'Odeur gazzy ✅🤝👅 \n Goût de malade 🤒',
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 0, private: true  },
+                                { weight: '100g', price: 0, private: true  },
+                            ]
+                        },
+                        {
+                            id: 'RS11 ®️🇺🇸',
+                            flag: '🇺🇸',
+                            name: 'RS11 ®️🇺🇸',
+                            farm: 'TOP SHELF 🇺🇸',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductRS1.png',
+                            video:  'VideoRS1.mov',      // Vidéo 1
+                            description: 'Odeur gazzy ✅🤝👅 \n Goût de malade 🤒',
+                            tarifs: [
+                                { weight: '5g', price: 50.00 },
+                                { weight: '10g', price: 100.00 },
+                                { weight: '25g', price: 250.00 },
+                                { weight: '50g', price: 0, private: true  },
+                                { weight: '100g', price: 0, private: true  },
+                            ]
+                        },
+                        {
                             id: 'WEEDING CHEESECAKE 🇺🇸 🧀',
                             flag: '🇺🇸',
                             name: 'WEEDING CHEESECAKE 🇺🇸 🧀',
@@ -520,7 +694,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                         }, */
-                        {
+               /*          {
                             id: 'MIDL SHELF ®️',
                             flag: '🇺🇸',
                             name: 'MIDL SHELF ®️',
@@ -546,7 +720,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 0, private: true },
 
                             ]
-                            },
+                            }, */
                         {
                             id: 'MOCHI GELATO 🇺🇸',
                             flag: '🇺🇸',
@@ -587,7 +761,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                        {
+                       /*  {
                             id: 'CHERRY PIE CALI 🇺🇸',
                             flag: '🇳🇱',
                             name: 'CHERRY PIE CALI 🇺🇸',
@@ -604,7 +778,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 400.00 },
                                 { weight: '100g', price: 0, private: true  },
                             ]
-                        },
+                        }, */
                         {
                             id: 'AMNESIA HAZE 🇳🇱🇳🇱',
                             flag: '🇳🇱',
@@ -623,7 +797,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 0, private: true },
                             ],
                         },
-                        {
+                       /*  {
                             id: 'PURPLE PUNCH 🇺🇸',
                             flag: '🇳🇱',
                             name: 'PURPLE PUNCH 🇺🇸',
@@ -640,7 +814,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ],
-                        },
+                        }, */
                         {
                             id: 'PURPLE QUEEN🟣🍇',
                             flag: '🇳🇱',
