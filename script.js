@@ -44,6 +44,126 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText
                         : '5 produits', */
                     products: [
+                          {
+                            id: 'FROZEN 120u ✅⭐️⭐️',
+                            flag: '🇲🇦',
+                            name: 'FROZEN 120u ✅⭐️⭐️',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Static',
+                            image: 'ProducTRC.jpg', // Garde ton image actuelle
+                            video: 'VideoTRC.mov',
+                            description: 'PAIN 50g ®️🇲🇦 \n On vous a ramener une pépite juste a vous laisser découvrir ✅⭐️🤝',
+
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                 { name: 'TROP CHERRY', emoji: '🍒', colorClass: 'frozen-blood' },
+                                { name: 'ZLUSHI', emoji: '🇺🇸', colorClass: 'frozen-forbidden' },
+                            ],
+                            
+                            // Le bouton "Ajouter" prendra le prix du Jar sélectionné
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        },
+                          {
+                            id: 'STATIC SIFT 🍭',
+                            flag: '🇲🇦',
+                            name: 'STATIC SIFT 🍭',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Static',
+                            image: 'ProductMOG.jpg', // Garde ton image actuelle
+                            video: 'VideoMOG.mov',
+                            description: 'PAIN DE 50g ✅🇲🇦⭐️ \n On vous a ramener des pain 50g créer par nos cultivateur fruités pétant curing gold 🍯',
+
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'MANGO OG', emoji: '🥭', colorClass: 'frozen-honey' }, 
+                                { name: 'GELATO', emoji: '🇺🇸', colorClass: 'frozen-zhead' }, 
+                            ],
+                            
+                            // Le bouton "Ajouter" prendra le prix du Jar sélectionné
+                            tarifs: [
+                                { weight: '5g', price: 110.00 },
+                                { weight: '10g', price: 220.00 },
+                                { weight: '25g', price: 550.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        },
+                          {
+                            id: 'CREAM CAKE 🇺🇸',
+                            flag: '🇲🇦',
+                            name: 'CREAM CAKE 🇺🇸',
+                            farm: 'PLASMA STATIC 🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductCreamC.png', 
+                            video: 'VideoCreamC.mov',  
+                            description: 'On vous a ramène le plasma static dégoulinant ⭐️✅🍯goût de malade 😜',
+                            tarifs: [
+                                { weight: '5g', price: 130.00},
+                                { weight: '10g', price: 250.00},
+                                { weight: '25g', price: 630.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                            {
+                            id: 'FROZEN SIFT✅🧊',
+                            flag: '🇲🇦',
+                            name: 'FROZEN SIFT✅🧊',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductGriz.png', // Pense à changer l'image si tu en as une nouvelle
+                            videos: ['VideoGriz.mov','VideoGriz2.mov','VideoGriz3.mov',],      // Idem pour la vidéo
+                            description: 'Curing dégoulinant 🍯 texture pétant ⭐️⭐️ \n Qualité 💯',
+                              // 👇 TITRE PERSONNALISÉ
+                              variantTitle: 'Sélectionner la variété 🍧 :', 
+                              jars: [
+                                  { name: 'HASH BURGER OREOZ', emoji: '🇺🇸', colorClass: 'frozen-blood' },
+                                  { name: 'CALI HONEY', emoji: '🐻🇲🇦', colorClass: 'frozen-24k' },
+                              ],
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+
+                            ]
+                            },
+                        {
+                            id: 'FROZEN PRENIUM 🇲🇦',
+                            flag: '🇲🇦',
+                            name: 'FROZEN PRENIUM 🇲🇦',
+                            farm: 'STREET FARMZ ✅',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductFP.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoFP.mov',     // Idem pour la vidéo
+                            description: 'Vous le connaiser déjà j’ai pas besoin d’en dire plus ✅®️🫶🏻',
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'GRAPE GAZ', emoji: '🍇', colorClass: 'frozen-24k' },
+                                { name: 'ICC', emoji: '🇺🇸', colorClass: 'frozen-bluez' }, 
+                                { name: 'ORANGE GROOVE', emoji: '🍊', colorClass: 'frozen-honey' }, 
+                            ],
+                            
+                            tarifs: [
+                                { weight: '5g', price: 50.00},
+                                { weight: '10g', price: 100.00},
+                                { weight: '25g', price: 250.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        },
                          {
                             id: 'SPACE DROP ⭐️💦✈️',
                             flag: '🇲🇦',
@@ -429,9 +549,6 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'ZELATO', emoji: '🇺🇸🍋', colorClass: 'frozen-gasmint' }, 
                                 { name: 'ZANGRIA ZUSHI', emoji: '🍣', colorClass: 'frozen-grape' },
                                 {  name: 'GUAVA RUNTZ', emoji: '🥭🇺🇸', colorClass: 'frozen-peach' },
-
-
-
                                  { name: 'BLOOD CHEESE / PREMIUM', emoji: '🍒🩸🧀', colorClass: 'frozen-blood' },
                                 { name: 'HONEY BANANA X GOLD CHERRY', emoji: '🍯🍌🏆🍒', colorClass: 'frozen-honey' },
                                 { name: 'FORBIDDEN GAZ / PREMIUM', emoji: '🍏🍎💨', colorClass: 'frozen-forbidden' },
@@ -471,6 +588,54 @@ document.addEventListener('DOMContentLoaded', function () {
                          image: 'Wizard4.png', // Mets une image de farm si tu veux
                          badgeText: '2 produits', */
                     products: [
+                         {
+                            id: 'SINGLE SOURCE 🇺🇸',
+                            flag: '🇺🇸',
+                            name: 'SINGLE SOURCE 🇺🇸',
+                            farm: 'POPEYE FARMZ 🦾',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductSin.png', // Pense à changer l'image si tu en as une nouvelle
+                            videos: ['VideoSin.mov','VideoSin2.mov','VideoSin3.mov','VideoSin4.mov'],    // Idem pour la vidéo
+                            description: 'Pain 50g ✅⭐️',
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'LEMON CHERRY GELATO', emoji: '🍒', colorClass: 'frozen-24k' },
+                                { name: 'ICE CREAM CAKE', emoji: '🇺🇸', colorClass: 'frozen-bluez' }, 
+                                { name: 'PURPLE GRADE', emoji: '🟣🟣', colorClass: 'frozen-honey' }, 
+                            ],
+                            
+                            tarifs: [
+                                { weight: '5g', price: 200.00},
+                                { weight: '10g', price: 400.00},
+                                { weight: '25g', price: 1000.00},
+                                { weight: '50g', price: 0, private: true },
+                            ],
+                        },
+                        {
+                            id: 'JAAR SCELLÉ 🇺🇸🇪🇸',
+                            flag: '🇺🇸',
+                            name: 'JAAR SCELLÉ 🇺🇸🇪🇸',
+                            farm: 'COFEE SHOP ESPAGNOL 🇺🇸🇪🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductJR.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoJR.mov',
+                            description: 'JAAR 2G ✅®️\n\n Tu risque de décoller ✅®️\n Accroche toi ✅',
+                           tarifs: [
+                                { weight: 'La Jaar', price: 100.00 }, // Prix de base affiché sur la carte
+                            ],
+                            // 👇 TITRE PERSONNALISÉ
+                            variantTitle: 'Sélectionner votre Jaar 🏺 :', 
+                            jars: [
+                                { name: 'UPGRADE', emoji: '⭐️🌞', price: 110.00, colorClass: 'frozen-gasboof' },
+                                { name: 'LIME GAS', emoji: '🍋', price: 100.00, colorClass: 'frozen-gasmint' }, 
+                                { name: 'HASH BURGER', emoji: '🍔', price: 120.00, colorClass: 'frozen-grape' },
+                                { name: 'HONEY SUGAR', emoji: '🍯', price: 100.00, colorClass: 'frozen-honey' },
+                                { name: 'WHITH THORN ROSE', emoji: '🌈', price: 120.00, colorClass: 'frozen-zhead' },
+                            ]
+
+                            },
                         {
                             id: 'PURPLE RUNTZ 🇺🇸🌟',
                             flag: '🇺🇸',
