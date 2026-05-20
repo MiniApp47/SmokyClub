@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: '',
                             promoEligible: true,
                             type: 'Static',
-                            image: 'ProducTRC.jpg', // Garde ton image actuelle
+                            image: 'ProducTRC.png', // Garde ton image actuelle
                             video: 'VideoTRC.mov',
                             description: 'PAIN 50g ®️🇲🇦 \n On vous a ramener une pépite juste a vous laisser découvrir ✅⭐️🤝',
 
@@ -676,8 +676,8 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: 'SAHA TERPS 🇺🇸🔴',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductCL.png',
-                            video: 'VideoCL.mov',
+                            image: 'ProductRed.png',
+                            video: 'VideoRed.mov',
                             description: 'RED LINE 🔴 \n Un curing blanc de blanc 💯 🇺🇸 un goût exceptionnel ⭐️',
                             tarifs: [
                                 { weight: '2,5g', price: 110.00 },
