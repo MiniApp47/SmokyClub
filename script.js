@@ -45,6 +45,87 @@ document.addEventListener('DOMContentLoaded', function () {
                         : '5 produits', */
                     products: [
                           {
+                            id: 'PINEAPPLE MADNES 🍍',
+                            flag: '🇲🇦',
+                            name: 'PINEAPPLE MADNES 🍍',
+                            farm: 'FROZEN SIFT 🔵🧊',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductPM.png', 
+                            video: 'VideoPM.mov',  
+                            description: '',
+                            tarifs: [
+                                { weight: '50g', price: 280.00},
+                                { weight: '100g', price: 550.00},
+                            ],
+                        }, 
+                         {
+                            id: 'CALI HONEY FROZEN 🧊🧊',
+                            flag: '🇲🇦',
+                            name: 'CALI HONEY FROZEN 🧊🧊',
+                            farm: 'SELECTION 🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductHB.png', 
+                            video: 'VideoHB.mov',  
+                            description: '',
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                {  name: 'HASH BURGER X OREOZ', emoji: '🇲🇦', colorClass: 'frozen-peach' },
+                                { name: 'RUNTZ', emoji: '🇺🇸', colorClass: 'frozen-pineapple' },
+                            ],
+                            
+                            tarifs: [
+                                { weight: '5g', price: 60.00},
+                                { weight: '10g', price: 120.00},
+                                { weight: '25g', price: 300.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                         {
+                            id: 'PISTACHIO 💚💚💚',
+                            flag: '🇲🇦',
+                            name: 'PISTACHIO 💚💚💚',
+                            farm: 'TOP MOUSSE 🧽',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductPis.png', 
+                            video: 'VideoPis.mov',  
+                            description: 'Le mousseux qui fouette la frais weed fraîche 💬💭🗯️',
+                            tarifs: [
+                                { weight: '10g', price: 50.00},
+                                { weight: '25g', price: 130.00},
+                                { weight: '50g', price: 250.00},
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        }, 
+                         {
+                            id: '🇲🇦 FROZEN 🧊',
+                            flag: '🇲🇦',
+                            name: '🇲🇦 FROZEN 🧊',
+                            farm: 'NOVA FARMZ 🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductGroo.png', 
+                            video: 'VideoGroo.mov',
+                            description: 'PUne référence du marocain 🇲🇦 une fraîcheur en bouche 👄',
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'ICC', emoji: '🇺🇸🧊', colorClass: 'frozen-zhead' },
+                                { name: 'LOVE 666', emoji: '🍏🍎', colorClass: 'frozen-gasmint' }, 
+                                { name: 'ORANGE GROOVE', emoji: '🍊', colorClass: 'frozen-grape' },
+                            ],
+                            
+                            tarifs: [
+                                { weight: '5g', price: 60.00},
+                                { weight: '10g', price: 120.00},
+                                { weight: '25g', price: 180.00},
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ],
+                        },
+                          {
                             id: 'FROZEN 120u ✅⭐️⭐️',
                             flag: '🇲🇦',
                             name: 'FROZEN 120u ✅⭐️⭐️',
@@ -588,6 +669,40 @@ document.addEventListener('DOMContentLoaded', function () {
                          image: 'Wizard4.png', // Mets une image de farm si tu veux
                          badgeText: '2 produits', */
                     products: [
+                          {
+                            id: 'CREAMIZ 🇺🇸',
+                            flag: '🇺🇸',
+                            name: 'CREAMIZ 🇺🇸',
+                            farm: 'SAHA TERPS 🇺🇸🔴',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCL.png',
+                            video: 'VideoCL.mov',
+                            description: 'RED LINE 🔴 \n Un curing blanc de blanc 💯 🇺🇸 un goût exceptionnel ⭐️',
+                            tarifs: [
+                                { weight: '2,5g', price: 110.00 },
+                                { weight: '5g', price: 220.00 },
+                                { weight: '10g', price: 430.00 },
+                                { weight: '25g', price: 1080.00 },
+                            ]
+                        },
+                          {
+                            id: 'CREAMY LOOSE 🇺🇸',
+                            flag: '🇺🇸',
+                            name: 'CREAMY LOOSE 🇺🇸',
+                            farm: 'MADE IN 🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCL.png',
+                            video: 'VideoCL.mov',
+                            description: 'ICE O LATOR 🌟\n Q’une envie de le mangée 😮🍯je vous laisse découvrir cet exclu ⚡️🫨',
+                            tarifs: [
+                                { weight: '2,5g', price: 70.00 },
+                                { weight: '5g', price: 140.00 },
+                                { weight: '10g', price: 280.00 },
+                                { weight: '25g', price: 560.00 },
+                            ]
+                        },
                          {
                             id: 'SINGLE SOURCE 🇺🇸',
                             flag: '🇺🇸',
@@ -1020,6 +1135,51 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
+                         {
+                            id: 'BLANC DE BLANC 🍾',
+                            flag: '🇺🇸',
+                            name: 'BLANC DE BLANC 🍾',
+                            farm: 'CALI FLORIDA 💯 🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBDB.png',
+                            video: 'VideoBDB.mov',
+                            description: 'EXTRACTION 🍯\n Une qualité et une texture envoûtant ⭐️⭐️⭐️⭐️',
+                            tarifs: [
+                                { weight: '2,5g', price: 80.00 },
+                                { weight: '5g', price: 150.00 },
+                                { weight: '10g', price: 300.00 },
+                                { weight: '25g', price: 750.00 },
+                            ]
+                        },
+                        {
+                            id: 'PUFF THC 🫨🫨⚡️⚡️',
+                            flag: '💨',
+                            name: 'PUFF THC 🫨🫨⚡️⚡️',
+                            farm: '',
+                            promoEligible: true,
+                            type: 'Hash Marocain',
+                            image: 'ProductPuff.png', // Pense à changer l'image si tu en as une nouvelle
+                            video: 'VideoPuff.mp4',      // Idem pour la vidéo
+                            description: 'PLUS DE 5 STRAIN ⭐️',
+                            tarifs: [
+                                { weight: '1', price: 70.00 },
+                                { weight: '2', price: 130.00 },
+                                { weight: '5', price: 300.00 },
+                                { weight: '10', price: 550.00 },
+                                { weight: '20', price: 1050.00 },
+
+                            ],
+                            // 👇 TITRE PERSONNALISÉ
+                            variantTitle: 'Sélectionner vos gouts 🍧 :', 
+                            jars: [
+                                { name: 'PURPLE KUSH 🟣', emoji: '🍉', colorClass: 'sweetz-watermelon' },
+                                { name: 'WATERMELON GAS ⚫️', emoji: '🏆⭐️', colorClass: 'sweetz-rainbow' },
+                                { name: 'SOUR HEADS 🟢', emoji: '🍏🍎', colorClass: 'sweetz-apple' },
+                                { name: 'GALACTIC GAS 🔴', emoji: '💦🍒', colorClass: 'sweetz-cherry' },
+                                { name: 'LIME SORBET 🟤', emoji: '🍍🥥', colorClass: 'sweetz-pina' }, // J'ai mis ananas coco pour pina
+                            ]
+                        }
                         /* {
                             id: 'WEEDING PIE 🇺🇸🥧',
                             flag: '🇺🇸',
