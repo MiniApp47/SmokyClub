@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText
                         : '5 produits', */
                     products: [
-                          {
+                   /*        {
                             id: 'PINEAPPLE MADNES 🍍',
                             flag: '🇲🇦',
                             name: 'PINEAPPLE MADNES 🍍',
@@ -381,7 +381,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 200.00},
                                 { weight: '100g', price: 0, private: true },
                             ],
-                        }, 
+                        },  */
                  /*        {
                             id: 'Resine Marocaine 🏭',
                             flag: '🇺🇸',
@@ -464,7 +464,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '500g', price: 0, private: true },
                             ],
                         },  */
-                        {
+                        /* {
                             id: 'STATIC SIFT 🍭',
                             flag: '🇺🇸',
                             name: 'STATIC SIFT 🍭',
@@ -603,7 +603,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ],
-                        }, 
+                        },  */
                          /*{
                             id: 'FRESH FROZEN 🥶🧊 frozen-bluez',
                             flag: '🇲🇦',
@@ -669,7 +669,7 @@ document.addEventListener('DOMContentLoaded', function () {
                          image: 'Wizard4.png', // Mets une image de farm si tu veux
                          badgeText: '2 produits', */
                     products: [
-                          {
+                          /* {
                             id: 'CREAMIZ 🇺🇸',
                             flag: '🇺🇸',
                             name: 'CREAMIZ 🇺🇸',
@@ -798,7 +798,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '5g', price: 250.00 },
                                 { weight: '10g', price: 480.00 },
                             ]
-                        },
+                        }, */
                     
                            /*   {
                             id: 'Jaar',
@@ -873,7 +873,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '0 produits',
                     clickable: false,  */
                     products: [
-                        {
+                  /*       {
                             id: 'JEALOUSY 🇺🇸',
                             flag: '🇺🇸',
                             name: 'JEALOUSY 🇺🇸',
@@ -945,7 +945,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 0, private: true  },
                             ]
                         },
-                   
+                    */
                         
                        /*  {
                             id: 'CALI 🇺🇸 TOP SHELF 🌟',
@@ -1001,7 +1001,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                             ]
                             }, */
-                        {
+                       /*  {
                             id: 'MOCHI GELATO 🇺🇸',
                             flag: '🇺🇸',
                             name: 'MOCHI GELATO 🇺🇸',
@@ -1019,7 +1019,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '112g', price: 0, private: true  },
                             ]
                         },
-                   
+                    */
                      
                   
                     ]
@@ -1059,7 +1059,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 0, private: true  },
                             ]
                         }, */
-                        {
+                       /*  {
                             id: 'AMNESIA HAZE 🇳🇱🇳🇱',
                             flag: '🇳🇱',
                             name: 'AMNESIA HAZE 🇳🇱🇳🇱',
@@ -1076,7 +1076,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 300.00 },
                                 { weight: '100g', price: 0, private: true },
                             ],
-                        },
+                        }, */
                        /*  {
                             id: 'PURPLE PUNCH 🇺🇸',
                             flag: '🇳🇱',
@@ -1095,7 +1095,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 0, private: true },
                             ],
                         }, */
-                        {
+                        /* {
                             id: 'PURPLE QUEEN🟣🍇',
                             flag: '🇳🇱',
                             name: 'PURPLE QUEEN🟣🍇',
@@ -1112,7 +1112,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ],
-                        },
+                        }, */
                         
                     ]
                 }
@@ -1135,7 +1135,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                         {
+                        /*  {
                             id: 'BLANC DE BLANC 🍾',
                             flag: '🇺🇸',
                             name: 'BLANC DE BLANC 🍾',
@@ -1179,7 +1179,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { name: 'GALACTIC GAS 🔴', emoji: '💦🍒', colorClass: 'sweetz-cherry' },
                                 { name: 'LIME SORBET 🟤', emoji: '🍍🥥', colorClass: 'sweetz-pina' }, // J'ai mis ananas coco pour pina
                             ]
-                        }
+                        } */
                         /* {
                             id: 'WEEDING PIE 🇺🇸🥧',
                             flag: '🇺🇸',
