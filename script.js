@@ -44,6 +44,140 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText
                         : '5 produits', */
                     products: [
+                        {
+                            id: 'MIMOSA 🍎X FORBIDEN FRUIT 🍋‍🟩',
+                            flag: '🇲🇦',
+                            name: 'MIMOSA 🍎X FORBIDEN FRUIT 🍋‍🟩',
+                            farm: 'FRESH FROZEN 🧊💦',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductMF.png',
+                            video: 'VideoMF.mp4',
+                            description: '',
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 280.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ]
+                        },
+                         {
+                            id: 'CLÉMENTINE 🍊',
+                            flag: '🇲🇦',
+                            name: 'CLÉMENTINE 🍊',
+                            farm: 'DRYTECH GOLDEN FARMS 🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductC.png',
+                            video: 'VideoC.mov',
+                            description: ` 39u🇲🇦🍯🫢
+
+DRY TECH GOLDEN FARMS
+⭐️⭐️🍊🍎🥭🍋🍏🇲🇦🇪🇸
+
+MIEUX QUE LES STATIC QUI TOURNE 
+
+QUALITÉ AU DESSUS DU DRY LE VRAIE HASH 🫢DU MOMENT AVEC UN CURING EN COURS 💦💦🍯🍯
+
+FRUITÉS 🥭🍎🍏🍊
+ODEUR GAZZY 🍯⏳⌛️
+TEXTURE PETANT 😘⭐️`,
+                            tarifs: [
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ]
+                        },
+                         {
+                            id: 'BANANA BLATZ 🍌',
+                            flag: '🇲🇦',
+                            name: 'BANANA BLATZ 🍌',
+                            farm: 'DRYTECH GOLDEN FARMS 🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductBB.png',
+                            video: 'VideoBB.mov',
+                            description: ` 39u🇲🇦🍯🫢
+
+DRY TECH GOLDEN FARMS
+⭐️⭐️🍊🍎🥭🍋🍏🇲🇦🇪🇸
+
+MIEUX QUE LES STATIC QUI TOURNE 
+
+QUALITÉ AU DESSUS DU DRY LE VRAIE HASH 🫢DU MOMENT AVEC UN CURING EN COURS 💦💦🍯🍯
+
+FRUITÉS 🥭🍎🍏🍊
+ODEUR GAZZY 🍯⏳⌛️
+TEXTURE PETANT 😘⭐️`,
+                            tarifs: [
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ]
+                        },
+                         {
+                            id: 'MINT COOKIES 🍪',
+                            flag: '🇲🇦',
+                            name: 'MINT COOKIES 🍪',
+                            farm: 'DRYTECH GOLDEN FARMS 🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductMC.png',
+                            video: 'VideoMC.mov',
+                            description: ` 39u🇲🇦🍯🫢
+
+DRY TECH GOLDEN FARMS
+⭐️⭐️🍊🍎🥭🍋🍏🇲🇦🇪🇸
+
+MIEUX QUE LES STATIC QUI TOURNE 
+
+QUALITÉ AU DESSUS DU DRY LE VRAIE HASH 🫢DU MOMENT AVEC UN CURING EN COURS 💦💦🍯🍯
+
+FRUITÉS 🥭🍎🍏🍊
+ODEUR GAZZY 🍯⏳⌛️
+TEXTURE PETANT 😘⭐️`,
+                            tarifs: [
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ]
+                        },
+                         {
+                            id: 'TROPIC 🏝️ 🍹',
+                            flag: '🇲🇦',
+                            name: 'TROPIC 🏝️ 🍹',
+                            farm: 'DRYTECH GOLDEN FARMS 🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductTR.png',
+                            video: 'VideoTR.mov',
+                            description: ` 39u🇲🇦🍯🫢
+
+DRY TECH GOLDEN FARMS
+⭐️⭐️🍊🍎🥭🍋🍏🇲🇦🇪🇸
+
+MIEUX QUE LES STATIC QUI TOURNE 
+
+QUALITÉ AU DESSUS DU DRY LE VRAIE HASH 🫢DU MOMENT AVEC UN CURING EN COURS 💦💦🍯🍯
+
+FRUITÉS 🥭🍎🍏🍊
+ODEUR GAZZY 🍯⏳⌛️
+TEXTURE PETANT 😘⭐️`,
+                            tarifs: [
+                                { weight: '5g', price: 40.00 },
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ]
+                        },
                          {
                             id: 'GARLIC COCKTAIL 🍹',
                             flag: '🇲🇦',
