@@ -45,6 +45,25 @@ document.addEventListener('DOMContentLoaded', function () {
                         : '5 produits', */
                     products: [
                         {
+                            id: 'APPLE 🍏 BANANA 🍌',
+                            flag: '🇲🇦',
+                            name: 'APPLE 🍏 BANANA 🍌',
+                            farm: 'DRYTECH GOLDEN FARMS⭐️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductAB.png',
+                            videos: ['VideoAB.mov','VideoAB2.mov'],
+                            description: 'FROZEN SIFT ⭐️🇲🇦',
+                            tarifs: [
+                                { weight: '2,5g', price: 50.00 },
+                                { weight: '5g', price: 100.00 },
+                                { weight: '10g', price: 200.00 },
+                                { weight: '25g', price: 500.00 },
+                                { weight: '50g', price: 0, private: true },
+                                { weight: '100g', price: 0, private: true },
+                            ]
+                        },
+                        {
                             id: 'MIMOSA 🍎X FORBIDEN FRUIT 🍋‍🟩',
                             flag: '🇲🇦',
                             name: 'MIMOSA 🍎X FORBIDEN FRUIT 🍋‍🟩',
@@ -394,6 +413,24 @@ TEXTURE PETANT 😘⭐️`,
                          image: 'Wizard4.png', // Mets une image de farm si tu veux
                          badgeText: '2 produits', */
                     products: [
+                        {
+                            id: 'STATIC GOLD CURING 🇺🇸',
+                            flag: '🇺🇸',
+                            name: 'STATIC GOLD CURING 🇺🇸',
+                            farm: 'BLOOM AND PRESS 🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductSG.png',
+                            video: 'VideoSG.mov',
+                            description: 'Blanc de blanc ⭐️🍯 \n Goût 👅 sucre de Cali une texture petant 👑',
+                            tarifs: [
+                                { weight: '2,5g', price: 80.00 },
+                                { weight: '5g', price: 160.00 },
+                                { weight: '10g', price: 320.00 },
+                                { weight: '25g', price: 500.00 },
+                                { weight: '50g', price: 0, private: true  },
+                            ]
+                        },
                         {
                             id: 'ICC 🍋🍋‍🟩',
                             flag: '🇺🇸',
