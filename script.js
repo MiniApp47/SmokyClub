@@ -21,7 +21,11 @@ document.addEventListener('DOMContentLoaded', function () {
         { name: 'Potato Back', url: 'https://dympt.org/smockyclubofficial6768', icon: '#icon-potato', id: 'potato-backup', className: 'potato', text: "Potato Secours" },
         
         // 5. Instagram
-        { name: 'Instagram', url: 'https://www.instagram.com/smockyclub_off6768?igsh=MWs1NnF6dXh6MWg3YQ%3D%3D&utm_source=qr', icon: '#icon-instagram', id: 'instagram', className: 'instagram', text: "Instagram" }
+        { name: 'Instagram', url: 'https://www.instagram.com/smockyclub_off6768?igsh=MWs1NnF6dXh6MWg3YQ%3D%3D&utm_source=qr', icon: '#icon-instagram', id: 'instagram', className: 'instagram', text: "Instagram" },
+
+                // 4. Potato Secours
+        { name: 'Livraison 🚚', url: 'https://t.me/hellotoyou67', icon: '#icon-telegram', id: 'Livraison-telegram', className: 'telegram', text: "Livraison" },
+
     ];
 
     // --- DONNÉES DE L'APPLICATION (NOUVELLE STRUCTURE) ---
@@ -2826,7 +2830,7 @@ if (target.closest('.jar-select-btn')) {
     // --- GESTION DU MOT DE PASSE (SHA-256) ---
 
     // 👇 METS LE HASH QUE TU AS GÉNÉRÉ À L'ÉTAPE 1 ICI 👇
-    const SECRET_HASH = "15d2cae9debea97a0923ced847ade13cf8016eef47781043ebd378d47cabf905";
+    const SECRET_HASH = "8f5953d0c073237747371d0a9178720f65904bb03b84df2d08e580035cb54e9b";
 
     // Fonction technique pour hasher du texte (ne pas toucher)
     async function sha256(message) {
