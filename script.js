@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { name: 'Instagram', url: 'https://www.instagram.com/smockyclub_off6768?igsh=MWs1NnF6dXh6MWg3YQ%3D%3D&utm_source=qr', icon: '#icon-instagram', id: 'instagram', className: 'instagram', text: "Instagram" },
 
                 // 4. Potato Secours
-        { name: 'Livraison 🚚', url: 'https://t.me/hellotoyou67', icon: '#icon-telegram', id: 'Livraison-telegram', className: 'telegram', text: "Livraison" },
+        { name: 'Livraison 🚚', url: 'https://t.me/smocky_delivery420', icon: '#icon-telegram', id: 'Livraison-telegram', className: 'telegram', text: "Livraison" },
 
     ];
 
@@ -48,6 +48,23 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText
                         : '5 produits', */
                     products: [
+                        {
+                            id: 'CHERRY MILK 🍒 🥛',
+                            flag: '🇲🇦',
+                            name: 'CHERRY MILK 🍒 🥛',
+                            farm: 'Top 73u SWISS FARMZ 🇨🇭',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCM.png',
+                            video: 'VideoCM.mov',
+                            description: 'curing au top dégoulinant texture petant  avec un goût de cerise fruités agréable en bouche mieux que certain frozen ⭐️⭐️',
+                            tarifs: [
+                                { weight: '10g', price: 50.00 },
+                                { weight: '25g', price: 90.00 },
+                                { weight: '50g', price: 180.00 },
+                                { weight: '100g', price: 380.00 },
+                            ]
+                        },
                         {
                             id: 'APPLE 🍏 BANANA 🍌',
                             flag: '🇲🇦',
@@ -85,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '100g', price: 0, private: true },
                             ]
                         },
-                         {
+                        /*  {
                             id: 'CLÉMENTINE 🍊',
                             flag: '🇲🇦',
                             name: 'CLÉMENTINE 🍊',
@@ -113,8 +130,8 @@ TEXTURE PETANT 😘⭐️`,
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ]
-                        },
-                         {
+                        }, */
+                        /*  {
                             id: 'BANANA BLATZ 🍌',
                             flag: '🇲🇦',
                             name: 'BANANA BLATZ 🍌',
@@ -142,8 +159,8 @@ TEXTURE PETANT 😘⭐️`,
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ]
-                        },
-                         {
+                        }, */
+                        /*  {
                             id: 'MINT COOKIES 🍪',
                             flag: '🇲🇦',
                             name: 'MINT COOKIES 🍪',
@@ -171,7 +188,7 @@ TEXTURE PETANT 😘⭐️`,
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ]
-                        },
+                        }, */
                          {
                             id: 'TROPIC 🏝️ 🍹',
                             flag: '🇲🇦',
@@ -255,7 +272,7 @@ TEXTURE PETANT 😘⭐️`,
                                 { weight: '100g', price: 0, private: true },
                             ]
                         },
-                         {
+                        /*  {
                             id: 'SLUSHIERS Di lima⭐️⚡️',
                             flag: '🇲🇦',
                             name: 'SLUSHIERS Di lima⭐️⚡️',
@@ -272,8 +289,8 @@ TEXTURE PETANT 😘⭐️`,
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ]
-                        },
-                         {
+                        }, */
+                      /*    {
                             id: 'SPÉCIAL KUSH 🍀',
                             flag: '🇲🇦',
                             name: 'SPÉCIAL KUSH 🍀',
@@ -289,7 +306,7 @@ TEXTURE PETANT 😘⭐️`,
                                 { weight: '50g', price: 0, private: true },
                                 { weight: '100g', price: 0, private: true },
                             ]
-                        },
+                        }, */
                    /*        
                             jars: [
                                 {  name: 'HASH BURGER X OREOZ', emoji: '🇲🇦', colorClass: 'frozen-peach' },
@@ -435,7 +452,7 @@ TEXTURE PETANT 😘⭐️`,
                                 { weight: '50g', price: 0, private: true  },
                             ]
                         },
-                        {
+                      /*   {
                             id: 'ICC 🍋🍋‍🟩',
                             flag: '🇺🇸',
                             name: 'ICC 🍋🍋‍🟩',
@@ -451,7 +468,7 @@ TEXTURE PETANT 😘⭐️`,
                                 { weight: '10g', price: 450.00 },
                                 { weight: '25g', price: 0, private: true  },
                             ]
-                        },
+                        }, */
                         {
                             id: 'STATIC USA 🇺🇸',
                             flag: '🇺🇸',
