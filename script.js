@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             farm: 'Top 73u SWISS FARMZ 🇨🇭',
                             promoEligible: true,
                             type: 'Hash',
-                            image: 'ProductCM.png',
+                            image: 'ProductCM.jpg',
                             video: 'VideoCM.mov',
                             description: 'curing au top dégoulinant texture petant  avec un goût de cerise fruités agréable en bouche mieux que certain frozen ⭐️⭐️',
                             tarifs: [
