@@ -369,7 +369,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '0 produits',
                     clickable: false,  */
                     products: [
-                        {
+                       /*  {
                             id: 'RAINBOW SHERBET 🇺🇸',
                             flag: '🇺🇸',
                             name: 'RAINBOW SHERBET 🇺🇸',
@@ -386,7 +386,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '50g', price: 0, private: true  },
                                 { weight: '100g', price: 0, private: true  },
                             ]
-                        },
+                        }, */
                    
                      
                   
