@@ -244,6 +244,29 @@ document.addEventListener('DOMContentLoaded', function () {
                          badgeText: '2 produits', */
                     products: [
                         {
+                            id: 'PRENIUM ⭐️STATIC 🇺🇸',
+                            flag: '🇺🇸',
+                            name: 'PRENIUM ⭐️STATIC 🇺🇸',
+                            farm: 'WEST COAST 🇺🇸',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductPS.png',
+                            video: 'VideoPS.mov',
+                            description: 'STATIC 🇺🇸',
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                { name: 'BLUE DREAM', emoji: '😴', colorClass: 'frozen-gasboof' },
+                                { name: 'LCG', emoji: '🍒🍋', colorClass: 'frozen-zhead' },
+                            ],
+                            tarifs: [
+                                { weight: '5g', price: 200.00 },
+                                { weight: '10g', price: 380.00 },
+                                { weight: '25g', price: 950.00 },
+                                { weight: '50g', price: 0, private: true  },
+                                { weight: '100g', price: 0, private: true  },
+                            ]
+                        },
+                        {
                             id: 'CIRCUS BOOW🇺🇸 🧊',
                             flag: '🇺🇸',
                             name: 'CIRCUS BOOW 🇺🇸🧊',
