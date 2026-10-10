@@ -244,6 +244,30 @@ document.addEventListener('DOMContentLoaded', function () {
                          badgeText: '2 produits', */
                     products: [
                         {
+                            id: 'CALI HONEY 🇺🇸 🇲🇦',
+                            flag: '🇺🇸',
+                            name: 'CALI HONEY 🇺🇸 🇲🇦',
+                            farm: 'CURING 🍯',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCH.png',
+                            video: 'VideoCH.mov',
+                            description: 'STATIC 🇺🇸',
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                {  name: 'FORBIDEN FRUITS', emoji: '🍈  🍉', colorClass: 'frozen-peach' },
+                                 { name: 'PMC X DULCE', emoji: '💫', colorClass: 'frozen-blood' },
+                                { name: 'CREAM COOKIES', emoji: '🍪', colorClass: 'frozen-honey' },
+                                { name: 'GRAPE GAZ', emoji: '🍇', colorClass: 'frozen-forbidden' },
+                            ],
+                            tarifs: [
+                                { weight: '12,5g', price: 90.00 },
+                                { weight: '25g', price: 180.00 },
+                                { weight: '50g', price: 300.00 },
+                                { weight: '100g', price: 550.00 },
+                            ]
+                        },
+                        {
                             id: 'PRENIUM ⭐️STATIC 🇺🇸',
                             flag: '🇺🇸',
                             name: 'PRENIUM ⭐️STATIC 🇺🇸',
