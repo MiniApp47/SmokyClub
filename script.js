@@ -48,7 +48,31 @@ document.addEventListener('DOMContentLoaded', function () {
                         badgeText
                         : '5 produits', */
                     products: [
-                         {
+                        {
+                            id: 'CALI HONEY 🇺🇸 🇲🇦',
+                            flag: '🇺🇸',
+                            name: 'CALI HONEY 🇺🇸 🇲🇦',
+                            farm: 'CURING 🍯',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductCH.png',
+                            video: 'VideoCH.mov',
+                            description: 'STATIC 🇺🇸',
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                {  name: 'FORBIDEN FRUITS', emoji: '🍈  🍉', colorClass: 'frozen-peach' },
+                                 { name: 'PMC X DULCE', emoji: '💫', colorClass: 'frozen-blood' },
+                                { name: 'CREAM COOKIES', emoji: '🍪', colorClass: 'frozen-honey' },
+                                { name: 'GRAPE GAZ', emoji: '🍇', colorClass: 'frozen-forbidden' },
+                            ],
+                            tarifs: [
+                                { weight: '12,5g', price: 90.00 },
+                                { weight: '25g', price: 180.00 },
+                                { weight: '50g', price: 300.00 },
+                                { weight: '100g', price: 550.00 },
+                            ]
+                        },
+                      /*    {
                             id: 'PINK CERIZ 🎄🍒',
                             flag: '🇲🇦',
                             name: 'PINK CERIZ 🎄🍒',
@@ -115,7 +139,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 430.00 },
                                 { weight: '100g', price: 900.00},
                             ]
-                        },
+                        }, */
                    /*        
                             jars: [
                                 {  name: 'HASH BURGER X OREOZ', emoji: '🇲🇦', colorClass: 'frozen-peach' },
@@ -243,30 +267,6 @@ document.addEventListener('DOMContentLoaded', function () {
                          image: 'Wizard4.png', // Mets une image de farm si tu veux
                          badgeText: '2 produits', */
                     products: [
-                        {
-                            id: 'CALI HONEY 🇺🇸 🇲🇦',
-                            flag: '🇺🇸',
-                            name: 'CALI HONEY 🇺🇸 🇲🇦',
-                            farm: 'CURING 🍯',
-                            promoEligible: true,
-                            type: 'Hash',
-                            image: 'ProductCH.png',
-                            video: 'VideoCH.mov',
-                            description: 'STATIC 🇺🇸',
-                            variantTitle: 'Sélectionner la variété 🍧 :', 
-                            jars: [
-                                {  name: 'FORBIDEN FRUITS', emoji: '🍈  🍉', colorClass: 'frozen-peach' },
-                                 { name: 'PMC X DULCE', emoji: '💫', colorClass: 'frozen-blood' },
-                                { name: 'CREAM COOKIES', emoji: '🍪', colorClass: 'frozen-honey' },
-                                { name: 'GRAPE GAZ', emoji: '🍇', colorClass: 'frozen-forbidden' },
-                            ],
-                            tarifs: [
-                                { weight: '12,5g', price: 90.00 },
-                                { weight: '25g', price: 180.00 },
-                                { weight: '50g', price: 300.00 },
-                                { weight: '100g', price: 550.00 },
-                            ]
-                        },
                         {
                             id: 'PRENIUM ⭐️STATIC 🇺🇸',
                             flag: '🇺🇸',
