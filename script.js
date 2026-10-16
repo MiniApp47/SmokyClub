@@ -43,11 +43,34 @@ document.addEventListener('DOMContentLoaded', function () {
             farms: [
                 {
                     /*     id: 'HASH',
-                        name: 'HASH',
-                        image: 'Frosty2.png', // Mets une image de farm si tu veux
-                        badgeText
-                        : '5 produits', */
+                    name: 'HASH',
+                    image: 'Frosty2.png', // Mets une image de farm si tu veux
+                    badgeText
+                    : '5 produits', */
                     products: [
+                        {
+                            id: 'SINGLE SOURCE ®️',
+                            flag: '🇲🇦',
+                            name: 'SINGLE SOURCE ®️',
+                            farm: 'STATIC SIFT  ⭐️⚡️',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductSS.png',
+                            video: 'VideoSS.mov',
+                            description: '',
+                            variantTitle: 'Sélectionner la variété 🍧 :', 
+                            jars: [
+                                {  name: 'SINGLE CITRUS', emoji: '🍋', colorClass: 'frozen-peach' },
+                                { name: 'SINGLE GUAVA', emoji: '🥭', colorClass: 'frozen-honey' },
+                                { name: 'SINGLE GRAPPE', emoji: '🍇', colorClass: 'frozen-forbidden' },
+                            ],
+                            tarifs: [
+                                { weight: '12.5g', price: 100.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 400.00 },
+                                { weight: '100g', price: 750.00 },
+                            ]
+                        },
                         {
                             id: 'MIMOSA MAX®️🍋‍🟩🍇',
                             flag: '🇲🇦',
