@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             type: 'Hash',
                             image: 'ProductSS.png',
                             video: 'VideoSS.mov',
-                            description: '',
+                            description: 'Un délice suprême blanc de blanc ®️🍑🍌🍓🍉🥑🍅🥝🍇🍒🍋🍏🧃🥭🍎🍊🍈🫐🫒🥥🍋‍🟩🥤',
                             variantTitle: 'Sélectionner la variété 🍧 :', 
                             jars: [
                                 {  name: 'SINGLE CITRUS', emoji: '🍋', colorClass: 'frozen-peach' },
