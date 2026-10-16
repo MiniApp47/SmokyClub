@@ -49,6 +49,60 @@ document.addEventListener('DOMContentLoaded', function () {
                         : '5 produits', */
                     products: [
                         {
+                            id: 'MIMOSA MAX®️🍋‍🟩🍇',
+                            flag: '🇲🇦',
+                            name: 'MIMOSA MAX®️🍋‍🟩🍇',
+                            farm: 'NOVA FARMZ 🇲🇦 ',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductM.png',
+                            video: 'VideoM.mov',
+                            description: 'NOVA FARMZ 🇲🇦 ',
+                            tarifs: [
+                                { weight: '2.5g', price: 60.00 },
+                                { weight: '5g', price: 110.00 },
+                                { weight: '10g', price: 220.00 },
+                                { weight: '25g', price: 520.00 },
+                                { weight: '50g', price: 0, private: true  },
+                            ]
+                        },
+                        {
+                            id: 'GRAPE GAS🍇 X RUNTZ 🍭',
+                            flag: '🇲🇦',
+                            name: 'GRAPE GAS🍇 X RUNTZ 🍭',
+                            farm: 'MORROCAN REFINERY 🏔️🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductGG.png',
+                            video: 'VideoGG.mov',
+                            description: 'FRESH FROZEN 🧊💦',
+                            tarifs: [
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '25g', price: 380.00 },
+                                { weight: '50g', price: 0, private: true  },
+                                { weight: '100g', price: 0, private: true  },
+                            ]
+                        },
+                        {
+                            id: 'TOO MUCH ®️⚡️🍋‍🟩',
+                            flag: '🇲🇦',
+                            name: 'TOO MUCH ®️⚡️🍋‍🟩',
+                            farm: 'VVS TANGER 💎🇲🇦',
+                            promoEligible: true,
+                            type: 'Hash',
+                            image: 'ProductTM.png',
+                            video: 'VideoTM.mov',
+                            description: 'FROZEN SIFT 🧊💦',
+                            tarifs: [
+                                { weight: '5g', price: 60.00 },
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 280.00 },
+                                { weight: '50g', price: 500.00 },
+                                { weight: '100g', price: 0, private: true  },
+                            ]
+                        },
+                        {
                             id: 'CALI HONEY 🇺🇸 🇲🇦',
                             flag: '🇺🇸',
                             name: 'CALI HONEY 🇺🇸 🇲🇦',
@@ -307,7 +361,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 950.00 },
                             ]
                         },
-                        {
+                        /* {
                             id: 'ANIMAL 🦒 🇺🇸 🧊',
                             flag: '🇺🇸',
                             name: 'ANIMAL 🦒🇺🇸🧊',
@@ -376,7 +430,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '25g', price: 500.00 },
                                 { weight: '50g', price: 950.00 },
                             ]
-                        },
+                        }, */
                           /* 
                             jars: [
                                 { name: 'LEMON CHERRY GELATO', emoji: '🍒', colorClass: 'frozen-24k' },
@@ -416,6 +470,23 @@ document.addEventListener('DOMContentLoaded', function () {
                     badgeText: '0 produits',
                     clickable: false,  */
                     products: [
+                         {
+                            id: 'WHITE RUNTZ 🇺🇸 ',
+                            flag: '🇺🇸',
+                            name: 'WHITE RUNTZ 🇺🇸 ',
+                            farm: 'TOP SHELF 🇺🇸',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductWR.png',
+                            videos:  ['VideoWR.mov','VideoWR1.mov'],      // Vidéo 1
+                            description: 'Odeur gazzy ✅🤝👅 \n Goût de malade 🤒',
+                            tarifs: [
+                                { weight: '10g', price: 120.00 },
+                                { weight: '25g', price: 280.00 },
+                                { weight: '50g', price: 0, private: true  },
+                                { weight: '100g', price: 0, private: true  },
+                            ]
+                        },
                        /*  {
                             id: 'RAINBOW SHERBET 🇺🇸',
                             flag: '🇺🇸',
@@ -456,6 +527,23 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
+                        {
+                            id: 'G-13 🍋🍀',
+                            flag: '🇳🇱',
+                            name: 'G-13 🍋🍀',
+                            farm: 'HOLLANDAISE 🇳🇱🇳🇱🇳🇱',
+                            promoEligible: true,
+                            type: 'Weed',
+                            image: 'ProductG13.png',
+                            video:  'VideoG13.mov',      // Vidéo 1
+                            description: '',
+                            tarifs: [
+                                { weight: '10g', price: 80.00 },
+                                { weight: '25g', price: 200.00 },
+                                { weight: '50g', price: 0, private: true  },
+                                { weight: '100g', price: 0, private: true  },
+                            ]
+                        },
                        /*  {
                             id: 'CHERRY PIE CALI 🇺🇸',
                             flag: '🇳🇱',
@@ -496,7 +584,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         image: 'Frosty2.png', // Mets une image de farm si tu veux
                         badgeText: '5 produits', */
                     products: [
-                         {
+                         /* {
                             id: 'JAAR SCELLÉ 🔐',
                             flag: '🇺🇸',
                             name: 'JAAR SCELLÉ 🔐',
@@ -550,7 +638,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '1', price: 150.00 },
                                 { weight: '2', price: 200.00 },
                             ]
-                        },
+                        }, */
                        /*  {
                             id: 'ROSIN 🍯',
                             flag: '🇺🇸',
